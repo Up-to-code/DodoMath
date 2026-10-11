@@ -1,0 +1,3041 @@
+{
+  "AkWtUOwlUgs": {
+    "order": 5,
+    "level": 1,
+    "title": "Large Whole Numbers: Place Values and Estimating",
+    "problem": "Represent 568 using place values, then round it to the nearest ten.",
+    "method": "Separate hundreds, tens and ones, then inspect the ones digit",
+    "sourceStart": 112.899,
+    "sourceEnd": 172.899,
+    "sourceUrl": "https://www.youtube.com/watch?v=AkWtUOwlUgs",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "What is the value of the 5 in 568?",
+      "Write 568 as a sum of its place values.",
+      "Round 568 to the nearest ten."
+    ]
+  },
+  "jC4SWFag6Qw": {
+    "order": 6,
+    "level": 1,
+    "title": "Decimals: Notation and Operations",
+    "problem": "Add 2.3 and 1.4.",
+    "method": "Align decimal points and add corresponding place values",
+    "sourceStart": 162.389,
+    "sourceEnd": 222.389,
+    "sourceUrl": "https://www.youtube.com/watch?v=jC4SWFag6Qw",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Add the tenths digits: 3 + 4. How many tenths?",
+      "Add the units digits: 2 + 1. How many units?",
+      "Combine the units and tenths. Write the decimal sum."
+    ]
+  },
+  "n9fgcm0Pwgs": {
+    "order": 7,
+    "level": 1,
+    "title": "Working With Percentages",
+    "problem": "Express 80% as a reduced fraction.",
+    "method": "Write the percentage over 100, then divide numerator and denominator by a common factor",
+    "sourceStart": 100.64,
+    "sourceEnd": 160.64,
+    "sourceUrl": "https://www.youtube.com/watch?v=n9fgcm0Pwgs",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write 80% as a fraction with denominator 100.",
+      "What common divisor reduces 80/100 in one step?",
+      "Divide both parts by 20. Write the reduced fraction."
+    ]
+  },
+  "-Xt4UDk7Kzw": {
+    "order": 8,
+    "level": 1,
+    "title": "Converting Between Fractions, Decimals, and Percentages",
+    "problem": "Convert 30% to a reduced fraction and decimal.",
+    "method": "Use a denominator of 100, reduce, then express the same value as a decimal",
+    "sourceStart": 20.46,
+    "sourceEnd": 80.46000000000001,
+    "sourceUrl": "https://www.youtube.com/watch?v=-Xt4UDk7Kzw",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the fraction before reducing.",
+      "Reduce by dividing both parts by 10.",
+      "Write the equivalent decimal."
+    ]
+  },
+  "YFyOsvnr9ig": {
+    "order": 9,
+    "level": 1,
+    "title": "Addition and Subtraction of Large Numbers",
+    "problem": "Add 1293 and 2614 using column addition.",
+    "method": "Align place values, add from the units column and carry when needed",
+    "sourceStart": 76.68,
+    "sourceEnd": 136.68,
+    "sourceUrl": "https://www.youtube.com/watch?v=YFyOsvnr9ig",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Add the units: 3 + 4. Write that digit.",
+      "The tens sum is 9 + 1. How many hundreds must be carried?",
+      "Include the carry and finish the addition."
+    ]
+  },
+  "LC_R2Zh66fU": {
+    "order": 10,
+    "level": 1,
+    "title": "The Distributive Property for Arithmetic",
+    "problem": "Evaluate 5 × (3 + 4) using distribution.",
+    "method": "Multiply 5 by each term inside the parentheses and add the products",
+    "sourceStart": 22.52,
+    "sourceEnd": 82.52,
+    "sourceUrl": "https://www.youtube.com/watch?v=LC_R2Zh66fU",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the two products as one sum, before evaluating.",
+      "Evaluate the first product, 5 × 3.",
+      "Add both products to obtain the result."
+    ]
+  },
+  "s1Ly3cX4yHc": {
+    "order": 11,
+    "level": 1,
+    "title": "Multiplication of Large Numbers",
+    "problem": "Multiply 23 × 14 with long multiplication.",
+    "method": "Multiply by the units and tens separately, shift the tens product, then add",
+    "sourceStart": 29.369,
+    "sourceEnd": 89.369,
+    "sourceUrl": "https://www.youtube.com/watch?v=s1Ly3cX4yHc",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Multiply 23 by the units digit 4.",
+      "Multiply 23 by the tens value 10.",
+      "Add the partial products."
+    ]
+  },
+  "rI2peJT2Ty8": {
+    "order": 12,
+    "level": 1,
+    "title": "Division of Large Numbers: Long Division",
+    "problem": "Divide 156 by 12 using long division.",
+    "method": "Divide, multiply back, subtract, then bring down the next digit",
+    "sourceStart": 106.1,
+    "sourceEnd": 166.1,
+    "sourceUrl": "https://www.youtube.com/watch?v=rI2peJT2Ty8",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "12 fits into the leading 15 how many whole times?",
+      "Subtract 12 from 15, then bring down 6. What number is now divided?",
+      "Complete the division and write the quotient."
+    ]
+  },
+  "3-5DKCLJspM": {
+    "order": 13,
+    "level": 1,
+    "title": "Negative Numbers",
+    "problem": "Evaluate −3 − 5 using the number line.",
+    "method": "Start at −3 and move five positions to the left",
+    "sourceStart": 25.939,
+    "sourceEnd": 85.939,
+    "sourceUrl": "https://www.youtube.com/watch?v=3-5DKCLJspM",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Which integer is the starting position?",
+      "After moving one position left, what integer are you at?",
+      "After all five positions left, what is the answer?"
+    ]
+  },
+  "K_TD9GuP9uQ": {
+    "order": 14,
+    "level": 1,
+    "title": "Understanding Exponents and Their Operations",
+    "problem": "Simplify 2^3 × 2^2.",
+    "method": "For equal bases being multiplied, add the exponents",
+    "sourceStart": 29.96,
+    "sourceEnd": 89.96000000000001,
+    "sourceUrl": "https://www.youtube.com/watch?v=K_TD9GuP9uQ",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the exponent of the combined power of 2.",
+      "Write the combined power before evaluating.",
+      "Evaluate the power."
+    ]
+  },
+  "y_f7c3ztFrI": {
+    "order": 15,
+    "level": 1,
+    "title": "Order of Arithmetic Operations: PEMDAS",
+    "problem": "Evaluate 2 + 3 × (4 − 1)^2.",
+    "method": "Evaluate parentheses, then exponents, then multiplication, then addition",
+    "sourceStart": 68.5,
+    "sourceEnd": 128.5,
+    "sourceUrl": "https://www.youtube.com/watch?v=y_f7c3ztFrI",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Evaluate the quantity inside parentheses.",
+      "Square that quantity.",
+      "Apply multiplication before addition and finish."
+    ]
+  },
+  "WZWKJG9fxnU": {
+    "order": 16,
+    "level": 1,
+    "title": "Divisibility, Prime Numbers, and Prime Factorization",
+    "problem": "Find the prime factorization of 60.",
+    "method": "Divide repeatedly by prime factors until every factor is prime",
+    "sourceStart": 16.279,
+    "sourceEnd": 76.279,
+    "sourceUrl": "https://www.youtube.com/watch?v=WZWKJG9fxnU",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Divide 60 by its smallest prime factor, 2.",
+      "Divide that quotient by 2 again.",
+      "Write 60 as a product of primes, using a power for repeated 2s."
+    ]
+  },
+  "sae1IoToQ0M": {
+    "order": 17,
+    "level": 1,
+    "title": "Least Common Multiple (LCM)",
+    "problem": "Find the least common multiple of 12 and 18.",
+    "method": "Factor both numbers into primes and keep each prime at its highest exponent",
+    "sourceStart": 130.22,
+    "sourceEnd": 190.22,
+    "sourceUrl": "https://www.youtube.com/watch?v=sae1IoToQ0M",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the prime factorization of 12.",
+      "Write the prime factorization of 18.",
+      "Use 2^2 × 3^2. What is the least common multiple?"
+    ]
+  },
+  "GFmdqe4z9zU": {
+    "order": 18,
+    "level": 1,
+    "title": "Greatest Common Factor (GCF)",
+    "problem": "Find the greatest common factor of 18 and 24.",
+    "method": "List the factors of both numbers and choose their largest common factor",
+    "sourceStart": 19.289,
+    "sourceEnd": 79.289,
+    "sourceUrl": "https://www.youtube.com/watch?v=GFmdqe4z9zU",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "List the positive factors of 18 in ascending order.",
+      "List the positive factors of 24 in ascending order.",
+      "Choose the largest factor shared by both lists."
+    ]
+  },
+  "-ijpdtjDNZw": {
+    "order": 19,
+    "level": 1,
+    "title": "Addition and Subtraction of Fractions",
+    "problem": "Add 1/3 + 1/4.",
+    "method": "Find a common denominator, rewrite both fractions, then add numerators",
+    "sourceStart": 17.66,
+    "sourceEnd": 77.66,
+    "sourceUrl": "https://www.youtube.com/watch?v=-ijpdtjDNZw",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "What is the least common denominator?",
+      "Rewrite 1/3 using that denominator.",
+      "Add the rewritten fractions and give the reduced result."
+    ]
+  },
+  "Q9MCRjrrd6E": {
+    "order": 20,
+    "level": 1,
+    "title": "Multiplication and Division of Fractions",
+    "problem": "Divide 2/3 by 1/2.",
+    "method": "Invert the second fraction and multiply numerators and denominators",
+    "sourceStart": 164.209,
+    "sourceEnd": 224.209,
+    "sourceUrl": "https://www.youtube.com/watch?v=Q9MCRjrrd6E",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the reciprocal of the divisor 1/2.",
+      "Write the multiplication with the reciprocal, before reducing.",
+      "Write the reduced quotient."
+    ]
+  },
+  "FM7Q2yVLZIc": {
+    "order": 21,
+    "level": 1,
+    "title": "Analyzing Sets of Data: Range, Mean, Median, and Mode",
+    "problem": "Find the mean and median of 1, 2, 2, 5, 10.",
+    "method": "Add and divide by the item count for the mean; order the values to find the middle for the median",
+    "sourceStart": 79.659,
+    "sourceEnd": 139.659,
+    "sourceUrl": "https://www.youtube.com/watch?v=FM7Q2yVLZIc",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Add all five observations.",
+      "Divide the total by the number of observations. Write the mean.",
+      "The observations are already ordered. Write the middle value, the median."
+    ]
+  },
+  "WZdZhuUSmpM": {
+    "order": 22,
+    "level": 2,
+    "title": "Introduction to Algebra: Using Variables",
+    "problem": "Translate “three more than twice x” and evaluate it at x = 4.",
+    "method": "Represent the unknown with a variable and translate each operation",
+    "sourceStart": 24.78,
+    "sourceEnd": 84.78,
+    "sourceUrl": "https://www.youtube.com/watch?v=WZdZhuUSmpM",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the expression for twice x.",
+      "Write the expression for three more than twice x.",
+      "Now substitute x = 4 and evaluate."
+    ]
+  },
+  "0bZ2GcCTtCA": {
+    "order": 23,
+    "level": 2,
+    "title": "Basic Number Properties for Algebra",
+    "problem": "Expand 4(2x + 3).",
+    "method": "Distribute 4 to both terms inside the parentheses",
+    "sourceStart": 15.879,
+    "sourceEnd": 75.879,
+    "sourceUrl": "https://www.youtube.com/watch?v=0bZ2GcCTtCA",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the product of 4 and 2x.",
+      "Write the product of 4 and 3.",
+      "Combine the two resulting terms."
+    ]
+  },
+  "2mnQ3t02Tss": {
+    "order": 24,
+    "level": 2,
+    "title": "Algebraic Equations and Their Solutions",
+    "problem": "Solve 3x + 7 = 16.",
+    "method": "Undo addition first, then division, doing each operation on both sides",
+    "sourceStart": 51.26,
+    "sourceEnd": 111.25999999999999,
+    "sourceUrl": "https://www.youtube.com/watch?v=2mnQ3t02Tss",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Subtract 7 from both sides. What is the new right-hand side?",
+      "Divide both sides by 3. Write x.",
+      "Verify by evaluating 3x + 7 at your solution."
+    ]
+  },
+  "aJ0abU348ds": {
+    "order": 25,
+    "level": 2,
+    "title": "Algebraic Equations With Variables on Both Sides",
+    "problem": "Solve 5x + 2 = 2x + 14.",
+    "method": "Collect the x terms on one side, constants on the other, then divide",
+    "sourceStart": 48.94,
+    "sourceEnd": 108.94,
+    "sourceUrl": "https://www.youtube.com/watch?v=aJ0abU348ds",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Subtract 2x from both sides. What is the remaining x coefficient?",
+      "Subtract 2 from both sides. What is the constant on the right?",
+      "Divide to isolate x."
+    ]
+  },
+  "jOJLfQq9ktw": {
+    "order": 26,
+    "level": 2,
+    "title": "Algebraic Word Problems",
+    "problem": "Sally is three years younger than twice Gabby’s age. Sally is 15. Find Gabby’s age g.",
+    "method": "Define variables, translate the relationship, then solve the equation",
+    "sourceStart": 38.329,
+    "sourceEnd": 98.32900000000001,
+    "sourceUrl": "https://www.youtube.com/watch?v=jOJLfQq9ktw",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write Sally’s age as an expression in g.",
+      "Insert Sally’s age and add 3 to both sides. What does 2g equal?",
+      "Divide by 2. Write Gabby’s age."
+    ]
+  },
+  "uBxs7cSgOes": {
+    "order": 27,
+    "level": 2,
+    "title": "Solving Algebraic Inequalities",
+    "problem": "Solve −2x + 4 > 10.",
+    "method": "Isolate the variable and reverse the inequality when dividing by a negative",
+    "sourceStart": 75.86,
+    "sourceEnd": 135.86,
+    "sourceUrl": "https://www.youtube.com/watch?v=uBxs7cSgOes",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Subtract 4 from both sides. Write the right-hand side.",
+      "Divide by −2. What is the boundary value?",
+      "Write the full inequality after reversing its direction."
+    ]
+  },
+  "7vomY6g-f3Q": {
+    "order": 28,
+    "level": 2,
+    "title": "Square Roots, Cube Roots, and Other Roots",
+    "problem": "Evaluate the principal square root of 81 and the real cube root of −27.",
+    "method": "Find a number whose second or third power equals the radicand",
+    "sourceStart": 26.689,
+    "sourceEnd": 86.689,
+    "sourceUrl": "https://www.youtube.com/watch?v=7vomY6g-f3Q",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "What nonnegative number squared equals 81?",
+      "What real number cubed equals −27?",
+      "Square your principal square-root result to check the radicand."
+    ]
+  },
+  "OAIctPYiMrw": {
+    "order": 29,
+    "level": 2,
+    "title": "Simplifying Expressions With Roots and Exponents",
+    "problem": "Simplify (6x^3 y)^2.",
+    "method": "Apply the exponent to each factor of a product and multiply nested exponents",
+    "sourceStart": 56.309,
+    "sourceEnd": 116.309,
+    "sourceUrl": "https://www.youtube.com/watch?v=OAIctPYiMrw",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Square the numerical coefficient 6.",
+      "What exponent does x have after squaring x^3?",
+      "Write the complete simplified product."
+    ]
+  },
+  "EnJuHTq0ni0": {
+    "order": 30,
+    "level": 2,
+    "title": "Solving Algebraic Equations With Roots and Exponents",
+    "problem": "Solve sqrt(x + 9) = 5 over the reals.",
+    "method": "Isolate the root, square both sides, solve, then check the original equation",
+    "sourceStart": 81.26,
+    "sourceEnd": 141.26,
+    "sourceUrl": "https://www.youtube.com/watch?v=EnJuHTq0ni0",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Square the right-hand side. What does x + 9 equal?",
+      "Subtract 9 and write the candidate x.",
+      "Substitute x into the original square root. What value confirms it?"
+    ]
+  },
+  "nPPNgin7W7Y": {
+    "order": 31,
+    "level": 2,
+    "title": "Introduction to Polynomials",
+    "problem": "Evaluate P(x) = 2x^2 + 4x + 10 at x = −1.",
+    "method": "Substitute the value everywhere x appears, evaluate powers, then combine terms",
+    "sourceStart": 166.41,
+    "sourceEnd": 226.41,
+    "sourceUrl": "https://www.youtube.com/watch?v=nPPNgin7W7Y",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Evaluate the term 2x^2 at x = −1.",
+      "Evaluate the term 4x at x = −1.",
+      "Add both terms and the constant to get P(−1)."
+    ]
+  },
+  "0aJBtUOXpsk": {
+    "order": 32,
+    "level": 2,
+    "title": "Adding and Subtracting Polynomials",
+    "problem": "Subtract (x^2 − 3x + 2) from (2x^2 + x + 5).",
+    "method": "Distribute the minus sign to every term, then combine like powers",
+    "sourceStart": 35.51,
+    "sourceEnd": 95.50999999999999,
+    "sourceUrl": "https://www.youtube.com/watch?v=0aJBtUOXpsk",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the negative of the entire second polynomial.",
+      "What is the coefficient of x after combining like terms?",
+      "Write the simplified polynomial difference."
+    ]
+  },
+  "RTC7RIwdZcE": {
+    "order": 33,
+    "level": 2,
+    "title": "Multiplying Binomials by the FOIL Method",
+    "problem": "Multiply (x + 3)(x − 2) with FOIL.",
+    "method": "Multiply first, outer, inner and last terms, then combine like terms",
+    "sourceStart": 68.33,
+    "sourceEnd": 128.32999999999998,
+    "sourceUrl": "https://www.youtube.com/watch?v=RTC7RIwdZcE",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the product of the first terms.",
+      "Combine the outer and inner products: −2x + 3x.",
+      "Include the last product and write the full polynomial."
+    ]
+  },
+  "GuwofNeT9ok": {
+    "order": 34,
+    "level": 2,
+    "title": "Solving Quadratics by Factoring",
+    "problem": "Solve x^2 + 7x + 10 = 0 by factoring.",
+    "method": "Find factors of 10 that add to 7, then use the zero-product property",
+    "sourceStart": 93.69,
+    "sourceEnd": 153.69,
+    "sourceUrl": "https://www.youtube.com/watch?v=GuwofNeT9ok",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the two positive numbers that multiply to 10 and add to 7, in ascending order.",
+      "Write the factored polynomial.",
+      "Set each factor equal to zero. Write the roots in ascending order."
+    ]
+  },
+  "P8W2M0jq2Qs": {
+    "order": 35,
+    "level": 2,
+    "title": "Solving Quadratics by Completing the Square",
+    "problem": "Solve x^2 + 2x − 6 = 0 by completing the square.",
+    "method": "Move the constant, add the square of half the x coefficient to both sides, then take square roots",
+    "sourceStart": 58.739,
+    "sourceEnd": 118.739,
+    "sourceUrl": "https://www.youtube.com/watch?v=P8W2M0jq2Qs",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Half the x coefficient is 1. What number completes the square?",
+      "After adding that number, what does (x + 1)^2 equal?",
+      "For the larger root, subtract 1 from sqrt(7). Write the exact expression.",
+      "Use the negative square-root branch to write the smaller root exactly."
+    ]
+  },
+  "UTuxHsaH-gQ": {
+    "order": 36,
+    "level": 2,
+    "title": "Solving Quadratics by Using the Quadratic Formula",
+    "problem": "Solve x^2 − 5x + 6 = 0 using the quadratic formula.",
+    "method": "Identify a, b and c, calculate the discriminant, then apply both signs in the formula",
+    "sourceStart": 61.66,
+    "sourceEnd": 121.66,
+    "sourceUrl": "https://www.youtube.com/watch?v=UTuxHsaH-gQ",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the coefficient b, including its sign.",
+      "Calculate b^2 − 4ac.",
+      "Evaluate both formula branches. Write the roots in ascending order."
+    ]
+  },
+  "WRkgMDVIETE": {
+    "order": 37,
+    "level": 2,
+    "title": "Solving Higher-Degree Polynomials by Synthetic Division and the Rational Roots Test",
+    "problem": "Divide x^3 − 6x^2 + 11x − 6 by x − 1 using synthetic division.",
+    "method": "Use 1 as the trial root; bring down the leading coefficient, multiply and add across",
+    "sourceStart": 64.28,
+    "sourceEnd": 124.28,
+    "sourceUrl": "https://www.youtube.com/watch?v=WRkgMDVIETE",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Bring down the leading coefficient. Then compute the next coefficient: −6 + 1×1.",
+      "Compute the next coefficient: 11 + 1×(−5).",
+      "Compute the remainder: −6 + 1×6.",
+      "Write the quotient polynomial from coefficients 1, −5, 6."
+    ]
+  },
+  "KfrkcGx2Xl8": {
+    "order": 38,
+    "level": 2,
+    "title": "Manipulating Rational Expressions: Simplification and Operations",
+    "problem": "Simplify (x^2 − 1)/(x^2 + 2x + 1), retaining excluded values.",
+    "method": "Factor numerator and denominator and cancel common factors, not individual terms",
+    "sourceStart": 36.55,
+    "sourceEnd": 96.55,
+    "sourceUrl": "https://www.youtube.com/watch?v=KfrkcGx2Xl8",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the factorization of the numerator.",
+      "Write the simplified fraction after canceling one common factor.",
+      "Which x remains excluded by the original denominator?"
+    ]
+  },
+  "ntzgiu7Ta0s": {
+    "order": 39,
+    "level": 2,
+    "title": "Graphing in Algebra: Ordered Pairs and the Coordinate Plane",
+    "problem": "Plot the ordered pair (2, 3).",
+    "method": "Move horizontally by x, then vertically by y",
+    "sourceStart": 35.68,
+    "sourceEnd": 95.68,
+    "sourceUrl": "https://www.youtube.com/watch?v=ntzgiu7Ta0s",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "How far to the right do you move from the origin?",
+      "How far upward do you then move?",
+      "Plot or enter the final coordinates."
+    ]
+  },
+  "lz8zVJxRFX8": {
+    "order": 40,
+    "level": 2,
+    "title": "Graphing Lines in Algebra: Understanding Slopes and Y-Intercepts",
+    "problem": "Find the slope and y-intercept of the line through (0, 1) and (2, 5).",
+    "method": "Calculate change in y divided by change in x, then locate the value at x = 0",
+    "sourceStart": 76.63,
+    "sourceEnd": 136.63,
+    "sourceUrl": "https://www.youtube.com/watch?v=lz8zVJxRFX8",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Calculate the rise, 5 − 1.",
+      "Divide by the run, 2 − 0. Write the slope.",
+      "Write the y-intercept value from the point with x = 0."
+    ]
+  },
+  "T-acWVybQtk": {
+    "order": 41,
+    "level": 2,
+    "title": "Graphing Lines in Slope-Intercept Form (y = mx + b)",
+    "problem": "Find y = mx + b through (−2, 3) and (1, 5).",
+    "method": "Find the slope, substitute one point to solve for b, then form the equation",
+    "sourceStart": 55.149,
+    "sourceEnd": 115.149,
+    "sourceUrl": "https://www.youtube.com/watch?v=T-acWVybQtk",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Calculate the slope (5 − 3)/(1 − (−2)).",
+      "Use (1,5): calculate b = 5 − (2/3)×1.",
+      "Write the right-hand side of the line’s equation."
+    ]
+  },
+  "-DnmoFnQUtk": {
+    "order": 42,
+    "level": 2,
+    "title": "Graphing Lines in Standard Form (ax + by = c)",
+    "problem": "Graph 4x + 6y = 12 by its intercepts.",
+    "method": "Set x = 0 to get the y-intercept, then y = 0 to get the x-intercept",
+    "sourceStart": 46.65,
+    "sourceEnd": 106.65,
+    "sourceUrl": "https://www.youtube.com/watch?v=-DnmoFnQUtk",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Set x = 0 and solve 6y = 12. Write y.",
+      "Set y = 0 and solve 4x = 12. Write x.",
+      "Plot or enter the y-intercept as an ordered pair."
+    ]
+  },
+  "0oe-GqFrYFU": {
+    "order": 43,
+    "level": 2,
+    "title": "Graphing Parallel and Perpendicular Lines",
+    "problem": "Find a line perpendicular to y = −x/4 + 2 that passes through (0,1).",
+    "method": "Use the negative reciprocal of the slope and substitute the given point",
+    "sourceStart": 49.05,
+    "sourceEnd": 109.05,
+    "sourceUrl": "https://www.youtube.com/watch?v=0oe-GqFrYFU",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the slope of the original line.",
+      "Calculate its negative reciprocal.",
+      "Use the point (0,1). Write the right-hand side of the perpendicular line."
+    ]
+  },
+  "2DzmE3_QS-E": {
+    "order": 44,
+    "level": 2,
+    "title": "Solving Systems of Two Equations and Two Unknowns: Graphing, Substitution, and Elimination",
+    "problem": "Solve 2x + y = 4 and x + 2y = −1 using substitution.",
+    "method": "Isolate y in the first equation and substitute into the second",
+    "sourceStart": 144.89,
+    "sourceEnd": 204.89,
+    "sourceUrl": "https://www.youtube.com/watch?v=2DzmE3_QS-E",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write y as an expression in x from the first equation.",
+      "After substitution, −3x = −9. Write x.",
+      "Substitute x back into y = 4 − 2x. Write y."
+    ]
+  },
+  "Wirk4o3FHPA": {
+    "order": 45,
+    "level": 2,
+    "title": "Absolute Values: Defining, Calculating, and Graphing",
+    "problem": "Solve |2x − 1| = 5.",
+    "method": "Split into a positive and negative branch and solve both",
+    "sourceStart": 117.35,
+    "sourceEnd": 177.35,
+    "sourceUrl": "https://www.youtube.com/watch?v=Wirk4o3FHPA",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "In the positive branch 2x − 1 = 5, write x.",
+      "In the negative branch 2x − 1 = −5, write x.",
+      "Write both solutions in ascending order."
+    ]
+  },
+  "QUGmwPwtbpg": {
+    "order": 46,
+    "level": 2,
+    "title": "What are the Types of Numbers? Real vs. Imaginary, Rational vs. Irrational",
+    "problem": "Classify 3/2 and sqrt(−4), using the number taxonomy.",
+    "method": "Use integer ratios for rational numbers and i^2 = −1 for imaginary roots",
+    "sourceStart": 81.39,
+    "sourceEnd": 141.39,
+    "sourceUrl": "https://www.youtube.com/watch?v=QUGmwPwtbpg",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the exact decimal value of 3/2.",
+      "Write the principal square root of −4 using i.",
+      "Is 3/2 rational or irrational? Enter one word."
+    ]
+  },
+  "THtc8pDU7J8": {
+    "order": 47,
+    "level": 3,
+    "title": "Introduction to Geometry: Ancient Greece and the Pythagoreans",
+    "problem": "Compare exact geometric relationships with subjective judgments.",
+    "method": "Use measurable shapes and logical relationships to obtain objective answers",
+    "sourceStart": 53.35,
+    "sourceEnd": 113.35,
+    "sourceUrl": "https://www.youtube.com/watch?v=THtc8pDU7J8",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "A triangle has how many sides?",
+      "Is a measured side-length ratio objective or subjective? Enter one word.",
+      "What branch of mathematics studies these shapes? Enter one word."
+    ]
+  },
+  "JHMB_ob89qs": {
+    "order": 48,
+    "level": 3,
+    "title": "Basic Euclidean Geometry: Points, Lines, and Planes",
+    "problem": "Classify a point, a line and a plane by dimension.",
+    "method": "Count the independent directions needed to locate positions in each object",
+    "sourceStart": 49.38,
+    "sourceEnd": 109.38,
+    "sourceUrl": "https://www.youtube.com/watch?v=JHMB_ob89qs",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "How many dimensions does a point have?",
+      "How many dimensions does a line have?",
+      "How many dimensions does a plane have?"
+    ]
+  },
+  "dA94zyaLuhk": {
+    "order": 49,
+    "level": 3,
+    "title": "Types of Angles and Angle Relationships",
+    "problem": "Two angles form a straight line. One is 65°. Find the other, then its complement if one exists.",
+    "method": "Use 180° for a supplementary pair and 90° for a complementary pair",
+    "sourceStart": 174.47,
+    "sourceEnd": 234.47,
+    "sourceUrl": "https://www.youtube.com/watch?v=dA94zyaLuhk",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the sum of a supplementary pair in degrees.",
+      "Subtract 65° to find the other angle.",
+      "Does the 115° angle have a positive complementary angle? Enter yes or no."
+    ]
+  },
+  "lQ5AuNVjxhI": {
+    "order": 50,
+    "level": 3,
+    "title": "Types of Triangles in Euclidean Geometry",
+    "problem": "A triangle has interior angles 50° and 60°. Find the remaining interior angle and its adjacent exterior angle.",
+    "method": "Use the 180° interior sum, then the supplementary exterior relationship",
+    "sourceStart": 59.73,
+    "sourceEnd": 119.72999999999999,
+    "sourceUrl": "https://www.youtube.com/watch?v=lQ5AuNVjxhI",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Add the two known interior angles.",
+      "Subtract their sum from 180°. Write the third interior angle.",
+      "Subtract that interior angle from 180°. Write the adjacent exterior angle."
+    ]
+  },
+  "mJ4Ms6SXEgg": {
+    "order": 51,
+    "level": 3,
+    "title": "Proving Triangle Congruence and Similarity",
+    "problem": "Triangles have side lengths (3,4,5) and (6,8,10). Decide similarity using corresponding side ratios.",
+    "method": "Compare corresponding side ratios; equal ratios establish similarity",
+    "sourceStart": 41.809,
+    "sourceEnd": 101.809,
+    "sourceUrl": "https://www.youtube.com/watch?v=mJ4Ms6SXEgg",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Calculate the scale factor from the first triangle to the second using 6/3.",
+      "Calculate the corresponding ratio 8/4.",
+      "Calculate the final corresponding ratio 10/5.",
+      "The ratios match, but lengths differ. Enter similar or congruent."
+    ]
+  },
+  "ByWrUSKHTGc": {
+    "order": 52,
+    "level": 3,
+    "title": "Special Lines in Triangles: Bisectors, Medians, and Altitudes",
+    "problem": "A median meets the opposite side at its midpoint. That side is 12 cm long.",
+    "method": "Use the midpoint definition of a median; do not assume a right angle",
+    "sourceStart": 172.7,
+    "sourceEnd": 232.7,
+    "sourceUrl": "https://www.youtube.com/watch?v=ByWrUSKHTGc",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "How many equal segments does the midpoint make?",
+      "Write the length in cm of either segment.",
+      "What is the intersection of all three medians called? Enter one word."
+    ]
+  },
+  "ojMemmYifxM": {
+    "order": 53,
+    "level": 3,
+    "title": "The Triangle Midsegment Theorem",
+    "problem": "A triangle midsegment is parallel to a 14 cm side. Find its length, then recover the side length from a 9 cm midsegment.",
+    "method": "Use the theorem that a midsegment is parallel to, and half as long as, the third side",
+    "sourceStart": 15.11,
+    "sourceEnd": 75.11,
+    "sourceUrl": "https://www.youtube.com/watch?v=ojMemmYifxM",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the scale factor from the third side to the midsegment.",
+      "Calculate the midsegment corresponding to 14 cm.",
+      "For a midsegment of 9 cm, calculate the corresponding full side."
+    ]
+  },
+  "37PX8DV_b9Y": {
+    "order": 54,
+    "level": 3,
+    "title": "The Pythagorean Theorem",
+    "problem": "Find the hypotenuse of a right triangle with legs 5 and 12.",
+    "method": "Square and add the legs, then take the positive square root",
+    "sourceStart": 76.58,
+    "sourceEnd": 136.57999999999998,
+    "sourceUrl": "https://www.youtube.com/watch?v=37PX8DV_b9Y",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Square the first leg.",
+      "Add both squared legs. What is c^2?",
+      "Take the positive square root to find c."
+    ]
+  },
+  "jTZs8bRoWxE": {
+    "order": 55,
+    "level": 3,
+    "title": "Types of Quadrilaterals and Other Polygons",
+    "problem": "Find the interior-angle sum of a hexagon.",
+    "method": "Divide the polygon into n − 2 triangles and multiply by 180°",
+    "sourceStart": 286.44,
+    "sourceEnd": 346.44,
+    "sourceUrl": "https://www.youtube.com/watch?v=jTZs8bRoWxE",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "How many sides does a hexagon have?",
+      "How many triangles does the n − 2 construction produce?",
+      "Multiply that count by 180° for the interior-angle sum."
+    ]
+  },
+  "J11IU3C86Yc": {
+    "order": 56,
+    "level": 3,
+    "title": "Calculating the Perimeter of Polygons",
+    "problem": "Find the perimeter of a rectangle with length 4 and width 2.",
+    "method": "Add all four side lengths, or use 2L + 2W",
+    "sourceStart": 78.07,
+    "sourceEnd": 138.07,
+    "sourceUrl": "https://www.youtube.com/watch?v=J11IU3C86Yc",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Add the two length sides.",
+      "Add the two width sides.",
+      "Combine them to get the perimeter."
+    ]
+  },
+  "SBIv5-7RbQY": {
+    "order": 57,
+    "level": 3,
+    "title": "Circles: Radius, Diameter, Chords, Circumference, and Sectors",
+    "problem": "A circle has radius 5. Find its diameter and circumference.",
+    "method": "Double the radius for diameter, then multiply diameter by pi",
+    "sourceStart": 173.2,
+    "sourceEnd": 233.2,
+    "sourceUrl": "https://www.youtube.com/watch?v=SBIv5-7RbQY",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Calculate the diameter.",
+      "Write the exact circumference, using pi.",
+      "For a quarter of that circumference, write the exact arc length."
+    ]
+  },
+  "_zzV2DV19IU": {
+    "order": 58,
+    "level": 3,
+    "title": "Calculating the Area of Shapes",
+    "problem": "An irregular shape is split into a 4×3 rectangle and a triangle of base 4 and height 2, without overlap.",
+    "method": "Find the area of each simpler shape and add them",
+    "sourceStart": 222.08,
+    "sourceEnd": 282.08000000000004,
+    "sourceUrl": "https://www.youtube.com/watch?v=_zzV2DV19IU",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Find the rectangle’s area.",
+      "Find the triangle’s area.",
+      "Add the non-overlapping areas."
+    ]
+  },
+  "VjI4LtotC2o": {
+    "order": 59,
+    "level": 3,
+    "title": "Proving the Pythagorean Theorem",
+    "problem": "Follow the rearrangement proof: a square of side a+b contains four right triangles and a central square of side c.",
+    "method": "Expand the large-square area and equate it to the four triangles plus the central square",
+    "sourceStart": 58.239,
+    "sourceEnd": 118.239,
+    "sourceUrl": "https://www.youtube.com/watch?v=VjI4LtotC2o",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Expand the area (a+b)^2.",
+      "Write the combined area of four triangles, each with area ab/2.",
+      "Cancel the triangle-area term on both sides. Write the expression equal to c^2."
+    ]
+  },
+  "sAd3Eo25Bbg": {
+    "order": 60,
+    "level": 3,
+    "title": "Three-Dimensional Shapes Part 1: Types, Calculating Surface Area",
+    "problem": "Find the surface area of a rectangular prism with dimensions 2, 3 and 4.",
+    "method": "Add the areas of all six faces, pairing opposite equal faces",
+    "sourceStart": 173.6,
+    "sourceEnd": 233.6,
+    "sourceUrl": "https://www.youtube.com/watch?v=sAd3Eo25Bbg",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Find the area of one 2×3 face.",
+      "Find the area of one 2×4 face plus one 3×4 face.",
+      "Double the sum of the three distinct face areas."
+    ]
+  },
+  "CI-G9_bTKuw": {
+    "order": 61,
+    "level": 3,
+    "title": "Three-Dimensional Shapes Part 2: Calculating Volume",
+    "problem": "Find the volume of a sphere with radius 3.",
+    "method": "Substitute into V = (4/3)pi r^3",
+    "sourceStart": 255.76,
+    "sourceEnd": 315.76,
+    "sourceUrl": "https://www.youtube.com/watch?v=CI-G9_bTKuw",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Calculate r^3.",
+      "Multiply that by 4/3.",
+      "Include pi and write the exact volume."
+    ]
+  },
+  "LmudKHXSMp4": {
+    "order": 62,
+    "level": 4,
+    "title": "Back to Algebra: What are Functions?",
+    "problem": "Test a relation containing (1,2), (1,3), (2,4) against the definition of a function.",
+    "method": "Check whether each input has exactly one output",
+    "sourceStart": 139.319,
+    "sourceEnd": 199.319,
+    "sourceUrl": "https://www.youtube.com/watch?v=LmudKHXSMp4",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "How many different outputs are listed for input 1?",
+      "Does this relation represent a function? Enter yes or no.",
+      "If (1,3) is removed, what output remains for input 1?"
+    ]
+  },
+  "q3zmcFvHxP4": {
+    "order": 63,
+    "level": 4,
+    "title": "Manipulating Functions Algebraically and Evaluating Composite Functions",
+    "problem": "For f(x)=2x+1 and g(x)=x−5, find f(g(x)), then evaluate at x=6.",
+    "method": "Insert the entire inner function into every input of the outer function",
+    "sourceStart": 16.57,
+    "sourceEnd": 76.57,
+    "sourceUrl": "https://www.youtube.com/watch?v=q3zmcFvHxP4",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write f with x replaced by g(x), before expanding.",
+      "Expand and combine the expression.",
+      "Evaluate the composite at x=6."
+    ]
+  },
+  "EjsQWKq-dGQ": {
+    "order": 64,
+    "level": 4,
+    "title": "Graphing Algebraic Functions: Domain and Range, Maxima and Minima",
+    "problem": "Analyze f(x)=x^2: its values, minimum and range boundary.",
+    "method": "Evaluate points and use the fact that squares are nonnegative",
+    "sourceStart": 79.479,
+    "sourceEnd": 139.47899999999998,
+    "sourceUrl": "https://www.youtube.com/watch?v=EjsQWKq-dGQ",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Evaluate f(−2).",
+      "At what x does this function attain its minimum?",
+      "Write the minimum output, the lower boundary of its range."
+    ]
+  },
+  "MkP1LJR2PyM": {
+    "order": 65,
+    "level": 4,
+    "title": "Transforming Algebraic Functions: Shifting, Stretching, and Reflecting",
+    "problem": "Locate the vertex of y=(x+2)^2 by transforming y=x^2.",
+    "method": "Set the inside expression to zero to identify the horizontal shift",
+    "sourceStart": 22.18,
+    "sourceEnd": 82.18,
+    "sourceUrl": "https://www.youtube.com/watch?v=MkP1LJR2PyM",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Solve x+2=0. Write the vertex’s x coordinate.",
+      "Evaluate y at that x coordinate.",
+      "Plot or enter the vertex."
+    ]
+  },
+  "BIQrnx-vvx8": {
+    "order": 66,
+    "level": 4,
+    "title": "Continuous, Discontinuous, and Piecewise Functions",
+    "problem": "Let f(x)=5 for x<−2 and f(x)=x−1 for x≥−2. Evaluate the appropriate branches.",
+    "method": "Select the branch using its inequality before substituting the input",
+    "sourceStart": 176.019,
+    "sourceEnd": 236.019,
+    "sourceUrl": "https://www.youtube.com/watch?v=BIQrnx-vvx8",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Which branch includes the boundary x=−2? Enter x-1 or 5.",
+      "Evaluate f(−2).",
+      "Evaluate f(−3), using its appropriate branch."
+    ]
+  },
+  "9fJsrnE1go0": {
+    "order": 67,
+    "level": 4,
+    "title": "Inverse Functions",
+    "problem": "Find the inverse of f(x)=2x+3.",
+    "method": "Exchange x and y and solve the resulting equation for y",
+    "sourceStart": 42.12,
+    "sourceEnd": 102.12,
+    "sourceUrl": "https://www.youtube.com/watch?v=9fJsrnE1go0",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "After swapping, x=2y+3. Subtract 3. Write the expression equal to 2y.",
+      "Divide by 2. Write the inverse expression.",
+      "Evaluate the inverse at 11 to check the input whose output is 11."
+    ]
+  },
+  "wzQstigxbuo": {
+    "order": 68,
+    "level": 4,
+    "title": "The Distance Formula: Finding the Distance Between Two Points",
+    "problem": "Find the distance from (−2,2) to (2,5).",
+    "method": "Take coordinate differences, square and add them, then take the positive root",
+    "sourceStart": 94.24,
+    "sourceEnd": 154.24,
+    "sourceUrl": "https://www.youtube.com/watch?v=wzQstigxbuo",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Calculate the horizontal difference.",
+      "Calculate the sum of squared horizontal and vertical differences.",
+      "Take the positive square root for the distance."
+    ]
+  },
+  "JUvo3GrgWHk": {
+    "order": 69,
+    "level": 4,
+    "title": "Graphing Conic Sections Part 1: Circles",
+    "problem": "For (x−2)^2+(y−3)^2=16, identify the center and radius.",
+    "method": "Compare with (x−h)^2+(y−k)^2=r^2 and take the positive root",
+    "sourceStart": 88.88,
+    "sourceEnd": 148.88,
+    "sourceUrl": "https://www.youtube.com/watch?v=JUvo3GrgWHk",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the center’s x coordinate.",
+      "Write the center’s y coordinate.",
+      "Take the positive root of r^2 to get r."
+    ]
+  },
+  "iwRlllkqADw": {
+    "order": 70,
+    "level": 4,
+    "title": "Graphing Conic Sections Part 2: Ellipses",
+    "problem": "Analyze the ellipse x^2/9+y^2/4=1.",
+    "method": "Read the semiaxes from the denominators and use c^2=a^2−b^2 for focal distance",
+    "sourceStart": 120.21,
+    "sourceEnd": 180.20999999999998,
+    "sourceUrl": "https://www.youtube.com/watch?v=iwRlllkqADw",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the major semiaxis a.",
+      "Write the minor semiaxis b.",
+      "Calculate c, the positive distance from the center to either focus."
+    ]
+  },
+  "hvJkCMzFiX8": {
+    "order": 71,
+    "level": 4,
+    "title": "Graphing Conic Sections Part 3: Parabolas in Standard Form",
+    "problem": "Put y=x^2+4x+1 into vertex form and find its vertex.",
+    "method": "Complete the square to expose the horizontal and vertical shifts",
+    "sourceStart": 59.449,
+    "sourceEnd": 119.449,
+    "sourceUrl": "https://www.youtube.com/watch?v=hvJkCMzFiX8",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "What square must be added to x^2+4x to form a perfect square?",
+      "Write the full vertex-form expression for y.",
+      "Plot or enter the vertex coordinates."
+    ]
+  },
+  "h5aVROOmI-Q": {
+    "order": 72,
+    "level": 4,
+    "title": "Graphing Conic Sections Part 4: Hyperbolas",
+    "problem": "Analyze x^2/9−y^2/4=1.",
+    "method": "Use the positive x term for the transverse axis and c^2=a^2+b^2 for focal distance",
+    "sourceStart": 18.18,
+    "sourceEnd": 78.18,
+    "sourceUrl": "https://www.youtube.com/watch?v=h5aVROOmI-Q",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the distance a from center to a vertex.",
+      "Write b from the other denominator.",
+      "Write the positive focal distance c."
+    ]
+  },
+  "CHEtGgTexHI": {
+    "order": 73,
+    "level": 4,
+    "title": "Graphing Higher-Degree Polynomials: The Leading Coefficient Test and Finding Zeros",
+    "problem": "Find the zeros and right-end behavior of f(x)=x(x−2)(x+1).",
+    "method": "Use factors for zeros and the leading term for end behavior",
+    "sourceStart": 68.28,
+    "sourceEnd": 128.28,
+    "sourceUrl": "https://www.youtube.com/watch?v=CHEtGgTexHI",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the leading term after considering the product of leading factors.",
+      "Write all three zeros in ascending order.",
+      "As x tends to positive infinity, does f tend to positive or negative infinity? Enter positive or negative."
+    ]
+  },
+  "fy45qX8cUwQ": {
+    "order": 74,
+    "level": 4,
+    "title": "Graphing Rational Functions and Their Asymptotes",
+    "problem": "Find the vertical and horizontal asymptotes of f(x)=x/(x^2−9).",
+    "method": "Factor the denominator for vertical asymptotes and compare degrees for the horizontal one",
+    "sourceStart": 161.4,
+    "sourceEnd": 221.4,
+    "sourceUrl": "https://www.youtube.com/watch?v=fy45qX8cUwQ",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Factor the denominator.",
+      "Write the vertical-asymptote x values in ascending order.",
+      "The numerator degree is smaller. Write the horizontal-asymptote y value."
+    ]
+  },
+  "Es37gGo5F4Y": {
+    "order": 75,
+    "level": 4,
+    "title": "Solving and Graphing Polynomial and Rational Inequalities",
+    "problem": "Solve x^2+6x+5<0.",
+    "method": "Factor to find critical points, then test the sign in each interval",
+    "sourceStart": 52.35,
+    "sourceEnd": 112.35,
+    "sourceUrl": "https://www.youtube.com/watch?v=Es37gGo5F4Y",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Factor the polynomial.",
+      "Test x=−3. Write the polynomial’s value.",
+      "Write the open interval of solutions using (left,right)."
+    ]
+  },
+  "tAaDItpC8OI": {
+    "order": 76,
+    "level": 4,
+    "title": "Evaluating and Graphing Exponential Functions",
+    "problem": "Evaluate g(x)=(1/2)^x and examine its horizontal asymptote.",
+    "method": "Apply exponent rules and track the values as x increases",
+    "sourceStart": 131.42,
+    "sourceEnd": 191.42,
+    "sourceUrl": "https://www.youtube.com/watch?v=tAaDItpC8OI",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Evaluate g(0).",
+      "Evaluate g(−2).",
+      "Write the horizontal-asymptote y value."
+    ]
+  },
+  "1Yv4fEsGpvM": {
+    "order": 77,
+    "level": 4,
+    "title": "Logarithms Part 1: Evaluation of Logs and Graphing Logarithmic Functions",
+    "problem": "Evaluate log base 2 of 8 by rewriting it exponentially.",
+    "method": "Use the equivalence log_b(a)=y means b^y=a",
+    "sourceStart": 81.63,
+    "sourceEnd": 141.63,
+    "sourceUrl": "https://www.youtube.com/watch?v=1Yv4fEsGpvM",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the power equation using the unknown y.",
+      "What exponent makes 2^y equal 8?",
+      "Verify by evaluating 2 raised to that exponent."
+    ]
+  },
+  "sQ2ix7QcGwQ": {
+    "order": 78,
+    "level": 4,
+    "title": "Logarithms Part 2: Base Ten Logs, Natural Logs, and the Change-Of-Base Property",
+    "problem": "Evaluate log base 2 of 8 using change of base.",
+    "method": "Divide ln(argument) by ln(base)",
+    "sourceStart": 169.989,
+    "sourceEnd": 229.989,
+    "sourceUrl": "https://www.youtube.com/watch?v=sQ2ix7QcGwQ",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the change-of-base expression before evaluating.",
+      "Evaluate the resulting logarithm ratio.",
+      "Evaluate ln(e) as a check on the natural-log base."
+    ]
+  },
+  "MSTSBW8LPRM": {
+    "order": 79,
+    "level": 4,
+    "title": "Logarithms Part 3: Properties of Logs, Expanding Logarithmic Expressions",
+    "problem": "Expand ln(10x^2) for x>0 using log properties.",
+    "method": "Use the product rule for logs, then bring the exponent down as a coefficient",
+    "sourceStart": 95.829,
+    "sourceEnd": 155.829,
+    "sourceUrl": "https://www.youtube.com/watch?v=MSTSBW8LPRM",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Split the product into two logarithms.",
+      "Rewrite ln(x^2) for positive x.",
+      "Write the fully expanded expression."
+    ]
+  },
+  "10I_TVuYLkQ": {
+    "order": 80,
+    "level": 4,
+    "title": "Solving Exponential and Logarithmic Equations",
+    "problem": "Solve 3^(2x−7)=27.",
+    "method": "Rewrite both sides with the same base, then equate exponents",
+    "sourceStart": 99.7,
+    "sourceEnd": 159.7,
+    "sourceUrl": "https://www.youtube.com/watch?v=10I_TVuYLkQ",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the exponent when 27 is expressed as a power of 3.",
+      "Equating exponents gives 2x−7=3. What does 2x equal?",
+      "Divide by 2 to find x."
+    ]
+  },
+  "Yddjxj49C_M": {
+    "order": 81,
+    "level": 4,
+    "title": "Complex Numbers: Operations, Complex Conjugates, and the Linear Factorization Theorem",
+    "problem": "Multiply (1+2i)(3−i), using i^2=−1.",
+    "method": "Distribute both binomials and replace i^2 with −1",
+    "sourceStart": 26.68,
+    "sourceEnd": 86.68,
+    "sourceUrl": "https://www.youtube.com/watch?v=Yddjxj49C_M",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the real value of the last product (2i)(−i).",
+      "Combine the two imaginary cross terms.",
+      "Write the product in a+bi form."
+    ]
+  },
+  "6JkCmZAQaio": {
+    "order": 82,
+    "level": 4,
+    "title": "Set Theory: Types of Sets, Unions and Intersections",
+    "problem": "For A={1,4,5,9,13} and B={2,5,6,8,9}, find the intersection and union.",
+    "method": "For intersection keep shared elements; for union list every distinct element once",
+    "sourceStart": 117.45,
+    "sourceEnd": 177.45,
+    "sourceUrl": "https://www.youtube.com/watch?v=6JkCmZAQaio",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the shared elements in ascending order.",
+      "How many elements are in the intersection?",
+      "Write the union in ascending order, without repeated entries."
+    ]
+  },
+  "-DPkqpmm1sI": {
+    "order": 83,
+    "level": 4,
+    "title": "Sequences, Factorials, and Summation Notation",
+    "problem": "Evaluate 4! and the finite sum of n from n=1 through 4.",
+    "method": "Expand factorial as a product and summation as an addition of the indexed terms",
+    "sourceStart": 234.52,
+    "sourceEnd": 294.52,
+    "sourceUrl": "https://www.youtube.com/watch?v=-DPkqpmm1sI",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write 4! as a multiplication before evaluating.",
+      "Evaluate that product.",
+      "Write the sum 1+2+3+4."
+    ]
+  },
+  "0ZsSRx0o0zE": {
+    "order": 84,
+    "level": 4,
+    "title": "Theoretical Probability, Permutations and Combinations",
+    "problem": "A drawer has 5 red, 3 blue, 7 green and 10 yellow socks. Find the probability of a red sock.",
+    "method": "Count favorable outcomes and divide by the total equally likely outcomes",
+    "sourceStart": 135.31,
+    "sourceEnd": 195.31,
+    "sourceUrl": "https://www.youtube.com/watch?v=0ZsSRx0o0zE",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Calculate the total number of socks.",
+      "How many favorable red outcomes are there?",
+      "Write the probability as a reduced fraction."
+    ]
+  },
+  "0GkmnPdD6jY": {
+    "order": 85,
+    "level": 5,
+    "title": "Introduction to Trigonometry: Angles and Radians",
+    "problem": "Convert 150° to radians, then reduce 5pi to a coterminal angle in [0,2pi).",
+    "method": "Use pi radians per 180° and subtract whole revolutions of 2pi",
+    "sourceStart": 113.329,
+    "sourceEnd": 173.329,
+    "sourceUrl": "https://www.youtube.com/watch?v=0GkmnPdD6jY",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the conversion factor from degrees to radians.",
+      "Multiply 150° by that factor.",
+      "Subtract whole turns from 5pi to get the angle in [0,2pi)."
+    ]
+  },
+  "cqIZue-plBI": {
+    "order": 86,
+    "level": 5,
+    "title": "Trigonometric Functions: Sine, Cosine, Tangent, Cosecant, Secant, and Cotangent",
+    "problem": "In a right triangle, the selected acute angle has opposite side 5, adjacent side 12 and hypotenuse 13.",
+    "method": "Match each trigonometric function to its side ratio",
+    "sourceStart": 32.68,
+    "sourceEnd": 92.68,
+    "sourceUrl": "https://www.youtube.com/watch?v=cqIZue-plBI",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write sine as opposite divided by hypotenuse.",
+      "Write cosine as adjacent divided by hypotenuse.",
+      "Write tangent as opposite divided by adjacent."
+    ]
+  },
+  "75dMcyCUo2g": {
+    "order": 87,
+    "level": 5,
+    "title": "The Easiest Way to Memorize the Trigonometric Unit Circle",
+    "problem": "Find the unit-circle coordinates at angle pi/6.",
+    "method": "Use (cos(theta),sin(theta)) and the special-triangle values",
+    "sourceStart": 19.02,
+    "sourceEnd": 79.02,
+    "sourceUrl": "https://www.youtube.com/watch?v=75dMcyCUo2g",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the y coordinate, sin(pi/6).",
+      "Write the x coordinate, cos(pi/6).",
+      "Write the point as x,y."
+    ]
+  },
+  "Ql7ducUjiG0": {
+    "order": 88,
+    "level": 5,
+    "title": "Basic Trigonometric Identities: Pythagorean Identities and Cofunction Identities",
+    "problem": "For an acute angle with sin(theta)=3/5, derive cosine using the Pythagorean identity.",
+    "method": "Use sin^2(theta)+cos^2(theta)=1 and choose the positive root for an acute angle",
+    "sourceStart": 63.35,
+    "sourceEnd": 123.35,
+    "sourceUrl": "https://www.youtube.com/watch?v=Ql7ducUjiG0",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Square the sine value.",
+      "Subtract that from 1 to find cos^2(theta).",
+      "Take the positive square root for cosine."
+    ]
+  },
+  "8oEjxGjAeQI": {
+    "order": 89,
+    "level": 5,
+    "title": "Graphing Trigonometric Functions",
+    "problem": "Analyze y=2sin(3x).",
+    "method": "Read the amplitude from the outside coefficient and the period from 2pi divided by the inside coefficient",
+    "sourceStart": 139.41,
+    "sourceEnd": 199.41,
+    "sourceUrl": "https://www.youtube.com/watch?v=8oEjxGjAeQI",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the amplitude.",
+      "Write the period.",
+      "At x=pi/6, evaluate y."
+    ]
+  },
+  "YXWKpgmLgHk": {
+    "order": 90,
+    "level": 5,
+    "title": "Inverse Trigonometric Functions",
+    "problem": "Evaluate arcsin(1/2) and arccos(−1/2) using their principal ranges.",
+    "method": "Use the unit circle but restrict answers to each inverse function’s principal range",
+    "sourceStart": 16.36,
+    "sourceEnd": 76.36,
+    "sourceUrl": "https://www.youtube.com/watch?v=YXWKpgmLgHk",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the principal angle arcsin(1/2).",
+      "Write the principal angle arccos(−1/2).",
+      "Evaluate sin of your arcsin result to check the input."
+    ]
+  },
+  "YYKGkYkKeMM": {
+    "order": 91,
+    "level": 5,
+    "title": "Verifying Trigonometric Identities",
+    "problem": "Verify sin(x)tan(x)+cos(x)=sec(x) where cos(x) is nonzero.",
+    "method": "Rewrite tangent and secant using sine and cosine, combine over one denominator and use the Pythagorean identity",
+    "sourceStart": 84.44,
+    "sourceEnd": 144.44,
+    "sourceUrl": "https://www.youtube.com/watch?v=YYKGkYkKeMM",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Rewrite tan(x) as a sine/cosine ratio.",
+      "Write the combined numerator after giving both terms denominator cos(x).",
+      "Use the identity to simplify the full expression as a reciprocal."
+    ]
+  },
+  "0cB4MLhaCk0": {
+    "order": 92,
+    "level": 5,
+    "title": "Formulas for Trigonometric Functions: Sum/Difference, Double/Half-Angle, Prod-to-Sum/Sum-to-Prod",
+    "problem": "Use the double-angle formula to evaluate cos(2theta) when cos(theta)=3/5 and sin(theta)=4/5.",
+    "method": "Use cos(2theta)=cos^2(theta)−sin^2(theta)",
+    "sourceStart": 153.65,
+    "sourceEnd": 213.65,
+    "sourceUrl": "https://www.youtube.com/watch?v=0cB4MLhaCk0",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Square the cosine value.",
+      "Square the sine value.",
+      "Subtract to find cos(2theta)."
+    ]
+  },
+  "aq4b24jcZOc": {
+    "order": 93,
+    "level": 5,
+    "title": "Solving Trigonometric Equations",
+    "problem": "Solve 4sin(x)+1=2sin(x)+2 for x in [0,2pi).",
+    "method": "Isolate sin(x), then use both unit-circle angles in the specified interval",
+    "sourceStart": 114.469,
+    "sourceEnd": 174.469,
+    "sourceUrl": "https://www.youtube.com/watch?v=aq4b24jcZOc",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Subtract 2sin(x) and 1. What constant remains on the right?",
+      "Divide by 2. Write sin(x).",
+      "Write both angles in ascending order."
+    ]
+  },
+  "MmfO1YgzmHI": {
+    "order": 94,
+    "level": 5,
+    "title": "The Law of Sines",
+    "problem": "A triangle has A=30°, B=60° and opposite side a=5. Find C and side b.",
+    "method": "Find the remaining angle, then use a/sin(A)=b/sin(B)",
+    "sourceStart": 28.839,
+    "sourceEnd": 88.839,
+    "sourceUrl": "https://www.youtube.com/watch?v=MmfO1YgzmHI",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Find angle C in degrees.",
+      "Calculate a/sin(A).",
+      "Multiply by sin(B) to find b exactly."
+    ]
+  },
+  "3wGQMyaWoLA": {
+    "order": 95,
+    "level": 5,
+    "title": "The Law of Cosines",
+    "problem": "Two sides have lengths 3 and 4 with included angle 60°. Find the opposite side c.",
+    "method": "Use c^2=a^2+b^2−2ab cos(C), then take the positive square root",
+    "sourceStart": 15.289,
+    "sourceEnd": 75.289,
+    "sourceUrl": "https://www.youtube.com/watch?v=3wGQMyaWoLA",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Calculate a^2+b^2.",
+      "Calculate 2ab cos(60°).",
+      "Subtract and take the positive root for c."
+    ]
+  },
+  "jwLUapqnwkk": {
+    "order": 96,
+    "level": 5,
+    "title": "Polar Coordinates and Graphing Polar Equations",
+    "problem": "Convert polar coordinates (r,theta)=(2,pi/3) to Cartesian coordinates.",
+    "method": "Use x=r cos(theta) and y=r sin(theta)",
+    "sourceStart": 176.74,
+    "sourceEnd": 236.74,
+    "sourceUrl": "https://www.youtube.com/watch?v=jwLUapqnwkk",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write cos(pi/3).",
+      "Multiply by r=2 to obtain x.",
+      "Write y=r sin(pi/3)."
+    ]
+  },
+  "QaN_3TytT_U": {
+    "order": 97,
+    "level": 5,
+    "title": "Parametric Equations",
+    "problem": "For x=2t and y=t^2, eliminate t and then evaluate the point at t=2.",
+    "method": "Solve x=2t for t and substitute into y",
+    "sourceStart": 120.549,
+    "sourceEnd": 180.549,
+    "sourceUrl": "https://www.youtube.com/watch?v=QaN_3TytT_U",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write t as an expression in x.",
+      "Substitute into y=t^2. Write y in terms of x.",
+      "At t=2, write the Cartesian point x,y."
+    ]
+  },
+  "rBVi_9qAKTU": {
+    "order": 98,
+    "level": 6,
+    "title": "Introduction to Calculus: The Greeks, Newton, and Leibniz",
+    "problem": "Use exhaustion to bound the area of a unit circle between an inscribed diamond and a circumscribed square.",
+    "method": "Compare polygon areas and refine them by increasing the number of sides",
+    "sourceStart": 99.93,
+    "sourceEnd": 159.93,
+    "sourceUrl": "https://www.youtube.com/watch?v=rBVi_9qAKTU",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "The inscribed diamond has perpendicular diagonals 2 and 2. Compute its area as half their product.",
+      "The circumscribed square has side 2. Compute its area.",
+      "As polygon side counts increase, should the gap between lower and upper bounds decrease or increase? Enter one word."
+    ]
+  },
+  "ktOYbZ8CpLA": {
+    "order": 99,
+    "level": 6,
+    "title": "Understanding Differentiation Part 1: The Slope of a Tangent Line",
+    "problem": "Estimate the tangent slope to f(x)=x^2 at x=1 using nearby secant lines.",
+    "method": "Compute rise/run from (1,1) to a nearby point and let that point approach x=1",
+    "sourceStart": 95.229,
+    "sourceEnd": 155.22899999999998,
+    "sourceUrl": "https://www.youtube.com/watch?v=ktOYbZ8CpLA",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Using the point (2,4), calculate the secant slope.",
+      "Using x=1.5, calculate the nearer secant slope.",
+      "Take the limiting secant slope as the second x approaches 1."
+    ]
+  },
+  "J27BZCX1OF8": {
+    "order": 100,
+    "level": 6,
+    "title": "Understanding Differentiation Part 2: Rates of Change",
+    "problem": "A falling object has distance s(t)=4.9t^2 meters. Find instantaneous velocity at t=5 seconds.",
+    "method": "Differentiate position with respect to time, then evaluate at the instant",
+    "sourceStart": 31.38,
+    "sourceEnd": 91.38,
+    "sourceUrl": "https://www.youtube.com/watch?v=J27BZCX1OF8",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write v(t), the derivative of position.",
+      "Evaluate v at t=5.",
+      "Differentiate v(t) to get the acceleration in meters per second squared."
+    ]
+  },
+  "wK8WuTEc0ns": {
+    "order": 101,
+    "level": 6,
+    "title": "Limits and Limit Laws in Calculus",
+    "problem": "Find lim as x→1 of (x−1)/(x^2−1).",
+    "method": "Factor and cancel away from x=1, then evaluate the continuous simplified expression",
+    "sourceStart": 120.559,
+    "sourceEnd": 180.559,
+    "sourceUrl": "https://www.youtube.com/watch?v=wK8WuTEc0ns",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Factor the denominator.",
+      "Cancel the common factor for x≠1. Write the simplified function.",
+      "Evaluate the limit at x=1."
+    ]
+  },
+  "x3iEEDxrhyE": {
+    "order": 102,
+    "level": 6,
+    "title": "What is a Derivative? Deriving the Power Rule",
+    "problem": "Derive the derivative of f(x)=x^2 using the difference quotient.",
+    "method": "Expand f(x+h)−f(x), divide by h, and take the limit h→0",
+    "sourceStart": 135.64,
+    "sourceEnd": 195.64,
+    "sourceUrl": "https://www.youtube.com/watch?v=x3iEEDxrhyE",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Expand (x+h)^2−x^2.",
+      "Divide by h for h≠0.",
+      "Take h→0 to obtain the derivative."
+    ]
+  },
+  "aL15O6rS9z0": {
+    "order": 103,
+    "level": 6,
+    "title": "Derivatives of Polynomial Functions: Power Rule, Product Rule, and Quotient Rule",
+    "problem": "Differentiate f(x)=x^2(x+1) using the product rule.",
+    "method": "Differentiate each factor in its product-rule term and add the two terms",
+    "sourceStart": 319.21,
+    "sourceEnd": 379.21,
+    "sourceUrl": "https://www.youtube.com/watch?v=aL15O6rS9z0",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Differentiate the first factor x^2.",
+      "Write the product-rule sum before expanding.",
+      "Expand and combine the derivative."
+    ]
+  },
+  "_Zqcxbjzyxg": {
+    "order": 104,
+    "level": 6,
+    "title": "Derivatives of Trigonometric Functions",
+    "problem": "Differentiate tan(x) using its sine/cosine quotient.",
+    "method": "Apply the quotient rule to sin(x)/cos(x), then use the Pythagorean identity",
+    "sourceStart": 185.15,
+    "sourceEnd": 245.15,
+    "sourceUrl": "https://www.youtube.com/watch?v=_Zqcxbjzyxg",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the derivative of cos(x).",
+      "Write the quotient-rule numerator.",
+      "Simplify the derivative as a reciprocal of a square."
+    ]
+  },
+  "_x1nCg2LfuA": {
+    "order": 105,
+    "level": 6,
+    "title": "Derivatives of Composite Functions: The Chain Rule",
+    "problem": "Differentiate sin(x^2) using the chain rule.",
+    "method": "Differentiate the outer function at the unchanged inner expression, then multiply by the inner derivative",
+    "sourceStart": 204.59,
+    "sourceEnd": 264.59000000000003,
+    "sourceUrl": "https://www.youtube.com/watch?v=_x1nCg2LfuA",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the derivative of the inner function x^2.",
+      "Differentiate the outer sine at the inner expression.",
+      "Multiply the two factors for the full derivative."
+    ]
+  },
+  "zjKMkbcbtHY": {
+    "order": 106,
+    "level": 6,
+    "title": "Derivatives of Logarithmic and Exponential Functions",
+    "problem": "Differentiate ln(sin(x)) on an interval where sin(x)>0.",
+    "method": "Use the logarithm derivative and multiply by the derivative of its inner sine",
+    "sourceStart": 102.67,
+    "sourceEnd": 162.67000000000002,
+    "sourceUrl": "https://www.youtube.com/watch?v=zjKMkbcbtHY",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the outer-log derivative evaluated at sin(x).",
+      "Write the derivative of the inner sine.",
+      "Write the resulting ratio for the derivative."
+    ]
+  },
+  "M0SMSWM2oZA": {
+    "order": 107,
+    "level": 6,
+    "title": "Implicit Differentiation",
+    "problem": "Differentiate x^2+y^2=25 implicitly, treating y as a function of x.",
+    "method": "Differentiate both sides, include y′ for y terms, and isolate y′",
+    "sourceStart": 71.43,
+    "sourceEnd": 131.43,
+    "sourceUrl": "https://www.youtube.com/watch?v=M0SMSWM2oZA",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the derivative of x^2.",
+      "The derivative of y^2 is a coefficient times y′. Write that coefficient.",
+      "Isolate y′. Write its expression in x and y."
+    ]
+  },
+  "zUDxgehxQqs": {
+    "order": 108,
+    "level": 6,
+    "title": "Higher Derivatives and Their Applications",
+    "problem": "Find the first and second derivatives of 3x^2+4x−5.",
+    "method": "Apply differentiation again to the first derivative",
+    "sourceStart": 15.049,
+    "sourceEnd": 75.049,
+    "sourceUrl": "https://www.youtube.com/watch?v=zUDxgehxQqs",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the first derivative.",
+      "Differentiate it again.",
+      "Write the third derivative."
+    ]
+  },
+  "j6I3EXiKB2A": {
+    "order": 109,
+    "level": 6,
+    "title": "Related Rates in Calculus",
+    "problem": "A spherical balloon’s volume grows at 100 cm^3/s. Find dr/dt when r=25 cm.",
+    "method": "Differentiate V=(4/3)pi r^3 with respect to time and solve for dr/dt",
+    "sourceStart": 24.14,
+    "sourceEnd": 84.14,
+    "sourceUrl": "https://www.youtube.com/watch?v=j6I3EXiKB2A",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write dV/dr from the sphere-volume formula.",
+      "Evaluate that coefficient at r=25.",
+      "Divide the volume rate by the coefficient. Write dr/dt."
+    ]
+  },
+  "pvLj1s7SOtk": {
+    "order": 110,
+    "level": 6,
+    "title": "Finding Local Maxima and Minima by Differentiation",
+    "problem": "Find and classify the stationary point of f(x)=x^2−4x+3.",
+    "method": "Set the derivative to zero, then inspect the slope on either side",
+    "sourceStart": 31.029,
+    "sourceEnd": 91.029,
+    "sourceUrl": "https://www.youtube.com/watch?v=pvLj1s7SOtk",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the first derivative.",
+      "Solve f′(x)=0. Write the stationary x value.",
+      "Evaluate f′ at x=1, just left of the stationary point.",
+      "At x=3 the slope is positive. A negative-to-positive slope change gives a minimum or maximum?"
+    ]
+  },
+  "dIY86WqvGjw": {
+    "order": 111,
+    "level": 6,
+    "title": "Graphing Functions and Their Derivatives",
+    "problem": "Use derivatives to describe f(x)=x^3 at x=−1 and x=1.",
+    "method": "Use the first derivative for increasing/decreasing and the second derivative for concavity",
+    "sourceStart": 17.869,
+    "sourceEnd": 77.869,
+    "sourceUrl": "https://www.youtube.com/watch?v=dIY86WqvGjw",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the first derivative.",
+      "Write the second derivative.",
+      "Evaluate the second derivative at x=−1.",
+      "At x=1, is the function concave up or down? Enter up or down."
+    ]
+  },
+  "q1U6AmIa_uQ": {
+    "order": 112,
+    "level": 6,
+    "title": "Optimization Problems in Calculus",
+    "problem": "A rectangular pen along a wall needs fencing on only three sides. There are 24 meters of fencing. Maximize its area.",
+    "method": "Use 2x+y=24 to eliminate y, differentiate the area, then check the maximum",
+    "sourceStart": 63.399,
+    "sourceEnd": 123.399,
+    "sourceUrl": "https://www.youtube.com/watch?v=q1U6AmIa_uQ",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Solve the fencing constraint for y.",
+      "Write the area derivative for A=x(24−2x).",
+      "Set the derivative to zero. Write x.",
+      "Find y from the constraint and write the maximum area."
+    ]
+  },
+  "g45quDrSA6g": {
+    "order": 113,
+    "level": 6,
+    "title": "Understanding Limits and L'Hospital's Rule",
+    "problem": "Evaluate lim as x→0 of sin(x)/x with L’Hospital’s rule.",
+    "method": "Confirm the 0/0 form, differentiate numerator and denominator separately, then take the limit",
+    "sourceStart": 46.239,
+    "sourceEnd": 106.239,
+    "sourceUrl": "https://www.youtube.com/watch?v=g45quDrSA6g",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the derivative of the numerator sin(x).",
+      "Write the derivative of the denominator x.",
+      "Evaluate the new ratio at the limit."
+    ]
+  },
+  "FsC3do74UIo": {
+    "order": 114,
+    "level": 7,
+    "title": "What is Integration? Finding the Area Under a Curve",
+    "problem": "Approximate the area under f(x)=x on [0,2] using two right-endpoint rectangles, then compare the exact area.",
+    "method": "Multiply each right-endpoint height by the interval width and add, then refine the partition",
+    "sourceStart": 48.649,
+    "sourceEnd": 108.649,
+    "sourceUrl": "https://www.youtube.com/watch?v=FsC3do74UIo",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the width of each of the two equal subintervals.",
+      "Use right-endpoint heights 1 and 2 to write the two-rectangle sum.",
+      "The exact region is a triangle with base 2 and height 2. Write its area."
+    ]
+  },
+  "NLU9U8-wJrM": {
+    "order": 115,
+    "level": 7,
+    "title": "The Fundamental Theorem of Calculus: Redefining Integration",
+    "problem": "Evaluate the integral of 2x from 0 to 3 using the Fundamental Theorem of Calculus.",
+    "method": "Find an antiderivative F, then compute F(upper)−F(lower)",
+    "sourceStart": 133.14,
+    "sourceEnd": 193.14,
+    "sourceUrl": "https://www.youtube.com/watch?v=NLU9U8-wJrM",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write an antiderivative of 2x, taking the constant as zero.",
+      "Evaluate it at the upper bound 3.",
+      "Subtract its value at 0 to get the definite integral."
+    ]
+  },
+  "b0RJkIBhfEM": {
+    "order": 116,
+    "level": 7,
+    "title": "Properties of Integrals and Evaluating Definite Integrals",
+    "problem": "Evaluate the integral of x^2+1 from 0 to 2.",
+    "method": "Integrate term by term, evaluate the antiderivative at both bounds and subtract",
+    "sourceStart": 246.3,
+    "sourceEnd": 306.3,
+    "sourceUrl": "https://www.youtube.com/watch?v=b0RJkIBhfEM",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write an antiderivative with zero constant.",
+      "Evaluate it at 2.",
+      "Subtract the lower-bound value for the definite integral."
+    ]
+  },
+  "-xHA2RjVkwY": {
+    "order": 117,
+    "level": 7,
+    "title": "Evaluating Indefinite Integrals",
+    "problem": "Find the indefinite integral of 3x^2+2.",
+    "method": "Integrate each term and include an arbitrary constant C",
+    "sourceStart": 17.79,
+    "sourceEnd": 77.78999999999999,
+    "sourceUrl": "https://www.youtube.com/watch?v=-xHA2RjVkwY",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Integrate 3x^2 with zero constant.",
+      "Integrate 2 with zero constant.",
+      "Combine the terms and include C."
+    ]
+  },
+  "7bJXbDqi9FE": {
+    "order": 118,
+    "level": 7,
+    "title": "Evaluating Integrals With Trigonometric Functions",
+    "problem": "Integrate sin(x).",
+    "method": "Recognize the derivative of −cos(x) and add C",
+    "sourceStart": 88.67,
+    "sourceEnd": 148.67000000000002,
+    "sourceUrl": "https://www.youtube.com/watch?v=7bJXbDqi9FE",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the derivative of cos(x).",
+      "Choose the antiderivative with zero constant.",
+      "Include the arbitrary constant C in the indefinite integral."
+    ]
+  },
+  "sci1pls4Lc8": {
+    "order": 119,
+    "level": 7,
+    "title": "Integration Using The Substitution Rule",
+    "problem": "Integrate 2x cos(x^2+1) using substitution.",
+    "method": "Set u=x^2+1 so du=2x dx, integrate in u, then substitute back",
+    "sourceStart": 33.76,
+    "sourceEnd": 93.75999999999999,
+    "sourceUrl": "https://www.youtube.com/watch?v=sci1pls4Lc8",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the substitution u as an expression in x.",
+      "After replacing 2x dx by du, write the antiderivative in u, with zero constant.",
+      "Substitute back and include C."
+    ]
+  },
+  "zNU8iK8sGD0": {
+    "order": 120,
+    "level": 7,
+    "title": "Integration By Parts",
+    "problem": "Integrate x sin(x) by parts.",
+    "method": "Take u=x and dv=sin(x)dx, then use uv−integral(v du)",
+    "sourceStart": 23.99,
+    "sourceEnd": 83.99,
+    "sourceUrl": "https://www.youtube.com/watch?v=zNU8iK8sGD0",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write du/dx for u=x.",
+      "Write v, an antiderivative of sin(x), with zero constant.",
+      "Evaluate uv−integral(v du) and include C."
+    ]
+  },
+  "t3rzxSgvZZk": {
+    "order": 121,
+    "level": 7,
+    "title": "Integration By Trigonometric Substitution",
+    "problem": "Integrate 1/sqrt(9−x^2) for −3<x<3 using trigonometric substitution.",
+    "method": "Set x=3sin(theta), use the identity 1−sin^2=cos^2 and restrict theta to (−pi/2,pi/2)",
+    "sourceStart": 23.28,
+    "sourceEnd": 83.28,
+    "sourceUrl": "https://www.youtube.com/watch?v=t3rzxSgvZZk",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write x in terms of theta using the substitution.",
+      "Write dx/dtheta.",
+      "After canceling the positive cosine factors the integrand is 1. Substitute back into theta+C."
+    ]
+  },
+  "8APOcBqbG-U": {
+    "order": 122,
+    "level": 7,
+    "title": "Advanced Strategy for Integration in Calculus",
+    "problem": "Integrate x/sqrt(x^2+4), choosing the simplest technique.",
+    "method": "Use u=x^2+4, absorb the x dx factor, then apply the power rule",
+    "sourceStart": 163.24,
+    "sourceEnd": 223.24,
+    "sourceUrl": "https://www.youtube.com/watch?v=8APOcBqbG-U",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write du/dx for u=x^2+4.",
+      "The transformed integral is (1/2)integral u^(-1/2)du. Write its antiderivative with zero constant.",
+      "Substitute back and include C."
+    ]
+  },
+  "0JOIhPfXnxc": {
+    "order": 123,
+    "level": 7,
+    "title": "Evaluating Improper Integrals",
+    "problem": "Evaluate the improper integral of 1/x^2 from 1 to infinity.",
+    "method": "Replace infinity by a finite upper bound T, integrate, then take T→infinity",
+    "sourceStart": 41.18,
+    "sourceEnd": 101.18,
+    "sourceUrl": "https://www.youtube.com/watch?v=0JOIhPfXnxc",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write an antiderivative of 1/x^2 with zero constant.",
+      "Evaluate from 1 to T. Write the expression in T.",
+      "Take T→infinity to get the value."
+    ]
+  },
+  "xec6HTcn2M8": {
+    "order": 124,
+    "level": 7,
+    "title": "Finding the Area Between Two Curves by Integration",
+    "problem": "Find the area between y=x^2+1 and y=x on [0,1].",
+    "method": "Integrate the upper function minus the lower function over the interval",
+    "sourceStart": 114.42,
+    "sourceEnd": 174.42000000000002,
+    "sourceUrl": "https://www.youtube.com/watch?v=xec6HTcn2M8",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the upper-minus-lower integrand.",
+      "Write its antiderivative with zero constant.",
+      "Evaluate the antiderivative difference from 0 to 1."
+    ]
+  },
+  "QLHJl2_aM5Q": {
+    "order": 125,
+    "level": 7,
+    "title": "Calculating the Volume of a Solid of Revolution by Integration",
+    "problem": "Rotate the region between y=x and y=x^2 on [0,1] around the x-axis.",
+    "method": "Use washers with outer radius x and inner radius x^2, then integrate pi(R^2−r^2)",
+    "sourceStart": 158.43,
+    "sourceEnd": 218.43,
+    "sourceUrl": "https://www.youtube.com/watch?v=QLHJl2_aM5Q",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the outer radius squared minus the inner radius squared.",
+      "Write an antiderivative of the full volume integrand, with zero constant.",
+      "Evaluate between 0 and 1 for the volume."
+    ]
+  },
+  "MNU5DT-CDrc": {
+    "order": 126,
+    "level": 7,
+    "title": "Calculating Volume by Cylindrical Shells",
+    "problem": "Rotate the region under y=x on [0,1] around the y-axis using shells.",
+    "method": "Use cylindrical shells of radius x and height x, then integrate 2pi times radius times height",
+    "sourceStart": 108.3,
+    "sourceEnd": 168.3,
+    "sourceUrl": "https://www.youtube.com/watch?v=MNU5DT-CDrc",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write radius times height as an expression in x.",
+      "Write an antiderivative of 2pi x^2, with zero constant.",
+      "Evaluate from 0 to 1 to get the volume."
+    ]
+  },
+  "56-JCZIkDVU": {
+    "order": 127,
+    "level": 7,
+    "title": "The Mean Value Theorem For Integrals: Average Value of a Function",
+    "problem": "Find the average value of f(x)=x^2 on [0,3].",
+    "method": "Integrate the function and divide by the interval length",
+    "sourceStart": 164.17,
+    "sourceEnd": 224.17,
+    "sourceUrl": "https://www.youtube.com/watch?v=56-JCZIkDVU",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the interval length.",
+      "Evaluate the integral of x^2 over the interval.",
+      "Divide by interval length to get the average value."
+    ]
+  },
+  "L-JqHo4-W4k": {
+    "order": 128,
+    "level": 7,
+    "title": "Convergence and Divergence: The Return of Sequences and Series",
+    "problem": "Evaluate the geometric series sum of (1/2)^n for n=0,1,2,... .",
+    "method": "Find the common ratio, confirm its magnitude is below 1, then use a/(1−r)",
+    "sourceStart": 15.34,
+    "sourceEnd": 75.34,
+    "sourceUrl": "https://www.youtube.com/watch?v=L-JqHo4-W4k",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the common ratio.",
+      "Add the first three terms.",
+      "Use the geometric-series formula for the infinite sum."
+    ]
+  },
+  "Jtnxi9uM7yA": {
+    "order": 129,
+    "level": 7,
+    "title": "Estimating Sums Using the Integral Test and Comparison Test",
+    "problem": "Use the integral test for the series sum of 1/n^2, n≥1.",
+    "method": "Check positivity, continuity and decreasing behavior, then evaluate the matching improper integral",
+    "sourceStart": 23.23,
+    "sourceEnd": 83.23,
+    "sourceUrl": "https://www.youtube.com/watch?v=Jtnxi9uM7yA",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the derivative of f(x)=1/x^2 for x>0.",
+      "Evaluate the integral of 1/x^2 from 1 to infinity.",
+      "The integral is finite and conditions hold. Enter convergent or divergent for the series."
+    ]
+  },
+  "-Md4CEW0-zM": {
+    "order": 130,
+    "level": 7,
+    "title": "Alternating Series, Types of Convergence, and the Ratio Test",
+    "problem": "Classify the alternating harmonic series sum of (−1)^(n+1)/n.",
+    "method": "Check that positive magnitudes decrease to zero, then separately test absolute convergence",
+    "sourceStart": 15.63,
+    "sourceEnd": 75.63,
+    "sourceUrl": "https://www.youtube.com/watch?v=-Md4CEW0-zM",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the limit of the positive magnitudes 1/n as n→infinity.",
+      "The absolute-value series is the harmonic series. Enter convergent or divergent.",
+      "The alternating series converges while its absolute series diverges. Enter conditional or absolute."
+    ]
+  },
+  "OxVBT83x8oc": {
+    "order": 131,
+    "level": 7,
+    "title": "Power Series",
+    "problem": "Find the convergence interval of the power series sum of (x−3)^n for n≥0.",
+    "method": "Use the ratio test, require |x−3|<1, then check each endpoint separately",
+    "sourceStart": 88.909,
+    "sourceEnd": 148.909,
+    "sourceUrl": "https://www.youtube.com/watch?v=OxVBT83x8oc",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the center of the series.",
+      "Write the radius of convergence.",
+      "At x=2 the terms alternate ±1 and do not tend to zero. Enter convergent or divergent.",
+      "Both endpoints fail. Write the open convergence interval as (left,right)."
+    ]
+  },
+  "a58otkmkHtk": {
+    "order": 132,
+    "level": 7,
+    "title": "Taylor and Maclaurin Series",
+    "problem": "Build the degree-two Maclaurin polynomial for e^x.",
+    "method": "Evaluate derivatives at zero and divide each coefficient by its factorial",
+    "sourceStart": 116.01,
+    "sourceEnd": 176.01,
+    "sourceUrl": "https://www.youtube.com/watch?v=a58otkmkHtk",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write f(0).",
+      "Write the coefficient f″(0)/2!.",
+      "Combine the constant, linear and quadratic terms."
+    ]
+  },
+  "uMXcKY_w3w4": {
+    "order": 133,
+    "level": 7,
+    "title": "Hyperbolic Functions: Definitions, Identities, Derivatives, and Inverses",
+    "problem": "Use exponential definitions to evaluate sinh(0), cosh(0) and their identity.",
+    "method": "Use sinh(x)=(e^x−e^(−x))/2 and cosh(x)=(e^x+e^(−x))/2",
+    "sourceStart": 60.949,
+    "sourceEnd": 120.949,
+    "sourceUrl": "https://www.youtube.com/watch?v=uMXcKY_w3w4",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Evaluate sinh(0).",
+      "Evaluate cosh(0).",
+      "At zero evaluate cosh^2(0)−sinh^2(0)."
+    ]
+  },
+  "5sJdfciNM20": {
+    "order": 134,
+    "level": 8,
+    "title": "Three-Dimensional Coordinates and the Right-Hand Rule",
+    "problem": "Locate (2,3,4) in right-handed three-dimensional coordinates and project it onto the xy-plane.",
+    "method": "Track x, y and z independently and set z to zero for the xy-plane projection",
+    "sourceStart": 67.06,
+    "sourceEnd": 127.06,
+    "sourceUrl": "https://www.youtube.com/watch?v=5sJdfciNM20",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the point’s height along the positive z-axis.",
+      "Write its xy-plane projection as x,y,z.",
+      "In three-dimensional space, how many sign-defined octants are there?"
+    ]
+  },
+  "KBSCMTYaH1s": {
+    "order": 135,
+    "level": 8,
+    "title": "Introduction to Vectors and Their Operations",
+    "problem": "Add u=(2,−1,3) and v=(1,4,−2).",
+    "method": "Add corresponding components, matching the head-to-tail geometric sum",
+    "sourceStart": 112.53,
+    "sourceEnd": 172.53,
+    "sourceUrl": "https://www.youtube.com/watch?v=KBSCMTYaH1s",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Calculate the first component of u+v.",
+      "Calculate the second component.",
+      "Calculate the third component and write the complete sum vector."
+    ]
+  },
+  "0iNrGpwZwog": {
+    "order": 136,
+    "level": 8,
+    "title": "The Vector Dot Product",
+    "problem": "Find the dot product of a=(2,4) and b=(1,−3).",
+    "method": "Multiply corresponding components and add to get a scalar",
+    "sourceStart": 69.44,
+    "sourceEnd": 129.44,
+    "sourceUrl": "https://www.youtube.com/watch?v=0iNrGpwZwog",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Calculate the first component product.",
+      "Calculate the second component product.",
+      "Add the products for the scalar dot product."
+    ]
+  },
+  "csgNflj69-Y": {
+    "order": 137,
+    "level": 8,
+    "title": "Introduction to Linear Algebra: Systems of Linear Equations",
+    "problem": "Milk costs 2 dollars per gallon and you have 10 dollars. Model y=mx and find the affordable quantity.",
+    "method": "Use a linear equation connecting price, quantity and total, then isolate the unknown",
+    "sourceStart": 147.84,
+    "sourceEnd": 207.84,
+    "sourceUrl": "https://www.youtube.com/watch?v=csgNflj69-Y",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write m, the dollars-per-gallon coefficient.",
+      "Write x as an expression in y and m from y=mx, with m nonzero.",
+      "Use y=10 and m=2 to get gallons x."
+    ]
+  },
+  "y6bVhgmy2rw": {
+    "order": 138,
+    "level": 8,
+    "title": "Understanding Matrices and Matrix Notation",
+    "problem": "Represent 2x+3y=7 and x−y=1 as an augmented matrix.",
+    "method": "Put variable coefficients in fixed columns and constants in the last column",
+    "sourceStart": 28.59,
+    "sourceEnd": 88.59,
+    "sourceUrl": "https://www.youtube.com/watch?v=y6bVhgmy2rw",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the first augmented row, in x,y,constant order.",
+      "Write the second augmented row in the same order.",
+      "How many columns does this augmented matrix have?"
+    ]
+  },
+  "T2Gtt8WygiU": {
+    "order": 139,
+    "level": 8,
+    "title": "Manipulating Matrices: Elementary Row Operations and Gauss-Jordan Elimination",
+    "problem": "Solve the augmented rows [1,1,3] and [2,−1,0] with row operations.",
+    "method": "Eliminate below a pivot, normalize the second pivot, then eliminate above it",
+    "sourceStart": 68.08,
+    "sourceEnd": 128.07999999999998,
+    "sourceUrl": "https://www.youtube.com/watch?v=T2Gtt8WygiU",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Apply R2←R2−2R1. Write the new second row.",
+      "Normalize the second row by dividing by −3. Write its rightmost entry, y.",
+      "Eliminate y from the first row. Write x."
+    ]
+  },
+  "biyQzy2yRUA": {
+    "order": 140,
+    "level": 8,
+    "title": "Types of Matrices and Matrix Addition",
+    "problem": "Add A=[[1,2],[3,4]] and B=[[5,6],[7,8]].",
+    "method": "Add entries in matching row and column positions",
+    "sourceStart": 24.539,
+    "sourceEnd": 84.539,
+    "sourceUrl": "https://www.youtube.com/watch?v=biyQzy2yRUA",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Calculate the top-left entry of A+B.",
+      "Calculate the top-right entry.",
+      "Write all four entries of A+B in row-major order."
+    ]
+  },
+  "P5GJJ02OG08": {
+    "order": 141,
+    "level": 8,
+    "title": "Matrix Multiplication and Associated Properties",
+    "problem": "Multiply A=[[1,2],[3,4]] by B=[[5,6],[7,8]], in that order.",
+    "method": "Take row-column dot products for each entry",
+    "sourceStart": 63.17,
+    "sourceEnd": 123.17,
+    "sourceUrl": "https://www.youtube.com/watch?v=P5GJJ02OG08",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Compute the top-left row-column product.",
+      "Compute the top-right row-column product.",
+      "Write all product entries in row-major order."
+    ]
+  },
+  "CcbyMH3Noow": {
+    "order": 142,
+    "level": 8,
+    "title": "Evaluating the Determinant of a Matrix",
+    "problem": "Find the determinant of [[1,2],[3,4]].",
+    "method": "Use ad−bc for the two-by-two determinant",
+    "sourceStart": 15.63,
+    "sourceEnd": 75.63,
+    "sourceUrl": "https://www.youtube.com/watch?v=CcbyMH3Noow",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Calculate ad, the main-diagonal product.",
+      "Calculate bc, the other diagonal product.",
+      "Subtract to find the determinant."
+    ]
+  },
+  "gPnWm-IXoAY": {
+    "order": 143,
+    "level": 8,
+    "title": "The Vector Cross Product",
+    "problem": "Find (1,0,0) cross (0,1,0), in that order.",
+    "method": "Expand the determinant with the alternating i,j,k signs and preserve vector order",
+    "sourceStart": 19.41,
+    "sourceEnd": 79.41,
+    "sourceUrl": "https://www.youtube.com/watch?v=gPnWm-IXoAY",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Calculate the i component: 0×0−0×1.",
+      "Calculate the j component: 0×0−1×0.",
+      "Calculate the k component and write the cross-product vector."
+    ]
+  },
+  "kWorj5BBy9k": {
+    "order": 144,
+    "level": 8,
+    "title": "Inverse Matrices and Their Properties",
+    "problem": "Invert A=[[1,2],[3,4]].",
+    "method": "Check a nonzero determinant, swap diagonal entries, negate off-diagonal entries and divide by the determinant",
+    "sourceStart": 16.81,
+    "sourceEnd": 76.81,
+    "sourceUrl": "https://www.youtube.com/watch?v=kWorj5BBy9k",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Calculate det(A).",
+      "Before dividing, write the adjugate entries in row-major order.",
+      "Divide by det(A). Write the inverse entries in row-major order."
+    ]
+  },
+  "RdLo-9jh2EM": {
+    "order": 145,
+    "level": 8,
+    "title": "Solving Systems Using Cramer's Rule",
+    "problem": "Solve x+3y=7 and 2x+2y=6 by Cramer’s rule.",
+    "method": "Divide each column-replacement determinant by the coefficient determinant",
+    "sourceStart": 28.199,
+    "sourceEnd": 88.199,
+    "sourceUrl": "https://www.youtube.com/watch?v=RdLo-9jh2EM",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Calculate the coefficient determinant.",
+      "Replace the first column by (7,6). Calculate the new determinant.",
+      "Divide that determinant by the coefficient determinant. Write x.",
+      "Replace the second column and use its ratio. Write y."
+    ]
+  },
+  "EP2ghkO0lSk": {
+    "order": 146,
+    "level": 8,
+    "title": "Understanding Vector Spaces",
+    "problem": "Test the set V={(a,b,0): a,b real} for closure under addition and scalar multiplication.",
+    "method": "Check whether both operations keep the third component zero and remain inside the set",
+    "sourceStart": 15.079,
+    "sourceEnd": 75.07900000000001,
+    "sourceUrl": "https://www.youtube.com/watch?v=EP2ghkO0lSk",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Add (1,2,0) and (3,−1,0). Write the resulting vector.",
+      "Multiply (1,2,0) by −2. Write the resulting vector.",
+      "For arbitrary inputs of the stated form, what third component do both operations produce?"
+    ]
+  },
+  "tM4TDL9Hj8U": {
+    "order": 147,
+    "level": 8,
+    "title": "Subspaces and Span",
+    "problem": "Describe the subspace S={(c,0,−c): c real} as a span.",
+    "method": "Factor out c to find a generating vector and check closure within its form",
+    "sourceStart": 17.06,
+    "sourceEnd": 77.06,
+    "sourceUrl": "https://www.youtube.com/watch?v=tM4TDL9Hj8U",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write a generator obtained by choosing c=1.",
+      "Write the vector produced by c=3.",
+      "How many vectors are needed for a basis of this one-dimensional span?"
+    ]
+  },
+  "9kDpbZCK62Y": {
+    "order": 148,
+    "level": 8,
+    "title": "Linear Independence",
+    "problem": "Test (1,1) and (1,−1) for linear independence.",
+    "method": "Set a linear combination equal to zero and solve for its coefficients",
+    "sourceStart": 63.23,
+    "sourceEnd": 123.22999999999999,
+    "sourceUrl": "https://www.youtube.com/watch?v=9kDpbZCK62Y",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Adding c1+c2=0 and c1−c2=0 gives 2c1=0. Write c1.",
+      "Substitute c1 into either equation. Write c2.",
+      "Only zero coefficients solve the homogeneous combination. Enter independent or dependent."
+    ]
+  },
+  "4C9GKyfUQkc": {
+    "order": 149,
+    "level": 8,
+    "title": "Basis and Dimension",
+    "problem": "Find a basis and dimension for the space of all real 2×2 matrices.",
+    "method": "Use matrices with a single 1 in each entry position and check they span independently",
+    "sourceStart": 16.39,
+    "sourceEnd": 76.39,
+    "sourceUrl": "https://www.youtube.com/watch?v=4C9GKyfUQkc",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "How many independent entry positions does a 2×2 matrix have?",
+      "Write the row-major entries of the basis matrix with 1 only in the top-right position.",
+      "Write the dimension of this matrix space."
+    ]
+  },
+  "HZa1RwFHgwU": {
+    "order": 150,
+    "level": 8,
+    "title": "Change of Basis",
+    "problem": "Express v=(2,4) in the basis u1=(1,1), u2=(1,−1).",
+    "method": "Set Uc=v with the basis vectors as columns and solve for the coordinates",
+    "sourceStart": 224.29,
+    "sourceEnd": 284.28999999999996,
+    "sourceUrl": "https://www.youtube.com/watch?v=HZa1RwFHgwU",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Add c1+c2=2 and c1−c2=4. What does 2c1 equal?",
+      "Divide to get c1.",
+      "Use c1+c2=2 and write both new basis coordinates c1,c2."
+    ]
+  },
+  "is1cg5yhdds": {
+    "order": 151,
+    "level": 8,
+    "title": "Linear Transformations on Vector Spaces",
+    "problem": "Apply the linear transformation L(x,y)=(2x,x+y) to (3,4).",
+    "method": "Use the transformation’s component formulas and test scalar compatibility",
+    "sourceStart": 22.29,
+    "sourceEnd": 82.28999999999999,
+    "sourceUrl": "https://www.youtube.com/watch?v=is1cg5yhdds",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Compute the first component of L(3,4).",
+      "Write the full output vector.",
+      "Write L(6,8), which should equal 2L(3,4)."
+    ]
+  },
+  "vyYrvhbDhW4": {
+    "order": 152,
+    "level": 8,
+    "title": "Image and Kernel",
+    "problem": "Find the kernel of L(x,y,z)=(x,y−z) and evaluate one image.",
+    "method": "Set every output component to zero for the kernel; substitute inputs for the image",
+    "sourceStart": 16.66,
+    "sourceEnd": 76.66,
+    "sourceUrl": "https://www.youtube.com/watch?v=vyYrvhbDhW4",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "For an output of (0,0), what must x equal?",
+      "With y=z, write a kernel generator using y=z=1.",
+      "Evaluate L(2,5,3). Write its output vector."
+    ]
+  },
+  "6nqMegdbxik": {
+    "order": 153,
+    "level": 8,
+    "title": "Orthogonality and Orthonormality",
+    "problem": "Check orthogonality of a=(3,4) and b=(−4,3), then normalize a.",
+    "method": "Use a zero dot product for orthogonality and divide by magnitude for unit length",
+    "sourceStart": 15.121,
+    "sourceEnd": 75.121,
+    "sourceUrl": "https://www.youtube.com/watch?v=6nqMegdbxik",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Calculate a dot b.",
+      "Calculate the magnitude of a.",
+      "Divide a by that magnitude. Write the unit vector."
+    ]
+  },
+  "zHbfZWZJTGc": {
+    "order": 154,
+    "level": 8,
+    "title": "The Gram-Schmidt Process",
+    "problem": "Orthogonalize v1=(1,1), v2=(1,0) with Gram–Schmidt.",
+    "method": "Keep u1=v1 and subtract the projection of v2 onto u1",
+    "sourceStart": 15.52,
+    "sourceEnd": 75.52,
+    "sourceUrl": "https://www.youtube.com/watch?v=zHbfZWZJTGc",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Find the projection coefficient (v2 dot u1)/(u1 dot u1).",
+      "Subtract the projection and write u2.",
+      "Check the new vectors by calculating u1 dot u2."
+    ]
+  },
+  "TQvxWaQnrqI": {
+    "order": 155,
+    "level": 8,
+    "title": "Finding Eigenvalues and Eigenvectors",
+    "problem": "Find eigenvalues of A=[[1,1],[4,1]] and an eigenvector for the larger one.",
+    "method": "Set det(A−lambda I)=0, then solve (A−lambda I)v=0",
+    "sourceStart": 17.28,
+    "sourceEnd": 77.28,
+    "sourceUrl": "https://www.youtube.com/watch?v=TQvxWaQnrqI",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Expand det(A−lambda I). Write the polynomial in lambda.",
+      "Solve the polynomial. Write the eigenvalues in ascending order.",
+      "For lambda=3 choose the first eigenvector component as 1. Write the full vector."
+    ]
+  },
+  "WTLl03D4TNA": {
+    "order": 156,
+    "level": 8,
+    "title": "Diagonalization",
+    "problem": "Diagonalize A=[[1,1],[4,1]], putting eigenvalue −1 first and 3 second.",
+    "method": "Put matching eigenvectors in columns of P and their eigenvalues in the same order on D’s diagonal",
+    "sourceStart": 17.05,
+    "sourceEnd": 77.05,
+    "sourceUrl": "https://www.youtube.com/watch?v=WTLl03D4TNA",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "For eigenvalue −1 use first vector component 1. Write the matching eigenvector.",
+      "For eigenvalue 3 use first vector component 1. Write the matching eigenvector.",
+      "Write D in row-major order with the specified eigenvalue ordering.",
+      "The eigenvector columns form P=[[1,1],[−2,2]]. Calculate det(P) to check invertibility."
+    ]
+  },
+  "DUuTx2nbizM": {
+    "order": 157,
+    "level": 8,
+    "title": "Complex, Hermitian, and Unitary Matrices",
+    "problem": "Determine whether H=[[2,i],[−i,3]] is Hermitian.",
+    "method": "Conjugate every entry and transpose, then compare the result with the original matrix",
+    "sourceStart": 117.01,
+    "sourceEnd": 177.01,
+    "sourceUrl": "https://www.youtube.com/watch?v=DUuTx2nbizM",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the complex conjugate of i.",
+      "The lower-left entry is −i. After conjugate transpose, what is the upper-right entry?",
+      "The resulting matrix equals H. Enter Hermitian or not Hermitian."
+    ]
+  },
+  "wHAJzemKQW4": {
+    "order": 158,
+    "level": 8,
+    "title": "Further Matrix Decompositions: LU, Cholesky, QR, and SVD",
+    "problem": "Solve Ax=b using A=LU, L=[[1,0],[2,1]], U=[[2,1],[0,1]], b=(3,7).",
+    "method": "First solve Lc=b by forward substitution, then Ux=c by back substitution",
+    "sourceStart": 23.6,
+    "sourceEnd": 83.6,
+    "sourceUrl": "https://www.youtube.com/watch?v=wHAJzemKQW4",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "From the first row of Lc=b, write c1.",
+      "From 2c1+c2=7, write c2.",
+      "Use Ux=c: the second row gives x2=1. Solve the first row and write x1,x2."
+    ]
+  },
+  "UubU3U2C8WM": {
+    "order": 159,
+    "level": 9,
+    "title": "Double and Triple Integrals",
+    "problem": "Evaluate the double integral of 1+4xy over 0≤x≤1 and 1≤y≤3, integrating x first.",
+    "method": "Treat the other variable as constant for the inner integral, then integrate the resulting function",
+    "sourceStart": 150.37,
+    "sourceEnd": 210.37,
+    "sourceUrl": "https://www.youtube.com/watch?v=UubU3U2C8WM",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the antiderivative with respect to x, using zero constant.",
+      "Evaluate from x=0 to x=1. Write the remaining integrand in y.",
+      "Integrate that result from y=1 to y=3."
+    ]
+  },
+  "AXH9Xm6Rbfc": {
+    "order": 160,
+    "level": 9,
+    "title": "Partial Derivatives and the Gradient of a Function",
+    "problem": "Find the gradient of f(x,y)=x^2 y+3y at (2,1).",
+    "method": "Take each partial derivative while holding the other variable constant, then evaluate",
+    "sourceStart": 165.379,
+    "sourceEnd": 225.379,
+    "sourceUrl": "https://www.youtube.com/watch?v=AXH9Xm6Rbfc",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the partial derivative with respect to x.",
+      "Write the partial derivative with respect to y.",
+      "Evaluate both at (2,1) and write the gradient vector."
+    ]
+  },
+  "2qxxd68fZng": {
+    "order": 161,
+    "level": 9,
+    "title": "Vector Fields, Divergence, and Curl",
+    "problem": "For F=(xy,yz,zx), compute divergence and curl.",
+    "method": "Use the sum of matching partial derivatives for divergence and the alternating cross-derivative pattern for curl",
+    "sourceStart": 312.05,
+    "sourceEnd": 372.05,
+    "sourceUrl": "https://www.youtube.com/watch?v=2qxxd68fZng",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the divergence of F.",
+      "Write the first curl component, R_y−Q_z.",
+      "Write the full curl as x,y,z components."
+    ]
+  },
+  "Tz14rC0XvHI": {
+    "order": 162,
+    "level": 9,
+    "title": "Evaluating Line Integrals",
+    "problem": "Evaluate the scalar line integral of f(x,y)=x along r(t)=(t,0), 0≤t≤2.",
+    "method": "Substitute the parametrization and multiply by the curve-speed factor before integrating",
+    "sourceStart": 20.89,
+    "sourceEnd": 80.89,
+    "sourceUrl": "https://www.youtube.com/watch?v=Tz14rC0XvHI",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the speed |r′(t)|.",
+      "Substitute x=t into the scalar field and include speed. Write the integrand.",
+      "Integrate from t=0 to t=2."
+    ]
+  },
+  "kdTxN4E0vbo": {
+    "order": 163,
+    "level": 9,
+    "title": "Green's Theorem",
+    "problem": "Use Green’s theorem for F=(−y/2,x/2) around the unit circle counterclockwise.",
+    "method": "Use positive orientation and integrate Q_x−P_y over the enclosed disk",
+    "sourceStart": 75.369,
+    "sourceEnd": 135.369,
+    "sourceUrl": "https://www.youtube.com/watch?v=kdTxN4E0vbo",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Compute Q_x.",
+      "Subtract P_y to obtain the double-integral integrand.",
+      "Multiply that constant by the unit-disk area to obtain the circulation."
+    ]
+  },
+  "Gml1HT4y3_c": {
+    "order": 164,
+    "level": 9,
+    "title": "Evaluating Surface Integrals",
+    "problem": "Integrate the scalar field f=3 over the flat surface r(u,v)=(u,v,0), 0≤u≤2 and 0≤v≤1.",
+    "method": "Use the magnitude of r_u cross r_v as the surface-area factor",
+    "sourceStart": 49.109,
+    "sourceEnd": 109.10900000000001,
+    "sourceUrl": "https://www.youtube.com/watch?v=Gml1HT4y3_c",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write r_u cross r_v as a vector.",
+      "Write its magnitude.",
+      "Integrate the scalar field times this factor over the parameter rectangle."
+    ]
+  },
+  "QS-zUSu-nxA": {
+    "order": 165,
+    "level": 9,
+    "title": "Stokes's Theorem",
+    "problem": "Use Stokes’s theorem for F=(−y/2,x/2,0) on the unit disk with upward normal and its counterclockwise boundary.",
+    "method": "Take curl F and integrate its dot product with the compatible surface normal",
+    "sourceStart": 15.27,
+    "sourceEnd": 75.27,
+    "sourceUrl": "https://www.youtube.com/watch?v=QS-zUSu-nxA",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write curl F as a vector.",
+      "Dot that vector with the upward unit normal (0,0,1).",
+      "Integrate the constant over the unit disk."
+    ]
+  },
+  "vZGvgru4TwE": {
+    "order": 166,
+    "level": 9,
+    "title": "The Divergence Theorem",
+    "problem": "Find the outward flux of F=(x,y,z) through the closed unit cube using the divergence theorem.",
+    "method": "Integrate divergence over the enclosed volume with outward orientation",
+    "sourceStart": 25.72,
+    "sourceEnd": 85.72,
+    "sourceUrl": "https://www.youtube.com/watch?v=vZGvgru4TwE",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Compute divergence F.",
+      "Write the unit cube’s volume.",
+      "Integrate constant divergence over that volume for total outward flux."
+    ]
+  },
+  "QbkWlNf2Xtw": {
+    "order": 167,
+    "level": 10,
+    "title": "Introduction to Differential Equations",
+    "problem": "Verify whether y=exp(2x) solves the differential equation y′=2y.",
+    "method": "Differentiate the proposed function and substitute both sides of the differential equation",
+    "sourceStart": 17.32,
+    "sourceEnd": 77.32,
+    "sourceUrl": "https://www.youtube.com/watch?v=QbkWlNf2Xtw",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Differentiate the proposed y.",
+      "Evaluate 2y using the proposed y.",
+      "The two expressions agree for every x. Enter yes or no: is it a solution?"
+    ]
+  },
+  "lwed4VVYuHo": {
+    "order": 168,
+    "level": 10,
+    "title": "Classification of Differential Equations",
+    "problem": "Classify y″+3y′+2y=sin(x).",
+    "method": "Count independent variables, identify the highest derivative and inspect linearity and forcing",
+    "sourceStart": 16.32,
+    "sourceEnd": 76.32,
+    "sourceUrl": "https://www.youtube.com/watch?v=lwed4VVYuHo",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the order of this differential equation.",
+      "There is one independent variable x. Enter ordinary or partial.",
+      "Is the equation homogeneous or nonhomogeneous? Enter one word."
+    ]
+  },
+  "lbAX_LDjV5o": {
+    "order": 169,
+    "level": 10,
+    "title": "Separable First-Order Differential Equations",
+    "problem": "Solve y′=2xy with y(0)=3.",
+    "method": "Separate variables, integrate both sides and use the initial condition to fix the constant",
+    "sourceStart": 17.44,
+    "sourceEnd": 77.44,
+    "sourceUrl": "https://www.youtube.com/watch?v=lbAX_LDjV5o",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Separate variables: (1/y)dy = what expression times dx?",
+      "Integrate the x side, with zero constant.",
+      "After exponentiating, y=A exp(x^2). Use y(0)=3 to find A.",
+      "Write the particular solution as an expression for y."
+    ]
+  },
+  "rO31HNxBedg": {
+    "order": 170,
+    "level": 10,
+    "title": "Linear First-Order Differential Equations",
+    "problem": "Solve y′+2y=4 with y(0)=1.",
+    "method": "Use the integrating factor exp(integral 2 dx), recognize a product derivative and integrate",
+    "sourceStart": 47.4,
+    "sourceEnd": 107.4,
+    "sourceUrl": "https://www.youtube.com/watch?v=rO31HNxBedg",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the integrating factor.",
+      "Integrate 4 exp(2x) with zero constant.",
+      "Division by the factor gives y=2+C exp(−2x). Use y(0)=1 to find C.",
+      "Write the resulting expression for y."
+    ]
+  },
+  "sJQIH4m0L_c": {
+    "order": 171,
+    "level": 10,
+    "title": "Exact First-Order Differential Equations",
+    "problem": "Solve the exact equation (2xy+1)dx+x^2dy=0 by finding a potential F(x,y).",
+    "method": "Check M_y=N_x, integrate M with respect to x, and match the remaining y dependence",
+    "sourceStart": 207.2,
+    "sourceEnd": 267.2,
+    "sourceUrl": "https://www.youtube.com/watch?v=sJQIH4m0L_c",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Calculate M_y for M=2xy+1.",
+      "Calculate N_x for N=x^2 to confirm exactness.",
+      "Integrate M in x and match N. Write one potential F with zero additive constant."
+    ]
+  },
+  "o1AHVHEEChA": {
+    "order": 172,
+    "level": 10,
+    "title": "Homogeneous Differential Equations and Bernoulli Differential Equations",
+    "problem": "Solve y′=1+y/x on x>0 using the homogeneous substitution.",
+    "method": "Set y=ux and y′=u+xu′, then separate the resulting equation for u",
+    "sourceStart": 111.6,
+    "sourceEnd": 171.6,
+    "sourceUrl": "https://www.youtube.com/watch?v=o1AHVHEEChA",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Substitution gives u+xu′=1+u. Write u′ as an expression in x.",
+      "Integrate to find u, including C.",
+      "Undo y=ux and write the expression for y."
+    ]
+  },
+  "MaZatB5UiwU": {
+    "order": 173,
+    "level": 10,
+    "title": "Linear Second-Order Differential Equations Part 1: Homogeneous Case",
+    "problem": "Solve y″−3y′+2y=0.",
+    "method": "Use an exponential trial to form the characteristic polynomial and combine the independent exponential solutions",
+    "sourceStart": 77.92,
+    "sourceEnd": 137.92000000000002,
+    "sourceUrl": "https://www.youtube.com/watch?v=MaZatB5UiwU",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the characteristic polynomial in r.",
+      "Write its roots in ascending order.",
+      "Write the general solution using independent constants A and B."
+    ]
+  },
+  "bojO7brQtE8": {
+    "order": 174,
+    "level": 10,
+    "title": "Linear Second-Order Differential Equations Part 2: Non-Homogeneous Differential Equations",
+    "problem": "Solve y″−y=2 using undetermined coefficients.",
+    "method": "Find the homogeneous complementary solution, choose a constant trial particular solution, then add them",
+    "sourceStart": 103.76,
+    "sourceEnd": 163.76,
+    "sourceUrl": "https://www.youtube.com/watch?v=bojO7brQtE8",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the two roots of the homogeneous characteristic equation in ascending order.",
+      "For a constant trial y_p=K, substitution gives −K=2. Write K.",
+      "Combine complementary and particular solutions using A and B."
+    ]
+  },
+  "fsjcKgXcTVg": {
+    "order": 175,
+    "level": 10,
+    "title": "Special Second-Order Differential Equations: Cauchy-Euler, Nonlinear, and More",
+    "problem": "Solve x^2y″−2y=0 for x>0 as a Cauchy–Euler equation.",
+    "method": "Set x=exp(u) to obtain a constant-coefficient equation, solve its characteristic equation and substitute back",
+    "sourceStart": 17.04,
+    "sourceEnd": 77.03999999999999,
+    "sourceUrl": "https://www.youtube.com/watch?v=fsjcKgXcTVg",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "The transformed equation is Y″−Y′−2Y=0. Write its characteristic polynomial in r.",
+      "Write the characteristic roots in ascending order.",
+      "Use exp(r ln(x))=x^r to write the general solution."
+    ]
+  },
+  "A1JnGhaVJsQ": {
+    "order": 176,
+    "level": 10,
+    "title": "Numerical Methods for Solving Differential Equations",
+    "problem": "Use Euler’s method for y′=y, y(0)=1, step size h=0.1, for two steps.",
+    "method": "Use y_next=y_current+h f(x_current,y_current), updating from the current point",
+    "sourceStart": 107.68,
+    "sourceEnd": 167.68,
+    "sourceUrl": "https://www.youtube.com/watch?v=A1JnGhaVJsQ",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the initial slope f(0,1).",
+      "Calculate y after the first Euler step.",
+      "Use the updated slope for the second step and write y."
+    ]
+  },
+  "g8iReAhrJcE": {
+    "order": 177,
+    "level": 10,
+    "title": "Power Series Solutions Part 1: Leibniz Method",
+    "problem": "Build the start of the power-series solution to y″−xy=0, y(0)=1, y′(0)=2.",
+    "method": "Substitute a power series, align powers and use n(n−1)a_n=a_(n−3), with a2=0",
+    "sourceStart": 192.24,
+    "sourceEnd": 252.24,
+    "sourceUrl": "https://www.youtube.com/watch?v=g8iReAhrJcE",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write a0 from y(0)=1.",
+      "Write a1 from y′(0)=2.",
+      "Use a3=a0/(3×2). Write a3.",
+      "Use a4=a1/(4×3), and a2=0. Write the polynomial through x^4."
+    ]
+  },
+  "58_qJyfVl-Y": {
+    "order": 178,
+    "level": 10,
+    "title": "Power Series Solutions Part 2: Frobenius Method",
+    "problem": "Apply a Frobenius leading-power trial y=x^r to 3x^2y″+xy′=0 on x>0.",
+    "method": "Substitute the trial, form the indicial equation and use its roots as leading powers",
+    "sourceStart": 24.48,
+    "sourceEnd": 84.48,
+    "sourceUrl": "https://www.youtube.com/watch?v=58_qJyfVl-Y",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "After removing x^r, write 3r(r−1)+r as a polynomial.",
+      "Set the polynomial to zero. Write its roots in ascending order.",
+      "Their difference is not an integer. Write the general solution with constants A and B."
+    ]
+  },
+  "MW97ZFavZ0g": {
+    "order": 179,
+    "level": 10,
+    "title": "Systems of Differential Equations Part 1: Modeling and Elimination",
+    "problem": "Solve x′=y, y′=−x with x(0)=1 and y(0)=0, using elimination.",
+    "method": "Differentiate one equation and substitute the other to obtain a second-order equation",
+    "sourceStart": 39.68,
+    "sourceEnd": 99.68,
+    "sourceUrl": "https://www.youtube.com/watch?v=MW97ZFavZ0g",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Differentiate x′=y and substitute y′=−x. Write the expression for x″.",
+      "Solve x″=−x with x(0)=1 and x′(0)=0. Write x(t).",
+      "Use y=x′. Write y(t)."
+    ]
+  },
+  "LrzyMJ8CS1g": {
+    "order": 180,
+    "level": 10,
+    "title": "Systems of Differential Equations Part 2: Matrices and Stability",
+    "problem": "Solve v′=Av for A=diag(−1,−2), v(0)=(1,3), and determine stability.",
+    "method": "Use eigenvalues and their exponential modes, then inspect their real parts",
+    "sourceStart": 87.92,
+    "sourceEnd": 147.92000000000002,
+    "sourceUrl": "https://www.youtube.com/watch?v=LrzyMJ8CS1g",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the two eigenvalues in ascending order.",
+      "Write the first component v1(t) using its initial value 1.",
+      "Write the second component v2(t) using its initial value 3.",
+      "Both eigenvalues are negative. Enter stable or unstable for the equilibrium at zero."
+    ]
+  },
+  "rrlBRs_etts": {
+    "order": 181,
+    "level": 10,
+    "title": "Laplace Transforms Part 1: Solving Differential Equations",
+    "problem": "Solve y′+y=0 with y(0)=2 using the Laplace transform.",
+    "method": "Transform the derivative with its initial-value term, solve for Y(s), then invert",
+    "sourceStart": 16.36,
+    "sourceEnd": 76.36,
+    "sourceUrl": "https://www.youtube.com/watch?v=rrlBRs_etts",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the Laplace transform of y′ as an expression in s and Y.",
+      "From (s+1)Y=2, write Y(s).",
+      "Take the inverse Laplace transform. Write y(t)."
+    ]
+  },
+  "RecYAjxdcEg": {
+    "order": 182,
+    "level": 10,
+    "title": "Laplace Transforms Part 2: Convolutions and LTI Systems",
+    "problem": "An LTI system has impulse response g(t)=exp(−t) for t≥0. For input f(t)=1 and zero initial state, find the output by convolution.",
+    "method": "Integrate f(tau)g(t−tau) from tau=0 to t",
+    "sourceStart": 265.76,
+    "sourceEnd": 325.76,
+    "sourceUrl": "https://www.youtube.com/watch?v=RecYAjxdcEg",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write g(t−tau).",
+      "Since f(tau)=1, write an antiderivative in tau with zero constant.",
+      "Evaluate from 0 to t. Write the output y(t)."
+    ]
+  },
+  "7eZ3p5RM89s": {
+    "order": 183,
+    "level": 10,
+    "title": "Difference Equations and Z-Transforms",
+    "problem": "For the Fibonacci recurrence y_n=y_(n−1)+y_(n−2), y0=0 and y1=1, find characteristic roots and a later term.",
+    "method": "Move the recurrence to one side and use a trial y_n=r^n for the characteristic equation",
+    "sourceStart": 21.4,
+    "sourceEnd": 81.4,
+    "sourceUrl": "https://www.youtube.com/watch?v=7eZ3p5RM89s",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the characteristic polynomial in r.",
+      "Write the larger characteristic root exactly.",
+      "Iterate from y0=0,y1=1 to write y5."
+    ]
+  },
+  "4Ou2FtsD8X8": {
+    "order": 184,
+    "level": 11,
+    "title": "Introduction to Partial Differential Equations: Classification and Differential Operators",
+    "problem": "Classify u_t=u_xx and apply the spatial operator to u=x^2+t.",
+    "method": "Distinguish independent variables, identify the highest derivative and inspect linearity",
+    "sourceStart": 75.68,
+    "sourceEnd": 135.68,
+    "sourceUrl": "https://www.youtube.com/watch?v=4Ou2FtsD8X8",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "How many independent variables does u(x,t) have?",
+      "What is the highest derivative order in this PDE?",
+      "Apply the second x derivative to x^2+t. Write u_xx.",
+      "The dependent variable and its derivatives occur linearly. Enter linear or nonlinear."
+    ]
+  },
+  "LzMCBbxSMts": {
+    "order": 185,
+    "level": 11,
+    "title": "Quasi-Linear First-Order Partial Differential Equations: Lagrange’s Method",
+    "problem": "Solve u_x+u_y=0 using Lagrange characteristics.",
+    "method": "Use dx/ds=1, dy/ds=1 and du/ds=0, then find invariants along characteristic lines",
+    "sourceStart": 35.52,
+    "sourceEnd": 95.52000000000001,
+    "sourceUrl": "https://www.youtube.com/watch?v=LzMCBbxSMts",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "From dx=dy, write an invariant involving x and y.",
+      "Along each characteristic du=0. Does u remain constant or change? Enter constant or change.",
+      "An initial condition u(x,0)=x^2 selects a specific profile. Write u(x,y)."
+    ]
+  },
+  "8jOqXM8OFh8": {
+    "order": 186,
+    "level": 11,
+    "title": "Laplace’s Equation: Separation of Variables",
+    "problem": "Solve u_xx+u_yy=0 on 0<x<pi, y≥0, with u=0 at x=0,pi, u(x,0)=sin(x), and u→0 as y→infinity.",
+    "method": "Separate u=X(x)Y(y), select the sine spatial mode and the decaying exponential mode",
+    "sourceStart": 102.28,
+    "sourceEnd": 162.28,
+    "sourceUrl": "https://www.youtube.com/watch?v=8jOqXM8OFh8",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "The boundary profile selects X(x)=sin(x). Write X″/X away from zeros.",
+      "The separated equation gives Y″=Y. Write the decaying mode, with unit initial amplitude.",
+      "Multiply the spatial and decaying modes. Write u(x,y)."
+    ]
+  },
+  "Eta7T0DoYu8": {
+    "order": 187,
+    "level": 11,
+    "title": "Fourier Series and Transforms Part 1: Concepts in Frequency Analysis",
+    "problem": "Find Fourier coefficients for f(x)=cos(x) on [−pi,pi], with f=a0/2+sum(an cos(nx)+bn sin(nx)).",
+    "method": "Use orthogonality and the coefficient integrals over the full period",
+    "sourceStart": 175.4,
+    "sourceEnd": 235.4,
+    "sourceUrl": "https://www.youtube.com/watch?v=Eta7T0DoYu8",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Compute a0=(1/pi)integral cos(x) from −pi to pi.",
+      "Compute a1=(1/pi)integral cos(x)^2 over the same interval.",
+      "Compute b1=(1/pi)integral cos(x)sin(x) over the same interval."
+    ]
+  },
+  "CO8NX6qnWko": {
+    "order": 188,
+    "level": 11,
+    "title": "Fourier Series and Transforms Part 2: Power Spectra and K-Space",
+    "problem": "With unitary Fourier normalization, F(omega)=3+4i for 0≤omega≤2 and zero elsewhere. Find its power spectrum and total signal energy.",
+    "method": "Square the complex magnitude to obtain the power spectrum, integrate it, and use Parseval to obtain time-domain energy",
+    "sourceStart": 90.44,
+    "sourceEnd": 150.44,
+    "sourceUrl": "https://www.youtube.com/watch?v=CO8NX6qnWko",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Square the real part of F on the stated interval.",
+      "Add the squared imaginary part. Write the power spectrum on the interval.",
+      "Integrate the power spectrum over the interval. Write total spectral energy.",
+      "Under unitary normalization, Parseval equates spectral and time-domain energy. Write the signal energy."
+    ]
+  },
+  "ETowl5rNz40": {
+    "order": 189,
+    "level": 11,
+    "title": "The Wave Equation Part 1: Vibrations in 1D",
+    "problem": "Solve u_tt=4u_xx on 0<x<pi with fixed ends, initial displacement sin(x), and zero initial velocity.",
+    "method": "Separate space and time, choose the fixed-end sine mode and use initial conditions for its time factor",
+    "sourceStart": 72.64,
+    "sourceEnd": 132.64,
+    "sourceUrl": "https://www.youtube.com/watch?v=ETowl5rNz40",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "The selected mode has wavenumber k=1 and c=2. Write its angular frequency.",
+      "Zero initial velocity and unit displacement amplitude choose what time factor?",
+      "Multiply the selected spatial and time factors. Write u(x,t)."
+    ]
+  },
+  "BKhc7nJ4QAY": {
+    "order": 190,
+    "level": 11,
+    "title": "The Wave Equation Part 2: Multidimensional Waves and Dispersion",
+    "problem": "A wave has dispersion relation omega(k)=k^2. At k=3, find phase and group velocities.",
+    "method": "Use phase velocity omega/k and group velocity d(omega)/dk",
+    "sourceStart": 293.28,
+    "sourceEnd": 353.28,
+    "sourceUrl": "https://www.youtube.com/watch?v=BKhc7nJ4QAY",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Evaluate omega at k=3.",
+      "Divide omega by k to obtain phase velocity.",
+      "Differentiate omega=k^2 and evaluate at k=3 for group velocity."
+    ]
+  },
+  "kRih2ctI3QM": {
+    "order": 191,
+    "level": 11,
+    "title": "The Diffusion Equation Part 1: Separation of Variables",
+    "problem": "Solve u_t=u_xx on 0<x<pi with u=0 at both ends and u(x,0)=sin(x).",
+    "method": "Separate variables, use the fixed-end sine mode and its decaying time exponential",
+    "sourceStart": 85.44,
+    "sourceEnd": 145.44,
+    "sourceUrl": "https://www.youtube.com/watch?v=kRih2ctI3QM",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "For X(x)=sin(x), write X″/X away from zeros.",
+      "The separated equation is T′=−T with T(0)=1. Write T(t).",
+      "Multiply the factors to obtain u(x,t)."
+    ]
+  },
+  "mMVjgURyiB0": {
+    "order": 192,
+    "level": 11,
+    "title": "The Diffusion Equation Part 2: Dimensional Analysis and Self-Similarity",
+    "problem": "For u_t=a u_xx, take diffusivity a=4 length-units^2/time-unit and elapsed time t=9. Find the characteristic diffusion length.",
+    "method": "Use a length scale proportional to sqrt(a t) from dimensional consistency",
+    "sourceStart": 106.88,
+    "sourceEnd": 166.88,
+    "sourceUrl": "https://www.youtube.com/watch?v=mMVjgURyiB0",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Multiply a and t. What is the squared-length scale?",
+      "Take its positive square root to get the characteristic length.",
+      "At fixed a, quadrupling elapsed time multiplies this length by what factor?"
+    ]
+  },
+  "Ghobc7v1-Js": {
+    "order": 193,
+    "level": 11,
+    "title": "The Diffusion Equation Part 3: Green’s Functions",
+    "problem": "For diffusion with a=1 and t=1, use the unit-impulse Green kernel G(x,t)=exp(−x^2/(4at))/sqrt(4pi at). Evaluate the centered response.",
+    "method": "Use the Gaussian impulse response, then convolve or translate it according to the initial source location",
+    "sourceStart": 156.8,
+    "sourceEnd": 216.8,
+    "sourceUrl": "https://www.youtube.com/watch?v=Ghobc7v1-Js",
+    "basis": "Source-caption method review; original practice problem. On-screen notation is not independently transcribed.",
+    "steps": [
+      "Write the denominator sqrt(4pi at) for a=t=1.",
+      "At x=0, the exponential equals 1. Write G(0,1).",
+      "A unit impulse initially at x=2 translates the kernel. Write the response at t=1 as a function of x."
+    ]
+  }
+}

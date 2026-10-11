@@ -1,0 +1,1823 @@
+{
+  "title": "Mathematics (All Of It)",
+  "playlistUrl": "https://www.youtube.com/playlist?list=PLybg94GvOJ9FoGQeUMFZ4SWZsr30jlUYK",
+  "importedAt": "2026-10-11",
+  "levels": [
+    {
+      "id": 1,
+      "title": "Arithmetic",
+      "description": "Build your number sense",
+      "start": 1,
+      "end": 21
+    },
+    {
+      "id": 2,
+      "title": "Algebra",
+      "description": "Turn questions into equations",
+      "start": 22,
+      "end": 46
+    },
+    {
+      "id": 3,
+      "title": "Geometry",
+      "description": "Explore shapes and space",
+      "start": 47,
+      "end": 61
+    },
+    {
+      "id": 4,
+      "title": "Functions & probability",
+      "description": "Connect patterns and possibilities",
+      "start": 62,
+      "end": 84
+    },
+    {
+      "id": 5,
+      "title": "Trigonometry",
+      "description": "Understand angles and waves",
+      "start": 85,
+      "end": 97
+    },
+    {
+      "id": 6,
+      "title": "Differential calculus",
+      "description": "Study how things change",
+      "start": 98,
+      "end": 113
+    },
+    {
+      "id": 7,
+      "title": "Integral calculus & series",
+      "description": "Accumulate, integrate, and sum",
+      "start": 114,
+      "end": 133
+    },
+    {
+      "id": 8,
+      "title": "Linear algebra",
+      "description": "Think in vectors and matrices",
+      "start": 134,
+      "end": 158
+    },
+    {
+      "id": 9,
+      "title": "Multivariable calculus",
+      "description": "Explore change in higher dimensions",
+      "start": 159,
+      "end": 166
+    },
+    {
+      "id": 10,
+      "title": "Differential equations",
+      "description": "Model systems through time",
+      "start": 167,
+      "end": 183
+    },
+    {
+      "id": 11,
+      "title": "Partial differential equations",
+      "description": "Explore waves, heat, and diffusion",
+      "start": 184,
+      "end": 193
+    }
+  ],
+  "lessons": [
+    {
+      "id": "JbhBdOfMEPs",
+      "order": 1,
+      "title": "Introduction to Mathematics",
+      "level": 1,
+      "duration": 404,
+      "url": "https://www.youtube.com/watch?v=JbhBdOfMEPs",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "rV7WjNWHOsI",
+      "order": 2,
+      "title": "Addition and Subtraction of Small Numbers",
+      "level": 1,
+      "duration": 519,
+      "url": "https://www.youtube.com/watch?v=rV7WjNWHOsI",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "fr04p6Ar9ic",
+      "order": 3,
+      "title": "Multiplication and Division of Small Numbers",
+      "level": 1,
+      "duration": 380,
+      "url": "https://www.youtube.com/watch?v=fr04p6Ar9ic",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "qyW2mWvvtZ8",
+      "order": 4,
+      "title": "Understanding Fractions, Improper Fractions, and Mixed Numbers",
+      "level": 1,
+      "duration": 373,
+      "url": "https://www.youtube.com/watch?v=qyW2mWvvtZ8",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "AkWtUOwlUgs",
+      "order": 5,
+      "title": "Large Whole Numbers: Place Values and Estimating",
+      "level": 1,
+      "duration": 269,
+      "url": "https://www.youtube.com/watch?v=AkWtUOwlUgs",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "jC4SWFag6Qw",
+      "order": 6,
+      "title": "Decimals: Notation and Operations",
+      "level": 1,
+      "duration": 261,
+      "url": "https://www.youtube.com/watch?v=jC4SWFag6Qw",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "n9fgcm0Pwgs",
+      "order": 7,
+      "title": "Working With Percentages",
+      "level": 1,
+      "duration": 216,
+      "url": "https://www.youtube.com/watch?v=n9fgcm0Pwgs",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "-Xt4UDk7Kzw",
+      "order": 8,
+      "title": "Converting Between Fractions, Decimals, and Percentages",
+      "level": 1,
+      "duration": 321,
+      "url": "https://www.youtube.com/watch?v=-Xt4UDk7Kzw",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "YFyOsvnr9ig",
+      "order": 9,
+      "title": "Addition and Subtraction of Large Numbers",
+      "level": 1,
+      "duration": 357,
+      "url": "https://www.youtube.com/watch?v=YFyOsvnr9ig",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "LC_R2Zh66fU",
+      "order": 10,
+      "title": "The Distributive Property for Arithmetic",
+      "level": 1,
+      "duration": 199,
+      "url": "https://www.youtube.com/watch?v=LC_R2Zh66fU",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "s1Ly3cX4yHc",
+      "order": 11,
+      "title": "Multiplication of Large Numbers",
+      "level": 1,
+      "duration": 388,
+      "url": "https://www.youtube.com/watch?v=s1Ly3cX4yHc",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "rI2peJT2Ty8",
+      "order": 12,
+      "title": "Division of Large Numbers: Long Division",
+      "level": 1,
+      "duration": 341,
+      "url": "https://www.youtube.com/watch?v=rI2peJT2Ty8",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "3-5DKCLJspM",
+      "order": 13,
+      "title": "Negative Numbers",
+      "level": 1,
+      "duration": 327,
+      "url": "https://www.youtube.com/watch?v=3-5DKCLJspM",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "K_TD9GuP9uQ",
+      "order": 14,
+      "title": "Understanding Exponents and Their Operations",
+      "level": 1,
+      "duration": 522,
+      "url": "https://www.youtube.com/watch?v=K_TD9GuP9uQ",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "y_f7c3ztFrI",
+      "order": 15,
+      "title": "Order of Arithmetic Operations: PEMDAS",
+      "level": 1,
+      "duration": 262,
+      "url": "https://www.youtube.com/watch?v=y_f7c3ztFrI",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "WZWKJG9fxnU",
+      "order": 16,
+      "title": "Divisibility, Prime Numbers, and Prime Factorization",
+      "level": 1,
+      "duration": 354,
+      "url": "https://www.youtube.com/watch?v=WZWKJG9fxnU",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "sae1IoToQ0M",
+      "order": 17,
+      "title": "Least Common Multiple (LCM)",
+      "level": 1,
+      "duration": 340,
+      "url": "https://www.youtube.com/watch?v=sae1IoToQ0M",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "GFmdqe4z9zU",
+      "order": 18,
+      "title": "Greatest Common Factor (GCF)",
+      "level": 1,
+      "duration": 286,
+      "url": "https://www.youtube.com/watch?v=GFmdqe4z9zU",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "-ijpdtjDNZw",
+      "order": 19,
+      "title": "Addition and Subtraction of Fractions",
+      "level": 1,
+      "duration": 247,
+      "url": "https://www.youtube.com/watch?v=-ijpdtjDNZw",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "Q9MCRjrrd6E",
+      "order": 20,
+      "title": "Multiplication and Division of Fractions",
+      "level": 1,
+      "duration": 306,
+      "url": "https://www.youtube.com/watch?v=Q9MCRjrrd6E",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "FM7Q2yVLZIc",
+      "order": 21,
+      "title": "Analyzing Sets of Data: Range, Mean, Median, and Mode",
+      "level": 1,
+      "duration": 346,
+      "url": "https://www.youtube.com/watch?v=FM7Q2yVLZIc",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "WZdZhuUSmpM",
+      "order": 22,
+      "title": "Introduction to Algebra: Using Variables",
+      "level": 2,
+      "duration": 244,
+      "url": "https://www.youtube.com/watch?v=WZdZhuUSmpM",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "0bZ2GcCTtCA",
+      "order": 23,
+      "title": "Basic Number Properties for Algebra",
+      "level": 2,
+      "duration": 316,
+      "url": "https://www.youtube.com/watch?v=0bZ2GcCTtCA",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "2mnQ3t02Tss",
+      "order": 24,
+      "title": "Algebraic Equations and Their Solutions",
+      "level": 2,
+      "duration": 292,
+      "url": "https://www.youtube.com/watch?v=2mnQ3t02Tss",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "aJ0abU348ds",
+      "order": 25,
+      "title": "Algebraic Equations With Variables on Both Sides",
+      "level": 2,
+      "duration": 406,
+      "url": "https://www.youtube.com/watch?v=aJ0abU348ds",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "jOJLfQq9ktw",
+      "order": 26,
+      "title": "Algebraic Word Problems",
+      "level": 2,
+      "duration": 338,
+      "url": "https://www.youtube.com/watch?v=jOJLfQq9ktw",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "uBxs7cSgOes",
+      "order": 27,
+      "title": "Solving Algebraic Inequalities",
+      "level": 2,
+      "duration": 343,
+      "url": "https://www.youtube.com/watch?v=uBxs7cSgOes",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "7vomY6g-f3Q",
+      "order": 28,
+      "title": "Square Roots, Cube Roots, and Other Roots",
+      "level": 2,
+      "duration": 542,
+      "url": "https://www.youtube.com/watch?v=7vomY6g-f3Q",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "OAIctPYiMrw",
+      "order": 29,
+      "title": "Simplifying Expressions With Roots and Exponents",
+      "level": 2,
+      "duration": 503,
+      "url": "https://www.youtube.com/watch?v=OAIctPYiMrw",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "EnJuHTq0ni0",
+      "order": 30,
+      "title": "Solving Algebraic Equations With Roots and Exponents",
+      "level": 2,
+      "duration": 346,
+      "url": "https://www.youtube.com/watch?v=EnJuHTq0ni0",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "nPPNgin7W7Y",
+      "order": 31,
+      "title": "Introduction to Polynomials",
+      "level": 2,
+      "duration": 313,
+      "url": "https://www.youtube.com/watch?v=nPPNgin7W7Y",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "0aJBtUOXpsk",
+      "order": 32,
+      "title": "Adding and Subtracting Polynomials",
+      "level": 2,
+      "duration": 332,
+      "url": "https://www.youtube.com/watch?v=0aJBtUOXpsk",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "RTC7RIwdZcE",
+      "order": 33,
+      "title": "Multiplying Binomials by the FOIL Method",
+      "level": 2,
+      "duration": 385,
+      "url": "https://www.youtube.com/watch?v=RTC7RIwdZcE",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "GuwofNeT9ok",
+      "order": 34,
+      "title": "Solving Quadratics by Factoring",
+      "level": 2,
+      "duration": 577,
+      "url": "https://www.youtube.com/watch?v=GuwofNeT9ok",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "P8W2M0jq2Qs",
+      "order": 35,
+      "title": "Solving Quadratics by Completing the Square",
+      "level": 2,
+      "duration": 452,
+      "url": "https://www.youtube.com/watch?v=P8W2M0jq2Qs",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "UTuxHsaH-gQ",
+      "order": 36,
+      "title": "Solving Quadratics by Using the Quadratic Formula",
+      "level": 2,
+      "duration": 415,
+      "url": "https://www.youtube.com/watch?v=UTuxHsaH-gQ",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "WRkgMDVIETE",
+      "order": 37,
+      "title": "Solving Higher-Degree Polynomials by Synthetic Division and the Rational Roots Test",
+      "level": 2,
+      "duration": 562,
+      "url": "https://www.youtube.com/watch?v=WRkgMDVIETE",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "KfrkcGx2Xl8",
+      "order": 38,
+      "title": "Manipulating Rational Expressions: Simplification and Operations",
+      "level": 2,
+      "duration": 570,
+      "url": "https://www.youtube.com/watch?v=KfrkcGx2Xl8",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "ntzgiu7Ta0s",
+      "order": 39,
+      "title": "Graphing in Algebra: Ordered Pairs and the Coordinate Plane",
+      "level": 2,
+      "duration": 416,
+      "url": "https://www.youtube.com/watch?v=ntzgiu7Ta0s",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "lz8zVJxRFX8",
+      "order": 40,
+      "title": "Graphing Lines in Algebra: Understanding Slopes and Y-Intercepts",
+      "level": 2,
+      "duration": 412,
+      "url": "https://www.youtube.com/watch?v=lz8zVJxRFX8",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "T-acWVybQtk",
+      "order": 41,
+      "title": "Graphing Lines in Slope-Intercept Form (y = mx + b)",
+      "level": 2,
+      "duration": 306,
+      "url": "https://www.youtube.com/watch?v=T-acWVybQtk",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "-DnmoFnQUtk",
+      "order": 42,
+      "title": "Graphing Lines in Standard Form (ax + by = c)",
+      "level": 2,
+      "duration": 333,
+      "url": "https://www.youtube.com/watch?v=-DnmoFnQUtk",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "0oe-GqFrYFU",
+      "order": 43,
+      "title": "Graphing Parallel and Perpendicular Lines",
+      "level": 2,
+      "duration": 287,
+      "url": "https://www.youtube.com/watch?v=0oe-GqFrYFU",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "2DzmE3_QS-E",
+      "order": 44,
+      "title": "Solving Systems of Two Equations and Two Unknowns: Graphing, Substitution, and Elimination",
+      "level": 2,
+      "duration": 621,
+      "url": "https://www.youtube.com/watch?v=2DzmE3_QS-E",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "Wirk4o3FHPA",
+      "order": 45,
+      "title": "Absolute Values: Defining, Calculating, and Graphing",
+      "level": 2,
+      "duration": 310,
+      "url": "https://www.youtube.com/watch?v=Wirk4o3FHPA",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "QUGmwPwtbpg",
+      "order": 46,
+      "title": "What are the Types of Numbers? Real vs. Imaginary, Rational vs. Irrational",
+      "level": 2,
+      "duration": 540,
+      "url": "https://www.youtube.com/watch?v=QUGmwPwtbpg",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "THtc8pDU7J8",
+      "order": 47,
+      "title": "Introduction to Geometry: Ancient Greece and the Pythagoreans",
+      "level": 3,
+      "duration": 240,
+      "url": "https://www.youtube.com/watch?v=THtc8pDU7J8",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "JHMB_ob89qs",
+      "order": 48,
+      "title": "Basic Euclidean Geometry: Points, Lines, and Planes",
+      "level": 3,
+      "duration": 259,
+      "url": "https://www.youtube.com/watch?v=JHMB_ob89qs",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "dA94zyaLuhk",
+      "order": 49,
+      "title": "Types of Angles and Angle Relationships",
+      "level": 3,
+      "duration": 444,
+      "url": "https://www.youtube.com/watch?v=dA94zyaLuhk",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "lQ5AuNVjxhI",
+      "order": 50,
+      "title": "Types of Triangles in Euclidean Geometry",
+      "level": 3,
+      "duration": 325,
+      "url": "https://www.youtube.com/watch?v=lQ5AuNVjxhI",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "mJ4Ms6SXEgg",
+      "order": 51,
+      "title": "Proving Triangle Congruence and Similarity",
+      "level": 3,
+      "duration": 308,
+      "url": "https://www.youtube.com/watch?v=mJ4Ms6SXEgg",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "ByWrUSKHTGc",
+      "order": 52,
+      "title": "Special Lines in Triangles: Bisectors, Medians, and Altitudes",
+      "level": 3,
+      "duration": 380,
+      "url": "https://www.youtube.com/watch?v=ByWrUSKHTGc",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "ojMemmYifxM",
+      "order": 53,
+      "title": "The Triangle Midsegment Theorem",
+      "level": 3,
+      "duration": 188,
+      "url": "https://www.youtube.com/watch?v=ojMemmYifxM",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "37PX8DV_b9Y",
+      "order": 54,
+      "title": "The Pythagorean Theorem",
+      "level": 3,
+      "duration": 302,
+      "url": "https://www.youtube.com/watch?v=37PX8DV_b9Y",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "jTZs8bRoWxE",
+      "order": 55,
+      "title": "Types of Quadrilaterals and Other Polygons",
+      "level": 3,
+      "duration": 377,
+      "url": "https://www.youtube.com/watch?v=jTZs8bRoWxE",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "J11IU3C86Yc",
+      "order": 56,
+      "title": "Calculating the Perimeter of Polygons",
+      "level": 3,
+      "duration": 308,
+      "url": "https://www.youtube.com/watch?v=J11IU3C86Yc",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "SBIv5-7RbQY",
+      "order": 57,
+      "title": "Circles: Radius, Diameter, Chords, Circumference, and Sectors",
+      "level": 3,
+      "duration": 298,
+      "url": "https://www.youtube.com/watch?v=SBIv5-7RbQY",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "_zzV2DV19IU",
+      "order": 58,
+      "title": "Calculating the Area of Shapes",
+      "level": 3,
+      "duration": 399,
+      "url": "https://www.youtube.com/watch?v=_zzV2DV19IU",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "VjI4LtotC2o",
+      "order": 59,
+      "title": "Proving the Pythagorean Theorem",
+      "level": 3,
+      "duration": 214,
+      "url": "https://www.youtube.com/watch?v=VjI4LtotC2o",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "sAd3Eo25Bbg",
+      "order": 60,
+      "title": "Three-Dimensional Shapes Part 1: Types, Calculating Surface Area",
+      "level": 3,
+      "duration": 452,
+      "url": "https://www.youtube.com/watch?v=sAd3Eo25Bbg",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "CI-G9_bTKuw",
+      "order": 61,
+      "title": "Three-Dimensional Shapes Part 2: Calculating Volume",
+      "level": 3,
+      "duration": 377,
+      "url": "https://www.youtube.com/watch?v=CI-G9_bTKuw",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "LmudKHXSMp4",
+      "order": 62,
+      "title": "Back to Algebra: What are Functions?",
+      "level": 4,
+      "duration": 443,
+      "url": "https://www.youtube.com/watch?v=LmudKHXSMp4",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "q3zmcFvHxP4",
+      "order": 63,
+      "title": "Manipulating Functions Algebraically and Evaluating Composite Functions",
+      "level": 4,
+      "duration": 329,
+      "url": "https://www.youtube.com/watch?v=q3zmcFvHxP4",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "EjsQWKq-dGQ",
+      "order": 64,
+      "title": "Graphing Algebraic Functions: Domain and Range, Maxima and Minima",
+      "level": 4,
+      "duration": 354,
+      "url": "https://www.youtube.com/watch?v=EjsQWKq-dGQ",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "MkP1LJR2PyM",
+      "order": 65,
+      "title": "Transforming Algebraic Functions: Shifting, Stretching, and Reflecting",
+      "level": 4,
+      "duration": 472,
+      "url": "https://www.youtube.com/watch?v=MkP1LJR2PyM",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "BIQrnx-vvx8",
+      "order": 66,
+      "title": "Continuous, Discontinuous, and Piecewise Functions",
+      "level": 4,
+      "duration": 318,
+      "url": "https://www.youtube.com/watch?v=BIQrnx-vvx8",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "9fJsrnE1go0",
+      "order": 67,
+      "title": "Inverse Functions",
+      "level": 4,
+      "duration": 389,
+      "url": "https://www.youtube.com/watch?v=9fJsrnE1go0",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "wzQstigxbuo",
+      "order": 68,
+      "title": "The Distance Formula: Finding the Distance Between Two Points",
+      "level": 4,
+      "duration": 218,
+      "url": "https://www.youtube.com/watch?v=wzQstigxbuo",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "JUvo3GrgWHk",
+      "order": 69,
+      "title": "Graphing Conic Sections Part 1: Circles",
+      "level": 4,
+      "duration": 466,
+      "url": "https://www.youtube.com/watch?v=JUvo3GrgWHk",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "iwRlllkqADw",
+      "order": 70,
+      "title": "Graphing Conic Sections Part 2: Ellipses",
+      "level": 4,
+      "duration": 393,
+      "url": "https://www.youtube.com/watch?v=iwRlllkqADw",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "hvJkCMzFiX8",
+      "order": 71,
+      "title": "Graphing Conic Sections Part 3: Parabolas in Standard Form",
+      "level": 4,
+      "duration": 510,
+      "url": "https://www.youtube.com/watch?v=hvJkCMzFiX8",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "h5aVROOmI-Q",
+      "order": 72,
+      "title": "Graphing Conic Sections Part 4: Hyperbolas",
+      "level": 4,
+      "duration": 358,
+      "url": "https://www.youtube.com/watch?v=h5aVROOmI-Q",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "CHEtGgTexHI",
+      "order": 73,
+      "title": "Graphing Higher-Degree Polynomials: The Leading Coefficient Test and Finding Zeros",
+      "level": 4,
+      "duration": 555,
+      "url": "https://www.youtube.com/watch?v=CHEtGgTexHI",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "fy45qX8cUwQ",
+      "order": 74,
+      "title": "Graphing Rational Functions and Their Asymptotes",
+      "level": 4,
+      "duration": 444,
+      "url": "https://www.youtube.com/watch?v=fy45qX8cUwQ",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "Es37gGo5F4Y",
+      "order": 75,
+      "title": "Solving and Graphing Polynomial and Rational Inequalities",
+      "level": 4,
+      "duration": 454,
+      "url": "https://www.youtube.com/watch?v=Es37gGo5F4Y",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "tAaDItpC8OI",
+      "order": 76,
+      "title": "Evaluating and Graphing Exponential Functions",
+      "level": 4,
+      "duration": 359,
+      "url": "https://www.youtube.com/watch?v=tAaDItpC8OI",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "1Yv4fEsGpvM",
+      "order": 77,
+      "title": "Logarithms Part 1: Evaluation of Logs and Graphing Logarithmic Functions",
+      "level": 4,
+      "duration": 490,
+      "url": "https://www.youtube.com/watch?v=1Yv4fEsGpvM",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "sQ2ix7QcGwQ",
+      "order": 78,
+      "title": "Logarithms Part 2: Base Ten Logs, Natural Logs, and the Change-Of-Base Property",
+      "level": 4,
+      "duration": 386,
+      "url": "https://www.youtube.com/watch?v=sQ2ix7QcGwQ",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "MSTSBW8LPRM",
+      "order": 79,
+      "title": "Logarithms Part 3: Properties of Logs, Expanding Logarithmic Expressions",
+      "level": 4,
+      "duration": 426,
+      "url": "https://www.youtube.com/watch?v=MSTSBW8LPRM",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "10I_TVuYLkQ",
+      "order": 80,
+      "title": "Solving Exponential and Logarithmic Equations",
+      "level": 4,
+      "duration": 428,
+      "url": "https://www.youtube.com/watch?v=10I_TVuYLkQ",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "Yddjxj49C_M",
+      "order": 81,
+      "title": "Complex Numbers: Operations, Complex Conjugates, and the Linear Factorization Theorem",
+      "level": 4,
+      "duration": 515,
+      "url": "https://www.youtube.com/watch?v=Yddjxj49C_M",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "6JkCmZAQaio",
+      "order": 82,
+      "title": "Set Theory: Types of Sets, Unions and Intersections",
+      "level": 4,
+      "duration": 382,
+      "url": "https://www.youtube.com/watch?v=6JkCmZAQaio",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "-DPkqpmm1sI",
+      "order": 83,
+      "title": "Sequences, Factorials, and Summation Notation",
+      "level": 4,
+      "duration": 672,
+      "url": "https://www.youtube.com/watch?v=-DPkqpmm1sI",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "0ZsSRx0o0zE",
+      "order": 84,
+      "title": "Theoretical Probability, Permutations and Combinations",
+      "level": 4,
+      "duration": 952,
+      "url": "https://www.youtube.com/watch?v=0ZsSRx0o0zE",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "0GkmnPdD6jY",
+      "order": 85,
+      "title": "Introduction to Trigonometry: Angles and Radians",
+      "level": 5,
+      "duration": 387,
+      "url": "https://www.youtube.com/watch?v=0GkmnPdD6jY",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "cqIZue-plBI",
+      "order": 86,
+      "title": "Trigonometric Functions: Sine, Cosine, Tangent, Cosecant, Secant, and Cotangent",
+      "level": 5,
+      "duration": 438,
+      "url": "https://www.youtube.com/watch?v=cqIZue-plBI",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "75dMcyCUo2g",
+      "order": 87,
+      "title": "The Easiest Way to Memorize the Trigonometric Unit Circle",
+      "level": 5,
+      "duration": 588,
+      "url": "https://www.youtube.com/watch?v=75dMcyCUo2g",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "Ql7ducUjiG0",
+      "order": 88,
+      "title": "Basic Trigonometric Identities: Pythagorean Identities and Cofunction Identities",
+      "level": 5,
+      "duration": 325,
+      "url": "https://www.youtube.com/watch?v=Ql7ducUjiG0",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "8oEjxGjAeQI",
+      "order": 89,
+      "title": "Graphing Trigonometric Functions",
+      "level": 5,
+      "duration": 700,
+      "url": "https://www.youtube.com/watch?v=8oEjxGjAeQI",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "YXWKpgmLgHk",
+      "order": 90,
+      "title": "Inverse Trigonometric Functions",
+      "level": 5,
+      "duration": 414,
+      "url": "https://www.youtube.com/watch?v=YXWKpgmLgHk",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "YYKGkYkKeMM",
+      "order": 91,
+      "title": "Verifying Trigonometric Identities",
+      "level": 5,
+      "duration": 554,
+      "url": "https://www.youtube.com/watch?v=YYKGkYkKeMM",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "0cB4MLhaCk0",
+      "order": 92,
+      "title": "Formulas for Trigonometric Functions: Sum/Difference, Double/Half-Angle, Prod-to-Sum/Sum-to-Prod",
+      "level": 5,
+      "duration": 569,
+      "url": "https://www.youtube.com/watch?v=0cB4MLhaCk0",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "aq4b24jcZOc",
+      "order": 93,
+      "title": "Solving Trigonometric Equations",
+      "level": 5,
+      "duration": 508,
+      "url": "https://www.youtube.com/watch?v=aq4b24jcZOc",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "MmfO1YgzmHI",
+      "order": 94,
+      "title": "The Law of Sines",
+      "level": 5,
+      "duration": 314,
+      "url": "https://www.youtube.com/watch?v=MmfO1YgzmHI",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "3wGQMyaWoLA",
+      "order": 95,
+      "title": "The Law of Cosines",
+      "level": 5,
+      "duration": 278,
+      "url": "https://www.youtube.com/watch?v=3wGQMyaWoLA",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "jwLUapqnwkk",
+      "order": 96,
+      "title": "Polar Coordinates and Graphing Polar Equations",
+      "level": 5,
+      "duration": 646,
+      "url": "https://www.youtube.com/watch?v=jwLUapqnwkk",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "QaN_3TytT_U",
+      "order": 97,
+      "title": "Parametric Equations",
+      "level": 5,
+      "duration": 276,
+      "url": "https://www.youtube.com/watch?v=QaN_3TytT_U",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "rBVi_9qAKTU",
+      "order": 98,
+      "title": "Introduction to Calculus: The Greeks, Newton, and Leibniz",
+      "level": 6,
+      "duration": 520,
+      "url": "https://www.youtube.com/watch?v=rBVi_9qAKTU",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "ktOYbZ8CpLA",
+      "order": 99,
+      "title": "Understanding Differentiation Part 1: The Slope of a Tangent Line",
+      "level": 6,
+      "duration": 329,
+      "url": "https://www.youtube.com/watch?v=ktOYbZ8CpLA",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "J27BZCX1OF8",
+      "order": 100,
+      "title": "Understanding Differentiation Part 2: Rates of Change",
+      "level": 6,
+      "duration": 331,
+      "url": "https://www.youtube.com/watch?v=J27BZCX1OF8",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "wK8WuTEc0ns",
+      "order": 101,
+      "title": "Limits and Limit Laws in Calculus",
+      "level": 6,
+      "duration": 769,
+      "url": "https://www.youtube.com/watch?v=wK8WuTEc0ns",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "x3iEEDxrhyE",
+      "order": 102,
+      "title": "What is a Derivative? Deriving the Power Rule",
+      "level": 6,
+      "duration": 605,
+      "url": "https://www.youtube.com/watch?v=x3iEEDxrhyE",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "aL15O6rS9z0",
+      "order": 103,
+      "title": "Derivatives of Polynomial Functions: Power Rule, Product Rule, and Quotient Rule",
+      "level": 6,
+      "duration": 713,
+      "url": "https://www.youtube.com/watch?v=aL15O6rS9z0",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "_Zqcxbjzyxg",
+      "order": 104,
+      "title": "Derivatives of Trigonometric Functions",
+      "level": 6,
+      "duration": 477,
+      "url": "https://www.youtube.com/watch?v=_Zqcxbjzyxg",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "_x1nCg2LfuA",
+      "order": 105,
+      "title": "Derivatives of Composite Functions: The Chain Rule",
+      "level": 6,
+      "duration": 749,
+      "url": "https://www.youtube.com/watch?v=_x1nCg2LfuA",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "zjKMkbcbtHY",
+      "order": 106,
+      "title": "Derivatives of Logarithmic and Exponential Functions",
+      "level": 6,
+      "duration": 521,
+      "url": "https://www.youtube.com/watch?v=zjKMkbcbtHY",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "M0SMSWM2oZA",
+      "order": 107,
+      "title": "Implicit Differentiation",
+      "level": 6,
+      "duration": 705,
+      "url": "https://www.youtube.com/watch?v=M0SMSWM2oZA",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "zUDxgehxQqs",
+      "order": 108,
+      "title": "Higher Derivatives and Their Applications",
+      "level": 6,
+      "duration": 449,
+      "url": "https://www.youtube.com/watch?v=zUDxgehxQqs",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "j6I3EXiKB2A",
+      "order": 109,
+      "title": "Related Rates in Calculus",
+      "level": 6,
+      "duration": 533,
+      "url": "https://www.youtube.com/watch?v=j6I3EXiKB2A",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "pvLj1s7SOtk",
+      "order": 110,
+      "title": "Finding Local Maxima and Minima by Differentiation",
+      "level": 6,
+      "duration": 377,
+      "url": "https://www.youtube.com/watch?v=pvLj1s7SOtk",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "dIY86WqvGjw",
+      "order": 111,
+      "title": "Graphing Functions and Their Derivatives",
+      "level": 6,
+      "duration": 786,
+      "url": "https://www.youtube.com/watch?v=dIY86WqvGjw",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "q1U6AmIa_uQ",
+      "order": 112,
+      "title": "Optimization Problems in Calculus",
+      "level": 6,
+      "duration": 655,
+      "url": "https://www.youtube.com/watch?v=q1U6AmIa_uQ",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "g45quDrSA6g",
+      "order": 113,
+      "title": "Understanding Limits and L'Hospital's Rule",
+      "level": 6,
+      "duration": 552,
+      "url": "https://www.youtube.com/watch?v=g45quDrSA6g",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "FsC3do74UIo",
+      "order": 114,
+      "title": "What is Integration? Finding the Area Under a Curve",
+      "level": 7,
+      "duration": 498,
+      "url": "https://www.youtube.com/watch?v=FsC3do74UIo",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "NLU9U8-wJrM",
+      "order": 115,
+      "title": "The Fundamental Theorem of Calculus: Redefining Integration",
+      "level": 7,
+      "duration": 578,
+      "url": "https://www.youtube.com/watch?v=NLU9U8-wJrM",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "b0RJkIBhfEM",
+      "order": 116,
+      "title": "Properties of Integrals and Evaluating Definite Integrals",
+      "level": 7,
+      "duration": 588,
+      "url": "https://www.youtube.com/watch?v=b0RJkIBhfEM",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "-xHA2RjVkwY",
+      "order": 117,
+      "title": "Evaluating Indefinite Integrals",
+      "level": 7,
+      "duration": 644,
+      "url": "https://www.youtube.com/watch?v=-xHA2RjVkwY",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "7bJXbDqi9FE",
+      "order": 118,
+      "title": "Evaluating Integrals With Trigonometric Functions",
+      "level": 7,
+      "duration": 452,
+      "url": "https://www.youtube.com/watch?v=7bJXbDqi9FE",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "sci1pls4Lc8",
+      "order": 119,
+      "title": "Integration Using The Substitution Rule",
+      "level": 7,
+      "duration": 640,
+      "url": "https://www.youtube.com/watch?v=sci1pls4Lc8",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "zNU8iK8sGD0",
+      "order": 120,
+      "title": "Integration By Parts",
+      "level": 7,
+      "duration": 797,
+      "url": "https://www.youtube.com/watch?v=zNU8iK8sGD0",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "t3rzxSgvZZk",
+      "order": 121,
+      "title": "Integration By Trigonometric Substitution",
+      "level": 7,
+      "duration": 955,
+      "url": "https://www.youtube.com/watch?v=t3rzxSgvZZk",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "8APOcBqbG-U",
+      "order": 122,
+      "title": "Advanced Strategy for Integration in Calculus",
+      "level": 7,
+      "duration": 973,
+      "url": "https://www.youtube.com/watch?v=8APOcBqbG-U",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "0JOIhPfXnxc",
+      "order": 123,
+      "title": "Evaluating Improper Integrals",
+      "level": 7,
+      "duration": 744,
+      "url": "https://www.youtube.com/watch?v=0JOIhPfXnxc",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "xec6HTcn2M8",
+      "order": 124,
+      "title": "Finding the Area Between Two Curves by Integration",
+      "level": 7,
+      "duration": 472,
+      "url": "https://www.youtube.com/watch?v=xec6HTcn2M8",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "QLHJl2_aM5Q",
+      "order": 125,
+      "title": "Calculating the Volume of a Solid of Revolution by Integration",
+      "level": 7,
+      "duration": 680,
+      "url": "https://www.youtube.com/watch?v=QLHJl2_aM5Q",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "MNU5DT-CDrc",
+      "order": 126,
+      "title": "Calculating Volume by Cylindrical Shells",
+      "level": 7,
+      "duration": 460,
+      "url": "https://www.youtube.com/watch?v=MNU5DT-CDrc",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "56-JCZIkDVU",
+      "order": 127,
+      "title": "The Mean Value Theorem For Integrals: Average Value of a Function",
+      "level": 7,
+      "duration": 444,
+      "url": "https://www.youtube.com/watch?v=56-JCZIkDVU",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "L-JqHo4-W4k",
+      "order": 128,
+      "title": "Convergence and Divergence: The Return of Sequences and Series",
+      "level": 7,
+      "duration": 580,
+      "url": "https://www.youtube.com/watch?v=L-JqHo4-W4k",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "Jtnxi9uM7yA",
+      "order": 129,
+      "title": "Estimating Sums Using the Integral Test and Comparison Test",
+      "level": 7,
+      "duration": 596,
+      "url": "https://www.youtube.com/watch?v=Jtnxi9uM7yA",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "-Md4CEW0-zM",
+      "order": 130,
+      "title": "Alternating Series, Types of Convergence, and the Ratio Test",
+      "level": 7,
+      "duration": 728,
+      "url": "https://www.youtube.com/watch?v=-Md4CEW0-zM",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "OxVBT83x8oc",
+      "order": 131,
+      "title": "Power Series",
+      "level": 7,
+      "duration": 408,
+      "url": "https://www.youtube.com/watch?v=OxVBT83x8oc",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "a58otkmkHtk",
+      "order": 132,
+      "title": "Taylor and Maclaurin Series",
+      "level": 7,
+      "duration": 574,
+      "url": "https://www.youtube.com/watch?v=a58otkmkHtk",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "uMXcKY_w3w4",
+      "order": 133,
+      "title": "Hyperbolic Functions: Definitions, Identities, Derivatives, and Inverses",
+      "level": 7,
+      "duration": 454,
+      "url": "https://www.youtube.com/watch?v=uMXcKY_w3w4",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "5sJdfciNM20",
+      "order": 134,
+      "title": "Three-Dimensional Coordinates and the Right-Hand Rule",
+      "level": 8,
+      "duration": 401,
+      "url": "https://www.youtube.com/watch?v=5sJdfciNM20",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "KBSCMTYaH1s",
+      "order": 135,
+      "title": "Introduction to Vectors and Their Operations",
+      "level": 8,
+      "duration": 617,
+      "url": "https://www.youtube.com/watch?v=KBSCMTYaH1s",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "0iNrGpwZwog",
+      "order": 136,
+      "title": "The Vector Dot Product",
+      "level": 8,
+      "duration": 419,
+      "url": "https://www.youtube.com/watch?v=0iNrGpwZwog",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "csgNflj69-Y",
+      "order": 137,
+      "title": "Introduction to Linear Algebra: Systems of Linear Equations",
+      "level": 8,
+      "duration": 646,
+      "url": "https://www.youtube.com/watch?v=csgNflj69-Y",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "y6bVhgmy2rw",
+      "order": 138,
+      "title": "Understanding Matrices and Matrix Notation",
+      "level": 8,
+      "duration": 326,
+      "url": "https://www.youtube.com/watch?v=y6bVhgmy2rw",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "T2Gtt8WygiU",
+      "order": 139,
+      "title": "Manipulating Matrices: Elementary Row Operations and Gauss-Jordan Elimination",
+      "level": 8,
+      "duration": 636,
+      "url": "https://www.youtube.com/watch?v=T2Gtt8WygiU",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "biyQzy2yRUA",
+      "order": 140,
+      "title": "Types of Matrices and Matrix Addition",
+      "level": 8,
+      "duration": 406,
+      "url": "https://www.youtube.com/watch?v=biyQzy2yRUA",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "P5GJJ02OG08",
+      "order": 141,
+      "title": "Matrix Multiplication and Associated Properties",
+      "level": 8,
+      "duration": 382,
+      "url": "https://www.youtube.com/watch?v=P5GJJ02OG08",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "CcbyMH3Noow",
+      "order": 142,
+      "title": "Evaluating the Determinant of a Matrix",
+      "level": 8,
+      "duration": 429,
+      "url": "https://www.youtube.com/watch?v=CcbyMH3Noow",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "gPnWm-IXoAY",
+      "order": 143,
+      "title": "The Vector Cross Product",
+      "level": 8,
+      "duration": 406,
+      "url": "https://www.youtube.com/watch?v=gPnWm-IXoAY",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "kWorj5BBy9k",
+      "order": 144,
+      "title": "Inverse Matrices and Their Properties",
+      "level": 8,
+      "duration": 720,
+      "url": "https://www.youtube.com/watch?v=kWorj5BBy9k",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "RdLo-9jh2EM",
+      "order": 145,
+      "title": "Solving Systems Using Cramer's Rule",
+      "level": 8,
+      "duration": 463,
+      "url": "https://www.youtube.com/watch?v=RdLo-9jh2EM",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "EP2ghkO0lSk",
+      "order": 146,
+      "title": "Understanding Vector Spaces",
+      "level": 8,
+      "duration": 521,
+      "url": "https://www.youtube.com/watch?v=EP2ghkO0lSk",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "tM4TDL9Hj8U",
+      "order": 147,
+      "title": "Subspaces and Span",
+      "level": 8,
+      "duration": 350,
+      "url": "https://www.youtube.com/watch?v=tM4TDL9Hj8U",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "9kDpbZCK62Y",
+      "order": 148,
+      "title": "Linear Independence",
+      "level": 8,
+      "duration": 776,
+      "url": "https://www.youtube.com/watch?v=9kDpbZCK62Y",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "4C9GKyfUQkc",
+      "order": 149,
+      "title": "Basis and Dimension",
+      "level": 8,
+      "duration": 606,
+      "url": "https://www.youtube.com/watch?v=4C9GKyfUQkc",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "HZa1RwFHgwU",
+      "order": 150,
+      "title": "Change of Basis",
+      "level": 8,
+      "duration": 574,
+      "url": "https://www.youtube.com/watch?v=HZa1RwFHgwU",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "is1cg5yhdds",
+      "order": 151,
+      "title": "Linear Transformations on Vector Spaces",
+      "level": 8,
+      "duration": 551,
+      "url": "https://www.youtube.com/watch?v=is1cg5yhdds",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "vyYrvhbDhW4",
+      "order": 152,
+      "title": "Image and Kernel",
+      "level": 8,
+      "duration": 335,
+      "url": "https://www.youtube.com/watch?v=vyYrvhbDhW4",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "6nqMegdbxik",
+      "order": 153,
+      "title": "Orthogonality and Orthonormality",
+      "level": 8,
+      "duration": 708,
+      "url": "https://www.youtube.com/watch?v=6nqMegdbxik",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "zHbfZWZJTGc",
+      "order": 154,
+      "title": "The Gram-Schmidt Process",
+      "level": 8,
+      "duration": 607,
+      "url": "https://www.youtube.com/watch?v=zHbfZWZJTGc",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "TQvxWaQnrqI",
+      "order": 155,
+      "title": "Finding Eigenvalues and Eigenvectors",
+      "level": 8,
+      "duration": 1030,
+      "url": "https://www.youtube.com/watch?v=TQvxWaQnrqI",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "WTLl03D4TNA",
+      "order": 156,
+      "title": "Diagonalization",
+      "level": 8,
+      "duration": 523,
+      "url": "https://www.youtube.com/watch?v=WTLl03D4TNA",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "DUuTx2nbizM",
+      "order": 157,
+      "title": "Complex, Hermitian, and Unitary Matrices",
+      "level": 8,
+      "duration": 540,
+      "url": "https://www.youtube.com/watch?v=DUuTx2nbizM",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "wHAJzemKQW4",
+      "order": 158,
+      "title": "Further Matrix Decompositions: LU, Cholesky, QR, and SVD",
+      "level": 8,
+      "duration": 610,
+      "url": "https://www.youtube.com/watch?v=wHAJzemKQW4",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "UubU3U2C8WM",
+      "order": 159,
+      "title": "Double and Triple Integrals",
+      "level": 9,
+      "duration": 929,
+      "url": "https://www.youtube.com/watch?v=UubU3U2C8WM",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "AXH9Xm6Rbfc",
+      "order": 160,
+      "title": "Partial Derivatives and the Gradient of a Function",
+      "level": 9,
+      "duration": 657,
+      "url": "https://www.youtube.com/watch?v=AXH9Xm6Rbfc",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "2qxxd68fZng",
+      "order": 161,
+      "title": "Vector Fields, Divergence, and Curl",
+      "level": 9,
+      "duration": 936,
+      "url": "https://www.youtube.com/watch?v=2qxxd68fZng",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "Tz14rC0XvHI",
+      "order": 162,
+      "title": "Evaluating Line Integrals",
+      "level": 9,
+      "duration": 774,
+      "url": "https://www.youtube.com/watch?v=Tz14rC0XvHI",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "kdTxN4E0vbo",
+      "order": 163,
+      "title": "Green's Theorem",
+      "level": 9,
+      "duration": 397,
+      "url": "https://www.youtube.com/watch?v=kdTxN4E0vbo",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "Gml1HT4y3_c",
+      "order": 164,
+      "title": "Evaluating Surface Integrals",
+      "level": 9,
+      "duration": 744,
+      "url": "https://www.youtube.com/watch?v=Gml1HT4y3_c",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "QS-zUSu-nxA",
+      "order": 165,
+      "title": "Stokes's Theorem",
+      "level": 9,
+      "duration": 491,
+      "url": "https://www.youtube.com/watch?v=QS-zUSu-nxA",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "vZGvgru4TwE",
+      "order": 166,
+      "title": "The Divergence Theorem",
+      "level": 9,
+      "duration": 391,
+      "url": "https://www.youtube.com/watch?v=vZGvgru4TwE",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "QbkWlNf2Xtw",
+      "order": 167,
+      "title": "Introduction to Differential Equations",
+      "level": 10,
+      "duration": 274,
+      "url": "https://www.youtube.com/watch?v=QbkWlNf2Xtw",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "lwed4VVYuHo",
+      "order": 168,
+      "title": "Classification of Differential Equations",
+      "level": 10,
+      "duration": 453,
+      "url": "https://www.youtube.com/watch?v=lwed4VVYuHo",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "lbAX_LDjV5o",
+      "order": 169,
+      "title": "Separable First-Order Differential Equations",
+      "level": 10,
+      "duration": 425,
+      "url": "https://www.youtube.com/watch?v=lbAX_LDjV5o",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "rO31HNxBedg",
+      "order": 170,
+      "title": "Linear First-Order Differential Equations",
+      "level": 10,
+      "duration": 286,
+      "url": "https://www.youtube.com/watch?v=rO31HNxBedg",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "sJQIH4m0L_c",
+      "order": 171,
+      "title": "Exact First-Order Differential Equations",
+      "level": 10,
+      "duration": 525,
+      "url": "https://www.youtube.com/watch?v=sJQIH4m0L_c",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "o1AHVHEEChA",
+      "order": 172,
+      "title": "Homogeneous Differential Equations and Bernoulli Differential Equations",
+      "level": 10,
+      "duration": 620,
+      "url": "https://www.youtube.com/watch?v=o1AHVHEEChA",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "MaZatB5UiwU",
+      "order": 173,
+      "title": "Linear Second-Order Differential Equations Part 1: Homogeneous Case",
+      "level": 10,
+      "duration": 620,
+      "url": "https://www.youtube.com/watch?v=MaZatB5UiwU",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "bojO7brQtE8",
+      "order": 174,
+      "title": "Linear Second-Order Differential Equations Part 2: Non-Homogeneous Differential Equations",
+      "level": 10,
+      "duration": 618,
+      "url": "https://www.youtube.com/watch?v=bojO7brQtE8",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "fsjcKgXcTVg",
+      "order": 175,
+      "title": "Special Second-Order Differential Equations: Cauchy-Euler, Nonlinear, and More",
+      "level": 10,
+      "duration": 577,
+      "url": "https://www.youtube.com/watch?v=fsjcKgXcTVg",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "A1JnGhaVJsQ",
+      "order": 176,
+      "title": "Numerical Methods for Solving Differential Equations",
+      "level": 10,
+      "duration": 510,
+      "url": "https://www.youtube.com/watch?v=A1JnGhaVJsQ",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "g8iReAhrJcE",
+      "order": 177,
+      "title": "Power Series Solutions Part 1: Leibniz Method",
+      "level": 10,
+      "duration": 633,
+      "url": "https://www.youtube.com/watch?v=g8iReAhrJcE",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "58_qJyfVl-Y",
+      "order": 178,
+      "title": "Power Series Solutions Part 2: Frobenius Method",
+      "level": 10,
+      "duration": 564,
+      "url": "https://www.youtube.com/watch?v=58_qJyfVl-Y",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "MW97ZFavZ0g",
+      "order": 179,
+      "title": "Systems of Differential Equations Part 1: Modeling and Elimination",
+      "level": 10,
+      "duration": 470,
+      "url": "https://www.youtube.com/watch?v=MW97ZFavZ0g",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "LrzyMJ8CS1g",
+      "order": 180,
+      "title": "Systems of Differential Equations Part 2: Matrices and Stability",
+      "level": 10,
+      "duration": 710,
+      "url": "https://www.youtube.com/watch?v=LrzyMJ8CS1g",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "rrlBRs_etts",
+      "order": 181,
+      "title": "Laplace Transforms Part 1: Solving Differential Equations",
+      "level": 10,
+      "duration": 478,
+      "url": "https://www.youtube.com/watch?v=rrlBRs_etts",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "RecYAjxdcEg",
+      "order": 182,
+      "title": "Laplace Transforms Part 2: Convolutions and LTI Systems",
+      "level": 10,
+      "duration": 899,
+      "url": "https://www.youtube.com/watch?v=RecYAjxdcEg",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "7eZ3p5RM89s",
+      "order": 183,
+      "title": "Difference Equations and Z-Transforms",
+      "level": 10,
+      "duration": 634,
+      "url": "https://www.youtube.com/watch?v=7eZ3p5RM89s",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "4Ou2FtsD8X8",
+      "order": 184,
+      "title": "Introduction to Partial Differential Equations: Classification and Differential Operators",
+      "level": 11,
+      "duration": 656,
+      "url": "https://www.youtube.com/watch?v=4Ou2FtsD8X8",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "LzMCBbxSMts",
+      "order": 185,
+      "title": "Quasi-Linear First-Order Partial Differential Equations: Lagrange\u2019s Method",
+      "level": 11,
+      "duration": 494,
+      "url": "https://www.youtube.com/watch?v=LzMCBbxSMts",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "8jOqXM8OFh8",
+      "order": 186,
+      "title": "Laplace\u2019s Equation: Separation of Variables",
+      "level": 11,
+      "duration": 664,
+      "url": "https://www.youtube.com/watch?v=8jOqXM8OFh8",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "Eta7T0DoYu8",
+      "order": 187,
+      "title": "Fourier Series and Transforms Part 1: Concepts in Frequency Analysis",
+      "level": 11,
+      "duration": 662,
+      "url": "https://www.youtube.com/watch?v=Eta7T0DoYu8",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "CO8NX6qnWko",
+      "order": 188,
+      "title": "Fourier Series and Transforms Part 2: Power Spectra and K-Space",
+      "level": 11,
+      "duration": 398,
+      "url": "https://www.youtube.com/watch?v=CO8NX6qnWko",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "ETowl5rNz40",
+      "order": 189,
+      "title": "The Wave Equation Part 1: Vibrations in 1D",
+      "level": 11,
+      "duration": 615,
+      "url": "https://www.youtube.com/watch?v=ETowl5rNz40",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "BKhc7nJ4QAY",
+      "order": 190,
+      "title": "The Wave Equation Part 2: Multidimensional Waves and Dispersion",
+      "level": 11,
+      "duration": 500,
+      "url": "https://www.youtube.com/watch?v=BKhc7nJ4QAY",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "kRih2ctI3QM",
+      "order": 191,
+      "title": "The Diffusion Equation Part 1: Separation of Variables",
+      "level": 11,
+      "duration": 412,
+      "url": "https://www.youtube.com/watch?v=kRih2ctI3QM",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "mMVjgURyiB0",
+      "order": 192,
+      "title": "The Diffusion Equation Part 2: Dimensional Analysis and Self-Similarity",
+      "level": 11,
+      "duration": 659,
+      "url": "https://www.youtube.com/watch?v=mMVjgURyiB0",
+      "transcriptStatus": "available"
+    },
+    {
+      "id": "Ghobc7v1-Js",
+      "order": 193,
+      "title": "The Diffusion Equation Part 3: Green\u2019s Functions",
+      "level": 11,
+      "duration": 522,
+      "url": "https://www.youtube.com/watch?v=Ghobc7v1-Js",
+      "transcriptStatus": "available"
+    }
+  ]
+}

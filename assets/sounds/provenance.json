@@ -1,0 +1,15 @@
+{
+  "creator": "Kenney",
+  "pack": "Interface Sounds 1.0",
+  "source": "https://kenney.nl/assets/interface-sounds",
+  "license": "CC0 1.0",
+  "mapping": {
+    "tap": "click_003",
+    "correct": "confirmation_002",
+    "retry": "error_004",
+    "complete": "confirmation_004",
+    "combo": "confirmation_003",
+    "fly": "maximize_008"
+  },
+  "modifications": "Decoded Ogg to stereo 44.1k PCM WAV"
+}

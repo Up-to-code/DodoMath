@@ -1,0 +1,117 @@
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css";
+
+@import "nativewind/theme";
+
+@theme {
+  /* ==============================
+     PRIMARY COLORS
+  ============================== */
+  --color-lingua-purple: #6c4ef5;
+  --color-lingua-deep-purple: #5b3bf6;
+  --color-lingua-blue: #4d88ff;
+  --color-lingua-green: #21c16b;
+
+  /* ==============================
+     SEMANTIC COLORS
+  ============================== */
+  --color-success: #21c16b;
+  --color-warning: #ffcb00;
+  --color-streak: #ff8a00;
+  --color-error: #ff4d4f;
+  --color-info: #4d88ff;
+
+  /* ==============================
+     NEUTRAL COLORS
+  ============================== */
+  --color-text-primary: #4B4B4B;
+  --color-text-secondary: #777777;
+  --color-border: #E5E5E5;
+  --color-surface: #F7F7F7;
+  --color-background: #ffffff;
+
+  /* ==============================
+     FONT FAMILIES
+  ============================== */
+  --font-poppins: "Nunito-Regular";
+  --font-poppins-medium: "Nunito-Regular";
+  --font-poppins-semibold: "Nunito-ExtraBold";
+  --font-poppins-bold: "Nunito-ExtraBold";
+}
+
+/* ==============================
+   TYPOGRAPHY UTILITIES (BEM)
+============================== */
+
+/* h1 — Page / Screen Title: 32px · Bold · 1.2 */
+@utility h1 {
+  font-family: "Nunito-ExtraBold";
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+  color: #4B4B4B;
+}
+
+/* h2 — Section Title: 24px · SemiBold · 1.3 */
+@utility h2 {
+  font-family: "Nunito-ExtraBold";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 31px;
+  color: #4B4B4B;
+}
+
+/* h3 — Card / Module Title: 20px · SemiBold · 1.3 */
+@utility h3 {
+  font-family: "Nunito-ExtraBold";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+  color: #4B4B4B;
+}
+
+/* h4 — Subheading: 16px · Medium · 1.4 */
+@utility h4 {
+  font-family: "Nunito-Regular";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #4B4B4B;
+}
+
+/* body-lg — Important content: 16px · Regular · 1.6 */
+@utility body-lg {
+  font-family: "Nunito-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #4B4B4B;
+}
+
+/* body-md — Body text: 14px · Regular · 1.6 */
+@utility body-md {
+  font-family: "Nunito-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #4B4B4B;
+}
+
+/* body-sm — Supporting text: 13px · Regular · 1.6 */
+@utility body-sm {
+  font-family: "Nunito-Regular";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #4B4B4B;
+}
+
+/* caption — Labels, meta text: 11px · Regular · 1.4 */
+@utility caption {
+  font-family: "Nunito-Regular";
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 15px;
+  color: #777777;
+}

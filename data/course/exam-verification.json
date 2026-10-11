@@ -1,0 +1,3880 @@
+[
+  {
+    "lesson": 5,
+    "question": 1,
+    "answer": "500",
+    "compute": "5*100",
+    "grading": "expression"
+  },
+  {
+    "lesson": 5,
+    "question": 2,
+    "answer": "500+60+8",
+    "compute": "568",
+    "grading": "expression"
+  },
+  {
+    "lesson": 5,
+    "question": 3,
+    "answer": "570",
+    "compute": "10*floor(Rational(568,10)+Rational(1,2))",
+    "grading": "expression"
+  },
+  {
+    "lesson": 6,
+    "question": 1,
+    "answer": "7",
+    "compute": "3+4",
+    "grading": "expression"
+  },
+  {
+    "lesson": 6,
+    "question": 2,
+    "answer": "3",
+    "compute": "2+1",
+    "grading": "expression"
+  },
+  {
+    "lesson": 6,
+    "question": 3,
+    "answer": "3.7",
+    "compute": "Rational(23,10)+Rational(14,10)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 7,
+    "question": 1,
+    "answer": "80/100",
+    "compute": "Rational(80,100)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 7,
+    "question": 2,
+    "answer": "20",
+    "compute": "gcd(80,100)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 7,
+    "question": 3,
+    "answer": "4/5",
+    "compute": "Rational(80,100)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 8,
+    "question": 1,
+    "answer": "30/100",
+    "compute": "Rational(30,100)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 8,
+    "question": 2,
+    "answer": "3/10",
+    "compute": "Rational(30,100)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 8,
+    "question": 3,
+    "answer": "0.3",
+    "compute": "Rational(3,10)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 9,
+    "question": 1,
+    "answer": "7",
+    "compute": "3+4",
+    "grading": "expression"
+  },
+  {
+    "lesson": 9,
+    "question": 2,
+    "answer": "1",
+    "compute": "floor((9+1)/10)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 9,
+    "question": 3,
+    "answer": "3907",
+    "compute": "1293+2614",
+    "grading": "expression"
+  },
+  {
+    "lesson": 10,
+    "question": 1,
+    "answer": "5*3+5*4",
+    "compute": "5*(3+4)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 10,
+    "question": 2,
+    "answer": "15",
+    "compute": "5*3",
+    "grading": "expression"
+  },
+  {
+    "lesson": 10,
+    "question": 3,
+    "answer": "35",
+    "compute": "5*3+5*4",
+    "grading": "expression"
+  },
+  {
+    "lesson": 11,
+    "question": 1,
+    "answer": "92",
+    "compute": "23*4",
+    "grading": "expression"
+  },
+  {
+    "lesson": 11,
+    "question": 2,
+    "answer": "230",
+    "compute": "23*10",
+    "grading": "expression"
+  },
+  {
+    "lesson": 11,
+    "question": 3,
+    "answer": "322",
+    "compute": "23*14",
+    "grading": "expression"
+  },
+  {
+    "lesson": 12,
+    "question": 1,
+    "answer": "1",
+    "compute": "floor(Rational(15,12))",
+    "grading": "expression"
+  },
+  {
+    "lesson": 12,
+    "question": 2,
+    "answer": "36",
+    "compute": "(15-12)*10+6",
+    "grading": "expression"
+  },
+  {
+    "lesson": 12,
+    "question": 3,
+    "answer": "13",
+    "compute": "156/12",
+    "grading": "expression"
+  },
+  {
+    "lesson": 13,
+    "question": 1,
+    "answer": "-3",
+    "compute": "-3",
+    "grading": "expression"
+  },
+  {
+    "lesson": 13,
+    "question": 2,
+    "answer": "-4",
+    "compute": "-3-1",
+    "grading": "expression"
+  },
+  {
+    "lesson": 13,
+    "question": 3,
+    "answer": "-8",
+    "compute": "-3-5",
+    "grading": "expression"
+  },
+  {
+    "lesson": 14,
+    "question": 1,
+    "answer": "5",
+    "compute": "3+2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 14,
+    "question": 2,
+    "answer": "2^5",
+    "compute": "2**3*2**2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 14,
+    "question": 3,
+    "answer": "32",
+    "compute": "2**5",
+    "grading": "expression"
+  },
+  {
+    "lesson": 15,
+    "question": 1,
+    "answer": "3",
+    "compute": "4-1",
+    "grading": "expression"
+  },
+  {
+    "lesson": 15,
+    "question": 2,
+    "answer": "9",
+    "compute": "(4-1)**2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 15,
+    "question": 3,
+    "answer": "29",
+    "compute": "2+3*(4-1)**2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 16,
+    "question": 1,
+    "answer": "30",
+    "compute": "60/2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 16,
+    "question": 2,
+    "answer": "15",
+    "compute": "30/2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 16,
+    "question": 3,
+    "answer": "2^2*3*5",
+    "compute": "60",
+    "grading": "expression"
+  },
+  {
+    "lesson": 17,
+    "question": 1,
+    "answer": "2^2*3",
+    "compute": "12",
+    "grading": "expression"
+  },
+  {
+    "lesson": 17,
+    "question": 2,
+    "answer": "2*3^2",
+    "compute": "18",
+    "grading": "expression"
+  },
+  {
+    "lesson": 17,
+    "question": 3,
+    "answer": "36",
+    "compute": "lcm(12,18)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 18,
+    "question": 1,
+    "answer": "1,2,3,6,9,18",
+    "compute": "divisors(18)",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 18,
+    "question": 2,
+    "answer": "1,2,3,4,6,8,12,24",
+    "compute": "divisors(24)",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 18,
+    "question": 3,
+    "answer": "6",
+    "compute": "gcd(18,24)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 19,
+    "question": 1,
+    "answer": "12",
+    "compute": "lcm(3,4)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 19,
+    "question": 2,
+    "answer": "4/12",
+    "compute": "Rational(1,3)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 19,
+    "question": 3,
+    "answer": "7/12",
+    "compute": "Rational(1,3)+Rational(1,4)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 20,
+    "question": 1,
+    "answer": "2",
+    "compute": "1/Rational(1,2)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 20,
+    "question": 2,
+    "answer": "2/3*2",
+    "compute": "Rational(2,3)/Rational(1,2)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 20,
+    "question": 3,
+    "answer": "4/3",
+    "compute": "Rational(2,3)/Rational(1,2)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 21,
+    "question": 1,
+    "answer": "20",
+    "compute": "1+2+2+5+10",
+    "grading": "expression"
+  },
+  {
+    "lesson": 21,
+    "question": 2,
+    "answer": "4",
+    "compute": "(1+2+2+5+10)/5",
+    "grading": "expression"
+  },
+  {
+    "lesson": 21,
+    "question": 3,
+    "answer": "2",
+    "compute": "2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 22,
+    "question": 1,
+    "answer": "2*x",
+    "compute": "2*x",
+    "grading": "expression"
+  },
+  {
+    "lesson": 22,
+    "question": 2,
+    "answer": "2*x+3",
+    "compute": "2*x+3",
+    "grading": "expression"
+  },
+  {
+    "lesson": 22,
+    "question": 3,
+    "answer": "11",
+    "compute": "2*4+3",
+    "grading": "expression"
+  },
+  {
+    "lesson": 23,
+    "question": 1,
+    "answer": "8*x",
+    "compute": "4*2*x",
+    "grading": "expression"
+  },
+  {
+    "lesson": 23,
+    "question": 2,
+    "answer": "12",
+    "compute": "4*3",
+    "grading": "expression"
+  },
+  {
+    "lesson": 23,
+    "question": 3,
+    "answer": "8*x+12",
+    "compute": "4*(2*x+3)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 24,
+    "question": 1,
+    "answer": "9",
+    "compute": "16-7",
+    "grading": "expression"
+  },
+  {
+    "lesson": 24,
+    "question": 2,
+    "answer": "3",
+    "compute": "(16-7)/3",
+    "grading": "expression"
+  },
+  {
+    "lesson": 24,
+    "question": 3,
+    "answer": "16",
+    "compute": "3*3+7",
+    "grading": "expression"
+  },
+  {
+    "lesson": 25,
+    "question": 1,
+    "answer": "3",
+    "compute": "5-2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 25,
+    "question": 2,
+    "answer": "12",
+    "compute": "14-2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 25,
+    "question": 3,
+    "answer": "4",
+    "compute": "(14-2)/(5-2)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 26,
+    "question": 1,
+    "answer": "2*g-3",
+    "compute": "2*g-3",
+    "grading": "expression"
+  },
+  {
+    "lesson": 26,
+    "question": 2,
+    "answer": "18",
+    "compute": "15+3",
+    "grading": "expression"
+  },
+  {
+    "lesson": 26,
+    "question": 3,
+    "answer": "9",
+    "compute": "(15+3)/2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 27,
+    "question": 1,
+    "answer": "6",
+    "compute": "10-4",
+    "grading": "expression"
+  },
+  {
+    "lesson": 27,
+    "question": 2,
+    "answer": "-3",
+    "compute": "(10-4)/(-2)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 28,
+    "question": 1,
+    "answer": "9",
+    "compute": "sqrt(81)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 28,
+    "question": 2,
+    "answer": "-3",
+    "compute": "real_root(-27,3)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 28,
+    "question": 3,
+    "answer": "81",
+    "compute": "9**2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 29,
+    "question": 1,
+    "answer": "36",
+    "compute": "6**2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 29,
+    "question": 2,
+    "answer": "6",
+    "compute": "3*2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 29,
+    "question": 3,
+    "answer": "36*x^6*y^2",
+    "compute": "(6*x**3*y)**2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 30,
+    "question": 1,
+    "answer": "25",
+    "compute": "5**2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 30,
+    "question": 2,
+    "answer": "16",
+    "compute": "5**2-9",
+    "grading": "expression"
+  },
+  {
+    "lesson": 30,
+    "question": 3,
+    "answer": "5",
+    "compute": "sqrt(16+9)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 31,
+    "question": 1,
+    "answer": "2",
+    "compute": "2*(-1)**2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 31,
+    "question": 2,
+    "answer": "-4",
+    "compute": "4*(-1)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 31,
+    "question": 3,
+    "answer": "8",
+    "compute": "2*(-1)**2+4*(-1)+10",
+    "grading": "expression"
+  },
+  {
+    "lesson": 32,
+    "question": 1,
+    "answer": "-x^2+3*x-2",
+    "compute": "-(x**2-3*x+2)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 32,
+    "question": 2,
+    "answer": "4",
+    "compute": "1-(-3)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 32,
+    "question": 3,
+    "answer": "x^2+4*x+3",
+    "compute": "(2*x**2+x+5)-(x**2-3*x+2)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 33,
+    "question": 1,
+    "answer": "x^2",
+    "compute": "x*x",
+    "grading": "expression"
+  },
+  {
+    "lesson": 33,
+    "question": 2,
+    "answer": "x",
+    "compute": "-2*x+3*x",
+    "grading": "expression"
+  },
+  {
+    "lesson": 33,
+    "question": 3,
+    "answer": "x^2+x-6",
+    "compute": "(x+3)*(x-2)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 34,
+    "question": 1,
+    "answer": "2,5",
+    "compute": "[2,5]",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 34,
+    "question": 2,
+    "answer": "(x+2)*(x+5)",
+    "compute": "x**2+7*x+10",
+    "grading": "expression"
+  },
+  {
+    "lesson": 34,
+    "question": 3,
+    "answer": "-5,-2",
+    "compute": "[-5,-2]",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 35,
+    "question": 1,
+    "answer": "1",
+    "compute": "(2/2)**2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 35,
+    "question": 2,
+    "answer": "7",
+    "compute": "6+1",
+    "grading": "expression"
+  },
+  {
+    "lesson": 35,
+    "question": 3,
+    "answer": "sqrt(7)-1",
+    "compute": "sqrt(7)-1",
+    "grading": "expression"
+  },
+  {
+    "lesson": 35,
+    "question": 4,
+    "answer": "-1-sqrt(7)",
+    "compute": "-1-sqrt(7)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 36,
+    "question": 1,
+    "answer": "-5",
+    "compute": "-5",
+    "grading": "expression"
+  },
+  {
+    "lesson": 36,
+    "question": 2,
+    "answer": "1",
+    "compute": "(-5)**2-4*1*6",
+    "grading": "expression"
+  },
+  {
+    "lesson": 36,
+    "question": 3,
+    "answer": "2,3",
+    "compute": "[2,3]",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 37,
+    "question": 1,
+    "answer": "-5",
+    "compute": "-6+1",
+    "grading": "expression"
+  },
+  {
+    "lesson": 37,
+    "question": 2,
+    "answer": "6",
+    "compute": "11-5",
+    "grading": "expression"
+  },
+  {
+    "lesson": 37,
+    "question": 3,
+    "answer": "0",
+    "compute": "-6+6",
+    "grading": "expression"
+  },
+  {
+    "lesson": 37,
+    "question": 4,
+    "answer": "x^2-5*x+6",
+    "compute": "(x**3-6*x**2+11*x-6)/(x-1)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 38,
+    "question": 1,
+    "answer": "(x-1)*(x+1)",
+    "compute": "x**2-1",
+    "grading": "expression"
+  },
+  {
+    "lesson": 38,
+    "question": 2,
+    "answer": "(x-1)/(x+1)",
+    "compute": "(x**2-1)/(x**2+2*x+1)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 38,
+    "question": 3,
+    "answer": "-1",
+    "compute": "-1",
+    "grading": "expression"
+  },
+  {
+    "lesson": 39,
+    "question": 1,
+    "answer": "2",
+    "compute": "2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 39,
+    "question": 2,
+    "answer": "3",
+    "compute": "3",
+    "grading": "expression"
+  },
+  {
+    "lesson": 39,
+    "question": 3,
+    "answer": "2,3",
+    "compute": "[2,3]",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 40,
+    "question": 1,
+    "answer": "4",
+    "compute": "5-1",
+    "grading": "expression"
+  },
+  {
+    "lesson": 40,
+    "question": 2,
+    "answer": "2",
+    "compute": "(5-1)/(2-0)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 40,
+    "question": 3,
+    "answer": "1",
+    "compute": "1",
+    "grading": "expression"
+  },
+  {
+    "lesson": 41,
+    "question": 1,
+    "answer": "2/3",
+    "compute": "Rational(5-3,1-(-2))",
+    "grading": "expression"
+  },
+  {
+    "lesson": 41,
+    "question": 2,
+    "answer": "13/3",
+    "compute": "5-Rational(2,3)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 41,
+    "question": 3,
+    "answer": "2*x/3+13/3",
+    "compute": "Rational(2,3)*x+Rational(13,3)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 42,
+    "question": 1,
+    "answer": "2",
+    "compute": "12/6",
+    "grading": "expression"
+  },
+  {
+    "lesson": 42,
+    "question": 2,
+    "answer": "3",
+    "compute": "12/4",
+    "grading": "expression"
+  },
+  {
+    "lesson": 42,
+    "question": 3,
+    "answer": "0,2",
+    "compute": "[0,2]",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 43,
+    "question": 1,
+    "answer": "-1/4",
+    "compute": "Rational(-1,4)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 43,
+    "question": 2,
+    "answer": "4",
+    "compute": "-1/Rational(-1,4)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 43,
+    "question": 3,
+    "answer": "4*x+1",
+    "compute": "4*x+1",
+    "grading": "expression"
+  },
+  {
+    "lesson": 44,
+    "question": 1,
+    "answer": "4-2*x",
+    "compute": "4-2*x",
+    "grading": "expression"
+  },
+  {
+    "lesson": 44,
+    "question": 2,
+    "answer": "3",
+    "compute": "-9/(-3)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 44,
+    "question": 3,
+    "answer": "-2",
+    "compute": "4-2*3",
+    "grading": "expression"
+  },
+  {
+    "lesson": 45,
+    "question": 1,
+    "answer": "3",
+    "compute": "(5+1)/2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 45,
+    "question": 2,
+    "answer": "-2",
+    "compute": "(-5+1)/2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 45,
+    "question": 3,
+    "answer": "-2,3",
+    "compute": "[-2,3]",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 46,
+    "question": 1,
+    "answer": "1.5",
+    "compute": "Rational(3,2)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 46,
+    "question": 2,
+    "answer": "2*i",
+    "compute": "sqrt(-4)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 47,
+    "question": 1,
+    "answer": "3",
+    "compute": "3",
+    "grading": "expression"
+  },
+  {
+    "lesson": 48,
+    "question": 1,
+    "answer": "0",
+    "compute": "0",
+    "grading": "expression"
+  },
+  {
+    "lesson": 48,
+    "question": 2,
+    "answer": "1",
+    "compute": "1",
+    "grading": "expression"
+  },
+  {
+    "lesson": 48,
+    "question": 3,
+    "answer": "2",
+    "compute": "2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 49,
+    "question": 1,
+    "answer": "180",
+    "compute": "180",
+    "grading": "expression"
+  },
+  {
+    "lesson": 49,
+    "question": 2,
+    "answer": "115",
+    "compute": "180-65",
+    "grading": "expression"
+  },
+  {
+    "lesson": 50,
+    "question": 1,
+    "answer": "110",
+    "compute": "50+60",
+    "grading": "expression"
+  },
+  {
+    "lesson": 50,
+    "question": 2,
+    "answer": "70",
+    "compute": "180-50-60",
+    "grading": "expression"
+  },
+  {
+    "lesson": 50,
+    "question": 3,
+    "answer": "110",
+    "compute": "180-70",
+    "grading": "expression"
+  },
+  {
+    "lesson": 51,
+    "question": 1,
+    "answer": "2",
+    "compute": "6/3",
+    "grading": "expression"
+  },
+  {
+    "lesson": 51,
+    "question": 2,
+    "answer": "2",
+    "compute": "8/4",
+    "grading": "expression"
+  },
+  {
+    "lesson": 51,
+    "question": 3,
+    "answer": "2",
+    "compute": "10/5",
+    "grading": "expression"
+  },
+  {
+    "lesson": 52,
+    "question": 1,
+    "answer": "2",
+    "compute": "2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 52,
+    "question": 2,
+    "answer": "6",
+    "compute": "12/2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 53,
+    "question": 1,
+    "answer": "1/2",
+    "compute": "Rational(1,2)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 53,
+    "question": 2,
+    "answer": "7",
+    "compute": "14/2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 53,
+    "question": 3,
+    "answer": "18",
+    "compute": "9*2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 54,
+    "question": 1,
+    "answer": "25",
+    "compute": "5**2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 54,
+    "question": 2,
+    "answer": "169",
+    "compute": "5**2+12**2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 54,
+    "question": 3,
+    "answer": "13",
+    "compute": "sqrt(5**2+12**2)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 55,
+    "question": 1,
+    "answer": "6",
+    "compute": "6",
+    "grading": "expression"
+  },
+  {
+    "lesson": 55,
+    "question": 2,
+    "answer": "4",
+    "compute": "6-2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 55,
+    "question": 3,
+    "answer": "720",
+    "compute": "(6-2)*180",
+    "grading": "expression"
+  },
+  {
+    "lesson": 56,
+    "question": 1,
+    "answer": "8",
+    "compute": "2*4",
+    "grading": "expression"
+  },
+  {
+    "lesson": 56,
+    "question": 2,
+    "answer": "4",
+    "compute": "2*2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 56,
+    "question": 3,
+    "answer": "12",
+    "compute": "2*4+2*2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 57,
+    "question": 1,
+    "answer": "10",
+    "compute": "2*5",
+    "grading": "expression"
+  },
+  {
+    "lesson": 57,
+    "question": 2,
+    "answer": "10*pi",
+    "compute": "2*pi*5",
+    "grading": "expression"
+  },
+  {
+    "lesson": 57,
+    "question": 3,
+    "answer": "5*pi/2",
+    "compute": "2*pi*5/4",
+    "grading": "expression"
+  },
+  {
+    "lesson": 58,
+    "question": 1,
+    "answer": "12",
+    "compute": "4*3",
+    "grading": "expression"
+  },
+  {
+    "lesson": 58,
+    "question": 2,
+    "answer": "4",
+    "compute": "4*2/2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 58,
+    "question": 3,
+    "answer": "16",
+    "compute": "4*3+4*2/2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 59,
+    "question": 1,
+    "answer": "a^2+2*a*b+b^2",
+    "compute": "(a+b)**2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 59,
+    "question": 2,
+    "answer": "2*a*b",
+    "compute": "4*a*b/2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 59,
+    "question": 3,
+    "answer": "a^2+b^2",
+    "compute": "(a+b)**2-2*a*b",
+    "grading": "expression"
+  },
+  {
+    "lesson": 60,
+    "question": 1,
+    "answer": "6",
+    "compute": "2*3",
+    "grading": "expression"
+  },
+  {
+    "lesson": 60,
+    "question": 2,
+    "answer": "20",
+    "compute": "2*4+3*4",
+    "grading": "expression"
+  },
+  {
+    "lesson": 60,
+    "question": 3,
+    "answer": "52",
+    "compute": "2*(2*3+2*4+3*4)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 61,
+    "question": 1,
+    "answer": "27",
+    "compute": "3**3",
+    "grading": "expression"
+  },
+  {
+    "lesson": 61,
+    "question": 2,
+    "answer": "36",
+    "compute": "Rational(4,3)*3**3",
+    "grading": "expression"
+  },
+  {
+    "lesson": 61,
+    "question": 3,
+    "answer": "36*pi",
+    "compute": "Rational(4,3)*pi*3**3",
+    "grading": "expression"
+  },
+  {
+    "lesson": 62,
+    "question": 1,
+    "answer": "2",
+    "compute": "2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 62,
+    "question": 3,
+    "answer": "2",
+    "compute": "2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 63,
+    "question": 1,
+    "answer": "2*(x-5)+1",
+    "compute": "2*(x-5)+1",
+    "grading": "expression"
+  },
+  {
+    "lesson": 63,
+    "question": 2,
+    "answer": "2*x-9",
+    "compute": "2*(x-5)+1",
+    "grading": "expression"
+  },
+  {
+    "lesson": 63,
+    "question": 3,
+    "answer": "3",
+    "compute": "2*(6-5)+1",
+    "grading": "expression"
+  },
+  {
+    "lesson": 64,
+    "question": 1,
+    "answer": "4",
+    "compute": "(-2)**2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 64,
+    "question": 2,
+    "answer": "0",
+    "compute": "0",
+    "grading": "expression"
+  },
+  {
+    "lesson": 64,
+    "question": 3,
+    "answer": "0",
+    "compute": "0**2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 65,
+    "question": 1,
+    "answer": "-2",
+    "compute": "-2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 65,
+    "question": 2,
+    "answer": "0",
+    "compute": "(-2+2)**2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 65,
+    "question": 3,
+    "answer": "-2,0",
+    "compute": "[-2,0]",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 66,
+    "question": 2,
+    "answer": "-3",
+    "compute": "-2-1",
+    "grading": "expression"
+  },
+  {
+    "lesson": 66,
+    "question": 3,
+    "answer": "5",
+    "compute": "5",
+    "grading": "expression"
+  },
+  {
+    "lesson": 67,
+    "question": 1,
+    "answer": "x-3",
+    "compute": "x-3",
+    "grading": "expression"
+  },
+  {
+    "lesson": 67,
+    "question": 2,
+    "answer": "(x-3)/2",
+    "compute": "(x-3)/2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 67,
+    "question": 3,
+    "answer": "4",
+    "compute": "(11-3)/2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 68,
+    "question": 1,
+    "answer": "4",
+    "compute": "2-(-2)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 68,
+    "question": 2,
+    "answer": "25",
+    "compute": "(2-(-2))**2+(5-2)**2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 68,
+    "question": 3,
+    "answer": "5",
+    "compute": "sqrt((2-(-2))**2+(5-2)**2)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 69,
+    "question": 1,
+    "answer": "2",
+    "compute": "2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 69,
+    "question": 2,
+    "answer": "3",
+    "compute": "3",
+    "grading": "expression"
+  },
+  {
+    "lesson": 69,
+    "question": 3,
+    "answer": "4",
+    "compute": "sqrt(16)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 70,
+    "question": 1,
+    "answer": "3",
+    "compute": "sqrt(9)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 70,
+    "question": 2,
+    "answer": "2",
+    "compute": "sqrt(4)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 70,
+    "question": 3,
+    "answer": "sqrt(5)",
+    "compute": "sqrt(9-4)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 71,
+    "question": 1,
+    "answer": "4",
+    "compute": "(4/2)**2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 71,
+    "question": 2,
+    "answer": "(x+2)^2-3",
+    "compute": "x**2+4*x+1",
+    "grading": "expression"
+  },
+  {
+    "lesson": 71,
+    "question": 3,
+    "answer": "-2,-3",
+    "compute": "[-2,-3]",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 72,
+    "question": 1,
+    "answer": "3",
+    "compute": "sqrt(9)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 72,
+    "question": 2,
+    "answer": "2",
+    "compute": "sqrt(4)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 72,
+    "question": 3,
+    "answer": "sqrt(13)",
+    "compute": "sqrt(9+4)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 73,
+    "question": 1,
+    "answer": "x^3",
+    "compute": "x**3",
+    "grading": "expression"
+  },
+  {
+    "lesson": 73,
+    "question": 2,
+    "answer": "-1,0,2",
+    "compute": "[-1,0,2]",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 74,
+    "question": 1,
+    "answer": "(x-3)*(x+3)",
+    "compute": "x**2-9",
+    "grading": "expression"
+  },
+  {
+    "lesson": 74,
+    "question": 2,
+    "answer": "-3,3",
+    "compute": "[-3,3]",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 74,
+    "question": 3,
+    "answer": "0",
+    "compute": "limit(x/(x**2-9),x,oo)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 75,
+    "question": 1,
+    "answer": "(x+5)*(x+1)",
+    "compute": "x**2+6*x+5",
+    "grading": "expression"
+  },
+  {
+    "lesson": 75,
+    "question": 2,
+    "answer": "-4",
+    "compute": "(-3)**2+6*(-3)+5",
+    "grading": "expression"
+  },
+  {
+    "lesson": 76,
+    "question": 1,
+    "answer": "1",
+    "compute": "Rational(1,2)**0",
+    "grading": "expression"
+  },
+  {
+    "lesson": 76,
+    "question": 2,
+    "answer": "4",
+    "compute": "Rational(1,2)**(-2)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 76,
+    "question": 3,
+    "answer": "0",
+    "compute": "limit(Rational(1,2)**x,x,oo)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 77,
+    "question": 2,
+    "answer": "3",
+    "compute": "log(8,2)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 77,
+    "question": 3,
+    "answer": "8",
+    "compute": "2**3",
+    "grading": "expression"
+  },
+  {
+    "lesson": 78,
+    "question": 1,
+    "answer": "ln(8)/ln(2)",
+    "compute": "log(8)/log(2)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 78,
+    "question": 2,
+    "answer": "3",
+    "compute": "log(8)/log(2)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 78,
+    "question": 3,
+    "answer": "1",
+    "compute": "log(E)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 79,
+    "question": 1,
+    "answer": "ln(10)+ln(x^2)",
+    "compute": "log(10)+log(x**2)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 79,
+    "question": 2,
+    "answer": "2*ln(x)",
+    "compute": "2*log(x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 79,
+    "question": 3,
+    "answer": "ln(10)+2*ln(x)",
+    "compute": "log(10)+2*log(x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 80,
+    "question": 1,
+    "answer": "3",
+    "compute": "log(27,3)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 80,
+    "question": 2,
+    "answer": "10",
+    "compute": "3+7",
+    "grading": "expression"
+  },
+  {
+    "lesson": 80,
+    "question": 3,
+    "answer": "5",
+    "compute": "(3+7)/2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 81,
+    "question": 1,
+    "answer": "2",
+    "compute": "2*I*(-I)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 81,
+    "question": 2,
+    "answer": "5*i",
+    "compute": "-I+6*I",
+    "grading": "expression"
+  },
+  {
+    "lesson": 81,
+    "question": 3,
+    "answer": "5+5*i",
+    "compute": "(1+2*I)*(3-I)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 82,
+    "question": 1,
+    "answer": "5,9",
+    "compute": "[5,9]",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 82,
+    "question": 2,
+    "answer": "2",
+    "compute": "len(set([1,4,5,9,13]) & set([2,5,6,8,9]))",
+    "grading": "expression"
+  },
+  {
+    "lesson": 82,
+    "question": 3,
+    "answer": "1,2,4,5,6,8,9,13",
+    "compute": "[1,2,4,5,6,8,9,13]",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 83,
+    "question": 1,
+    "answer": "4*3*2*1",
+    "compute": "factorial(4)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 83,
+    "question": 2,
+    "answer": "24",
+    "compute": "factorial(4)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 83,
+    "question": 3,
+    "answer": "10",
+    "compute": "summation(n,(n,1,4))",
+    "grading": "expression"
+  },
+  {
+    "lesson": 84,
+    "question": 1,
+    "answer": "25",
+    "compute": "5+3+7+10",
+    "grading": "expression"
+  },
+  {
+    "lesson": 84,
+    "question": 2,
+    "answer": "5",
+    "compute": "5",
+    "grading": "expression"
+  },
+  {
+    "lesson": 84,
+    "question": 3,
+    "answer": "1/5",
+    "compute": "Rational(5,5+3+7+10)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 85,
+    "question": 1,
+    "answer": "pi/180",
+    "compute": "pi/180",
+    "grading": "expression"
+  },
+  {
+    "lesson": 85,
+    "question": 2,
+    "answer": "5*pi/6",
+    "compute": "150*pi/180",
+    "grading": "expression"
+  },
+  {
+    "lesson": 85,
+    "question": 3,
+    "answer": "pi",
+    "compute": "5*pi-2*(2*pi)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 86,
+    "question": 1,
+    "answer": "5/13",
+    "compute": "Rational(5,13)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 86,
+    "question": 2,
+    "answer": "12/13",
+    "compute": "Rational(12,13)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 86,
+    "question": 3,
+    "answer": "5/12",
+    "compute": "Rational(5,12)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 87,
+    "question": 1,
+    "answer": "1/2",
+    "compute": "sin(pi/6)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 87,
+    "question": 2,
+    "answer": "sqrt(3)/2",
+    "compute": "cos(pi/6)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 87,
+    "question": 3,
+    "answer": "sqrt(3)/2,1/2",
+    "compute": "[cos(pi/6),sin(pi/6)]",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 88,
+    "question": 1,
+    "answer": "9/25",
+    "compute": "Rational(3,5)**2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 88,
+    "question": 2,
+    "answer": "16/25",
+    "compute": "1-Rational(3,5)**2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 88,
+    "question": 3,
+    "answer": "4/5",
+    "compute": "sqrt(1-Rational(3,5)**2)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 89,
+    "question": 1,
+    "answer": "2",
+    "compute": "abs(2)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 89,
+    "question": 2,
+    "answer": "2*pi/3",
+    "compute": "2*pi/3",
+    "grading": "expression"
+  },
+  {
+    "lesson": 89,
+    "question": 3,
+    "answer": "2",
+    "compute": "2*sin(3*pi/6)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 90,
+    "question": 1,
+    "answer": "pi/6",
+    "compute": "asin(Rational(1,2))",
+    "grading": "expression"
+  },
+  {
+    "lesson": 90,
+    "question": 2,
+    "answer": "2*pi/3",
+    "compute": "acos(Rational(-1,2))",
+    "grading": "expression"
+  },
+  {
+    "lesson": 90,
+    "question": 3,
+    "answer": "1/2",
+    "compute": "sin(pi/6)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 91,
+    "question": 1,
+    "answer": "sin(x)/cos(x)",
+    "compute": "tan(x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 91,
+    "question": 2,
+    "answer": "sin(x)^2+cos(x)^2",
+    "compute": "sin(x)**2+cos(x)**2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 91,
+    "question": 3,
+    "answer": "1/cos(x)",
+    "compute": "sin(x)*tan(x)+cos(x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 92,
+    "question": 1,
+    "answer": "9/25",
+    "compute": "Rational(3,5)**2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 92,
+    "question": 2,
+    "answer": "16/25",
+    "compute": "Rational(4,5)**2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 92,
+    "question": 3,
+    "answer": "-7/25",
+    "compute": "Rational(3,5)**2-Rational(4,5)**2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 93,
+    "question": 1,
+    "answer": "1",
+    "compute": "2-1",
+    "grading": "expression"
+  },
+  {
+    "lesson": 93,
+    "question": 2,
+    "answer": "1/2",
+    "compute": "Rational(1,2)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 93,
+    "question": 3,
+    "answer": "pi/6,5*pi/6",
+    "compute": "[pi/6,5*pi/6]",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 94,
+    "question": 1,
+    "answer": "90",
+    "compute": "180-30-60",
+    "grading": "expression"
+  },
+  {
+    "lesson": 94,
+    "question": 2,
+    "answer": "10",
+    "compute": "5/sin(pi/6)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 94,
+    "question": 3,
+    "answer": "5*sqrt(3)",
+    "compute": "5*sin(pi/3)/sin(pi/6)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 95,
+    "question": 1,
+    "answer": "25",
+    "compute": "3**2+4**2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 95,
+    "question": 2,
+    "answer": "12",
+    "compute": "2*3*4*cos(pi/3)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 95,
+    "question": 3,
+    "answer": "sqrt(13)",
+    "compute": "sqrt(3**2+4**2-2*3*4*cos(pi/3))",
+    "grading": "expression"
+  },
+  {
+    "lesson": 96,
+    "question": 1,
+    "answer": "1/2",
+    "compute": "cos(pi/3)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 96,
+    "question": 2,
+    "answer": "1",
+    "compute": "2*cos(pi/3)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 96,
+    "question": 3,
+    "answer": "sqrt(3)",
+    "compute": "2*sin(pi/3)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 97,
+    "question": 1,
+    "answer": "x/2",
+    "compute": "x/2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 97,
+    "question": 2,
+    "answer": "x^2/4",
+    "compute": "(x/2)**2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 97,
+    "question": 3,
+    "answer": "4,4",
+    "compute": "[2*2,2**2]",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 98,
+    "question": 1,
+    "answer": "2",
+    "compute": "2*2/2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 98,
+    "question": 2,
+    "answer": "4",
+    "compute": "2**2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 99,
+    "question": 1,
+    "answer": "3",
+    "compute": "(2**2-1)/(2-1)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 99,
+    "question": 2,
+    "answer": "2.5",
+    "compute": "(Rational(3,2)**2-1)/(Rational(3,2)-1)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 99,
+    "question": 3,
+    "answer": "2",
+    "compute": "limit((x**2-1)/(x-1),x,1)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 100,
+    "question": 1,
+    "answer": "9.8*t",
+    "compute": "diff(Rational(49,10)*t**2,t)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 100,
+    "question": 2,
+    "answer": "49",
+    "compute": "diff(Rational(49,10)*t**2,t).subs(t,5)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 100,
+    "question": 3,
+    "answer": "9.8",
+    "compute": "diff(Rational(49,10)*t**2,t,2)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 101,
+    "question": 1,
+    "answer": "(x-1)*(x+1)",
+    "compute": "x**2-1",
+    "grading": "expression"
+  },
+  {
+    "lesson": 101,
+    "question": 2,
+    "answer": "1/(x+1)",
+    "compute": "(x-1)/(x**2-1)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 101,
+    "question": 3,
+    "answer": "1/2",
+    "compute": "limit((x-1)/(x**2-1),x,1)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 102,
+    "question": 1,
+    "answer": "2*x*h+h^2",
+    "compute": "(x+h)**2-x**2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 102,
+    "question": 2,
+    "answer": "2*x+h",
+    "compute": "((x+h)**2-x**2)/h",
+    "grading": "expression"
+  },
+  {
+    "lesson": 102,
+    "question": 3,
+    "answer": "2*x",
+    "compute": "limit(((x+h)**2-x**2)/h,h,0)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 103,
+    "question": 1,
+    "answer": "2*x",
+    "compute": "diff(x**2,x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 103,
+    "question": 2,
+    "answer": "2*x*(x+1)+x^2",
+    "compute": "diff(x**2*(x+1),x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 103,
+    "question": 3,
+    "answer": "3*x^2+2*x",
+    "compute": "diff(x**2*(x+1),x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 104,
+    "question": 1,
+    "answer": "-sin(x)",
+    "compute": "diff(cos(x),x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 104,
+    "question": 2,
+    "answer": "cos(x)^2+sin(x)^2",
+    "compute": "cos(x)*cos(x)-sin(x)*(-sin(x))",
+    "grading": "expression"
+  },
+  {
+    "lesson": 104,
+    "question": 3,
+    "answer": "1/cos(x)^2",
+    "compute": "diff(tan(x),x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 105,
+    "question": 1,
+    "answer": "2*x",
+    "compute": "diff(x**2,x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 105,
+    "question": 2,
+    "answer": "cos(x^2)",
+    "compute": "cos(x**2)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 105,
+    "question": 3,
+    "answer": "2*x*cos(x^2)",
+    "compute": "diff(sin(x**2),x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 106,
+    "question": 1,
+    "answer": "1/sin(x)",
+    "compute": "1/sin(x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 106,
+    "question": 2,
+    "answer": "cos(x)",
+    "compute": "diff(sin(x),x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 106,
+    "question": 3,
+    "answer": "cos(x)/sin(x)",
+    "compute": "diff(log(sin(x)),x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 107,
+    "question": 1,
+    "answer": "2*x",
+    "compute": "diff(x**2,x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 107,
+    "question": 2,
+    "answer": "2*y",
+    "compute": "diff(y**2,y)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 107,
+    "question": 3,
+    "answer": "-x/y",
+    "compute": "-2*x/(2*y)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 108,
+    "question": 1,
+    "answer": "6*x+4",
+    "compute": "diff(3*x**2+4*x-5,x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 108,
+    "question": 2,
+    "answer": "6",
+    "compute": "diff(3*x**2+4*x-5,x,2)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 108,
+    "question": 3,
+    "answer": "0",
+    "compute": "diff(3*x**2+4*x-5,x,3)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 109,
+    "question": 1,
+    "answer": "4*pi*r^2",
+    "compute": "diff(Rational(4,3)*pi*r**3,r)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 109,
+    "question": 2,
+    "answer": "2500*pi",
+    "compute": "4*pi*25**2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 109,
+    "question": 3,
+    "answer": "1/(25*pi)",
+    "compute": "100/(4*pi*25**2)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 110,
+    "question": 1,
+    "answer": "2*x-4",
+    "compute": "diff(x**2-4*x+3,x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 110,
+    "question": 2,
+    "answer": "2",
+    "compute": "solve(diff(x**2-4*x+3,x),x)[0]",
+    "grading": "expression"
+  },
+  {
+    "lesson": 110,
+    "question": 3,
+    "answer": "-2",
+    "compute": "diff(x**2-4*x+3,x).subs(x,1)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 111,
+    "question": 1,
+    "answer": "3*x^2",
+    "compute": "diff(x**3,x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 111,
+    "question": 2,
+    "answer": "6*x",
+    "compute": "diff(x**3,x,2)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 111,
+    "question": 3,
+    "answer": "-6",
+    "compute": "diff(x**3,x,2).subs(x,-1)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 112,
+    "question": 1,
+    "answer": "24-2*x",
+    "compute": "24-2*x",
+    "grading": "expression"
+  },
+  {
+    "lesson": 112,
+    "question": 2,
+    "answer": "24-4*x",
+    "compute": "diff(x*(24-2*x),x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 112,
+    "question": 3,
+    "answer": "6",
+    "compute": "solve(diff(x*(24-2*x),x),x)[0]",
+    "grading": "expression"
+  },
+  {
+    "lesson": 112,
+    "question": 4,
+    "answer": "72",
+    "compute": "6*(24-2*6)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 113,
+    "question": 1,
+    "answer": "cos(x)",
+    "compute": "diff(sin(x),x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 113,
+    "question": 2,
+    "answer": "1",
+    "compute": "diff(x,x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 113,
+    "question": 3,
+    "answer": "1",
+    "compute": "limit(cos(x),x,0)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 114,
+    "question": 1,
+    "answer": "1",
+    "compute": "(2-0)/2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 114,
+    "question": 2,
+    "answer": "3",
+    "compute": "1*1+2*1",
+    "grading": "expression"
+  },
+  {
+    "lesson": 114,
+    "question": 3,
+    "answer": "2",
+    "compute": "2*2/2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 115,
+    "question": 1,
+    "answer": "x^2",
+    "compute": "integrate(2*x,x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 115,
+    "question": 2,
+    "answer": "9",
+    "compute": "integrate(2*x,x).subs(x,3)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 115,
+    "question": 3,
+    "answer": "9",
+    "compute": "integrate(2*x,(x,0,3))",
+    "grading": "expression"
+  },
+  {
+    "lesson": 116,
+    "question": 1,
+    "answer": "x^3/3+x",
+    "compute": "integrate(x**2+1,x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 116,
+    "question": 2,
+    "answer": "14/3",
+    "compute": "integrate(x**2+1,x).subs(x,2)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 116,
+    "question": 3,
+    "answer": "14/3",
+    "compute": "integrate(x**2+1,(x,0,2))",
+    "grading": "expression"
+  },
+  {
+    "lesson": 117,
+    "question": 1,
+    "answer": "x^3",
+    "compute": "integrate(3*x**2,x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 117,
+    "question": 2,
+    "answer": "2*x",
+    "compute": "integrate(2,x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 117,
+    "question": 3,
+    "answer": "x^3+2*x+C",
+    "compute": "integrate(3*x**2+2,x)+C",
+    "grading": "expression"
+  },
+  {
+    "lesson": 118,
+    "question": 1,
+    "answer": "-sin(x)",
+    "compute": "diff(cos(x),x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 118,
+    "question": 2,
+    "answer": "-cos(x)",
+    "compute": "integrate(sin(x),x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 118,
+    "question": 3,
+    "answer": "-cos(x)+C",
+    "compute": "integrate(sin(x),x)+C",
+    "grading": "expression"
+  },
+  {
+    "lesson": 119,
+    "question": 1,
+    "answer": "x^2+1",
+    "compute": "x**2+1",
+    "grading": "expression"
+  },
+  {
+    "lesson": 119,
+    "question": 2,
+    "answer": "sin(u)",
+    "compute": "integrate(cos(u),u)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 119,
+    "question": 3,
+    "answer": "sin(x^2+1)+C",
+    "compute": "sin(x**2+1)+C",
+    "grading": "expression"
+  },
+  {
+    "lesson": 120,
+    "question": 1,
+    "answer": "1",
+    "compute": "diff(x,x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 120,
+    "question": 2,
+    "answer": "-cos(x)",
+    "compute": "integrate(sin(x),x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 120,
+    "question": 3,
+    "answer": "-x*cos(x)+sin(x)+C",
+    "compute": "integrate(x*sin(x),x)+C",
+    "grading": "expression"
+  },
+  {
+    "lesson": 121,
+    "question": 1,
+    "answer": "3*sin(theta)",
+    "compute": "3*sin(theta)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 121,
+    "question": 2,
+    "answer": "3*cos(theta)",
+    "compute": "diff(3*sin(theta),theta)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 121,
+    "question": 3,
+    "answer": "asin(x/3)+C",
+    "compute": "asin(x/3)+C",
+    "grading": "expression"
+  },
+  {
+    "lesson": 122,
+    "question": 1,
+    "answer": "2*x",
+    "compute": "diff(x**2+4,x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 122,
+    "question": 2,
+    "answer": "sqrt(u)",
+    "compute": "integrate(u**Rational(-1,2)/2,u)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 122,
+    "question": 3,
+    "answer": "sqrt(x^2+4)+C",
+    "compute": "sqrt(x**2+4)+C",
+    "grading": "expression"
+  },
+  {
+    "lesson": 123,
+    "question": 1,
+    "answer": "-1/x",
+    "compute": "integrate(x**(-2),x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 123,
+    "question": 2,
+    "answer": "1-1/T",
+    "compute": "integrate(x**(-2),(x,1,T))",
+    "grading": "expression"
+  },
+  {
+    "lesson": 123,
+    "question": 3,
+    "answer": "1",
+    "compute": "limit(1-1/T,T,oo)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 124,
+    "question": 1,
+    "answer": "x^2-x+1",
+    "compute": "x**2+1-x",
+    "grading": "expression"
+  },
+  {
+    "lesson": 124,
+    "question": 2,
+    "answer": "x^3/3-x^2/2+x",
+    "compute": "integrate(x**2-x+1,x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 124,
+    "question": 3,
+    "answer": "5/6",
+    "compute": "integrate(x**2-x+1,(x,0,1))",
+    "grading": "expression"
+  },
+  {
+    "lesson": 125,
+    "question": 1,
+    "answer": "x^2-x^4",
+    "compute": "x**2-(x**2)**2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 125,
+    "question": 2,
+    "answer": "pi*(x^3/3-x^5/5)",
+    "compute": "integrate(pi*(x**2-x**4),x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 125,
+    "question": 3,
+    "answer": "2*pi/15",
+    "compute": "integrate(pi*(x**2-x**4),(x,0,1))",
+    "grading": "expression"
+  },
+  {
+    "lesson": 126,
+    "question": 1,
+    "answer": "x^2",
+    "compute": "x*x",
+    "grading": "expression"
+  },
+  {
+    "lesson": 126,
+    "question": 2,
+    "answer": "2*pi*x^3/3",
+    "compute": "integrate(2*pi*x**2,x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 126,
+    "question": 3,
+    "answer": "2*pi/3",
+    "compute": "integrate(2*pi*x**2,(x,0,1))",
+    "grading": "expression"
+  },
+  {
+    "lesson": 127,
+    "question": 1,
+    "answer": "3",
+    "compute": "3-0",
+    "grading": "expression"
+  },
+  {
+    "lesson": 127,
+    "question": 2,
+    "answer": "9",
+    "compute": "integrate(x**2,(x,0,3))",
+    "grading": "expression"
+  },
+  {
+    "lesson": 127,
+    "question": 3,
+    "answer": "3",
+    "compute": "integrate(x**2,(x,0,3))/3",
+    "grading": "expression"
+  },
+  {
+    "lesson": 128,
+    "question": 1,
+    "answer": "1/2",
+    "compute": "Rational(1,2)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 128,
+    "question": 2,
+    "answer": "7/4",
+    "compute": "1+Rational(1,2)+Rational(1,4)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 128,
+    "question": 3,
+    "answer": "2",
+    "compute": "1/(1-Rational(1,2))",
+    "grading": "expression"
+  },
+  {
+    "lesson": 129,
+    "question": 1,
+    "answer": "-2/x^3",
+    "compute": "diff(x**(-2),x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 129,
+    "question": 2,
+    "answer": "1",
+    "compute": "integrate(x**(-2),(x,1,oo))",
+    "grading": "expression"
+  },
+  {
+    "lesson": 130,
+    "question": 1,
+    "answer": "0",
+    "compute": "limit(1/n,n,oo)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 131,
+    "question": 1,
+    "answer": "3",
+    "compute": "3",
+    "grading": "expression"
+  },
+  {
+    "lesson": 131,
+    "question": 2,
+    "answer": "1",
+    "compute": "1",
+    "grading": "expression"
+  },
+  {
+    "lesson": 132,
+    "question": 1,
+    "answer": "1",
+    "compute": "exp(0)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 132,
+    "question": 2,
+    "answer": "1/2",
+    "compute": "exp(0)/factorial(2)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 132,
+    "question": 3,
+    "answer": "1+x+x^2/2",
+    "compute": "1+x+x**2/2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 133,
+    "question": 1,
+    "answer": "0",
+    "compute": "sinh(0)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 133,
+    "question": 2,
+    "answer": "1",
+    "compute": "cosh(0)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 133,
+    "question": 3,
+    "answer": "1",
+    "compute": "cosh(0)**2-sinh(0)**2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 134,
+    "question": 1,
+    "answer": "4",
+    "compute": "4",
+    "grading": "expression"
+  },
+  {
+    "lesson": 134,
+    "question": 2,
+    "answer": "2,3,0",
+    "compute": "[2,3,0]",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 134,
+    "question": 3,
+    "answer": "8",
+    "compute": "2**3",
+    "grading": "expression"
+  },
+  {
+    "lesson": 135,
+    "question": 1,
+    "answer": "3",
+    "compute": "2+1",
+    "grading": "expression"
+  },
+  {
+    "lesson": 135,
+    "question": 2,
+    "answer": "3",
+    "compute": "-1+4",
+    "grading": "expression"
+  },
+  {
+    "lesson": 135,
+    "question": 3,
+    "answer": "3,3,1",
+    "compute": "list(Matrix([2,-1,3])+Matrix([1,4,-2]))",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 136,
+    "question": 1,
+    "answer": "2",
+    "compute": "2*1",
+    "grading": "expression"
+  },
+  {
+    "lesson": 136,
+    "question": 2,
+    "answer": "-12",
+    "compute": "4*(-3)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 136,
+    "question": 3,
+    "answer": "-10",
+    "compute": "Matrix([2,4]).dot(Matrix([1,-3]))",
+    "grading": "expression"
+  },
+  {
+    "lesson": 137,
+    "question": 1,
+    "answer": "2",
+    "compute": "2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 137,
+    "question": 2,
+    "answer": "y/m",
+    "compute": "y/m",
+    "grading": "expression"
+  },
+  {
+    "lesson": 137,
+    "question": 3,
+    "answer": "5",
+    "compute": "10/2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 138,
+    "question": 1,
+    "answer": "2,3,7",
+    "compute": "[2,3,7]",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 138,
+    "question": 2,
+    "answer": "1,-1,1",
+    "compute": "[1,-1,1]",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 138,
+    "question": 3,
+    "answer": "3",
+    "compute": "3",
+    "grading": "expression"
+  },
+  {
+    "lesson": 139,
+    "question": 1,
+    "answer": "0,-3,-6",
+    "compute": "list(Matrix([[2,-1,0]])-2*Matrix([[1,1,3]]))",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 139,
+    "question": 2,
+    "answer": "2",
+    "compute": "-6/(-3)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 139,
+    "question": 3,
+    "answer": "1",
+    "compute": "3-2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 140,
+    "question": 1,
+    "answer": "6",
+    "compute": "1+5",
+    "grading": "expression"
+  },
+  {
+    "lesson": 140,
+    "question": 2,
+    "answer": "8",
+    "compute": "2+6",
+    "grading": "expression"
+  },
+  {
+    "lesson": 140,
+    "question": 3,
+    "answer": "6,8,10,12",
+    "compute": "list(Matrix([[1,2],[3,4]])+Matrix([[5,6],[7,8]]))",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 141,
+    "question": 1,
+    "answer": "19",
+    "compute": "1*5+2*7",
+    "grading": "expression"
+  },
+  {
+    "lesson": 141,
+    "question": 2,
+    "answer": "22",
+    "compute": "1*6+2*8",
+    "grading": "expression"
+  },
+  {
+    "lesson": 141,
+    "question": 3,
+    "answer": "19,22,43,50",
+    "compute": "list(Matrix([[1,2],[3,4]])*Matrix([[5,6],[7,8]]))",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 142,
+    "question": 1,
+    "answer": "4",
+    "compute": "1*4",
+    "grading": "expression"
+  },
+  {
+    "lesson": 142,
+    "question": 2,
+    "answer": "6",
+    "compute": "2*3",
+    "grading": "expression"
+  },
+  {
+    "lesson": 142,
+    "question": 3,
+    "answer": "-2",
+    "compute": "Matrix([[1,2],[3,4]]).det()",
+    "grading": "expression"
+  },
+  {
+    "lesson": 143,
+    "question": 1,
+    "answer": "0",
+    "compute": "0*0-0*1",
+    "grading": "expression"
+  },
+  {
+    "lesson": 143,
+    "question": 2,
+    "answer": "0",
+    "compute": "0*0-1*0",
+    "grading": "expression"
+  },
+  {
+    "lesson": 143,
+    "question": 3,
+    "answer": "0,0,1",
+    "compute": "list(Matrix([1,0,0]).cross(Matrix([0,1,0])))",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 144,
+    "question": 1,
+    "answer": "-2",
+    "compute": "Matrix([[1,2],[3,4]]).det()",
+    "grading": "expression"
+  },
+  {
+    "lesson": 144,
+    "question": 2,
+    "answer": "4,-2,-3,1",
+    "compute": "list(Matrix([[1,2],[3,4]]).adjugate())",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 144,
+    "question": 3,
+    "answer": "-2,1,3/2,-1/2",
+    "compute": "list(Matrix([[1,2],[3,4]]).inv())",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 145,
+    "question": 1,
+    "answer": "-4",
+    "compute": "Matrix([[1,3],[2,2]]).det()",
+    "grading": "expression"
+  },
+  {
+    "lesson": 145,
+    "question": 2,
+    "answer": "-4",
+    "compute": "Matrix([[7,3],[6,2]]).det()",
+    "grading": "expression"
+  },
+  {
+    "lesson": 145,
+    "question": 3,
+    "answer": "1",
+    "compute": "Matrix([[7,3],[6,2]]).det()/Matrix([[1,3],[2,2]]).det()",
+    "grading": "expression"
+  },
+  {
+    "lesson": 145,
+    "question": 4,
+    "answer": "2",
+    "compute": "Matrix([[1,7],[2,6]]).det()/Matrix([[1,3],[2,2]]).det()",
+    "grading": "expression"
+  },
+  {
+    "lesson": 146,
+    "question": 1,
+    "answer": "4,1,0",
+    "compute": "list(Matrix([1,2,0])+Matrix([3,-1,0]))",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 146,
+    "question": 2,
+    "answer": "-2,-4,0",
+    "compute": "list(-2*Matrix([1,2,0]))",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 146,
+    "question": 3,
+    "answer": "0",
+    "compute": "0",
+    "grading": "expression"
+  },
+  {
+    "lesson": 147,
+    "question": 1,
+    "answer": "1,0,-1",
+    "compute": "[1,0,-1]",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 147,
+    "question": 2,
+    "answer": "3,0,-3",
+    "compute": "[3,0,-3]",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 147,
+    "question": 3,
+    "answer": "1",
+    "compute": "Matrix([[1],[0],[-1]]).rank()",
+    "grading": "expression"
+  },
+  {
+    "lesson": 148,
+    "question": 1,
+    "answer": "0",
+    "compute": "0/2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 148,
+    "question": 2,
+    "answer": "0",
+    "compute": "0",
+    "grading": "expression"
+  },
+  {
+    "lesson": 149,
+    "question": 1,
+    "answer": "4",
+    "compute": "2*2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 149,
+    "question": 2,
+    "answer": "0,1,0,0",
+    "compute": "[0,1,0,0]",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 149,
+    "question": 3,
+    "answer": "4",
+    "compute": "4",
+    "grading": "expression"
+  },
+  {
+    "lesson": 150,
+    "question": 1,
+    "answer": "6",
+    "compute": "2+4",
+    "grading": "expression"
+  },
+  {
+    "lesson": 150,
+    "question": 2,
+    "answer": "3",
+    "compute": "(2+4)/2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 150,
+    "question": 3,
+    "answer": "3,-1",
+    "compute": "list(Matrix([[1,1],[1,-1]]).inv()*Matrix([2,4]))",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 151,
+    "question": 1,
+    "answer": "6",
+    "compute": "2*3",
+    "grading": "expression"
+  },
+  {
+    "lesson": 151,
+    "question": 2,
+    "answer": "6,7",
+    "compute": "[2*3,3+4]",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 151,
+    "question": 3,
+    "answer": "12,14",
+    "compute": "[2*6,6+8]",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 152,
+    "question": 1,
+    "answer": "0",
+    "compute": "0",
+    "grading": "expression"
+  },
+  {
+    "lesson": 152,
+    "question": 2,
+    "answer": "0,1,1",
+    "compute": "[0,1,1]",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 152,
+    "question": 3,
+    "answer": "2,2",
+    "compute": "[2,5-3]",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 153,
+    "question": 1,
+    "answer": "0",
+    "compute": "Matrix([3,4]).dot(Matrix([-4,3]))",
+    "grading": "expression"
+  },
+  {
+    "lesson": 153,
+    "question": 2,
+    "answer": "5",
+    "compute": "sqrt(3**2+4**2)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 153,
+    "question": 3,
+    "answer": "3/5,4/5",
+    "compute": "list(Matrix([3,4])/5)",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 154,
+    "question": 1,
+    "answer": "1/2",
+    "compute": "Matrix([1,0]).dot(Matrix([1,1]))/Matrix([1,1]).dot(Matrix([1,1]))",
+    "grading": "expression"
+  },
+  {
+    "lesson": 154,
+    "question": 2,
+    "answer": "1/2,-1/2",
+    "compute": "list(Matrix([1,0])-Rational(1,2)*Matrix([1,1]))",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 154,
+    "question": 3,
+    "answer": "0",
+    "compute": "Matrix([1,1]).dot(Matrix([Rational(1,2),Rational(-1,2)]))",
+    "grading": "expression"
+  },
+  {
+    "lesson": 155,
+    "question": 1,
+    "answer": "lambda^2-2*lambda-3",
+    "compute": "(Matrix([[1,1],[4,1]])-lam*eye(2)).det()",
+    "grading": "expression"
+  },
+  {
+    "lesson": 155,
+    "question": 2,
+    "answer": "-1,3",
+    "compute": "[-1,3]",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 155,
+    "question": 3,
+    "answer": "1,2",
+    "compute": "[1,2]",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 156,
+    "question": 1,
+    "answer": "1,-2",
+    "compute": "[1,-2]",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 156,
+    "question": 2,
+    "answer": "1,2",
+    "compute": "[1,2]",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 156,
+    "question": 3,
+    "answer": "-1,0,0,3",
+    "compute": "[-1,0,0,3]",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 156,
+    "question": 4,
+    "answer": "4",
+    "compute": "Matrix([[1,1],[-2,2]]).det()",
+    "grading": "expression"
+  },
+  {
+    "lesson": 157,
+    "question": 1,
+    "answer": "-i",
+    "compute": "conjugate(I)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 157,
+    "question": 2,
+    "answer": "i",
+    "compute": "conjugate(-I)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 158,
+    "question": 1,
+    "answer": "3",
+    "compute": "3",
+    "grading": "expression"
+  },
+  {
+    "lesson": 158,
+    "question": 2,
+    "answer": "1",
+    "compute": "7-2*3",
+    "grading": "expression"
+  },
+  {
+    "lesson": 158,
+    "question": 3,
+    "answer": "1,1",
+    "compute": "list((Matrix([[1,0],[2,1]])*Matrix([[2,1],[0,1]])).inv()*Matrix([3,7]))",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 159,
+    "question": 1,
+    "answer": "x+2*x^2*y",
+    "compute": "integrate(1+4*x*y,x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 159,
+    "question": 2,
+    "answer": "1+2*y",
+    "compute": "integrate(1+4*x*y,(x,0,1))",
+    "grading": "expression"
+  },
+  {
+    "lesson": 159,
+    "question": 3,
+    "answer": "10",
+    "compute": "integrate(integrate(1+4*x*y,(x,0,1)),(y,1,3))",
+    "grading": "expression"
+  },
+  {
+    "lesson": 160,
+    "question": 1,
+    "answer": "2*x*y",
+    "compute": "diff(x**2*y+3*y,x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 160,
+    "question": 2,
+    "answer": "x^2+3",
+    "compute": "diff(x**2*y+3*y,y)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 160,
+    "question": 3,
+    "answer": "4,7",
+    "compute": "[4,7]",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 161,
+    "question": 1,
+    "answer": "x+y+z",
+    "compute": "diff(x*y,x)+diff(y*z,y)+diff(z*x,z)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 161,
+    "question": 2,
+    "answer": "-y",
+    "compute": "diff(z*x,y)-diff(y*z,z)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 161,
+    "question": 3,
+    "answer": "-y,-z,-x",
+    "compute": "[diff(z*x,y)-diff(y*z,z),diff(x*y,z)-diff(z*x,x),diff(y*z,x)-diff(x*y,y)]",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 162,
+    "question": 1,
+    "answer": "1",
+    "compute": "sqrt(1**2+0**2)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 162,
+    "question": 2,
+    "answer": "t",
+    "compute": "t*1",
+    "grading": "expression"
+  },
+  {
+    "lesson": 162,
+    "question": 3,
+    "answer": "2",
+    "compute": "integrate(t,(t,0,2))",
+    "grading": "expression"
+  },
+  {
+    "lesson": 163,
+    "question": 1,
+    "answer": "1/2",
+    "compute": "diff(x/2,x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 163,
+    "question": 2,
+    "answer": "1",
+    "compute": "diff(x/2,x)-diff(-y/2,y)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 163,
+    "question": 3,
+    "answer": "pi",
+    "compute": "integrate(integrate(r,(r,0,1)),(theta,0,2*pi))",
+    "grading": "expression"
+  },
+  {
+    "lesson": 164,
+    "question": 1,
+    "answer": "0,0,1",
+    "compute": "list(Matrix([1,0,0]).cross(Matrix([0,1,0])))",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 164,
+    "question": 2,
+    "answer": "1",
+    "compute": "sqrt(0**2+0**2+1**2)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 164,
+    "question": 3,
+    "answer": "6",
+    "compute": "integrate(integrate(3,(u,0,2)),(v,0,1))",
+    "grading": "expression"
+  },
+  {
+    "lesson": 165,
+    "question": 1,
+    "answer": "0,0,1",
+    "compute": "[0,0,diff(x/2,x)-diff(-y/2,y)]",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 165,
+    "question": 2,
+    "answer": "1",
+    "compute": "Matrix([0,0,1]).dot(Matrix([0,0,1]))",
+    "grading": "expression"
+  },
+  {
+    "lesson": 165,
+    "question": 3,
+    "answer": "pi",
+    "compute": "pi*1**2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 166,
+    "question": 1,
+    "answer": "3",
+    "compute": "diff(x,x)+diff(y,y)+diff(z,z)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 166,
+    "question": 2,
+    "answer": "1",
+    "compute": "1*1*1",
+    "grading": "expression"
+  },
+  {
+    "lesson": 166,
+    "question": 3,
+    "answer": "3",
+    "compute": "integrate(integrate(integrate(3,(x,0,1)),(y,0,1)),(z,0,1))",
+    "grading": "expression"
+  },
+  {
+    "lesson": 167,
+    "question": 1,
+    "answer": "2*exp(2*x)",
+    "compute": "diff(exp(2*x),x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 167,
+    "question": 2,
+    "answer": "2*exp(2*x)",
+    "compute": "2*exp(2*x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 168,
+    "question": 1,
+    "answer": "2",
+    "compute": "2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 169,
+    "question": 1,
+    "answer": "2*x",
+    "compute": "2*x",
+    "grading": "expression"
+  },
+  {
+    "lesson": 169,
+    "question": 2,
+    "answer": "x^2",
+    "compute": "integrate(2*x,x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 169,
+    "question": 3,
+    "answer": "3",
+    "compute": "3/exp(0)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 169,
+    "question": 4,
+    "answer": "3*exp(x^2)",
+    "compute": "3*exp(x**2)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 170,
+    "question": 1,
+    "answer": "exp(2*x)",
+    "compute": "exp(integrate(2,x))",
+    "grading": "expression"
+  },
+  {
+    "lesson": 170,
+    "question": 2,
+    "answer": "2*exp(2*x)",
+    "compute": "integrate(4*exp(2*x),x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 170,
+    "question": 3,
+    "answer": "-1",
+    "compute": "1-2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 170,
+    "question": 4,
+    "answer": "2-exp(-2*x)",
+    "compute": "2-exp(-2*x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 171,
+    "question": 1,
+    "answer": "2*x",
+    "compute": "diff(2*x*y+1,y)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 171,
+    "question": 2,
+    "answer": "2*x",
+    "compute": "diff(x**2,x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 171,
+    "question": 3,
+    "answer": "x^2*y+x",
+    "compute": "integrate(2*x*y+1,x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 172,
+    "question": 1,
+    "answer": "1/x",
+    "compute": "1/x",
+    "grading": "expression"
+  },
+  {
+    "lesson": 172,
+    "question": 2,
+    "answer": "ln(x)+C",
+    "compute": "integrate(1/x,x)+C",
+    "grading": "expression"
+  },
+  {
+    "lesson": 172,
+    "question": 3,
+    "answer": "x*(ln(x)+C)",
+    "compute": "x*(log(x)+C)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 173,
+    "question": 1,
+    "answer": "r^2-3*r+2",
+    "compute": "r**2-3*r+2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 173,
+    "question": 2,
+    "answer": "1,2",
+    "compute": "solve(r**2-3*r+2,r)",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 173,
+    "question": 3,
+    "answer": "A*exp(x)+B*exp(2*x)",
+    "compute": "A*exp(x)+B*exp(2*x)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 174,
+    "question": 1,
+    "answer": "-1,1",
+    "compute": "solve(r**2-1,r)",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 174,
+    "question": 2,
+    "answer": "-2",
+    "compute": "-2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 174,
+    "question": 3,
+    "answer": "A*exp(x)+B*exp(-x)-2",
+    "compute": "A*exp(x)+B*exp(-x)-2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 175,
+    "question": 1,
+    "answer": "r^2-r-2",
+    "compute": "r**2-r-2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 175,
+    "question": 2,
+    "answer": "-1,2",
+    "compute": "solve(r**2-r-2,r)",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 175,
+    "question": 3,
+    "answer": "A/x+B*x^2",
+    "compute": "A/x+B*x**2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 176,
+    "question": 1,
+    "answer": "1",
+    "compute": "1",
+    "grading": "expression"
+  },
+  {
+    "lesson": 176,
+    "question": 2,
+    "answer": "1.1",
+    "compute": "1+Rational(1,10)*1",
+    "grading": "expression"
+  },
+  {
+    "lesson": 176,
+    "question": 3,
+    "answer": "1.21",
+    "compute": "Rational(11,10)+Rational(1,10)*Rational(11,10)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 177,
+    "question": 1,
+    "answer": "1",
+    "compute": "1",
+    "grading": "expression"
+  },
+  {
+    "lesson": 177,
+    "question": 2,
+    "answer": "2",
+    "compute": "2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 177,
+    "question": 3,
+    "answer": "1/6",
+    "compute": "Rational(1,3*2)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 177,
+    "question": 4,
+    "answer": "1+2*x+x^3/6+x^4/6",
+    "compute": "1+2*x+x**3/6+x**4/6",
+    "grading": "expression"
+  },
+  {
+    "lesson": 178,
+    "question": 1,
+    "answer": "3*r^2-2*r",
+    "compute": "3*r*(r-1)+r",
+    "grading": "expression"
+  },
+  {
+    "lesson": 178,
+    "question": 2,
+    "answer": "0,2/3",
+    "compute": "solve(3*r**2-2*r,r)",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 178,
+    "question": 3,
+    "answer": "A+B*x^(2/3)",
+    "compute": "A+B*x**Rational(2,3)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 179,
+    "question": 1,
+    "answer": "-x",
+    "compute": "-x",
+    "grading": "expression"
+  },
+  {
+    "lesson": 179,
+    "question": 2,
+    "answer": "cos(t)",
+    "compute": "cos(t)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 179,
+    "question": 3,
+    "answer": "-sin(t)",
+    "compute": "diff(cos(t),t)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 180,
+    "question": 1,
+    "answer": "-2,-1",
+    "compute": "[-2,-1]",
+    "grading": "ordered-values"
+  },
+  {
+    "lesson": 180,
+    "question": 2,
+    "answer": "exp(-t)",
+    "compute": "exp(-t)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 180,
+    "question": 3,
+    "answer": "3*exp(-2*t)",
+    "compute": "3*exp(-2*t)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 181,
+    "question": 1,
+    "answer": "s*Y-2",
+    "compute": "s*Y-2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 181,
+    "question": 2,
+    "answer": "2/(s+1)",
+    "compute": "2/(s+1)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 181,
+    "question": 3,
+    "answer": "2*exp(-t)",
+    "compute": "2*exp(-t)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 182,
+    "question": 1,
+    "answer": "exp(-(t-tau))",
+    "compute": "exp(-(t-tau))",
+    "grading": "expression"
+  },
+  {
+    "lesson": 182,
+    "question": 2,
+    "answer": "exp(tau-t)",
+    "compute": "integrate(exp(-(t-tau)),tau)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 182,
+    "question": 3,
+    "answer": "1-exp(-t)",
+    "compute": "integrate(exp(-(t-tau)),(tau,0,t))",
+    "grading": "expression"
+  },
+  {
+    "lesson": 183,
+    "question": 1,
+    "answer": "r^2-r-1",
+    "compute": "r**2-r-1",
+    "grading": "expression"
+  },
+  {
+    "lesson": 183,
+    "question": 2,
+    "answer": "(1+sqrt(5))/2",
+    "compute": "(1+sqrt(5))/2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 183,
+    "question": 3,
+    "answer": "5",
+    "compute": "fibonacci(5)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 184,
+    "question": 1,
+    "answer": "2",
+    "compute": "2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 184,
+    "question": 2,
+    "answer": "2",
+    "compute": "2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 184,
+    "question": 3,
+    "answer": "2",
+    "compute": "diff(x**2+t,x,2)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 185,
+    "question": 1,
+    "answer": "y-x",
+    "compute": "y-x",
+    "grading": "expression"
+  },
+  {
+    "lesson": 185,
+    "question": 3,
+    "answer": "(x-y)^2",
+    "compute": "(x-y)**2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 186,
+    "question": 1,
+    "answer": "-1",
+    "compute": "-1",
+    "grading": "expression"
+  },
+  {
+    "lesson": 186,
+    "question": 2,
+    "answer": "exp(-y)",
+    "compute": "exp(-y)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 186,
+    "question": 3,
+    "answer": "sin(x)*exp(-y)",
+    "compute": "sin(x)*exp(-y)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 187,
+    "question": 1,
+    "answer": "0",
+    "compute": "integrate(cos(x),(x,-pi,pi))/pi",
+    "grading": "expression"
+  },
+  {
+    "lesson": 187,
+    "question": 2,
+    "answer": "1",
+    "compute": "integrate(cos(x)**2,(x,-pi,pi))/pi",
+    "grading": "expression"
+  },
+  {
+    "lesson": 187,
+    "question": 3,
+    "answer": "0",
+    "compute": "integrate(cos(x)*sin(x),(x,-pi,pi))/pi",
+    "grading": "expression"
+  },
+  {
+    "lesson": 188,
+    "question": 1,
+    "answer": "9",
+    "compute": "3**2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 188,
+    "question": 2,
+    "answer": "25",
+    "compute": "3**2+4**2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 188,
+    "question": 3,
+    "answer": "50",
+    "compute": "integrate(25,(x,0,2))",
+    "grading": "expression"
+  },
+  {
+    "lesson": 188,
+    "question": 4,
+    "answer": "50",
+    "compute": "50",
+    "grading": "expression"
+  },
+  {
+    "lesson": 189,
+    "question": 1,
+    "answer": "2",
+    "compute": "2*1",
+    "grading": "expression"
+  },
+  {
+    "lesson": 189,
+    "question": 2,
+    "answer": "cos(2*t)",
+    "compute": "cos(2*t)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 189,
+    "question": 3,
+    "answer": "sin(x)*cos(2*t)",
+    "compute": "sin(x)*cos(2*t)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 190,
+    "question": 1,
+    "answer": "9",
+    "compute": "3**2",
+    "grading": "expression"
+  },
+  {
+    "lesson": 190,
+    "question": 2,
+    "answer": "3",
+    "compute": "3**2/3",
+    "grading": "expression"
+  },
+  {
+    "lesson": 190,
+    "question": 3,
+    "answer": "6",
+    "compute": "diff(k**2,k).subs(k,3)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 191,
+    "question": 1,
+    "answer": "-1",
+    "compute": "-1",
+    "grading": "expression"
+  },
+  {
+    "lesson": 191,
+    "question": 2,
+    "answer": "exp(-t)",
+    "compute": "exp(-t)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 191,
+    "question": 3,
+    "answer": "sin(x)*exp(-t)",
+    "compute": "sin(x)*exp(-t)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 192,
+    "question": 1,
+    "answer": "36",
+    "compute": "4*9",
+    "grading": "expression"
+  },
+  {
+    "lesson": 192,
+    "question": 2,
+    "answer": "6",
+    "compute": "sqrt(4*9)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 192,
+    "question": 3,
+    "answer": "2",
+    "compute": "sqrt(4)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 193,
+    "question": 1,
+    "answer": "2*sqrt(pi)",
+    "compute": "sqrt(4*pi*1*1)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 193,
+    "question": 2,
+    "answer": "1/(2*sqrt(pi))",
+    "compute": "1/sqrt(4*pi)",
+    "grading": "expression"
+  },
+  {
+    "lesson": 193,
+    "question": 3,
+    "answer": "exp(-(x-2)^2/4)/(2*sqrt(pi))",
+    "compute": "exp(-(x-2)**2/4)/sqrt(4*pi)",
+    "grading": "expression"
+  }
+]

@@ -1,0 +1,7 @@
+import { useState } from 'react';
+import { KeyboardAvoidingView, Platform, TextInput } from 'react-native';
+import { useLocalSearchParams, useRouter } from 'expo-router';
+import { ListPage } from '@/components/ListUI';
+import { Action } from '@/components/MathUI';
+import { useMathStore } from '@/store/mathStore';
+export default function NodeEditor(){const {id}=useLocalSearchParams<{id:string}>();const router=useRouter();const node=useMathStore(s=>s.workingNodes.find(n=>n.id===id));const save=useMathStore(s=>s.saveWorkingNode);const [title,setTitle]=useState(node?.title??'');const [body,setBody]=useState(node?.body??'');function done(){save({id:id==='new'?`node-${Date.now()}-${Math.random().toString(36).slice(2,7)}`:id,title:title.trim(),body,updatedAt:new Date().toISOString()});router.back();}return <KeyboardAvoidingView style={{flex:1}} behavior={Platform.OS==='ios'?'padding':undefined}><ListPage title={id==='new'?'New node':'Working node'} back footer={<Action label="Done" disabled={!title.trim()&&!body.trim()} onPress={done}/>}><TextInput accessibilityLabel="Working node title" placeholder="Title" placeholderTextColor="#AFAFAF" value={title} onChangeText={setTitle} maxLength={100} className="font-poppins-bold text-2xl text-text-primary py-4"/><TextInput accessibilityLabel="Working node content" placeholder="Write your idea…" placeholderTextColor="#AFAFAF" value={body} onChangeText={setBody} multiline textAlignVertical="top" maxLength={12000} className="font-poppins text-lg text-text-primary min-h-[360px] py-4"/></ListPage></KeyboardAvoidingView>;}
