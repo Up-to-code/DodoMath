@@ -1,54 +1,93 @@
 {
   "creator": "DodoMath project",
   "created": "2026-10-13",
-  "method": "Original deterministic additive synthesis: soft wooden/sine palette. No Duolingo recordings sampled.",
-  "reference": "https://ambroseyu.com/work/duolingo-sonic-identity",
-  "sounds": {
+  "version": 2,
+  "method": "Original rounded plucks with inharmonic partials, short pitch scoop, quiet room response and filtered-air fly cue. Deterministic stereo synthesis; no copied recordings.",
+  "designReference": "https://ambroseyu.com/work/duolingo-core-product-sounds",
+  "sourcesToListen": [
+    "https://ambroseyu.com/work/duolingo-sonic-identity",
+    "https://ambroseyu.com/work/duolingo-core-product-sounds"
+  ],
+  "licenseNote": "Duolingo recordings remain reference-only. Current effects are original project assets. Previous Kenney CC0 attribution retained.",
+  "events": {
     "tap": {
-      "duration_seconds": 0.07,
-      "notes_hz": [
-        880
-      ]
+      "durationSeconds": 0.1,
+      "notesHz": [
+        760
+      ],
+      "peak": 0.27203311523951107
     },
     "correct": {
-      "duration_seconds": 0.42,
-      "notes_hz": [
-        523.25,
-        783.99
-      ]
+      "durationSeconds": 0.52,
+      "notesHz": [
+        587.33,
+        739.99
+      ],
+      "peak": 0.5609708742666886
     },
     "retry": {
-      "duration_seconds": 0.26,
-      "notes_hz": [
-        349.23,
-        293.66
-      ]
+      "durationSeconds": 0.38,
+      "notesHz": [
+        440,
+        369.99
+      ],
+      "peak": 0.28078625904808724
     },
     "combo": {
-      "duration_seconds": 0.62,
-      "notes_hz": [
-        523.25,
-        659.25,
-        783.99
-      ]
+      "durationSeconds": 0.84,
+      "notesHz": [
+        587.33,
+        739.99,
+        880.0,
+        1174.66
+      ],
+      "peak": 0.5716896323076142
     },
     "complete": {
-      "duration_seconds": 1.1,
-      "notes_hz": [
-        523.25,
-        659.25,
-        783.99,
-        1046.5
-      ]
+      "durationSeconds": 1.28,
+      "notesHz": [
+        587.33,
+        739.99,
+        880.0,
+        1174.66,
+        1760
+      ],
+      "peak": 0.5715622948102597
     },
     "fly": {
-      "duration_seconds": 0.36,
-      "notes_hz": [
-        659.25,
-        783.99,
-        1046.5
-      ]
+      "durationSeconds": 0.55,
+      "notesHz": [
+        880.0,
+        1174.66
+      ],
+      "peak": 0.40732444563624975
     }
   },
-  "previousPack": "Previous version used Kenney Interface Sounds CC0. Its notice is preserved; current WAV files are original."
+  "previewTimings": [
+    {
+      "name": "tap",
+      "startSeconds": 0.0
+    },
+    {
+      "name": "correct",
+      "startSeconds": 0.65
+    },
+    {
+      "name": "retry",
+      "startSeconds": 1.72
+    },
+    {
+      "name": "combo",
+      "startSeconds": 2.65
+    },
+    {
+      "name": "complete",
+      "startSeconds": 4.04
+    },
+    {
+      "name": "fly",
+      "startSeconds": 5.87
+    }
+  ],
+  "mixing": "Tap quiet and rate-limited; grading cues cancel earlier grading/tap cues; combo only at 5/10 milestones; mute immediately pauses audio."
 }

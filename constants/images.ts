@@ -7,6 +7,7 @@ import streakFire from "@/assets/images/streak-fire.png";
 import treasure from "@/assets/images/treasure.png";
 
 export const images = {
+  foxHelloAtlas: require("@/assets/characters/fox/hello-atlas.png"),
   companions: {
     fox: {
       idle: require("@/assets/characters/fox/idle.png"),

@@ -25,12 +25,24 @@ function safeAlgebra(value:string){
  else if(n.type!=='ParenthesisNode')valid=false;
  });return valid?node:null;}catch{return null;}
 }
+/** Collect explicit rational-domain restrictions before any cancellation. */
+function nonzeroFactors(node:MathNode):MathNode[] {
+ const factors:MathNode[]=[];
+ const unwrap=(n:MathNode):MathNode=>n.type==='ParenthesisNode'?unwrap((n as unknown as {content:MathNode}).content):n;
+ const numeric=(n:MathNode):number|null=>{const a=unwrap(n) as MathNode & {value?:unknown;op?:string;args?:MathNode[]};if(a.type==='ConstantNode')return Number(a.value);if(a.type==='OperatorNode'&&a.op==='-'&&a.args?.length===1){const v=numeric(a.args[0]);return v===null?null:-v;}return null;};
+ const add=(n:MathNode)=>{const a=unwrap(n) as MathNode & {op?:string;args?:MathNode[]};if(a.type==='OperatorNode'&&a.args&&(a.op==='*'||a.op==='/')){a.args.forEach(add);return;}if(a.type==='OperatorNode'&&a.op==='^'&&a.args){add(a.args[0]);return;}let variable=false;a.traverse(v=>{if(v.type==='SymbolNode'&&!['pi','e','i'].includes((v as unknown as {name:string}).name))variable=true;});if(variable)factors.push(a);};
+ node.traverse(n=>{if(n.type==='OperatorNode'){const a=n as unknown as {op:string;args:MathNode[]};if(a.op==='/')add(a.args[1]);if(a.op==='^'){const exponent=numeric(a.args[1]);if(exponent!==null&&exponent<0)add(a.args[0]);}}if(n.type==='FunctionNode'){const f=n as unknown as {fn:{name:string};args:MathNode[]};if(f.fn.name==='tan')add(parse(`cos(${f.args[0].toString()})`));}});
+ return factors;
+}
 export function algebraicallyEqual(input:string,answer:string):boolean {
  const a=normalizeExpression(input),b=normalizeExpression(answer);if(a===b)return true;
  // Existing elementary workshops request complete equations. Preserve both sides and their orientation.
  if(a.includes('=')||b.includes('=')){const aa=a.split('='),bb=b.split('=');return aa.length===2&&bb.length===2&&((algebraicallyEqual(aa[0],bb[0])&&algebraicallyEqual(aa[1],bb[1]))||(algebraicallyEqual(aa[0],bb[1])&&algebraicallyEqual(aa[1],bb[0])));}
  const left=safeAlgebra(a),right=safeAlgebra(b);if(!left||!right)return false;
  try{
+  const leftDomain=nonzeroFactors(left),rightDomain=nonzeroFactors(right);
+  const matches=(a:MathNode,b:MathNode)=>symbolicEqual(a,b,{context:(simplify as unknown as {realContext:SimplifyContext}).realContext});
+  if(!leftDomain.every(a=>rightDomain.some(b=>matches(a,b)))||!rightDomain.every(b=>leftDomain.some(a=>matches(a,b))))return false;
   if(symbolicEqual(left,right,{context:(simplify as unknown as {realContext:SimplifyContext}).realContext}))return true;
   // Expand polynomial forms only. Variable denominators retain their domain restrictions.
   let polynomial=true;

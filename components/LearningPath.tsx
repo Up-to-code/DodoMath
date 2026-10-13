@@ -1,23 +1,40 @@
-import { useEffect, useState } from 'react';
-import { Pressable, Text, TouchableOpacity, View } from 'react-native';
+import { useEffect, useRef, useState } from 'react';
+import { Animated, Modal, Pressable, ScrollView, Text, TouchableOpacity, View } from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
 import { Action, MathScreen } from './MathUI';
 import { ModeCharacter } from './ModeCharacter';
 import { DuoIcon } from './DuoIcons';
 import { COURSE } from '@/data/mathCourse';
+import { useMotion } from '@/hooks/useMotion';
+import { useFeedback } from '@/hooks/useFeedback';
 import { streakLength, useMathStore } from '@/store/mathStore';
 const arithmeticUnits = ['Small numbers', 'Decimals and percentages', 'Whole numbers', 'Factors and fractions', 'Working with data'];
+function PathNode({ label, done, active, expanded, icon, onPress }: { label:string; done:boolean; active:boolean; expanded:boolean; icon:'checkmark'|'trophy'|'star'; onPress:()=>void }) {
+  const moving=useMotion();const press=useRef(new Animated.Value(0)).current;
+  const settle=(toValue:number)=>{press.stopAnimation();Animated.spring(press,{toValue,useNativeDriver:true,damping:18,stiffness:320,mass:.7}).start();};
+  useEffect(()=>()=>press.stopAnimation(),[press]);
+  return <Animated.View style={{ transform:[{translateY:moving?press.interpolate({inputRange:[0,1],outputRange:[0,3]}):0},{scale:moving?press.interpolate({inputRange:[0,1],outputRange:[1,.96]}):1}] }}>
+    <Pressable accessibilityRole="button" accessibilityLabel={label} accessibilityState={{expanded}} onPress={onPress} onPressIn={()=>settle(1)} onPressOut={()=>settle(0)} style={({pressed})=>({width:72,height:64,borderRadius:36,alignItems:'center',justifyContent:'center',backgroundColor:done?'#58CC02':active?'#8B5CF6':'#E5E5E5',borderBottomWidth:pressed?4:7,borderBottomColor:done?'#459B00':active?'#6840C7':'#CFCFCF'})}>
+      <Ionicons name={icon} size={31} color={done||active?'white':'#AFAFAF'} />
+    </Pressable>
+  </Animated.View>;
+}
 export default function LearningPath() {
   const router = useRouter();
-  const { level, completed, xp, practiceDays } = useMathStore();
+  const insets = useSafeAreaInsets();
+  const feedback = useFeedback();
+  const { level, completed, watched, xp, practiceDays } = useMathStore();
   const [selected, setSelected] = useState<string | null>(null);
   const section = COURSE.levels.find(s => s.id === level) ?? COURSE.levels[0];
   const lessons = COURSE.lessons.filter(l => l.level === section.id);
   const current = lessons.find(l => !completed.includes(l.id));
   const units = Array.from({ length: Math.ceil(lessons.length / 5) }, (_, i) => lessons.slice(i * 5, i * 5 + 5));
   useEffect(() => setSelected(null), [level]);
-  return <MathScreen header={<View className="w-full max-w-[520px] self-center flex-row items-center justify-between px-5 py-2 border-b-2 border-[#F1F1F1]">
+  const selectedLesson = lessons.find(l => l.id === selected);
+  const review = !!selected && (completed.includes(selected) || watched.includes(selected));
+  return <><MathScreen header={<View className="w-full max-w-[520px] self-center flex-row items-center justify-between px-5 py-2 border-b-2 border-[#F1F1F1]">
     <TouchableOpacity accessibilityRole="button" accessibilityLabel={`Choose course. Current course ${section.title}`} onPress={() => router.push('/(tabs)/learn')} className="min-h-12 flex-row items-center gap-1">
       <DuoIcon name="math" size={38}/><Ionicons name="chevron-down" size={16} color="#777777" />
     </TouchableOpacity>
@@ -38,18 +55,27 @@ export default function LearningPath() {
             <View style={{ transform: [{ translateX: offset }], alignItems: 'center' }}>
               {active && <View className="border-2 border-border bg-white rounded-xl px-3 py-1 mb-2"><Text className="font-poppins-bold text-[#6A3BCC] text-xs">START</Text></View>}
               <View style={{ borderWidth: active ? 5 : 0, borderColor: '#E5E5E5', borderRadius: 50, padding: active ? 5 : 10 }}>
-                <Pressable accessibilityRole="button" accessibilityLabel={`${lesson.title}. ${done ? 'Completed' : active ? 'Current lesson' : 'Upcoming lesson'}`} accessibilityState={{ expanded: chosen }} onPress={() => setSelected(chosen ? null : lesson.id)} style={({ pressed }) => ({ width: 72, height: 64, borderRadius: 36, alignItems: 'center', justifyContent: 'center', backgroundColor: done ? '#58CC02' : active ? '#8B5CF6' : '#E5E5E5', borderBottomWidth: pressed ? 2 : 7, borderBottomColor: done ? '#459B00' : active ? '#6840C7' : '#CFCFCF', transform: [{ translateY: pressed ? 4 : 0 }] })}>
-                  <Ionicons name={done ? 'checkmark' : index === unit.length - 1 ? 'trophy' : 'star'} size={31} color={done || active ? 'white' : '#AFAFAF'} />
-                </Pressable>
+                <PathNode label={`${lesson.title}. ${done ? 'Completed' : active ? 'Current lesson' : 'Upcoming lesson'}`} done={done} active={active} expanded={chosen} icon={done ? 'checkmark' : index === unit.length - 1 ? 'trophy' : 'star'} onPress={() => {feedback('tap');setSelected(chosen ? null : lesson.id);}} />
               </View>
             </View>
           </View>
-          {chosen && <View className="w-full max-w-[360px] bg-[#7C3AED] rounded-2xl p-4 mt-2">
-            <View className="flex-row items-start gap-2 mb-3"><Text accessibilityRole="header" className="flex-1 font-poppins-bold text-white text-lg">{lesson.title}</Text><TouchableOpacity accessibilityRole="button" accessibilityLabel="Close lesson menu" onPress={() => setSelected(null)} className="w-11 h-11 items-center justify-center -mr-2 -mt-2"><Ionicons name="close" size={22} color="white"/></TouchableOpacity></View>
-            <Action label={done ? 'Review' : 'Start'} secondary onPress={() => { setSelected(null); router.push(`/lesson/${lesson.id}`); }}/>
-          </View>}
+
         </View>;
       })}
     </View>)}
-  </MathScreen>;
+  </MathScreen>
+    <Modal visible={!!selectedLesson} transparent animationType="fade" onRequestClose={() => setSelected(null)}>
+      <View className="flex-1 justify-end">
+        <Pressable accessibilityRole="button" accessibilityLabel="Dismiss lesson menu" onPress={() => setSelected(null)} className="absolute inset-0 bg-black/20" />
+        <View accessibilityViewIsModal className="w-full max-w-[520px] self-center rounded-t-3xl bg-white border-t-2 border-border px-5 pt-4" style={{ paddingBottom: Math.max(insets.bottom, 16), maxHeight: '60%' }}>
+          <View className="flex-row items-center gap-2 mb-3">
+            <Text accessibilityRole="header" className="flex-1 font-poppins-bold text-text-primary text-xl">{review ? 'Review lesson' : 'Start lesson'}</Text>
+            <TouchableOpacity accessibilityRole="button" accessibilityLabel="Close lesson menu" onPress={() => setSelected(null)} className="w-12 h-12 items-center justify-center"><Ionicons name="close" size={24} color="#777777" /></TouchableOpacity>
+          </View>
+          <ScrollView contentContainerStyle={{ paddingBottom: 20 }}><Text className="font-poppins text-base text-text-primary">{selectedLesson?.title}</Text></ScrollView>
+          <Action label={review ? 'Review' : 'Start'} onPress={() => { if (!selectedLesson) return; const target = selectedLesson.id; setSelected(null); router.push(review ? `/exam/${target}` : `/lesson/${target}`); }} />
+        </View>
+      </View>
+    </Modal>
+  </>;
 }

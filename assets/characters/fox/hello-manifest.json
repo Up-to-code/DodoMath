@@ -1,0 +1,258 @@
+{
+  "character": "Fox",
+  "action": "hello",
+  "fps": 24,
+  "durationSeconds": 1,
+  "frameCount": 24,
+  "canvas": [
+    512,
+    512
+  ],
+  "keyframeIndices": [
+    3,
+    6,
+    9,
+    12,
+    15,
+    18
+  ],
+  "segmentInsertions": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    4
+  ],
+  "coordinateSpace": "screen-space",
+  "activeLimb": "screen-right arm",
+  "activeShoulder": "screen-right shoulder",
+  "anchorLimb": "screen-left arm",
+  "tailSide": "screen-left",
+  "identity": "Orange fox, cream muzzle/inner ears/tail tip, dark eyes/nose, purple hoodie and trousers, yellow sneakers; exact baseline identity.",
+  "beats": [
+    "neutral",
+    "anticipation arm rises",
+    "open palm beside face",
+    "wrist wave outward",
+    "wrist wave inward",
+    "wave outward",
+    "arm lowers",
+    "exact neutral return"
+  ],
+  "generation": "8 anchors (exact baseline endpoints + 6 generated keys) and 16 model-generated in-between drawings. No scripted motion transforms.",
+  "postProcessing": "Fixed atlas extraction and common-scale registration, packing, previews only.",
+  "baselineSHA256": "572d88d34aa929d644c85786f819e749661ab1c89d8b85a2d3dcd2510a738fa3",
+  "anchorIndices": [
+    0,
+    3,
+    6,
+    9,
+    12,
+    15,
+    18,
+    23
+  ],
+  "atlas": {
+    "columns": 6,
+    "rows": 4,
+    "cell": [
+      512,
+      512
+    ]
+  },
+  "runtimeAtlasCell": [
+    256,
+    256
+  ],
+  "sourceExtraction": {
+    "keys": {
+      "origin": [
+        20,
+        0
+      ],
+      "pitch": [
+        700,
+        724
+      ],
+      "cell": [
+        700,
+        724
+      ],
+      "scale": 0.55,
+      "translation": [
+        95,
+        76
+      ]
+    },
+    "inbetweens": {
+      "origin": [
+        40,
+        0
+      ],
+      "pitch": [
+        296,
+        308
+      ],
+      "cell": [
+        300,
+        308
+      ],
+      "scale": 1.3,
+      "translation": [
+        96,
+        48
+      ]
+    }
+  },
+  "frames": [
+    {
+      "file": "fullframe/00.png",
+      "startMs": 0.0,
+      "durationMs": 41.666666666666664,
+      "role": "anchor"
+    },
+    {
+      "file": "fullframe/01.png",
+      "startMs": 41.666666666666664,
+      "durationMs": 41.666666666666664,
+      "role": "generated-inbetween"
+    },
+    {
+      "file": "fullframe/02.png",
+      "startMs": 83.33333333333333,
+      "durationMs": 41.666666666666664,
+      "role": "generated-inbetween"
+    },
+    {
+      "file": "fullframe/03.png",
+      "startMs": 125.0,
+      "durationMs": 41.666666666666664,
+      "role": "anchor"
+    },
+    {
+      "file": "fullframe/04.png",
+      "startMs": 166.66666666666666,
+      "durationMs": 41.666666666666664,
+      "role": "generated-inbetween"
+    },
+    {
+      "file": "fullframe/05.png",
+      "startMs": 208.33333333333334,
+      "durationMs": 41.666666666666664,
+      "role": "generated-inbetween"
+    },
+    {
+      "file": "fullframe/06.png",
+      "startMs": 250.0,
+      "durationMs": 41.666666666666664,
+      "role": "anchor"
+    },
+    {
+      "file": "fullframe/07.png",
+      "startMs": 291.6666666666667,
+      "durationMs": 41.666666666666664,
+      "role": "generated-inbetween"
+    },
+    {
+      "file": "fullframe/08.png",
+      "startMs": 333.3333333333333,
+      "durationMs": 41.666666666666664,
+      "role": "generated-inbetween"
+    },
+    {
+      "file": "fullframe/09.png",
+      "startMs": 375.0,
+      "durationMs": 41.666666666666664,
+      "role": "anchor"
+    },
+    {
+      "file": "fullframe/10.png",
+      "startMs": 416.6666666666667,
+      "durationMs": 41.666666666666664,
+      "role": "generated-inbetween"
+    },
+    {
+      "file": "fullframe/11.png",
+      "startMs": 458.3333333333333,
+      "durationMs": 41.666666666666664,
+      "role": "generated-inbetween"
+    },
+    {
+      "file": "fullframe/12.png",
+      "startMs": 500.0,
+      "durationMs": 41.666666666666664,
+      "role": "anchor"
+    },
+    {
+      "file": "fullframe/13.png",
+      "startMs": 541.6666666666666,
+      "durationMs": 41.666666666666664,
+      "role": "generated-inbetween"
+    },
+    {
+      "file": "fullframe/14.png",
+      "startMs": 583.3333333333334,
+      "durationMs": 41.666666666666664,
+      "role": "generated-inbetween"
+    },
+    {
+      "file": "fullframe/15.png",
+      "startMs": 625.0,
+      "durationMs": 41.666666666666664,
+      "role": "anchor"
+    },
+    {
+      "file": "fullframe/16.png",
+      "startMs": 666.6666666666666,
+      "durationMs": 41.666666666666664,
+      "role": "generated-inbetween"
+    },
+    {
+      "file": "fullframe/17.png",
+      "startMs": 708.3333333333334,
+      "durationMs": 41.666666666666664,
+      "role": "generated-inbetween"
+    },
+    {
+      "file": "fullframe/18.png",
+      "startMs": 750.0,
+      "durationMs": 41.666666666666664,
+      "role": "anchor"
+    },
+    {
+      "file": "fullframe/19.png",
+      "startMs": 791.6666666666666,
+      "durationMs": 41.666666666666664,
+      "role": "generated-inbetween"
+    },
+    {
+      "file": "fullframe/20.png",
+      "startMs": 833.3333333333334,
+      "durationMs": 41.666666666666664,
+      "role": "generated-inbetween"
+    },
+    {
+      "file": "fullframe/21.png",
+      "startMs": 875.0,
+      "durationMs": 41.666666666666664,
+      "role": "generated-inbetween"
+    },
+    {
+      "file": "fullframe/22.png",
+      "startMs": 916.6666666666666,
+      "durationMs": 41.666666666666664,
+      "role": "generated-inbetween"
+    },
+    {
+      "file": "fullframe/23.png",
+      "startMs": 958.3333333333334,
+      "durationMs": 41.666666666666664,
+      "role": "anchor"
+    }
+  ],
+  "previewBackground": "#FFFFFF",
+  "alphaCleanup": "Only disconnected speckles removed; original body pixels retained. Common sheet scale/translation; no per-frame fitting.",
+  "runtime": "One-second elapsed-time atlas playback; reduced motion shows frame0; pauses on background; interruption cancels previous playback."
+}

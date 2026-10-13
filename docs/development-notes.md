@@ -93,3 +93,6 @@ The demo records a continuous 3:46 app journey, accelerated uniformly to 30 seco
 ## Attribution and reuse
 
 This project adapts Adrian Hajdin’s React Native Lingua starter, linked above. No blanket license is asserted over upstream code or third-party assets. Preserve upstream notices and check their terms before redistribution. Professor Dave’s lessons remain embedded YouTube videos; full copyrighted transcripts and downloaded course videos are not included. Font and sound licenses are bundled beside their assets. DodoMath is an independent project, unaffiliated with Duolingo.
+
+## Fox motion and path refinement · 13 October 2026
+Fox replaces the earlier bird as the main mascot. The hand control in Profile → Fox plays one authored 24-frame, one-second hello clip. Other expressions remain generated static poses. Start/Review uses a bounded bottom sheet and preserves path geometry; watched lessons enter exams directly. Compact lesson headers and spring path presses are implemented. Effects now use original rounded stereo plucks and an escalating reward family, not the earlier Kenney recordings. See skills-and-motion.md and math-audit.md for current assets, verification and limits.
