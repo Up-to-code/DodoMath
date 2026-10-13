@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "fps": 24,
+  "frameCount": 72,
+  "durationSeconds": 3,
+  "columns": 9,
+  "rows": 8,
+  "cell": 256,
+  "canvas": [
+    512,
+    512
+  ],
+  "origin": [
+    256,
+    256
+  ],
+  "rigSource": "QH-Motion-Studio/public/animations/fox/rig.json",
+  "parts": 33
+}

@@ -7,13 +7,13 @@ import streakFire from "@/assets/images/streak-fire.png";
 import treasure from "@/assets/images/treasure.png";
 
 export const images = {
-  foxHelloAtlas: require("@/assets/characters/fox/hello-atlas-rig.png"),
+  foxHelloAtlas: require("@/assets/animations/fox/hello-atlas.png"),
   companions: {
     fox: {
-      idle: require("@/assets/characters/fox/rig/idle.png"),
-      thinking: require("@/assets/characters/fox/registered/thinking.png"),
-      success: require("@/assets/characters/fox/registered/success.png"),
-      retry: require("@/assets/characters/fox/registered/retry.png"),
+      idle: require("@/assets/animations/fox/idle.png"),
+      thinking: require("@/assets/animations/fox/thinking.png"),
+      success: require("@/assets/animations/fox/success.png"),
+      retry: require("@/assets/animations/fox/retry.png"),
     },
     nia: {
       idle: require("@/assets/characters/nia/registered/idle.png"),
