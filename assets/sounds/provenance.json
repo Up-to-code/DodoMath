@@ -1,15 +1,54 @@
 {
-  "creator": "Kenney",
-  "pack": "Interface Sounds 1.0",
-  "source": "https://kenney.nl/assets/interface-sounds",
-  "license": "CC0 1.0",
-  "mapping": {
-    "tap": "click_003",
-    "correct": "confirmation_002",
-    "retry": "error_004",
-    "complete": "confirmation_004",
-    "combo": "confirmation_003",
-    "fly": "maximize_008"
+  "creator": "DodoMath project",
+  "created": "2026-10-13",
+  "method": "Original deterministic additive synthesis: soft wooden/sine palette. No Duolingo recordings sampled.",
+  "reference": "https://ambroseyu.com/work/duolingo-sonic-identity",
+  "sounds": {
+    "tap": {
+      "duration_seconds": 0.07,
+      "notes_hz": [
+        880
+      ]
+    },
+    "correct": {
+      "duration_seconds": 0.42,
+      "notes_hz": [
+        523.25,
+        783.99
+      ]
+    },
+    "retry": {
+      "duration_seconds": 0.26,
+      "notes_hz": [
+        349.23,
+        293.66
+      ]
+    },
+    "combo": {
+      "duration_seconds": 0.62,
+      "notes_hz": [
+        523.25,
+        659.25,
+        783.99
+      ]
+    },
+    "complete": {
+      "duration_seconds": 1.1,
+      "notes_hz": [
+        523.25,
+        659.25,
+        783.99,
+        1046.5
+      ]
+    },
+    "fly": {
+      "duration_seconds": 0.36,
+      "notes_hz": [
+        659.25,
+        783.99,
+        1046.5
+      ]
+    }
   },
-  "modifications": "Decoded Ogg to stereo 44.1k PCM WAV"
+  "previousPack": "Previous version used Kenney Interface Sounds CC0. Its notice is preserved; current WAV files are original."
 }

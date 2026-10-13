@@ -1,0 +1,210 @@
+{
+  "created": "2026-10-13",
+  "primaryMascot": "Fox",
+  "supportingCharacters": [
+    "Nia",
+    "Orbit"
+  ],
+  "method": "Generated transparent 2x2 pose atlases. Fixed quadrant extraction only; no retouch, recoloring, matting, per-pose rescaling, SVG reconstruction, or removal of character parts.",
+  "runtime": "React Native bitmap crossfade and small root translation. Full-body poses, not independently rigged joints or lip sync.",
+  "characters": {
+    "fox": {
+      "sourceAtlas": "fox-pose-sheet.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sha256": "b19414a47740bc44ae3045b7a85e7d5a2db8594e38c96afc1ff31d9038f21d4d",
+      "poses": [
+        {
+          "name": "idle",
+          "file": "fox/idle.png",
+          "size": [
+            627,
+            627
+          ],
+          "alphaCorners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "thinking",
+          "file": "fox/thinking.png",
+          "size": [
+            627,
+            627
+          ],
+          "alphaCorners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "success",
+          "file": "fox/success.png",
+          "size": [
+            627,
+            627
+          ],
+          "alphaCorners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "retry",
+          "file": "fox/retry.png",
+          "size": [
+            627,
+            627
+          ],
+          "alphaCorners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "nia": {
+      "sourceAtlas": "nia-pose-sheet.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sha256": "a77eeeaab538221f5e31f883755cfd6a51a3c08018952435dfdc0274e5cd4b6d",
+      "poses": [
+        {
+          "name": "idle",
+          "file": "nia/idle.png",
+          "size": [
+            627,
+            627
+          ],
+          "alphaCorners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "thinking",
+          "file": "nia/thinking.png",
+          "size": [
+            627,
+            627
+          ],
+          "alphaCorners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "success",
+          "file": "nia/success.png",
+          "size": [
+            627,
+            627
+          ],
+          "alphaCorners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "retry",
+          "file": "nia/retry.png",
+          "size": [
+            627,
+            627
+          ],
+          "alphaCorners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "orbit": {
+      "sourceAtlas": "orbit-pose-sheet.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sha256": "a2af19a2d84e86b18d842747cbaa3c52af4850ba757c4c6dbf3f086a49ba0e96",
+      "poses": [
+        {
+          "name": "idle",
+          "file": "orbit/idle.png",
+          "size": [
+            627,
+            627
+          ],
+          "alphaCorners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "thinking",
+          "file": "orbit/thinking.png",
+          "size": [
+            627,
+            627
+          ],
+          "alphaCorners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "success",
+          "file": "orbit/success.png",
+          "size": [
+            627,
+            627
+          ],
+          "alphaCorners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "retry",
+          "file": "orbit/retry.png",
+          "size": [
+            627,
+            627
+          ],
+          "alphaCorners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  }
+}

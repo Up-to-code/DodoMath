@@ -11,10 +11,10 @@ export const SKILL_PRACTICE:Record<string,{title:string;subtitle:string;question
 // Each workshop is a short situation. Its original mathematical method and answers stay intact.
 const journeys:Record<string,{title:string;buddy:'count'|'algebra'|'graph';prompts:string[]}>={
  'skill-algebra':{title:'Repair the bridge',buddy:'algebra',prompts:['Nia is repairing a bridge. The first section needs x + 3 = 7 planks. Put the solving steps in order.','The next section needs 9 planks; 5 are already fitted. Use x + 5 = 9. Subtract 5 from both sides and write x.','Three identical repair kits weigh 12 kg. For 3x = 12, divide both sides by 3 and write the next equation.']},
- 'skill-fractions':{title:'Pizza picnic',buddy:'count',prompts:['Kit has a pizza cut into 8 equal slices. Set aside 3 slices for the picnic.','Kit packed 6/8 of another pizza. Divide the top and bottom by 2 to write the reduced fraction.','The picnic bench is at 0. Kit walks two steps left to meet a friend. Mark the new position.']},
+ 'skill-fractions':{title:'Pizza picnic',buddy:'count',prompts:['Fox has a pizza cut into 8 equal slices. Set aside 3 slices for the picnic.','Fox packed 6/8 of another pizza. Divide the top and bottom by 2 to write the reduced fraction.','The picnic bench is at 0. Fox walks two steps left to meet a friend. Mark the new position.']},
  'skill-graphs':{title:'Rocket route',buddy:'graph',prompts:['Orbit follows the route y = 2x + 1. Plot its starting point at x = 0.','For every step right, how many steps up must Orbit move on y = 2x + 1?','Orbit moves to x = 1. Plot its next point on y = 2x + 1.']},
  'skill-calculus':{title:'Garden growth',buddy:'algebra',prompts:['Nia models a vine with f(x) = x³. Choose the rule for finding its growth rate.','Use the power rule on the vine’s model x³. Write its derivative.','Another vine has growth rate 2x. Increase the power, divide by the new power, and include C to find an antiderivative.']},
- 'skill-matrices':{title:'Museum code',buddy:'count',prompts:['Kit finds a museum lock with matrix [[1, 2], [3, 4]]. The code is its determinant. Put the method in order.','Enter the code by calculating 1 × 4 − 2 × 3.']}
+ 'skill-matrices':{title:'Museum code',buddy:'count',prompts:['Fox finds a museum lock with matrix [[1, 2], [3, 4]]. The code is its determinant. Put the method in order.','Enter the code by calculating 1 × 4 − 2 × 3.']}
 };
 for(const [id,j] of Object.entries(journeys)){SKILL_PRACTICE[id].title=j.title;SKILL_PRACTICE[id].questions=SKILL_PRACTICE[id].questions.map((q,i)=>({...q,prompt:j.prompts[i],buddy:j.buddy,scene:id==='skill-algebra'&&i<2?'bridge':id==='skill-matrices'?'matrix':undefined,sceneCount:id==='skill-algebra'?(i===0?3:5):undefined,sceneTotal:id==='skill-algebra'?(i===0?7:9):undefined}));}
 
@@ -23,3 +23,13 @@ SKILL_PRACTICE['skill-functions'] = {title:'Shape the function',subtitle:'Slopes
  {kind:'function-graph',curveFamily:'quadratic',buddy:'graph',grading:'ordered-values',targetPoints:[[-1,0],[3,0],[0,3]],prompt:'Build a downward parabola through the three targets. Start with a = −1, then adjust b and c.',options:[],answer:'-1,2,3',explanation:'The roots give y = −(x + 1)(x − 3). Expanding gives −x² + 2x + 3; its intercept is 3.',sourceStart:0},
  {kind:'function-graph',curveFamily:'quadratic',buddy:'graph',grading:'ordered-values',targetPoints:[[-1,0],[3,0],[0,-3]],prompt:'Now turn the parabola upward. Keep its roots at −1 and 3, with a = 1. Use the intercept to check your curve.',options:[],answer:'1,-2,-3',explanation:'y = (x + 1)(x − 3) = x² − 2x − 3. The roots are −1 and 3; the y-intercept is −3.',sourceStart:0}
 ]};
+
+// Presentation-only formulas keep the mathematical focus separate from the spoken instruction.
+const workshopEquations: Record<string, string[]> = {
+ 'skill-algebra': ['x + 3 = 7', 'x + 5 = 9', '3x = 12'],
+ 'skill-calculus': ['f(x) = x³', 'd/dx (x³)', '∫ 2x dx'],
+ 'skill-matrices': ['det([[1, 2], [3, 4]])', '1 × 4 − 2 × 3'],
+};
+for (const [id, equations] of Object.entries(workshopEquations)) {
+ SKILL_PRACTICE[id].questions = SKILL_PRACTICE[id].questions.map((question, index) => ({ ...question, equation: equations[index] }));
+}

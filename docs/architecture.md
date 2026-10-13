@@ -30,7 +30,7 @@ Some route names remain from the language-learning starter; their displayed labe
 - `store/mathStore.ts`: selected course, watched/completed lessons, XP, mistakes, settings, and Working nodes.
 - `components/QuestionInteraction.tsx`: answer tiles, keyboard input, ordering, fractions, number lines, and coordinates.
 - `components/FunctionGraph.tsx`: coefficient sliders, precise inputs, and graph pan/zoom.
-- `components/ModeCharacter.tsx`: companion feedback motion; `hooks/useMotion.ts` respects motion preferences.
+- `components/CharacterSprite.tsx`, `components/ModeCharacter.tsx`, and `components/Fox.tsx`: generated raster poses, expression transitions, and companion feedback motion; `hooks/useMotion.ts` respects motion preferences.
 - `components/CoursePlayer.tsx` and `.web.tsx`: native embedded player and web player.
 - `hooks/useFeedback.ts`: licensed sound effects and haptics.
 

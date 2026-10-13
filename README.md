@@ -16,7 +16,7 @@ Learn mathematics one clear step at a time. DodoMath is a playful Expo app with 
 - Build removable answer tiles or write your own mathematical expression.
 - Order solving steps, select fraction slices, place number-line values, and plot coordinates.
 - Adjust slope/intercept and quadratic coefficients to fit graph targets.
-- Get animated feedback from Kit, Nia, and Orbit, with sound and reduced-motion settings.
+- Get animated feedback from Fox, Nia, and Orbit, with sound and reduced-motion settings.
 - Save Working nodes and track local mastery, XP, studied videos, and daily goals.
 
 ## Quick start
@@ -74,3 +74,11 @@ These checks passed for this preview. The authored advanced course calculations 
 Progress is stored locally; account syncing is not implemented. Graph exercises currently support linear and quadratic polynomials. Advanced grading is conservative and may reject valid identities it cannot prove. Course exercises use original examples grounded in source-caption method review; they are not exact copies of every on-screen problem. Independent teaching review remains needed.
 
 Adapted from [Adrian Hajdin’s React Native Lingua starter](https://github.com/adrianhajdin/react-native-lingua), using [Professor Dave Explains’ mathematics playlist](https://www.youtube.com/playlist?list=PLybg94GvOJ9FoGQeUMFZ4SWZsr30jlUYK). DodoMath is independent and unaffiliated with Duolingo. See [Credits](CREDITS.md) for reuse terms.
+
+## Research-based interface refresh · 13 October 2026
+
+The current interface follows a public-source Math study with 117 official screenshot panels, path examples, character animation research, and primary sound-design references. The full local evidence library is separate from the repository; reference art is not shipped as app assets. See [Design research](docs/design-research.md).
+
+**Fox is the primary mascot**, with Nia and Orbit supporting mathematics practice. The cast uses generated transparent PNG poses rather than hand-built SVG characters. Four expression/gesture states crossfade on input and grading; reduced motion uses static poses. Legacy Dodo names remain only as compatibility exports/routes. This change does not rename the DodoMath application or repository.
+
+Question screens use short instructions, speech bubbles, a central mathematical stage, compact answers, and a safe bottom Check button. The learning path has alternating winding units and bounded inline lesson details. Grading and sequential source-method practice remain intact. Current WAV feedback effects use original synthesis; see the updated provenance file.

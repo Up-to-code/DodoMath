@@ -19,3 +19,9 @@ Dodo, Kit, Nia, and Orbit artwork was generated for this project. Dodo is layere
 The release’s journey videos use real continuous app interactions. The 30-second version uniformly accelerates the original 3:46 portrait recording. Action-synced CC0 effects and original instrumental backing are added during rendering; they are not native browser audio captures.
 
 Check the applicable upstream and asset terms before redistributing or commercializing a build.
+
+## 13 October 2026 character and sound refresh
+
+Fox is the primary mascot. Fox, Nia and Orbit use generated transparent four-pose PNG atlases, registered in `constants/images.ts`. Fixed quadrant extraction preserves generated pixels and alpha; runtime blends whole poses rather than claiming an independently joint-rigged character. Legacy Dodo component/route names redirect to Fox for compatibility. The application/repository name remains DodoMath.
+
+The current app WAV effects are original additive synthesis, documented in `assets/sounds/provenance.json`. Kenney’s original pack notice remains for the prior asset history; it does not describe the newly generated WAV recordings. The reference sound designer’s Duolingo audio was not sampled.
