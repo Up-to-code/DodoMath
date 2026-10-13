@@ -82,3 +82,7 @@ The current interface follows a public-source Math study with 117 official scree
 **Fox is the primary mascot**, with Nia and Orbit supporting mathematics practice. The cast uses generated transparent PNG poses rather than hand-built SVG characters. Four expression/gesture states crossfade on input and grading; reduced motion uses static poses. Legacy Dodo names remain only as compatibility exports/routes. This change does not rename the DodoMath application or repository.
 
 Question screens use short instructions, speech bubbles, a central mathematical stage, compact answers, and a safe bottom Check button. The learning path has alternating winding units and bounded inline lesson details. Grading and sequential source-method practice remain intact. Current WAV feedback effects use original synthesis; see the updated provenance file.
+
+## Project links
+
+[Source](https://github.com/Up-to-code/DodoMath) · [Issues](https://github.com/Up-to-code/DodoMath/issues) · [Public project directory](https://github.com/qentrah/.github/blob/main/profile/PROJECTS.md)
