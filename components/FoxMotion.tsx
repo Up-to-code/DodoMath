@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { AppState, Image, View } from 'react-native';
 import { images } from '@/constants/images';
 import { useMotion } from '@/hooks/useMotion';
-/** Authored 24-frame PNG atlas, timed from elapsed milliseconds rather than screen refreshes. */
+/** 24 baked raster rig frames; the head/body master is fixed at origin (256,256), timed from elapsed milliseconds rather than screen refreshes. */
 export function FoxMotion({ playId, size = 300 }: { playId: number; size?: number }) {
  const moving=useMotion();const [frame,setFrame]=useState(0);const [ready,setReady]=useState(false);
  useEffect(()=>{

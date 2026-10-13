@@ -1,0 +1,2504 @@
+{
+  "version": 2,
+  "created": "2026-10-13",
+  "canvas": [
+    512,
+    512
+  ],
+  "origin": [
+    256,
+    256
+  ],
+  "bodyHeightPx": 360,
+  "groundY": 436,
+  "coordinateConvention": "screen: +x right,+y down; local math: +x right,+y up; each atlas cell has its own identical origin",
+  "method": "Measured core-body crown, planted shoe line and hip/boot midpoint. Uniform scale and X/Y placement per frame, explicitly requested by user. No rotation, anatomical warping, limb replacement or new artwork. Original sources preserved.",
+  "qualityLimit": "Anchor drift removed to raster tolerance; authored internal head, face and limb shape variation remains.",
+  "runtimeAtlas": {
+    "columns": 6,
+    "rows": 4,
+    "cell": [
+      512,
+      512
+    ],
+    "fps": 24,
+    "durationSeconds": 1,
+    "file": "fox/hello-atlas-registered.png"
+  },
+  "motion": [
+    {
+      "sourceAnchor": {
+        "x": 298.0,
+        "y": 251.0,
+        "crownY": 80,
+        "groundY": 422.0,
+        "bodyHeight": 342.0
+      },
+      "scale": 1.0526315789473684,
+      "translation": [
+        -57.68421052631578,
+        -8.21052631578948
+      ],
+      "matrix": [
+        [
+          1.0526315789473684,
+          0,
+          -57.68421052631578
+        ],
+        [
+          0,
+          1.0526315789473684,
+          -8.21052631578948
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "inverseSampling": [
+        0.9500000000000001,
+        0,
+        54.8,
+        0,
+        0.9500000000000001,
+        7.800000000000006
+      ],
+      "rasterCalibrationPx": [
+        0,
+        0
+      ],
+      "calibratedSourceOrigin": [
+        298.0,
+        251.00000000000003
+      ],
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 76,
+        "groundY": 436.0,
+        "bodyHeight": 360.0
+      },
+      "residualPx": [
+        0.0,
+        0.0
+      ],
+      "bbox": [
+        103,
+        71,
+        349,
+        448
+      ],
+      "sourceSHA256": "a9d24ccbb67805d2966b6abc4ace13629982a9790f6d8dd3e3b195e559910d49",
+      "registeredPixelSHA256": "746b485f7f50dad9ff093679a17979878271a2d81a64c8a407f068bcac5c09bf",
+      "index": 0,
+      "file": "fox-hello/fullframe/00.png"
+    },
+    {
+      "sourceAnchor": {
+        "x": 305.0,
+        "y": 254.5,
+        "crownY": 83,
+        "groundY": 426.0,
+        "bodyHeight": 343.0
+      },
+      "scale": 1.0495626822157433,
+      "translation": [
+        -64.11661807580174,
+        -11.113702623906704
+      ],
+      "matrix": [
+        [
+          1.0495626822157433,
+          0,
+          -64.11661807580174
+        ],
+        [
+          0,
+          1.0495626822157433,
+          -11.113702623906704
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "inverseSampling": [
+        0.9527777777777778,
+        0,
+        61.08888888888889,
+        0,
+        0.9527777777777778,
+        10.588888888888889
+      ],
+      "rasterCalibrationPx": [
+        0,
+        0
+      ],
+      "calibratedSourceOrigin": [
+        305.0,
+        254.50000000000003
+      ],
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.5,
+        "crownY": 76,
+        "groundY": 437.0,
+        "bodyHeight": 361.0
+      },
+      "residualPx": [
+        0.0,
+        0.5
+      ],
+      "bbox": [
+        101,
+        70,
+        349,
+        442
+      ],
+      "sourceSHA256": "9d82d6833b30880f06bfeca094083f4c69110c7d6789ce9a679902c33badb9ab",
+      "registeredPixelSHA256": "f5b3842c73e31d97c9e1c255ad4ae24402a7ef15f2b520a7dd38217ce6902e54",
+      "index": 1,
+      "file": "fox-hello/fullframe/01.png"
+    },
+    {
+      "sourceAnchor": {
+        "x": 305.0,
+        "y": 252.0,
+        "crownY": 80,
+        "groundY": 424.0,
+        "bodyHeight": 344.0
+      },
+      "scale": 1.0465116279069768,
+      "translation": [
+        -63.18604651162792,
+        -8.720930232558146
+      ],
+      "matrix": [
+        [
+          1.0465116279069768,
+          0,
+          -63.18604651162792
+        ],
+        [
+          0,
+          1.0465116279069768,
+          -8.720930232558146
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "inverseSampling": [
+        0.9555555555555555,
+        0,
+        60.37777777777779,
+        0,
+        0.9555555555555555,
+        8.33333333333334
+      ],
+      "rasterCalibrationPx": [
+        0,
+        -1
+      ],
+      "calibratedSourceOrigin": [
+        305.0,
+        252.95555555555555
+      ],
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 75,
+        "groundY": 437.0,
+        "bodyHeight": 362.0
+      },
+      "residualPx": [
+        0.0,
+        0.0
+      ],
+      "bbox": [
+        101,
+        69,
+        388,
+        444
+      ],
+      "sourceSHA256": "a227abf525dbc47f7bb79613e15c6beae6b31e581a927e11e50d07341cfa4668",
+      "registeredPixelSHA256": "b643d985ecd9106f35ab9ea37c59edec6b4dfeb3bfbc77e786af1f422782cf40",
+      "index": 2,
+      "file": "fox-hello/fullframe/02.png"
+    },
+    {
+      "sourceAnchor": {
+        "x": 309.0,
+        "y": 260.5,
+        "crownY": 89,
+        "groundY": 432.0,
+        "bodyHeight": 343.0
+      },
+      "scale": 1.0495626822157433,
+      "translation": [
+        -68.31486880466468,
+        -17.41107871720112
+      ],
+      "matrix": [
+        [
+          1.0495626822157433,
+          0,
+          -68.31486880466468
+        ],
+        [
+          0,
+          1.0495626822157433,
+          -17.41107871720112
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "inverseSampling": [
+        0.9527777777777778,
+        0,
+        65.08888888888886,
+        0,
+        0.9527777777777778,
+        16.58888888888885
+      ],
+      "rasterCalibrationPx": [
+        0,
+        0
+      ],
+      "calibratedSourceOrigin": [
+        309.0,
+        260.5
+      ],
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 255.5,
+        "crownY": 75,
+        "groundY": 436.0,
+        "bodyHeight": 361.0
+      },
+      "residualPx": [
+        0.0,
+        -0.5
+      ],
+      "bbox": [
+        100,
+        72,
+        374,
+        449
+      ],
+      "sourceSHA256": "653c71eaad8353f0fcfd7493193a3f280a241e6a5fd16717140a2c7ea4dddeca",
+      "registeredPixelSHA256": "2d8b1d5324c820b2a7f07b253f1c3c513fe2fc1e1bde4d790ea85b1b52321e6a",
+      "index": 3,
+      "file": "fox-hello/fullframe/03.png"
+    },
+    {
+      "sourceAnchor": {
+        "x": 303.0,
+        "y": 251.75499999999988,
+        "crownY": 80,
+        "groundY": 423.50999999999976,
+        "bodyHeight": 343.50999999999976
+      },
+      "scale": 1.0480044249075726,
+      "translation": [
+        -61.5453407469945,
+        -8.840353992605799
+      ],
+      "matrix": [
+        [
+          1.0480044249075726,
+          0,
+          -61.5453407469945
+        ],
+        [
+          0,
+          1.0480044249075726,
+          -8.840353992605799
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "inverseSampling": [
+        0.9541944444444437,
+        0,
+        58.7262222222224,
+        0,
+        0.9541944444444437,
+        8.43541666666671
+      ],
+      "rasterCalibrationPx": [
+        0,
+        -1
+      ],
+      "calibratedSourceOrigin": [
+        303.0,
+        252.7091944444443
+      ],
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 75,
+        "groundY": 437.0,
+        "bodyHeight": 362.0
+      },
+      "residualPx": [
+        0.0,
+        0.0
+      ],
+      "bbox": [
+        102,
+        69,
+        383,
+        444
+      ],
+      "sourceSHA256": "c93071a8f3ebbe09925b25638745793ad621fdd0da1285b44ec0034040022c16",
+      "registeredPixelSHA256": "704db599711b31c189a43936b06faf4caca9eb27db12c716d1416af89324ea1b",
+      "index": 4,
+      "file": "fox-hello/fullframe/04.png"
+    },
+    {
+      "sourceAnchor": {
+        "x": 283.0,
+        "y": 252.0,
+        "crownY": 80,
+        "groundY": 424.0,
+        "bodyHeight": 344.0
+      },
+      "scale": 1.0465116279069768,
+      "translation": [
+        -40.16279069767444,
+        -9.720930232558146
+      ],
+      "matrix": [
+        [
+          1.0465116279069768,
+          0,
+          -40.16279069767444
+        ],
+        [
+          0,
+          1.0465116279069768,
+          -9.720930232558146
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "inverseSampling": [
+        0.9555555555555555,
+        0,
+        38.377777777777794,
+        0,
+        0.9555555555555555,
+        9.288888888888895
+      ],
+      "rasterCalibrationPx": [
+        0,
+        -2
+      ],
+      "calibratedSourceOrigin": [
+        283.0,
+        253.9111111111111
+      ],
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 255.5,
+        "crownY": 74,
+        "groundY": 437.0,
+        "bodyHeight": 363.0
+      },
+      "residualPx": [
+        0.0,
+        -0.5
+      ],
+      "bbox": [
+        101,
+        68,
+        350,
+        443
+      ],
+      "sourceSHA256": "3dea07dc09b3a6f983bc9accfb2770d26b2f842d7ebc3c87c10e985127328c54",
+      "registeredPixelSHA256": "47552d842d482ef5031b214a21860f5cfeb6e0ae931a085bcc7fcad191f333ee",
+      "index": 5,
+      "file": "fox-hello/fullframe/05.png"
+    },
+    {
+      "sourceAnchor": {
+        "x": 309.0,
+        "y": 260.5,
+        "crownY": 89,
+        "groundY": 432.0,
+        "bodyHeight": 343.0
+      },
+      "scale": 1.0495626822157433,
+      "translation": [
+        -68.31486880466468,
+        -17.41107871720112
+      ],
+      "matrix": [
+        [
+          1.0495626822157433,
+          0,
+          -68.31486880466468
+        ],
+        [
+          0,
+          1.0495626822157433,
+          -17.41107871720112
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "inverseSampling": [
+        0.9527777777777778,
+        0,
+        65.08888888888886,
+        0,
+        0.9527777777777778,
+        16.58888888888885
+      ],
+      "rasterCalibrationPx": [
+        0,
+        0
+      ],
+      "calibratedSourceOrigin": [
+        309.0,
+        260.5
+      ],
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.5,
+        "crownY": 76,
+        "groundY": 437.0,
+        "bodyHeight": 361.0
+      },
+      "residualPx": [
+        0.0,
+        0.5
+      ],
+      "bbox": [
+        101,
+        73,
+        385,
+        449
+      ],
+      "sourceSHA256": "813d030c85a6284cd6256475fab4f45f3e9d1b95cdd072ffa2bf034900d311a4",
+      "registeredPixelSHA256": "f6787f11fb837a9d941a3abb692bb833c680c239cd68529b532cca9cb427732c",
+      "index": 6,
+      "file": "fox-hello/fullframe/06.png"
+    },
+    {
+      "sourceAnchor": {
+        "x": 304.0,
+        "y": 251.5,
+        "crownY": 78,
+        "groundY": 425.0,
+        "bodyHeight": 347.0
+      },
+      "scale": 1.037463976945245,
+      "translation": [
+        -59.38904899135446,
+        -4.922190201729109
+      ],
+      "matrix": [
+        [
+          1.037463976945245,
+          0,
+          -59.38904899135446
+        ],
+        [
+          0,
+          1.037463976945245,
+          -4.922190201729109
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "inverseSampling": [
+        0.9638888888888889,
+        0,
+        57.24444444444443,
+        0,
+        0.9638888888888889,
+        4.744444444444446
+      ],
+      "rasterCalibrationPx": [
+        0,
+        0
+      ],
+      "calibratedSourceOrigin": [
+        304.0,
+        251.5
+      ],
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 76,
+        "groundY": 436.0,
+        "bodyHeight": 360.0
+      },
+      "residualPx": [
+        0.0,
+        0.0
+      ],
+      "bbox": [
+        99,
+        70,
+        368,
+        442
+      ],
+      "sourceSHA256": "d3525b400d52802fe5ccadab3c6b3b4b306e5ecb970a53343bd825bec22cb2b3",
+      "registeredPixelSHA256": "84762012bf2945310a9ccb6160af1e809ca62bac2cc665994e4d13b140cde50a",
+      "index": 7,
+      "file": "fox-hello/fullframe/07.png"
+    },
+    {
+      "sourceAnchor": {
+        "x": 307.0,
+        "y": 250.5,
+        "crownY": 76,
+        "groundY": 425.0,
+        "bodyHeight": 349.0
+      },
+      "scale": 1.0315186246418337,
+      "translation": [
+        -60.67621776504296,
+        -2.395415472779348
+      ],
+      "matrix": [
+        [
+          1.0315186246418337,
+          0,
+          -60.67621776504296
+        ],
+        [
+          0,
+          1.0315186246418337,
+          -2.395415472779348
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "inverseSampling": [
+        0.9694444444444446,
+        0,
+        58.82222222222221,
+        0,
+        0.9694444444444446,
+        2.3222222222222015
+      ],
+      "rasterCalibrationPx": [
+        0,
+        0
+      ],
+      "calibratedSourceOrigin": [
+        307.0,
+        250.5
+      ],
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 76,
+        "groundY": 436.0,
+        "bodyHeight": 360.0
+      },
+      "residualPx": [
+        0.0,
+        0.0
+      ],
+      "bbox": [
+        100,
+        70,
+        397,
+        442
+      ],
+      "sourceSHA256": "3efac5930dfc91e79975ca25bbe9e48fc73fda54ec4571631241158ad70ec09d",
+      "registeredPixelSHA256": "a61fb7384effe6631683fe995d5c14eda9127c30e959680452bc8f0d726e2410",
+      "index": 8,
+      "file": "fox-hello/fullframe/08.png"
+    },
+    {
+      "sourceAnchor": {
+        "x": 308.0,
+        "y": 260.5,
+        "crownY": 88,
+        "groundY": 433.0,
+        "bodyHeight": 345.0
+      },
+      "scale": 1.0434782608695652,
+      "translation": [
+        -65.39130434782606,
+        -15.826086956521749
+      ],
+      "matrix": [
+        [
+          1.0434782608695652,
+          0,
+          -65.39130434782606
+        ],
+        [
+          0,
+          1.0434782608695652,
+          -15.826086956521749
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "inverseSampling": [
+        0.9583333333333334,
+        0,
+        62.66666666666665,
+        0,
+        0.9583333333333334,
+        15.166666666666677
+      ],
+      "rasterCalibrationPx": [
+        0,
+        0
+      ],
+      "calibratedSourceOrigin": [
+        308.0,
+        260.5
+      ],
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 255.5,
+        "crownY": 75,
+        "groundY": 436.0,
+        "bodyHeight": 361.0
+      },
+      "residualPx": [
+        0.0,
+        -0.5
+      ],
+      "bbox": [
+        101,
+        72,
+        402,
+        449
+      ],
+      "sourceSHA256": "d93c2c20eebacec6b2a612779f0ef8737d86e2d12b9fbce7988a709b240bae72",
+      "registeredPixelSHA256": "d543794419c7f28613299038dbe1ec5f598f0c811292ebce0b0e19f3a5a82e46",
+      "index": 9,
+      "file": "fox-hello/fullframe/09.png"
+    },
+    {
+      "sourceAnchor": {
+        "x": 304.0,
+        "y": 251.5,
+        "crownY": 78,
+        "groundY": 425.0,
+        "bodyHeight": 347.0
+      },
+      "scale": 1.037463976945245,
+      "translation": [
+        -58.38904899135446,
+        -4.922190201729109
+      ],
+      "matrix": [
+        [
+          1.037463976945245,
+          0,
+          -58.38904899135446
+        ],
+        [
+          0,
+          1.037463976945245,
+          -4.922190201729109
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "inverseSampling": [
+        0.9638888888888889,
+        0,
+        56.280555555555544,
+        0,
+        0.9638888888888889,
+        4.744444444444446
+      ],
+      "rasterCalibrationPx": [
+        1,
+        0
+      ],
+      "calibratedSourceOrigin": [
+        303.0361111111111,
+        251.5
+      ],
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 76,
+        "groundY": 436.0,
+        "bodyHeight": 360.0
+      },
+      "residualPx": [
+        0.0,
+        0.0
+      ],
+      "bbox": [
+        101,
+        71,
+        408,
+        442
+      ],
+      "sourceSHA256": "44fa22fdcfd06848f7fb8502aed4995b0ee4e4baccfb783a3a2514b562291e66",
+      "registeredPixelSHA256": "17e6cde62d32350ea7f543b4040e70b960752be8ee584a82d5fb95ff21754ac4",
+      "index": 10,
+      "file": "fox-hello/fullframe/10.png"
+    },
+    {
+      "sourceAnchor": {
+        "x": 285.0,
+        "y": 250.0,
+        "crownY": 75,
+        "groundY": 425.0,
+        "bodyHeight": 350.0
+      },
+      "scale": 1.0285714285714285,
+      "translation": [
+        -37.14285714285711,
+        -1.1428571428571104
+      ],
+      "matrix": [
+        [
+          1.0285714285714285,
+          0,
+          -37.14285714285711
+        ],
+        [
+          0,
+          1.0285714285714285,
+          -1.1428571428571104
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "inverseSampling": [
+        0.9722222222222223,
+        0,
+        36.111111111111086,
+        0,
+        0.9722222222222223,
+        1.1111111111110796
+      ],
+      "rasterCalibrationPx": [
+        0,
+        0
+      ],
+      "calibratedSourceOrigin": [
+        285.0,
+        250.0
+      ],
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 255.8699999999999,
+        "crownY": 76,
+        "groundY": 435.7399999999998,
+        "bodyHeight": 359.7399999999998
+      },
+      "residualPx": [
+        0.0,
+        -0.13000000000010914
+      ],
+      "bbox": [
+        102,
+        71,
+        396,
+        442
+      ],
+      "sourceSHA256": "204842d7fb362c6d3da8df934ec3159fe79e213cc95232fd59ea5f32d57e69a9",
+      "registeredPixelSHA256": "1a900c887c10a76dc4ce65294b79e951111d35f04a2c81b08cca3b3936edf463",
+      "index": 11,
+      "file": "fox-hello/fullframe/11.png"
+    },
+    {
+      "sourceAnchor": {
+        "x": 310.0,
+        "y": 260.5,
+        "crownY": 88,
+        "groundY": 433.0,
+        "bodyHeight": 345.0
+      },
+      "scale": 1.0434782608695652,
+      "translation": [
+        -67.47826086956519,
+        -15.826086956521749
+      ],
+      "matrix": [
+        [
+          1.0434782608695652,
+          0,
+          -67.47826086956519
+        ],
+        [
+          0,
+          1.0434782608695652,
+          -15.826086956521749
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "inverseSampling": [
+        0.9583333333333334,
+        0,
+        64.66666666666664,
+        0,
+        0.9583333333333334,
+        15.166666666666677
+      ],
+      "rasterCalibrationPx": [
+        0,
+        0
+      ],
+      "calibratedSourceOrigin": [
+        310.0,
+        260.5
+      ],
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 255.5,
+        "crownY": 75,
+        "groundY": 436.0,
+        "bodyHeight": 361.0
+      },
+      "residualPx": [
+        0.0,
+        -0.5
+      ],
+      "bbox": [
+        100,
+        72,
+        355,
+        449
+      ],
+      "sourceSHA256": "94a55a1bffe6c186cba5b941aca356e7db82dc9c34503a57fa34568632c654f8",
+      "registeredPixelSHA256": "c4d7c5e82054fce0ca0a7b05a3e5366e51c9744bc2a795a606effab6e3351476",
+      "index": 12,
+      "file": "fox-hello/fullframe/12.png"
+    },
+    {
+      "sourceAnchor": {
+        "x": 302.0,
+        "y": 255.5,
+        "crownY": 78,
+        "groundY": 433.0,
+        "bodyHeight": 355.0
+      },
+      "scale": 1.0140845070422535,
+      "translation": [
+        -50.253521126760575,
+        -3.0985915492957474
+      ],
+      "matrix": [
+        [
+          1.0140845070422535,
+          0,
+          -50.253521126760575
+        ],
+        [
+          0,
+          1.0140845070422535,
+          -3.0985915492957474
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "inverseSampling": [
+        0.9861111111111112,
+        0,
+        49.555555555555564,
+        0,
+        0.9861111111111112,
+        3.0555555555555287
+      ],
+      "rasterCalibrationPx": [
+        0,
+        0
+      ],
+      "calibratedSourceOrigin": [
+        302.0,
+        255.49999999999997
+      ],
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 76,
+        "groundY": 436.0,
+        "bodyHeight": 360.0
+      },
+      "residualPx": [
+        0.0,
+        0.0
+      ],
+      "bbox": [
+        104,
+        71,
+        386,
+        441
+      ],
+      "sourceSHA256": "433bf1b6a808eeaca90c57b4892c8a656825cf51f91ee16036155baabef1f10c",
+      "registeredPixelSHA256": "1731543fece19b93d95f71a0c9e42ac3c1deb03910df8a5b2e72466324c618da",
+      "index": 13,
+      "file": "fox-hello/fullframe/13.png"
+    },
+    {
+      "sourceAnchor": {
+        "x": 308.0,
+        "y": 255.5,
+        "crownY": 78,
+        "groundY": 433.0,
+        "bodyHeight": 355.0
+      },
+      "scale": 1.0140845070422535,
+      "translation": [
+        -56.33802816901408,
+        -3.0985915492957474
+      ],
+      "matrix": [
+        [
+          1.0140845070422535,
+          0,
+          -56.33802816901408
+        ],
+        [
+          0,
+          1.0140845070422535,
+          -3.0985915492957474
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "inverseSampling": [
+        0.9861111111111112,
+        0,
+        55.55555555555555,
+        0,
+        0.9861111111111112,
+        3.0555555555555287
+      ],
+      "rasterCalibrationPx": [
+        0,
+        0
+      ],
+      "calibratedSourceOrigin": [
+        308.0,
+        255.49999999999997
+      ],
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 76,
+        "groundY": 436.0,
+        "bodyHeight": 360.0
+      },
+      "residualPx": [
+        0.0,
+        0.0
+      ],
+      "bbox": [
+        100,
+        71,
+        387,
+        441
+      ],
+      "sourceSHA256": "5370fb54531ce7ea273f7f993941f9df2ea9dacd56e7ddc20e62455e3649e063",
+      "registeredPixelSHA256": "d8b3340a46d62b81b1963025dae260c77fb2e458e84c96fd9e8932e0200e8358",
+      "index": 14,
+      "file": "fox-hello/fullframe/14.png"
+    },
+    {
+      "sourceAnchor": {
+        "x": 310.0,
+        "y": 260.5,
+        "crownY": 88,
+        "groundY": 433.0,
+        "bodyHeight": 345.0
+      },
+      "scale": 1.0434782608695652,
+      "translation": [
+        -66.47826086956519,
+        -15.826086956521749
+      ],
+      "matrix": [
+        [
+          1.0434782608695652,
+          0,
+          -66.47826086956519
+        ],
+        [
+          0,
+          1.0434782608695652,
+          -15.826086956521749
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "inverseSampling": [
+        0.9583333333333334,
+        0,
+        63.70833333333331,
+        0,
+        0.9583333333333334,
+        15.166666666666677
+      ],
+      "rasterCalibrationPx": [
+        1,
+        0
+      ],
+      "calibratedSourceOrigin": [
+        309.04166666666663,
+        260.5
+      ],
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 76,
+        "groundY": 436.0,
+        "bodyHeight": 360.0
+      },
+      "residualPx": [
+        0.0,
+        0.0
+      ],
+      "bbox": [
+        102,
+        72,
+        398,
+        449
+      ],
+      "sourceSHA256": "007cdc1aafa32c1092a72159fb261f97659697cdd0783b02888d32c732f90ce1",
+      "registeredPixelSHA256": "dbf14986e8e71d9fb65fc54e6c861d5864f69ffb4edd0f517ccb9325b94c6e74",
+      "index": 15,
+      "file": "fox-hello/fullframe/15.png"
+    },
+    {
+      "sourceAnchor": {
+        "x": 305.0,
+        "y": 256.0,
+        "crownY": 79,
+        "groundY": 433.0,
+        "bodyHeight": 354.0
+      },
+      "scale": 1.0169491525423728,
+      "translation": [
+        -54.16949152542372,
+        -4.338983050847446
+      ],
+      "matrix": [
+        [
+          1.0169491525423728,
+          0,
+          -54.16949152542372
+        ],
+        [
+          0,
+          1.0169491525423728,
+          -4.338983050847446
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "inverseSampling": [
+        0.9833333333333334,
+        0,
+        53.266666666666666,
+        0,
+        0.9833333333333334,
+        4.266666666666655
+      ],
+      "rasterCalibrationPx": [
+        0,
+        0
+      ],
+      "calibratedSourceOrigin": [
+        305.0,
+        256.0
+      ],
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 76,
+        "groundY": 436.0,
+        "bodyHeight": 360.0
+      },
+      "residualPx": [
+        0.0,
+        0.0
+      ],
+      "bbox": [
+        101,
+        71,
+        386,
+        441
+      ],
+      "sourceSHA256": "634c814e224fe080f21549d145cb67d687dd4e5c8ea25b4074cd73bb4f4f187e",
+      "registeredPixelSHA256": "e65ab5c76f905dd43a0f7d5b3507a205ec5b8734b452d3ef0dc63ca39d35e657",
+      "index": 16,
+      "file": "fox-hello/fullframe/16.png"
+    },
+    {
+      "sourceAnchor": {
+        "x": 286.5,
+        "y": 256.0,
+        "crownY": 79,
+        "groundY": 433.0,
+        "bodyHeight": 354.0
+      },
+      "scale": 1.0169491525423728,
+      "translation": [
+        -35.35593220338984,
+        -4.338983050847446
+      ],
+      "matrix": [
+        [
+          1.0169491525423728,
+          0,
+          -35.35593220338984
+        ],
+        [
+          0,
+          1.0169491525423728,
+          -4.338983050847446
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "inverseSampling": [
+        0.9833333333333334,
+        0,
+        34.76666666666668,
+        0,
+        0.9833333333333334,
+        4.266666666666655
+      ],
+      "rasterCalibrationPx": [
+        0,
+        0
+      ],
+      "calibratedSourceOrigin": [
+        286.5,
+        256.0
+      ],
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 76,
+        "groundY": 436.0,
+        "bodyHeight": 360.0
+      },
+      "residualPx": [
+        0.0,
+        0.0
+      ],
+      "bbox": [
+        102,
+        71,
+        388,
+        441
+      ],
+      "sourceSHA256": "6294cdf749ae3e24a746c58b2e7b975281dcaa7b516d7f52eea62e7b0b7b475f",
+      "registeredPixelSHA256": "39e411a563590ad604b915e1770819d2f4db159d7012e8a8db36f8bb13f067e9",
+      "index": 17,
+      "file": "fox-hello/fullframe/17.png"
+    },
+    {
+      "sourceAnchor": {
+        "x": 289.0,
+        "y": 260.0,
+        "crownY": 87,
+        "groundY": 433.0,
+        "bodyHeight": 346.0
+      },
+      "scale": 1.0404624277456647,
+      "translation": [
+        -44.69364161849711,
+        -14.520231213872819
+      ],
+      "matrix": [
+        [
+          1.0404624277456647,
+          0,
+          -44.69364161849711
+        ],
+        [
+          0,
+          1.0404624277456647,
+          -14.520231213872819
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "inverseSampling": [
+        0.9611111111111111,
+        0,
+        42.95555555555556,
+        0,
+        0.9611111111111111,
+        13.955555555555543
+      ],
+      "rasterCalibrationPx": [
+        0,
+        0
+      ],
+      "calibratedSourceOrigin": [
+        289.0,
+        260.0
+      ],
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 76,
+        "groundY": 436.0,
+        "bodyHeight": 360.0
+      },
+      "residualPx": [
+        0.0,
+        0.0
+      ],
+      "bbox": [
+        104,
+        71,
+        371,
+        449
+      ],
+      "sourceSHA256": "22a1550d2039e5cefff94d07bccc510f5146f484ef536b20e3c27ca57977a97b",
+      "registeredPixelSHA256": "bd150cc8d84353caf75efeba2aa09fdccaa1f7ff7316a2360e801838393e41e0",
+      "index": 18,
+      "file": "fox-hello/fullframe/18.png"
+    },
+    {
+      "sourceAnchor": {
+        "x": 304.0,
+        "y": 251.5,
+        "crownY": 78,
+        "groundY": 425.0,
+        "bodyHeight": 347.0
+      },
+      "scale": 1.037463976945245,
+      "translation": [
+        -59.38904899135446,
+        -4.922190201729109
+      ],
+      "matrix": [
+        [
+          1.037463976945245,
+          0,
+          -59.38904899135446
+        ],
+        [
+          0,
+          1.037463976945245,
+          -4.922190201729109
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "inverseSampling": [
+        0.9638888888888889,
+        0,
+        57.24444444444443,
+        0,
+        0.9638888888888889,
+        4.744444444444446
+      ],
+      "rasterCalibrationPx": [
+        0,
+        0
+      ],
+      "calibratedSourceOrigin": [
+        304.0,
+        251.5
+      ],
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 76,
+        "groundY": 436.0,
+        "bodyHeight": 360.0
+      },
+      "residualPx": [
+        0.0,
+        0.0
+      ],
+      "bbox": [
+        99,
+        71,
+        389,
+        443
+      ],
+      "sourceSHA256": "f98fb14230428323911951928e3e5948846e67d14b693625d7b86099e5ccea44",
+      "registeredPixelSHA256": "2a33fed11d32ae0df4af5b93afbff0e1c61c1375de892e237c49ddd03d3ef88b",
+      "index": 19,
+      "file": "fox-hello/fullframe/19.png"
+    },
+    {
+      "sourceAnchor": {
+        "x": 309.0,
+        "y": 252.0,
+        "crownY": 78,
+        "groundY": 426.0,
+        "bodyHeight": 348.0
+      },
+      "scale": 1.0344827586206897,
+      "translation": [
+        -63.65517241379314,
+        -4.689655172413836
+      ],
+      "matrix": [
+        [
+          1.0344827586206897,
+          0,
+          -63.65517241379314
+        ],
+        [
+          0,
+          1.0344827586206897,
+          -4.689655172413836
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "inverseSampling": [
+        0.9666666666666666,
+        0,
+        61.53333333333336,
+        0,
+        0.9666666666666666,
+        4.533333333333375
+      ],
+      "rasterCalibrationPx": [
+        0,
+        0
+      ],
+      "calibratedSourceOrigin": [
+        309.0,
+        252.00000000000003
+      ],
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 76,
+        "groundY": 436.0,
+        "bodyHeight": 360.0
+      },
+      "residualPx": [
+        0.0,
+        0.0
+      ],
+      "bbox": [
+        99,
+        71,
+        370,
+        442
+      ],
+      "sourceSHA256": "8954f79e6075e8a5cd25e50e22762d0938715cbaf4246a53f674f3f098cbdd35",
+      "registeredPixelSHA256": "04190cafd2005a361e554262df1e94f6e9ca1f599efa4843cc2067d9295db0a5",
+      "index": 20,
+      "file": "fox-hello/fullframe/20.png"
+    },
+    {
+      "sourceAnchor": {
+        "x": 305.0,
+        "y": 254.0,
+        "crownY": 81,
+        "groundY": 427.0,
+        "bodyHeight": 346.0
+      },
+      "scale": 1.0404624277456647,
+      "translation": [
+        -61.34104046242771,
+        -8.277456647398822
+      ],
+      "matrix": [
+        [
+          1.0404624277456647,
+          0,
+          -61.34104046242771
+        ],
+        [
+          0,
+          1.0404624277456647,
+          -8.277456647398822
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "inverseSampling": [
+        0.9611111111111111,
+        0,
+        58.95555555555553,
+        0,
+        0.9611111111111111,
+        7.955555555555534
+      ],
+      "rasterCalibrationPx": [
+        0,
+        0
+      ],
+      "calibratedSourceOrigin": [
+        305.0,
+        254.0
+      ],
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0150000000001,
+        "crownY": 76,
+        "groundY": 436.0300000000002,
+        "bodyHeight": 360.0300000000002
+      },
+      "residualPx": [
+        0.0,
+        0.015000000000100044
+      ],
+      "bbox": [
+        100,
+        70,
+        355,
+        443
+      ],
+      "sourceSHA256": "8992470897607d06e72532fe04d3930fa6845e9b1c0d51695f928c536cb4f743",
+      "registeredPixelSHA256": "125228b005374e321064a0cc7a89e6f573e91e5fbc6330a5ebb738b8a34f65bf",
+      "index": 21,
+      "file": "fox-hello/fullframe/21.png"
+    },
+    {
+      "sourceAnchor": {
+        "x": 285.0,
+        "y": 252.0,
+        "crownY": 79,
+        "groundY": 425.0,
+        "bodyHeight": 346.0
+      },
+      "scale": 1.0404624277456647,
+      "translation": [
+        -40.531791907514446,
+        -6.196531791907489
+      ],
+      "matrix": [
+        [
+          1.0404624277456647,
+          0,
+          -40.531791907514446
+        ],
+        [
+          0,
+          1.0404624277456647,
+          -6.196531791907489
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "inverseSampling": [
+        0.9611111111111111,
+        0,
+        38.955555555555556,
+        0,
+        0.9611111111111111,
+        5.955555555555532
+      ],
+      "rasterCalibrationPx": [
+        0,
+        0
+      ],
+      "calibratedSourceOrigin": [
+        285.0,
+        252.0
+      ],
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 76,
+        "groundY": 436.0,
+        "bodyHeight": 360.0
+      },
+      "residualPx": [
+        0.0,
+        0.0
+      ],
+      "bbox": [
+        100,
+        70,
+        348,
+        444
+      ],
+      "sourceSHA256": "4d1d650af63e826e16b9dce76f33b13add1f7ca3bf0e00fcb0831f776a0fecf7",
+      "registeredPixelSHA256": "dc599e1a5449c2d87b01a5535d2b1e22187999eb30e20f8d34fcfc541a7b7f77",
+      "index": 22,
+      "file": "fox-hello/fullframe/22.png"
+    },
+    {
+      "sourceAnchor": {
+        "x": 298.0,
+        "y": 251.0,
+        "crownY": 80,
+        "groundY": 422.0,
+        "bodyHeight": 342.0
+      },
+      "scale": 1.0526315789473684,
+      "translation": [
+        -57.68421052631578,
+        -8.21052631578948
+      ],
+      "matrix": [
+        [
+          1.0526315789473684,
+          0,
+          -57.68421052631578
+        ],
+        [
+          0,
+          1.0526315789473684,
+          -8.21052631578948
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "inverseSampling": [
+        0.9500000000000001,
+        0,
+        54.8,
+        0,
+        0.9500000000000001,
+        7.800000000000006
+      ],
+      "rasterCalibrationPx": [
+        0,
+        0
+      ],
+      "calibratedSourceOrigin": [
+        298.0,
+        251.00000000000003
+      ],
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 76,
+        "groundY": 436.0,
+        "bodyHeight": 360.0
+      },
+      "residualPx": [
+        0.0,
+        0.0
+      ],
+      "bbox": [
+        103,
+        71,
+        349,
+        448
+      ],
+      "sourceSHA256": "a9d24ccbb67805d2966b6abc4ace13629982a9790f6d8dd3e3b195e559910d49",
+      "registeredPixelSHA256": "746b485f7f50dad9ff093679a17979878271a2d81a64c8a407f068bcac5c09bf",
+      "index": 23,
+      "file": "fox-hello/fullframe/23.png"
+    }
+  ],
+  "poses": {
+    "fox": {
+      "idle": {
+        "sourceAnchor": {
+          "x": 381.5,
+          "y": 313.5,
+          "crownY": 27,
+          "groundY": 600.0,
+          "bodyHeight": 573.0
+        },
+        "scale": 0.6282722513089005,
+        "translation": [
+          17.314136125654443,
+          59.03664921465969
+        ],
+        "matrix": [
+          [
+            0.6282722513089005,
+            0,
+            17.314136125654443
+          ],
+          [
+            0,
+            0.6282722513089005,
+            59.03664921465969
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "inverseSampling": [
+          1.5916666666666668,
+          0,
+          -27.558333333333323,
+          0,
+          1.5916666666666668,
+          -93.96666666666667
+        ],
+        "rasterCalibrationPx": [
+          1,
+          0
+        ],
+        "calibratedSourceOrigin": [
+          379.90833333333336,
+          313.5
+        ],
+        "afterAnchor": {
+          "x": 256.0,
+          "y": 256.5,
+          "crownY": 77,
+          "groundY": 436.0,
+          "bodyHeight": 359.0
+        },
+        "residualPx": [
+          0.0,
+          0.5
+        ],
+        "bbox": [
+          105,
+          73,
+          349,
+          446
+        ],
+        "sourceSHA256": "0820cfe182efa642239d46c4983611d1bcc4fc32fe808f0904bd3c6901f15ce7",
+        "registeredPixelSHA256": "aef492227850274b75ffc43cc319dc1a453533eaf1af0c451fc2bbf83a21ce50",
+        "file": "fox/registered/idle.png"
+      },
+      "thinking": {
+        "sourceAnchor": {
+          "x": 321.0,
+          "y": 317.0,
+          "crownY": 34,
+          "groundY": 600.0,
+          "bodyHeight": 566.0
+        },
+        "scale": 0.6360424028268551,
+        "translation": [
+          52.830388692579504,
+          54.37455830388694
+        ],
+        "matrix": [
+          [
+            0.6360424028268551,
+            0,
+            52.830388692579504
+          ],
+          [
+            0,
+            0.6360424028268551,
+            54.37455830388694
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "inverseSampling": [
+          1.5722222222222224,
+          0,
+          -83.06111111111112,
+          0,
+          1.5722222222222224,
+          -85.48888888888892
+        ],
+        "rasterCalibrationPx": [
+          1,
+          0
+        ],
+        "calibratedSourceOrigin": [
+          319.4277777777778,
+          317.0
+        ],
+        "afterAnchor": {
+          "x": 256.0,
+          "y": 256.5,
+          "crownY": 77,
+          "groundY": 436.0,
+          "bodyHeight": 359.0
+        },
+        "residualPx": [
+          0.0,
+          0.5
+        ],
+        "bbox": [
+          113,
+          73,
+          338,
+          446
+        ],
+        "sourceSHA256": "8ee9be8c78665a9431018f41296215afaadbc76c7556fe1d70a1733410b7c01b",
+        "registeredPixelSHA256": "96f8d704882d48a3709fa979729c56715c6423e6826d3ae92b770f2919142d4d",
+        "file": "fox/registered/thinking.png"
+      },
+      "success": {
+        "sourceAnchor": {
+          "x": 395.0,
+          "y": 299.0,
+          "crownY": 19,
+          "groundY": 579.0,
+          "bodyHeight": 560.0
+        },
+        "scale": 0.6428571428571429,
+        "translation": [
+          3.071428571428555,
+          63.78571428571428
+        ],
+        "matrix": [
+          [
+            0.6428571428571429,
+            0,
+            3.071428571428555
+          ],
+          [
+            0,
+            0.6428571428571429,
+            63.78571428571428
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "inverseSampling": [
+          1.5555555555555554,
+          0,
+          -4.777777777777752,
+          0,
+          1.5555555555555554,
+          -99.2222222222222
+        ],
+        "rasterCalibrationPx": [
+          1,
+          0
+        ],
+        "calibratedSourceOrigin": [
+          393.44444444444446,
+          299.0
+        ],
+        "afterAnchor": {
+          "x": 256.0,
+          "y": 256.5,
+          "crownY": 77,
+          "groundY": 436.0,
+          "bodyHeight": 359.0
+        },
+        "residualPx": [
+          0.0,
+          0.5
+        ],
+        "bbox": [
+          94,
+          73,
+          363,
+          447
+        ],
+        "sourceSHA256": "ff826675187a9af9108ff42d45a8374ce7150137c78f1cd0b5f5541c9b2b0f03",
+        "registeredPixelSHA256": "d3f54cbe6e92c6c46cde83685c7687255fa2e37b43c2a25c06ea8e18edc02700",
+        "file": "fox/registered/success.png"
+      },
+      "retry": {
+        "sourceAnchor": {
+          "x": 328.0,
+          "y": 300.5,
+          "crownY": 22,
+          "groundY": 579.0,
+          "bodyHeight": 557.0
+        },
+        "scale": 0.6463195691202872,
+        "translation": [
+          45.007181328545784,
+          61.7809694793537
+        ],
+        "matrix": [
+          [
+            0.6463195691202872,
+            0,
+            45.007181328545784
+          ],
+          [
+            0,
+            0.6463195691202872,
+            61.7809694793537
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "inverseSampling": [
+          1.5472222222222223,
+          0,
+          -69.63611111111112,
+          0,
+          1.5472222222222223,
+          -95.58888888888893
+        ],
+        "rasterCalibrationPx": [
+          1,
+          0
+        ],
+        "calibratedSourceOrigin": [
+          326.4527777777778,
+          300.5
+        ],
+        "afterAnchor": {
+          "x": 256.0,
+          "y": 256.5,
+          "crownY": 77,
+          "groundY": 436.0,
+          "bodyHeight": 359.0
+        },
+        "residualPx": [
+          0.0,
+          0.5
+        ],
+        "bbox": [
+          104,
+          73,
+          398,
+          447
+        ],
+        "sourceSHA256": "41ef8e9a31a257fa108658854add8345790cc9e93ac07772fd4b7fa2bdc0f9fb",
+        "registeredPixelSHA256": "d09a0c8874aeedae90288b495c18288b28bcbf0f9441cbc45652211e5d93ccfc",
+        "file": "fox/registered/retry.png"
+      }
+    },
+    "nia": {
+      "idle": {
+        "sourceAnchor": {
+          "x": 353.0,
+          "y": 307.5,
+          "crownY": 30,
+          "groundY": 585.0,
+          "bodyHeight": 555.0
+        },
+        "scale": 0.6486486486486487,
+        "translation": [
+          28.027027027027003,
+          56.54054054054052
+        ],
+        "matrix": [
+          [
+            0.6486486486486487,
+            0,
+            28.027027027027003
+          ],
+          [
+            0,
+            0.6486486486486487,
+            56.54054054054052
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "inverseSampling": [
+          1.5416666666666665,
+          0,
+          -43.20833333333329,
+          0,
+          1.5416666666666665,
+          -87.16666666666663
+        ],
+        "rasterCalibrationPx": [
+          1,
+          0
+        ],
+        "calibratedSourceOrigin": [
+          351.45833333333337,
+          307.5
+        ],
+        "afterAnchor": {
+          "x": 256.0,
+          "y": 256.0,
+          "crownY": 76,
+          "groundY": 436.0,
+          "bodyHeight": 360.0
+        },
+        "residualPx": [
+          0.0,
+          0.0
+        ],
+        "bbox": [
+          159,
+          74,
+          350,
+          446
+        ],
+        "sourceSHA256": "1c3c692c7ee2d2672717348e7668eb13adddfcf2138abf3093f8c9659024da6a",
+        "registeredPixelSHA256": "352ec8963e1d05d22b970b461487900dbbdce286560c44a88ad04b2449247599",
+        "file": "nia/registered/idle.png"
+      },
+      "thinking": {
+        "sourceAnchor": {
+          "x": 294.0,
+          "y": 311.5,
+          "crownY": 38,
+          "groundY": 585.0,
+          "bodyHeight": 547.0
+        },
+        "scale": 0.6581352833638026,
+        "translation": [
+          62.50822669104204,
+          50.990859232175495
+        ],
+        "matrix": [
+          [
+            0.6581352833638026,
+            0,
+            62.50822669104204
+          ],
+          [
+            0,
+            0.6581352833638026,
+            50.990859232175495
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "inverseSampling": [
+          1.5194444444444444,
+          0,
+          -94.97777777777776,
+          0,
+          1.5194444444444444,
+          -77.47777777777776
+        ],
+        "rasterCalibrationPx": [
+          0,
+          0
+        ],
+        "calibratedSourceOrigin": [
+          294.0,
+          311.5
+        ],
+        "afterAnchor": {
+          "x": 255.5,
+          "y": 256.0,
+          "crownY": 76,
+          "groundY": 436.0,
+          "bodyHeight": 360.0
+        },
+        "residualPx": [
+          -0.5,
+          0.0
+        ],
+        "bbox": [
+          156,
+          74,
+          348,
+          446
+        ],
+        "sourceSHA256": "9b9b4750074011721f11f057a3b67bce2001b85c4974eb2bb95e839931223e65",
+        "registeredPixelSHA256": "d87cf4561c9bbb05ff08b7b28f6756d875e7d5b4087aac7a291b75816c40408c",
+        "file": "nia/registered/thinking.png"
+      },
+      "success": {
+        "sourceAnchor": {
+          "x": 368.0,
+          "y": 297.0,
+          "crownY": 20,
+          "groundY": 574.0,
+          "bodyHeight": 554.0
+        },
+        "scale": 0.6498194945848376,
+        "translation": [
+          16.866425992779767,
+          63.003610108303235
+        ],
+        "matrix": [
+          [
+            0.6498194945848376,
+            0,
+            16.866425992779767
+          ],
+          [
+            0,
+            0.6498194945848376,
+            63.003610108303235
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "inverseSampling": [
+          1.5388888888888888,
+          0,
+          -25.95555555555553,
+          0,
+          1.5388888888888888,
+          -96.95555555555553
+        ],
+        "rasterCalibrationPx": [
+          0,
+          0
+        ],
+        "calibratedSourceOrigin": [
+          368.0,
+          297.0
+        ],
+        "afterAnchor": {
+          "x": 256.0,
+          "y": 256.0,
+          "crownY": 76,
+          "groundY": 436.0,
+          "bodyHeight": 360.0
+        },
+        "residualPx": [
+          0.0,
+          0.0
+        ],
+        "bbox": [
+          140,
+          73,
+          354,
+          445
+        ],
+        "sourceSHA256": "ad81878a0802d5f45db8e9a5d06a51d830aba24e51aaffb576fac741a24c41ca",
+        "registeredPixelSHA256": "38aa1519e2201e6da552290e628a7f818ce16e0830ef7459e3cd0050ee7a8728",
+        "file": "nia/registered/success.png"
+      },
+      "retry": {
+        "sourceAnchor": {
+          "x": 298.0,
+          "y": 298.5,
+          "crownY": 24,
+          "groundY": 573.0,
+          "bodyHeight": 549.0
+        },
+        "scale": 0.6557377049180327,
+        "translation": [
+          60.59016393442624,
+          60.26229508196724
+        ],
+        "matrix": [
+          [
+            0.6557377049180327,
+            0,
+            60.59016393442624
+          ],
+          [
+            0,
+            0.6557377049180327,
+            60.26229508196724
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "inverseSampling": [
+          1.5250000000000001,
+          0,
+          -92.40000000000003,
+          0,
+          1.5250000000000001,
+          -91.90000000000005
+        ],
+        "rasterCalibrationPx": [
+          0,
+          0
+        ],
+        "calibratedSourceOrigin": [
+          298.0,
+          298.5
+        ],
+        "afterAnchor": {
+          "x": 256.0,
+          "y": 256.0,
+          "crownY": 76,
+          "groundY": 436.0,
+          "bodyHeight": 360.0
+        },
+        "residualPx": [
+          0.0,
+          0.0
+        ],
+        "bbox": [
+          150,
+          73,
+          392,
+          445
+        ],
+        "sourceSHA256": "8d796697de750cdf6d9a1077c2c895dab036f238a5176eba50d14aef93e2cccf",
+        "registeredPixelSHA256": "20aa511880ca7a16d16d0cd34dfd784839dd0802e29a6e9d9d2aef6d4c68469e",
+        "file": "nia/registered/retry.png"
+      }
+    },
+    "orbit": {
+      "idle": {
+        "sourceAnchor": {
+          "x": 345.0,
+          "y": 355.5,
+          "crownY": 119,
+          "groundY": 592.0,
+          "bodyHeight": 473.0
+        },
+        "scale": 0.7610993657505285,
+        "translation": [
+          -6.5792811839323235,
+          -14.570824524312854
+        ],
+        "matrix": [
+          [
+            0.7610993657505285,
+            0,
+            -6.5792811839323235
+          ],
+          [
+            0,
+            0.7610993657505285,
+            -14.570824524312854
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "inverseSampling": [
+          1.3138888888888889,
+          0,
+          8.644444444444414,
+          0,
+          1.3138888888888889,
+          19.14444444444439
+        ],
+        "rasterCalibrationPx": [
+          0,
+          0
+        ],
+        "calibratedSourceOrigin": [
+          345.0,
+          355.49999999999994
+        ],
+        "afterAnchor": {
+          "x": 256.0,
+          "y": 256.0,
+          "crownY": 76,
+          "groundY": 436.0,
+          "bodyHeight": 360.0
+        },
+        "residualPx": [
+          0.0,
+          0.0
+        ],
+        "bbox": [
+          136,
+          21,
+          367,
+          440
+        ],
+        "sourceSHA256": "87571e488722fe26169a789fcc1d4adb84ce505fab7e2b3a984e96bd75201f91",
+        "registeredPixelSHA256": "f3072a3380ce771d0e8238162405e2631396834f93823a52ffe3ef852f54e289",
+        "file": "orbit/registered/idle.png"
+      },
+      "thinking": {
+        "sourceAnchor": {
+          "x": 310.5,
+          "y": 358.0,
+          "crownY": 124,
+          "groundY": 592.0,
+          "bodyHeight": 468.0
+        },
+        "scale": 0.7692307692307693,
+        "translation": [
+          17.153846153846132,
+          -19.384615384615415
+        ],
+        "matrix": [
+          [
+            0.7692307692307693,
+            0,
+            17.153846153846132
+          ],
+          [
+            0,
+            0.7692307692307693,
+            -19.384615384615415
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "inverseSampling": [
+          1.2999999999999998,
+          0,
+          -22.29999999999997,
+          0,
+          1.2999999999999998,
+          25.20000000000004
+        ],
+        "rasterCalibrationPx": [
+          0,
+          0
+        ],
+        "calibratedSourceOrigin": [
+          310.5,
+          358.0
+        ],
+        "afterAnchor": {
+          "x": 256.0,
+          "y": 256.2549999999999,
+          "crownY": 76,
+          "groundY": 436.50999999999976,
+          "bodyHeight": 360.50999999999976
+        },
+        "residualPx": [
+          0.0,
+          0.25499999999988177
+        ],
+        "bbox": [
+          136,
+          22,
+          366,
+          441
+        ],
+        "sourceSHA256": "b9a54d541847088bf2c8b45c82bef2634b4de42b1caa3360fd68e8599ae7ba6e",
+        "registeredPixelSHA256": "fdee831e82e331dcf09195105b0d074f9f76acda939e4c44cb96165c32a068e5",
+        "file": "orbit/registered/thinking.png"
+      },
+      "success": {
+        "sourceAnchor": {
+          "x": 348.5,
+          "y": 328.0,
+          "crownY": 89,
+          "groundY": 567.0,
+          "bodyHeight": 478.0
+        },
+        "scale": 0.7531380753138075,
+        "translation": [
+          -6.46861924686192,
+          8.970711297071148
+        ],
+        "matrix": [
+          [
+            0.7531380753138075,
+            0,
+            -6.46861924686192
+          ],
+          [
+            0,
+            0.7531380753138075,
+            8.970711297071148
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "inverseSampling": [
+          1.327777777777778,
+          0,
+          8.588888888888883,
+          0,
+          1.327777777777778,
+          -11.911111111111136
+        ],
+        "rasterCalibrationPx": [
+          0,
+          0
+        ],
+        "calibratedSourceOrigin": [
+          348.5,
+          328.0
+        ],
+        "afterAnchor": {
+          "x": 256.0,
+          "y": 256.46000000000004,
+          "crownY": 76,
+          "groundY": 436.9200000000001,
+          "bodyHeight": 360.9200000000001
+        },
+        "residualPx": [
+          0.0,
+          0.4600000000000364
+        ],
+        "bbox": [
+          128,
+          25,
+          402,
+          441
+        ],
+        "sourceSHA256": "ca42a024d1ee52b570120843c05705b105025e7ae23ee9e74aa40e25e55498a7",
+        "registeredPixelSHA256": "c9db867e16917ba09f8d43f7f161e8be922f97242bcd08e051cc5748de7cc853",
+        "file": "orbit/registered/success.png"
+      },
+      "retry": {
+        "sourceAnchor": {
+          "x": 324.0,
+          "y": 336.5,
+          "crownY": 106,
+          "groundY": 567.0,
+          "bodyHeight": 461.0
+        },
+        "scale": 0.7809110629067245,
+        "translation": [
+          2.984815618221262,
+          -6.776572668112806
+        ],
+        "matrix": [
+          [
+            0.7809110629067245,
+            0,
+            2.984815618221262
+          ],
+          [
+            0,
+            0.7809110629067245,
+            -6.776572668112806
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "inverseSampling": [
+          1.2805555555555554,
+          0,
+          -3.8222222222222273,
+          0,
+          1.2805555555555554,
+          8.677777777777788
+        ],
+        "rasterCalibrationPx": [
+          0,
+          0
+        ],
+        "calibratedSourceOrigin": [
+          324.0,
+          336.5
+        ],
+        "afterAnchor": {
+          "x": 256.0,
+          "y": 256.0,
+          "crownY": 76,
+          "groundY": 436.0,
+          "bodyHeight": 360.0
+        },
+        "residualPx": [
+          0.0,
+          0.0
+        ],
+        "bbox": [
+          125,
+          21,
+          436,
+          441
+        ],
+        "sourceSHA256": "1a1fcbaca02d5438b9fa5c8943545c67878148ac35c5c2c4c4b8176502466b31",
+        "registeredPixelSHA256": "7db73b32eb49fe3fb2676e56547212d5db17484e21afbb8587c2a20887f82bd6",
+        "file": "orbit/registered/retry.png"
+      }
+    }
+  },
+  "metrics": {
+    "x": {
+      "beforeRangePx": 27.0,
+      "beforeMaxAdjacentStepPx": 26.0,
+      "afterRangePx": 0.0,
+      "afterMaxAdjacentStepPx": 0.0,
+      "afterMaxErrorPx": 0.0
+    },
+    "y": {
+      "beforeRangePx": 10.5,
+      "beforeMaxAdjacentStepPx": 10.5,
+      "afterRangePx": 1.0,
+      "afterMaxAdjacentStepPx": 1.0,
+      "afterMaxErrorPx": 0.5
+    }
+  },
+  "displayScale": {
+    "fox": 1.25,
+    "nia": 1.25,
+    "orbit": 1.0553191489361702
+  },
+  "runtimeOverrides": {
+    "atlas": "fox/hello-atlas-rig.png",
+    "poses": {
+      "fox": {
+        "idle": "fox/rig/idle.png"
+      }
+    },
+    "rigManifest": "fox/rig/manifest.json"
+  }
+}

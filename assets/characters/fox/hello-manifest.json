@@ -254,5 +254,6 @@
   ],
   "previewBackground": "#FFFFFF",
   "alphaCleanup": "Only disconnected speckles removed; original body pixels retained. Common sheet scale/translation; no per-frame fitting.",
-  "runtime": "One-second elapsed-time atlas playback; reduced motion shows frame0; pauses on background; interruption cancels previous playback."
+  "runtime": "One-second elapsed-time atlas playback; reduced motion shows frame0; pauses on background; interruption cancels previous playback.",
+  "status": "Historical unregistered source sequence. Current runtime uses hello-atlas-registered.png with ../registration.json."
 }

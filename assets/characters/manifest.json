@@ -6,7 +6,7 @@
     "Orbit"
   ],
   "method": "Generated transparent 2x2 pose atlases. Fixed quadrant extraction only; no retouch, recoloring, matting, per-pose rescaling, SVG reconstruction, or removal of character parts.",
-  "runtime": "React Native bitmap crossfade and small root translation. Full-body poses, not independently rigged joints or lip sync.",
+  "runtime": "Registered PNG poses sharing a measured body origin. No procedural root hop or pose dissolve.",
   "characters": {
     "fox": {
       "sourceAtlas": "fox-pose-sheet.png",
@@ -206,5 +206,6 @@
         }
       ]
     }
-  }
+  },
+  "registeredRuntimeManifest": "registration.json"
 }

@@ -1,0 +1,524 @@
+{
+  "version": 3,
+  "method": "Raster cutout rig: one immutable head/body master, extracted generated sleeve and palm, fixed shoulder and wrist pivots, hierarchical forward kinematics. No SVG character art.",
+  "durationSeconds": 1,
+  "fps": 24,
+  "frameCount": 24,
+  "canvas": [
+    512,
+    512
+  ],
+  "origin": [
+    256,
+    256
+  ],
+  "atlas": {
+    "file": "fox/hello-atlas-rig.png",
+    "columns": 6,
+    "rows": 4,
+    "cell": [
+      512,
+      512
+    ]
+  },
+  "sourceMaster": "/Users/ahmedmansour/Documents/Codex/2026-10-11/https-www-youtube-com-playlist-list/outputs/character-registration/fox-hello/fullframe/00.png",
+  "sourceArm": "/Users/ahmedmansour/Documents/Codex/2026-10-11/https-www-youtube-com-playlist-list/outputs/character-registration/fox-hello/fullframe/09.png",
+  "shoulder": [
+    293.0,
+    255.0
+  ],
+  "wrist": [
+    358.28915662650604,
+    219.56626506024097
+  ],
+  "rotationConvention": "Degrees clockwise in screen coordinates",
+  "matrixOrder": "palm = T(shoulder) R(shoulderAngle) T(-shoulder) T(wrist) R(wristAngle) T(-wrist) p; sleeve uses only shoulder transform; body transform is identity.",
+  "ease": "6u^5 - 15u^4 + 10u^3; zero first/second derivative at phase endpoints",
+  "rootCap": "Stationary master owns every nontransparent body pixel; moving parts are behind this foreground master.",
+  "timing": "Raise over 0..0.32, wave over0.32..0.72, lower over0.72..1; 24 equally timed baked frames.",
+  "metrics": {
+    "head": {
+      "rgbaMSE": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "maxChangedPixels": 0,
+      "pixelCount": 25349
+    },
+    "torso": {
+      "rgbaMSE": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "maxChangedPixels": 0,
+      "pixelCount": 18767
+    },
+    "feet": {
+      "rgbaMSE": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "maxChangedPixels": 0,
+      "pixelCount": 6419
+    }
+  },
+  "connectedBodyRatio": [
+    0.999981272706843,
+    1.0,
+    1.0,
+    0.9999817264819824,
+    0.9999817574839922,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.9999628121455533,
+    0.999981272706843
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "file": "rig/fullframe/00.png",
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 76,
+        "groundY": 436.0,
+        "bodyHeight": 360.0
+      },
+      "pixelSHA256": "bda08a2754f7cebb2d4ae3686dd5da4444593f41d9e80ec37f536ba31b972206",
+      "frame": 0,
+      "shoulderAngleDeg": 112.0,
+      "wristAngleDeg": 0
+    },
+    {
+      "index": 1,
+      "file": "rig/fullframe/01.png",
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 76,
+        "groundY": 436.0,
+        "bodyHeight": 360.0
+      },
+      "pixelSHA256": "94d2995f1161265833e5f1dbd3effff83a4c33efa0179da5b362238440f396c2",
+      "frame": 1,
+      "shoulderAngleDeg": 109.7322015412554,
+      "wristAngleDeg": 0
+    },
+    {
+      "index": 2,
+      "file": "rig/fullframe/02.png",
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 76,
+        "groundY": 436.0,
+        "bodyHeight": 360.0
+      },
+      "pixelSHA256": "c4ec76535c6a7da2c62bea85c07f73528b7bf264904ff0a2c5f367d2d0c20c57",
+      "frame": 2,
+      "shoulderAngleDeg": 97.69107209346208,
+      "wristAngleDeg": 0
+    },
+    {
+      "index": 3,
+      "file": "rig/fullframe/03.png",
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 76,
+        "groundY": 436.0,
+        "bodyHeight": 360.0
+      },
+      "pixelSHA256": "d72afe38880b730dc32832bcf72203dae8e9e6dd23828d5b76794a9213c0fec1",
+      "frame": 3,
+      "shoulderAngleDeg": 74.96504479599406,
+      "wristAngleDeg": 0
+    },
+    {
+      "index": 4,
+      "file": "rig/fullframe/04.png",
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 76,
+        "groundY": 436.0,
+        "bodyHeight": 360.0
+      },
+      "pixelSHA256": "6b6bb3bc4cfda0ad4c895e68426a5c4578e95227c3127a08171171b7baf5368f",
+      "frame": 4,
+      "shoulderAngleDeg": 46.91548694654713,
+      "wristAngleDeg": 0
+    },
+    {
+      "index": 5,
+      "file": "rig/fullframe/05.png",
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 76,
+        "groundY": 436.0,
+        "bodyHeight": 360.0
+      },
+      "pixelSHA256": "ee0b44ee59554e333bc249a9c9022332817b808ded7b1e199b46106e825a290e",
+      "frame": 5,
+      "shoulderAngleDeg": 21.442810621185423,
+      "wristAngleDeg": 0
+    },
+    {
+      "index": 6,
+      "file": "rig/fullframe/06.png",
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 76,
+        "groundY": 436.0,
+        "bodyHeight": 360.0
+      },
+      "pixelSHA256": "4cfcd60b04ff224daf3ef6637560b704ddc02bfffc49da760bf83f956660bcac",
+      "frame": 6,
+      "shoulderAngleDeg": 5.252583294387875,
+      "wristAngleDeg": 0
+    },
+    {
+      "index": 7,
+      "file": "rig/fullframe/07.png",
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 76,
+        "groundY": 436.0,
+        "bodyHeight": 360.0
+      },
+      "pixelSHA256": "0fee6f248c45e5e0077b14b4d0a207b9c3961e8684611ab26750445d8adf6c56",
+      "frame": 7,
+      "shoulderAngleDeg": 0.12163845909503834,
+      "wristAngleDeg": 0
+    },
+    {
+      "index": 8,
+      "file": "rig/fullframe/08.png",
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 76,
+        "groundY": 436.0,
+        "bodyHeight": 360.0
+      },
+      "pixelSHA256": "f152976c65ef4990fe5f41812dd659e621f6d152141ed3418dd7ac17e687ae8d",
+      "frame": 8,
+      "shoulderAngleDeg": 0,
+      "wristAngleDeg": 0.5047692986704297
+    },
+    {
+      "index": 9,
+      "file": "rig/fullframe/09.png",
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 76,
+        "groundY": 436.0,
+        "bodyHeight": 360.0
+      },
+      "pixelSHA256": "81afd451fbced529a96b96dedf8f8ed7c0550e1e58281521fddecc131a82b6b1",
+      "frame": 9,
+      "shoulderAngleDeg": 0,
+      "wristAngleDeg": 3.0982245532132735
+    },
+    {
+      "index": 10,
+      "file": "rig/fullframe/10.png",
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 76,
+        "groundY": 436.0,
+        "bodyHeight": 360.0
+      },
+      "pixelSHA256": "e1727f02cafa20cadce7409fc6af30891285ada6e1cd8b91cb08363213741f89",
+      "frame": 10,
+      "shoulderAngleDeg": 0,
+      "wristAngleDeg": -3.8567615833909925
+    },
+    {
+      "index": 11,
+      "file": "rig/fullframe/11.png",
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 76,
+        "groundY": 436.0,
+        "bodyHeight": 360.0
+      },
+      "pixelSHA256": "023f34436416370e09e06de0e69c2b0e28d9119d803c1b847dfd7e94c97ca5e8",
+      "frame": 11,
+      "shoulderAngleDeg": 0,
+      "wristAngleDeg": -12.128397762191536
+    },
+    {
+      "index": 12,
+      "file": "rig/fullframe/12.png",
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 76,
+        "groundY": 436.0,
+        "bodyHeight": 360.0
+      },
+      "pixelSHA256": "d426b9d089b4d1f2314c4e9fc43f09dcbf3ba64a816812bfa3838df6c7d36244",
+      "frame": 12,
+      "shoulderAngleDeg": 0,
+      "wristAngleDeg": 0.7643863826392905
+    },
+    {
+      "index": 13,
+      "file": "rig/fullframe/13.png",
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 76,
+        "groundY": 436.0,
+        "bodyHeight": 360.0
+      },
+      "pixelSHA256": "84fcd5286a8077ce7f2c84973a41d9774d4ba1283a34638dfe1d7d8c6eb79a53",
+      "frame": 13,
+      "shoulderAngleDeg": 0,
+      "wristAngleDeg": 12.168628832491613
+    },
+    {
+      "index": 14,
+      "file": "rig/fullframe/14.png",
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 76,
+        "groundY": 436.0,
+        "bodyHeight": 360.0
+      },
+      "pixelSHA256": "d527bf056f89ee98fba02b190d020eae4c6b1dd63a5ab2e5b1500e6a3dfdf258",
+      "frame": 14,
+      "shoulderAngleDeg": 0,
+      "wristAngleDeg": 2.8639674709369074
+    },
+    {
+      "index": 15,
+      "file": "rig/fullframe/15.png",
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 76,
+        "groundY": 436.0,
+        "bodyHeight": 360.0
+      },
+      "pixelSHA256": "d013e95843e919d8b999d5c9e55315582b1a6cd217c74300c3e9cb0e8fd00aab",
+      "frame": 15,
+      "shoulderAngleDeg": 0,
+      "wristAngleDeg": -3.0593766487609315
+    },
+    {
+      "index": 16,
+      "file": "rig/fullframe/16.png",
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 76,
+        "groundY": 436.0,
+        "bodyHeight": 360.0
+      },
+      "pixelSHA256": "fead55b2874d757c81a47b7287175b56df22cbb710f14be2693485d9988cb7e3",
+      "frame": 16,
+      "shoulderAngleDeg": 0,
+      "wristAngleDeg": -0.35021118182472405
+    },
+    {
+      "index": 17,
+      "file": "rig/fullframe/17.png",
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 76,
+        "groundY": 436.0,
+        "bodyHeight": 360.0
+      },
+      "pixelSHA256": "3252daded7a595b809f5ce10bd8af7140309fb9a09ccbb18869aca383ff62cfd",
+      "frame": 17,
+      "shoulderAngleDeg": 0.32159818211157437,
+      "wristAngleDeg": 0
+    },
+    {
+      "index": 18,
+      "file": "rig/fullframe/18.png",
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 76,
+        "groundY": 436.0,
+        "bodyHeight": 360.0
+      },
+      "pixelSHA256": "4db5c969debf6ef0c28b49e147731a6f3fa430b94447747676114c73db6562f0",
+      "frame": 18,
+      "shoulderAngleDeg": 8.69720330268831,
+      "wristAngleDeg": 0
+    },
+    {
+      "index": 19,
+      "file": "rig/fullframe/19.png",
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 76,
+        "groundY": 436.0,
+        "bodyHeight": 360.0
+      },
+      "pixelSHA256": "b9819c097c11f966ddf1bcb91ce1567f8fa8041de674ca36b6b308b40e66afe1",
+      "frame": 19,
+      "shoulderAngleDeg": 31.54268200743421,
+      "wristAngleDeg": 0
+    },
+    {
+      "index": 20,
+      "file": "rig/fullframe/20.png",
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 76,
+        "groundY": 436.0,
+        "bodyHeight": 360.0
+      },
+      "pixelSHA256": "e3e3707c0864f9fff72777a8fee3406b10492342ff29cfdece3313831395c1ba",
+      "frame": 20,
+      "shoulderAngleDeg": 63.15161894828083,
+      "wristAngleDeg": 0
+    },
+    {
+      "index": 21,
+      "file": "rig/fullframe/21.png",
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 76,
+        "groundY": 436.0,
+        "bodyHeight": 360.0
+      },
+      "pixelSHA256": "ed0afc3768aa3c86dad37456757fdfb14e9592f3f9d32c3704e78090a748ee00",
+      "frame": 21,
+      "shoulderAngleDeg": 92.13933210150057,
+      "wristAngleDeg": 0
+    },
+    {
+      "index": 22,
+      "file": "rig/fullframe/22.png",
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 76,
+        "groundY": 436.0,
+        "bodyHeight": 360.0
+      },
+      "pixelSHA256": "410b6865a642286a22372962ea28ecac3b44810fc2f2a7f03dbedca6996de792",
+      "frame": 22,
+      "shoulderAngleDeg": 108.72270183906426,
+      "wristAngleDeg": 0
+    },
+    {
+      "index": 23,
+      "file": "rig/fullframe/23.png",
+      "afterAnchor": {
+        "x": 256.0,
+        "y": 256.0,
+        "crownY": 76,
+        "groundY": 436.0,
+        "bodyHeight": 360.0
+      },
+      "pixelSHA256": "bda08a2754f7cebb2d4ae3686dd5da4444593f41d9e80ec37f536ba31b972206",
+      "frame": 23,
+      "shoulderAngleDeg": 112.0,
+      "wristAngleDeg": 0
+    }
+  ],
+  "provenance": "Original image_gen artwork extracted and technically rigged with numeric pivots. The new24 frames are rig renders; they are not24 new model-generated drawings.",
+  "skills": [
+    "https://github.com/Sunwood-ai-labs/generate2d-assets-clean-align",
+    "https://github.com/calesthio/generative-media-skills/blob/main/skills/production/creative-direction/2d-character-rig-animation/SKILL.md"
+  ]
+}

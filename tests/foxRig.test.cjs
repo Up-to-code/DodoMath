@@ -1,0 +1,6 @@
+const assert=require('node:assert/strict');const j=require('../assets/characters/fox/rig/manifest.json');
+assert.equal(j.frameCount,24);assert.equal(j.fps,24);assert.equal(j.durationSeconds,1);assert.deepEqual(j.origin,[256,256]);assert.deepEqual(j.atlas.cell,[512,512]);assert.equal(j.frames[0].pixelSHA256,j.frames[23].pixelSHA256);
+for(const region of ['head','torso','feet']){assert(j.metrics[region].pixelCount>1000);assert(j.metrics[region].rgbaMSE.every(v=>v===0));assert.equal(j.metrics[region].maxChangedPixels,0);}
+const rad=v=>v*Math.PI/180;const R=(x,y,a)=>[Math.cos(rad(a))*x-Math.sin(rad(a))*y,Math.sin(rad(a))*x+Math.cos(rad(a))*y];
+for(const frame of j.frames){const S=j.shoulder,W=j.wrist;const delta=R(0,0,frame.shoulderAngleDeg);assert(Math.abs(delta[0])<1e-8);assert(Math.abs(delta[1])<1e-8);assert(Math.abs(frame.afterAnchor.x-256)<=.5);assert(Math.abs(frame.afterAnchor.y-256)<=.5);const v=[W[0]-S[0],W[1]-S[1]];const moved=R(...v,frame.shoulderAngleDeg);assert(Math.abs(Math.hypot(...moved)-Math.hypot(...v))<1e-8);}
+assert(j.connectedBodyRatio.every(v=>v>.995));console.log('24-frame rig: head/torso/foot pixels invariant; shoulder anchor, limb radius, root and loop checks pass');

@@ -7,25 +7,25 @@ import streakFire from "@/assets/images/streak-fire.png";
 import treasure from "@/assets/images/treasure.png";
 
 export const images = {
-  foxHelloAtlas: require("@/assets/characters/fox/hello-atlas.png"),
+  foxHelloAtlas: require("@/assets/characters/fox/hello-atlas-rig.png"),
   companions: {
     fox: {
-      idle: require("@/assets/characters/fox/idle.png"),
-      thinking: require("@/assets/characters/fox/thinking.png"),
-      success: require("@/assets/characters/fox/success.png"),
-      retry: require("@/assets/characters/fox/retry.png"),
+      idle: require("@/assets/characters/fox/rig/idle.png"),
+      thinking: require("@/assets/characters/fox/registered/thinking.png"),
+      success: require("@/assets/characters/fox/registered/success.png"),
+      retry: require("@/assets/characters/fox/registered/retry.png"),
     },
     nia: {
-      idle: require("@/assets/characters/nia/idle.png"),
-      thinking: require("@/assets/characters/nia/thinking.png"),
-      success: require("@/assets/characters/nia/success.png"),
-      retry: require("@/assets/characters/nia/retry.png"),
+      idle: require("@/assets/characters/nia/registered/idle.png"),
+      thinking: require("@/assets/characters/nia/registered/thinking.png"),
+      success: require("@/assets/characters/nia/registered/success.png"),
+      retry: require("@/assets/characters/nia/registered/retry.png"),
     },
     orbit: {
-      idle: require("@/assets/characters/orbit/idle.png"),
-      thinking: require("@/assets/characters/orbit/thinking.png"),
-      success: require("@/assets/characters/orbit/success.png"),
-      retry: require("@/assets/characters/orbit/retry.png"),
+      idle: require("@/assets/characters/orbit/registered/idle.png"),
+      thinking: require("@/assets/characters/orbit/registered/thinking.png"),
+      success: require("@/assets/characters/orbit/registered/success.png"),
+      retry: require("@/assets/characters/orbit/registered/retry.png"),
     },
   },
 
