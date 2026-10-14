@@ -115,3 +115,46 @@ Shared list pages now use a compact 22 px header, 20 px side gutters and 64 px m
 Profile has the registered Fox avatar, saved learner name, real streak/XP/completion counts, and short links to Statistics, Progress, Studied, Account and Daily goal. Settings groups Account, sound/motion/vibration preferences and goal/audio previews. Account edits the existing local display-name preference with an explicit Save; configured Clerk accounts additionally show their real email or links to existing auth routes. It does not introduce a new authentication system or change a Clerk profile remotely. Statistics renders the last seven local calendar dates from `dailySolved` and genuine saved streak, active-day, XP and lesson counts; zeros remain zeros.
 
 The progress screen displays completed lessons against the 193-lesson catalog and opens individual course lists. Source lesson titles remain in the teaching view. Existing lessons, exams, note editing, sound timing, character reactions and course selection routes are preserved. Title QA checked all 193 order mappings, uniqueness and measured Nunito word widths at a 320 px layout; this does not replace browser rendering. TypeScript, lint and the 29-route web export pass. Rams quick_review with via=rules was attempted for changed UI files and refused because credits remain exhausted. The browser's earlier URL-policy restriction was not bypassed; interactive layout and configured Clerk/device-keyboard behavior still need user verification.
+
+
+## Clean learning path and Basics-to-subjects curriculum — 14 October 2026
+
+The home path now has 58×52 px nodes, 80 px vertical node slots and plain topic headings. Large orange unit slabs, uppercase unit labels and START badges are removed. Orange marks the current step, green marks completed steps, and the current-step halo stays distinct. The lesson sheet has a short title and a single Start/Review action. Selecting a topic opens its specific lesson list through the existing `unit` query parameter.
+
+Question screens keep the actual prompt and hard formula while removing the repeated generic question-type heading. The prompt companion is 48 px, choice tiles use smaller type/padding, and token tiles have a 36 px minimum visual surface inside a 44 px minimum press target. Numeric banks provide digits rather than unrelated trigonometric/operator distractors. Multi-digit answers are assembled from digits, and mixed-number tiles preserve their required space; keyboard writing remains available. Typed answers, reduced fractions, ordered steps, expression validation, graphs and sliders are retained. The progress fill now reflects the exact completed-step fraction instead of an initial decorative 5% fill. Audio and character feedback still use the shared presentation clock.
+
+### Primary-source curriculum research
+
+| Reference | Evidence | Product decision |
+| --- | --- | --- |
+| [OpenStax Prealgebra 2e preface](https://openstax.org/books/prealgebra-2e/pages/preface) | Topic coverage moves through whole-number operations, integers, fractions, decimals, percents, equations, geometry and graphing; the text introduces concepts in small supported steps. | Add an accessible Basics starter sequence and retain arithmetic as the first source-video subject. |
+| [OpenStax Algebra and Trigonometry 2e preface](https://openstax.org/books/algebra-and-trigonometry-2e/pages/preface) | Prerequisite review and equations precede functions, with later polynomial/rational functions, exponentials/logarithms and trigonometry. | Group existing lesson orders by concepts rather than arbitrary five-video chunks. |
+| [OpenStax Calculus Volume 1 preface](https://openstax.org/books/calculus-volume-1/pages/preface) | Functions and graphs lead into limits, derivatives, their applications and integration; later volumes cover series and multivariable topics. | Keep derivative, integration, series and multivariable units visible within their subjects, preserving the playlist's source order. |
+| [MIT 18.06 syllabus](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/pages/syllabus/) | Matrix systems, vector spaces, orthogonality, eigenvalues and transformations are central topics. This institutional course lists multivariable calculus as a prerequisite. | Use the topic outline as an advanced-subject coverage cross-check, not as a universal prerequisite policy for this app. Students can choose subjects; the source-video-before-practice rule remains. |
+
+These sources inform organization, not an asserted universal school-grade ladder or validated mastery model. No textbook questions, passages or illustrations were copied into the app. New starter exercises are independently authored standard math examples. The existing playlist supplies all 193 video lessons and their teaching methods; the eight added starter lessons do not claim to have source videos.
+
+### Implemented structure
+
+Subject selection has three clear stages: Start here (Basics and Arithmetic), Core subjects (Algebra, Geometry, Functions and Trigonometry), and Advanced subjects (calculus, linear algebra and differential equations). All subjects remain selectable. Existing source lesson IDs and lesson order are preserved. `data/curriculum.ts` contains 45 topic units across 12 subjects: four starter units plus 41 source units. These are subdivisions of existing subjects, not 45 newly generated videos.
+
+| Subject | Topic units | Lessons |
+| --- | ---: | ---: |
+| Basics | 4 | 8 |
+| Arithmetic | 7 | 21 |
+| Algebra | 5 | 25 |
+| Geometry | 3 | 15 |
+| Functions & probability | 4 | 23 |
+| Trigonometry | 3 | 13 |
+| Derivatives | 3 | 16 |
+| Integrals & series | 4 | 20 |
+| Linear algebra | 4 | 25 |
+| Multivariable calculus | 2 | 8 |
+| Differential equations | 3 | 17 |
+| Partial differential equations | 3 | 10 |
+
+Basics covers Numbers, Place value, Addition, Subtraction, Equal groups, Fractions, Decimals & percents, and Shapes & measure. Each has four guided questions: 32 total, including answer choices, written numeric/fraction responses and a fraction model. Explanations show the method. Further work could add dedicated statistics, proof/discrete-math and richer measurement tracks; they are not displayed as completed courses or empty placeholder levels in this release.
+
+Starter completions are stored separately in `completedFoundations` and earn 10 XP once per lesson; replays remain available. The existing source completions still earn 20 XP. Profile, statistics and progress include both, for a total of 201 lessons. Store version 3 migration retains old subject selection, watched/completed source IDs, XP and working nodes, adding an empty starter-completion list. New users start at Basics; existing users retain their chosen subject.
+
+Validation: 17 tests pass across curriculum and feedback. Coverage tests verify all 193 source IDs appear once in the same order, no topic units are empty, all 32 starter answers grade correctly, wrong choices reject, fraction reduction and decimal equivalence work, independent arithmetic evaluation agrees, numeric/fraction/expression tiles reconstruct valid answers across the starter and source exams, completion XP is idempotent and legacy state migrates without loss. TypeScript and lint pass. Rams quick_review with via=rules was attempted for the changed UI and refused because credits remain exhausted. Numerical layout/compilation checks do not certify live browser or device interaction; the earlier browser-policy restriction was not bypassed.

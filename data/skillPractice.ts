@@ -1,3 +1,4 @@
+import { FOUNDATION_LESSONS } from './foundations';
 import type { Question } from './mathCourse';
 const order=(prompt:string,steps:string[],explanation:string):Question=>({kind:'order',prompt,options:[steps[2],steps[0],steps[1]],answer:JSON.stringify(steps),explanation,sourceStart:0});
 export const SKILL_PRACTICE:Record<string,{title:string;subtitle:string;questions:Question[]}>={
@@ -33,3 +34,6 @@ const workshopEquations: Record<string, string[]> = {
 for (const [id, equations] of Object.entries(workshopEquations)) {
  SKILL_PRACTICE[id].questions = SKILL_PRACTICE[id].questions.map((question, index) => ({ ...question, equation: equations[index] }));
 }
+
+// Original starter exercises are also served by the same guided question runtime.
+for(const lesson of FOUNDATION_LESSONS)SKILL_PRACTICE[lesson.id]={title:lesson.title,subtitle:'',questions:lesson.questions};

@@ -34,5 +34,5 @@ export function MotionReaction({children,reaction,style}:{children:ReactNode;rea
 export function MotionProgress({value}:{value:number}){
  const enabled=useMotion(),progress=useSharedValue(Math.max(0,Math.min(1,value)));
  useEffect(()=>{const next=Math.max(0,Math.min(1,value));progress.value=enabled?withTiming(next,{duration:320,easing:Easing.out(Easing.cubic)}):next;return()=>cancelAnimation(progress);},[value,enabled,progress]);
- const fill=useAnimatedStyle(()=>({width:`${5+progress.value*95}%` as `${number}%`}));return <Animated.View style={[{height:16,borderRadius:16,backgroundColor:'#58CC02',overflow:'hidden'},fill]}><Animated.View style={{height:4,marginHorizontal:8,marginTop:3,borderRadius:4,backgroundColor:'#91E54A'}}/></Animated.View>;
+ const fill=useAnimatedStyle(()=>({width:`${progress.value*100}%` as `${number}%`}));return <Animated.View style={[{height:12,borderRadius:12,backgroundColor:'#58CC02',overflow:'hidden'},fill]}><Animated.View style={{height:3,marginHorizontal:6,marginTop:2,borderRadius:4,backgroundColor:'#91E54A'}}/></Animated.View>;
 }

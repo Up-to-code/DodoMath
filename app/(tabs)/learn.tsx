@@ -1,6 +1,9 @@
-import { sectionLabel } from '@/data/courseLabels';
+import { Text, View } from 'react-native';
 import { useRouter } from 'expo-router';
-import { ListPage, ListRow } from '@/components/ListUI';
-import { COURSE } from '@/data/mathCourse';
+import { ListPage, ListRow, ListGroup } from '@/components/ListUI';
+import { LEARNING_STAGES, SUBJECTS, learningUnits } from '@/data/curriculum';
 import { useMathStore } from '@/store/mathStore';
-export default function Courses(){const router=useRouter();const {level,setLevel}=useMathStore();return <ListPage title="Courses">{COURSE.levels.map(section=><ListRow key={section.id} title={sectionLabel(section)} accessibilityLabel={section.title} icon={section.id<=2?'calculator-outline':section.id>=9?'analytics-outline':'shapes-outline'} selected={level===section.id} onPress={()=>{setLevel(section.id);router.push('/(tabs)');}}/>)}</ListPage>;}
+export default function Courses(){
+ const router=useRouter();const {level,setLevel}=useMathStore();
+ return <ListPage title="Subjects">{LEARNING_STAGES.map(stage=><View key={stage.title}><Text className="font-poppins-bold text-sm text-text-secondary mb-2">{stage.title}</Text><ListGroup>{stage.subjects.map((id,index)=>{const subject=SUBJECTS.find(item=>item.id===id)!;return <ListRow key={id} title={subject.title} icon={id===0?'leaf-outline':id===1?'calculator-outline':id>=6?'analytics-outline':'shapes-outline'} selected={level===id} accessibilityLabel={`${subject.title}, ${learningUnits(id).length} topic units${level===id?', selected':''}`} divider={index<stage.subjects.length-1} onPress={()=>{setLevel(id);router.push('/(tabs)');}}/>;})}</ListGroup></View>)}</ListPage>;
+}

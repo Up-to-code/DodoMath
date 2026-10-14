@@ -25,3 +25,8 @@ Check the applicable upstream and asset terms before redistributing or commercia
 Fox is the primary mascot. Approved raster parts and the existing QH engine render its non-looping success/retry gestures into transparent PNG atlases. Fox's 33-part rig supplies numeric pivots and garment ownership; the app bundles rendered output and holds the settled pose. Nia and Orbit retain registered pose transitions. Legacy Dodo component/route names redirect to Fox for compatibility. The application/repository name remains DodoMath.
 
 The v5 feedback family uses original note sequences mixed from recorded CC0 marimba samples. The creator's credit and license are preserved with the pack. Duolingo case studies informed palette, hierarchy and timing; no Duolingo sound recording, WaBing voice, character artwork or downloaded reference video is included in the app assets. See `docs/reanimated-reference-rebuild.md` for the research, checks and limitations.
+
+
+## Beginner exercises
+
+The eight Basics lessons contain 32 original guided exercises written for DodoMath. OpenStax prefatory topic outlines and the MIT 18.06 syllabus informed curriculum organization; textbook exercises, passages, images and course media were not imported. Research links and the distinction between starter practice and the original video curriculum are in `docs/development-notes.md`.
