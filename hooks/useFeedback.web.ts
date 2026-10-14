@@ -1,11 +1,11 @@
 import { useEffect, useRef } from 'react';
 import { resolveSource } from 'expo-audio/build/utils/resolveSource';
 import { useMathStore } from '@/store/mathStore';
-export type FeedbackSound = 'tap' | 'correct' | 'retry' | 'complete' | 'combo' | 'fly';
+export type FeedbackSound = 'tap' | 'correct' | 'retry' | 'complete' | 'combo' | 'combo10' | 'fly';
 const sources = {
- tap: require('@/assets/sounds/tap.wav'), correct: require('@/assets/sounds/correct.wav'),
- retry: require('@/assets/sounds/retry.wav'), complete: require('@/assets/sounds/complete.wav'),
- combo: require('@/assets/sounds/combo.wav'), fly: require('@/assets/sounds/fly.wav'),
+ tap: require('@/assets/sounds/v3/tap.wav'), correct: require('@/assets/sounds/v3/correct.wav'),
+ retry: require('@/assets/sounds/v3/retry.wav'), complete: require('@/assets/sounds/v3/complete.wav'),
+ combo: require('@/assets/sounds/v3/combo.wav'), combo10: require('@/assets/sounds/v3/combo10.wav'), fly: require('@/assets/sounds/v3/fly.wav'),
 };
 /** Expo's pinned web player discards HTMLMediaElement.play()'s promise.
  * Own that promise so a quick pause, navigation, or mute cannot cause an unhandled AbortError.
@@ -28,7 +28,7 @@ export function useFeedback() {
   const now=Date.now();if(name==='tap'){if(now-lastTap.current<140||now-lastResult.current<250)return;lastTap.current=now;}else lastResult.current=now;
   if(!sounds)return;const audio=players.current[name];if(!audio)return;
   if(name!=='tap')for(const player of Object.values(players.current))player.pause();else audio.pause();
-  audio.volume=name==='tap'?.24:name==='retry'?.40:.65;
+  audio.volume=name==='tap'?.42:name==='retry'?.58:.65;
   audio.currentTime=0;void audio.play().catch(()=>{ /* A later interaction, navigation or browser policy may cancel playback. */ });
  };
 }
