@@ -1,25 +1,18 @@
-import { useEffect, useRef, useState } from 'react';
-import { Animated, Modal, Pressable, ScrollView, Text, TouchableOpacity, View } from 'react-native';
+import { useEffect, useState } from 'react';
+import { Modal, Pressable, ScrollView, Text, TouchableOpacity, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
+import { MotionPressable, MotionEntry } from './Motion';
 import { Action, MathScreen } from './MathUI';
 import { ModeCharacter } from './ModeCharacter';
 import { DuoIcon } from './DuoIcons';
 import { COURSE } from '@/data/mathCourse';
-import { useMotion } from '@/hooks/useMotion';
 import { useFeedback } from '@/hooks/useFeedback';
 import { streakLength, useMathStore } from '@/store/mathStore';
 const arithmeticUnits = ['Small numbers', 'Decimals and percentages', 'Whole numbers', 'Factors and fractions', 'Working with data'];
 function PathNode({ label, done, active, expanded, icon, onPress }: { label:string; done:boolean; active:boolean; expanded:boolean; icon:'checkmark'|'trophy'|'star'; onPress:()=>void }) {
-  const moving=useMotion();const press=useRef(new Animated.Value(0)).current;
-  const settle=(toValue:number)=>{press.stopAnimation();Animated.spring(press,{toValue,useNativeDriver:true,damping:18,stiffness:320,mass:.7}).start();};
-  useEffect(()=>()=>press.stopAnimation(),[press]);
-  return <Animated.View style={{ transform:[{translateY:moving?press.interpolate({inputRange:[0,1],outputRange:[0,3]}):0},{scale:moving?press.interpolate({inputRange:[0,1],outputRange:[1,.96]}):1}] }}>
-    <Pressable accessibilityRole="button" accessibilityLabel={label} accessibilityState={{expanded}} onPress={onPress} onPressIn={()=>settle(1)} onPressOut={()=>settle(0)} style={({pressed})=>({width:72,height:64,borderRadius:36,alignItems:'center',justifyContent:'center',backgroundColor:done?'#58CC02':active?'#8B5CF6':'#E5E5E5',borderBottomWidth:pressed?4:7,borderBottomColor:done?'#459B00':active?'#6840C7':'#CFCFCF'})}>
-      <Ionicons name={icon} size={31} color={done||active?'white':'#AFAFAF'} />
-    </Pressable>
-  </Animated.View>;
+  return <MotionPressable accessibilityRole="button" accessibilityLabel={label} accessibilityState={{expanded}} onPress={onPress} style={{width:72,height:64,borderRadius:36,alignItems:'center',justifyContent:'center',backgroundColor:done?'#58CC02':active?'#8B5CF6':'#E5E5E5',borderBottomWidth:7,borderBottomColor:done?'#459B00':active?'#6840C7':'#CFCFCF'}}><Ionicons name={icon} size={31} color={done||active?'white':'#AFAFAF'}/></MotionPressable>;
 }
 export default function LearningPath() {
   const router = useRouter();
@@ -67,14 +60,14 @@ export default function LearningPath() {
     <Modal visible={!!selectedLesson} transparent animationType="fade" onRequestClose={() => setSelected(null)}>
       <View className="flex-1 justify-end">
         <Pressable accessibilityRole="button" accessibilityLabel="Dismiss lesson menu" onPress={() => setSelected(null)} className="absolute inset-0 bg-black/20" />
-        <View accessibilityViewIsModal className="w-full max-w-[520px] self-center rounded-t-3xl bg-white border-t-2 border-border px-5 pt-4" style={{ paddingBottom: Math.max(insets.bottom, 16), maxHeight: '60%' }}>
+        <MotionEntry trigger={selected??undefined}><View accessibilityViewIsModal className="w-full max-w-[520px] self-center rounded-t-3xl bg-white border-t-2 border-border px-5 pt-4" style={{ paddingBottom: Math.max(insets.bottom, 16), maxHeight: '60%' }}>
           <View className="flex-row items-center gap-2 mb-3">
             <Text accessibilityRole="header" className="flex-1 font-poppins-bold text-text-primary text-xl">{review ? 'Review lesson' : 'Start lesson'}</Text>
             <TouchableOpacity accessibilityRole="button" accessibilityLabel="Close lesson menu" onPress={() => setSelected(null)} className="w-12 h-12 items-center justify-center"><Ionicons name="close" size={24} color="#777777" /></TouchableOpacity>
           </View>
           <ScrollView contentContainerStyle={{ paddingBottom: 20 }}><Text className="font-poppins text-base text-text-primary">{selectedLesson?.title}</Text></ScrollView>
           <Action label={review ? 'Review' : 'Start'} onPress={() => { if (!selectedLesson) return; const target = selectedLesson.id; setSelected(null); router.push(review ? `/exam/${target}` : `/lesson/${target}`); }} />
-        </View>
+        </View></MotionEntry>
       </View>
     </Modal>
   </>;

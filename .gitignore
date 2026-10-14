@@ -51,3 +51,8 @@ app-example
 !**/.env.example
 .venv/
 __pycache__/
+
+# Downloaded third-party study clips remain local references.
+.references/
+
+.local-ui-build/

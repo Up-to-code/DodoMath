@@ -3,9 +3,9 @@ import { resolveSource } from 'expo-audio/build/utils/resolveSource';
 import { useMathStore } from '@/store/mathStore';
 export type FeedbackSound = 'tap' | 'correct' | 'retry' | 'complete' | 'combo' | 'combo10' | 'fly';
 const sources = {
- tap: require('@/assets/sounds/v3/tap.wav'), correct: require('@/assets/sounds/v3/correct.wav'),
- retry: require('@/assets/sounds/v3/retry.wav'), complete: require('@/assets/sounds/v3/complete.wav'),
- combo: require('@/assets/sounds/v3/combo.wav'), combo10: require('@/assets/sounds/v3/combo10.wav'), fly: require('@/assets/sounds/v3/fly.wav'),
+ tap: require('@/assets/sounds/v4/tap.wav'), correct: require('@/assets/sounds/v4/correct.wav'),
+ retry: require('@/assets/sounds/v4/retry.wav'), complete: require('@/assets/sounds/v4/complete.wav'),
+ combo: require('@/assets/sounds/v4/combo.wav'), combo10: require('@/assets/sounds/v4/combo10.wav'), fly: require('@/assets/sounds/v4/fly.wav'),
 };
 /** Expo's pinned web player discards HTMLMediaElement.play()'s promise.
  * Own that promise so a quick pause, navigation, or mute cannot cause an unhandled AbortError.

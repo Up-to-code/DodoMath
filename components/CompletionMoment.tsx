@@ -1,0 +1,7 @@
+import { Text, View } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
+import { ModeCharacter } from './ModeCharacter';
+import { MotionEntry } from './Motion';
+export function CompletionMoment({steps,xp,mode,perfect=false}:{steps:number;xp:number;mode:'count'|'algebra'|'graph';perfect?:boolean}){
+ return <View style={{flex:1,justifyContent:'center',alignItems:'center',paddingVertical:36}}><MotionEntry style={{alignItems:'center'}}><ModeCharacter mode={mode} size={180} reaction="success"/><Text style={{fontFamily:'Nunito-ExtraBold',fontSize:30,lineHeight:38,color:'#58A700',marginTop:24}}>{perfect?'Perfect lesson!':'Lesson complete!'}</Text><Text style={{fontFamily:'Nunito-Regular',fontSize:17,color:'#777777',marginTop:8}}>{steps} steps completed</Text><View style={{flexDirection:'row',gap:12,marginTop:28}}><View style={{flexDirection:'row',gap:8,alignItems:'center',borderWidth:2,borderColor:'#E5E5E5',borderRadius:16,paddingHorizontal:20,paddingVertical:12}}><Ionicons name="checkmark-circle" size={23} color="#58A700"/><Text style={{fontFamily:'Nunito-ExtraBold',fontSize:18,color:'#4B4B4B'}}>{steps}</Text></View>{xp>0&&<View style={{flexDirection:'row',gap:8,alignItems:'center',borderWidth:2,borderColor:'#FFC800',borderRadius:16,paddingHorizontal:20,paddingVertical:12}}><Ionicons name="flash" size={23} color="#E5A900"/><Text style={{fontFamily:'Nunito-ExtraBold',fontSize:18,color:'#735B00'}}>+{xp} XP</Text></View>}</View></MotionEntry></View>;
+}

@@ -63,7 +63,7 @@ export default function RootLayout() {
     return null;
   }
 
-  const screens = <Stack screenOptions={{headerShown:false}} />;
+  const screens = <Stack screenOptions={{headerShown:false,animation:"slide_from_right",animationDuration:220}} />;
   if (!publishableKey) return screens;
   return <PostHogProvider client={posthog}><ClerkProvider publishableKey={publishableKey} tokenCache={tokenCache}><ClerkIdentifier />{screens}</ClerkProvider></PostHogProvider>;
 }

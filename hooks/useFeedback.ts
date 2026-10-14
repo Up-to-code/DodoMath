@@ -7,7 +7,7 @@ export type FeedbackSound='tap'|'correct'|'retry'|'complete'|'combo'|'combo10'|'
 export function useFeedback() {
  const lastTap=useRef(0);const lastResult=useRef(0);const generation=useRef(0);
  const sounds=useMathStore(s=>s.sounds);const haptics=useMathStore(s=>s.haptics);
- const tap=useAudioPlayer(require('@/assets/sounds/v3/tap.wav'));const correct=useAudioPlayer(require('@/assets/sounds/v3/correct.wav'));const retry=useAudioPlayer(require('@/assets/sounds/v3/retry.wav'));const complete=useAudioPlayer(require('@/assets/sounds/v3/complete.wav'));const combo=useAudioPlayer(require('@/assets/sounds/v3/combo.wav'));const combo10=useAudioPlayer(require('@/assets/sounds/v3/combo10.wav'));const fly=useAudioPlayer(require('@/assets/sounds/v3/fly.wav'));
+ const tap=useAudioPlayer(require('@/assets/sounds/v4/tap.wav'));const correct=useAudioPlayer(require('@/assets/sounds/v4/correct.wav'));const retry=useAudioPlayer(require('@/assets/sounds/v4/retry.wav'));const complete=useAudioPlayer(require('@/assets/sounds/v4/complete.wav'));const combo=useAudioPlayer(require('@/assets/sounds/v4/combo.wav'));const combo10=useAudioPlayer(require('@/assets/sounds/v4/combo10.wav'));const fly=useAudioPlayer(require('@/assets/sounds/v4/fly.wav'));
  useEffect(()=>{if(!sounds){generation.current++;for(const player of [tap,correct,retry,complete,combo,combo10,fly])player.pause();}},[sounds,tap,correct,retry,complete,combo,combo10,fly]);
  return (name:FeedbackSound)=>{
   const now=Date.now();if(name==='tap'){if(now-lastTap.current<140||now-lastResult.current<250)return;lastTap.current=now;}else lastResult.current=now;
