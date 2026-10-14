@@ -4,8 +4,8 @@
 
 export const colors = {
   primary: {
-    purple: "#6c4ef5",
-    deepPurple: "#5b3bf6",
+    orange: "#C2410C",
+    deepOrange: "#9A3412",
     blue: "#4d88ff",
     green: "#21c16b",
   },

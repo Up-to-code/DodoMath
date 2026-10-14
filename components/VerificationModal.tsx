@@ -198,12 +198,12 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
   },
   boxActive: {
-    borderColor: "#6c4ef5",
+    borderColor: "#C2410C",
     backgroundColor: "#fff",
   },
   boxFilled: {
-    borderColor: "#6c4ef5",
-    backgroundColor: "#f5f2ff",
+    borderColor: "#C2410C",
+    backgroundColor: "#FFF7ED",
   },
   boxText: {
     fontFamily: "Poppins-SemiBold",
@@ -234,6 +234,6 @@ const styles = StyleSheet.create({
   },
   resendLink: {
     fontFamily: "Poppins-Medium",
-    color: "#6c4ef5",
+    color: "#C2410C",
   },
 });

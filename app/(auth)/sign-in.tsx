@@ -187,7 +187,7 @@ export default function SignInScreen() {
 
             {/* Sign In button */}
             <TouchableOpacity
-              className="bg-lingua-purple rounded-2xl py-4 items-center mt-2"
+              className="bg-lingua-orange rounded-2xl py-4 items-center mt-2"
               activeOpacity={0.85}
               onPress={handleSignIn}
               disabled={!email || isLoading}
@@ -233,7 +233,7 @@ export default function SignInScreen() {
               <TouchableOpacity
                 onPress={() => router.replace("/(auth)/sign-up")}
               >
-                <Text className="body-md text-lingua-purple font-poppins-semibold">
+                <Text className="body-md text-lingua-orange font-poppins-semibold">
                   Sign Up
                 </Text>
               </TouchableOpacity>

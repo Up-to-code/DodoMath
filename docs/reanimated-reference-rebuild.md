@@ -2,7 +2,7 @@
 
 Reference: [Ambrose Yu's Duolingo core product sounds](https://ambroseyu.com/work/duolingo-core-product-sounds). All 14 embedded study clips were downloaded into `.references/ambrose`, with stream metadata and download results. This folder is excluded from Git. Native HLS playback uses extensionless MPEG-TS segments; the local downloader accommodated that format. Clip 02 was sampled at 2 FPS for combo/question/feedback study; clip 04 for the milestone sequence. These are study assets, not application character or audio assets.
 
-Observed patterns: compact bordered answer tiles; white question canvas; persistent top progress; full-width success feedback with the Continue action inside the same color field; a brief combo accent that settles before the next question; stronger milestone and perfect-lesson moments. The app keeps its purple identity, registered Fox/Nia/Orbit and mathematics-specific input/graph types.
+Observed patterns: compact bordered answer tiles; white question canvas; persistent top progress; full-width success feedback with the Continue action inside the same color field; a brief combo accent that settles before the next question; stronger milestone and perfect-lesson moments. The app uses its orange accent identity, registered Fox/Nia/Orbit and mathematics-specific input/graph types.
 
 ## Runtime implementation
 

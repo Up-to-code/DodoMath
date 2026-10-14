@@ -12,7 +12,7 @@ import { useFeedback } from '@/hooks/useFeedback';
 import { streakLength, useMathStore } from '@/store/mathStore';
 const arithmeticUnits = ['Small numbers', 'Decimals and percentages', 'Whole numbers', 'Factors and fractions', 'Working with data'];
 function PathNode({ label, done, active, expanded, icon, onPress }: { label:string; done:boolean; active:boolean; expanded:boolean; icon:'checkmark'|'trophy'|'star'; onPress:()=>void }) {
-  return <MotionPressable accessibilityRole="button" accessibilityLabel={label} accessibilityState={{expanded}} onPress={onPress} style={{width:72,height:64,borderRadius:36,alignItems:'center',justifyContent:'center',backgroundColor:done?'#58CC02':active?'#8B5CF6':'#E5E5E5',borderBottomWidth:7,borderBottomColor:done?'#459B00':active?'#6840C7':'#CFCFCF'}}><Ionicons name={icon} size={31} color={done||active?'white':'#AFAFAF'}/></MotionPressable>;
+  return <MotionPressable accessibilityRole="button" accessibilityLabel={label} accessibilityState={{expanded}} onPress={onPress} style={{width:72,height:64,borderRadius:36,alignItems:'center',justifyContent:'center',backgroundColor:done?'#58CC02':active?'#EA580C':'#E5E5E5',borderBottomWidth:7,borderBottomColor:done?'#459B00':active?'#C2410C':'#CFCFCF'}}><Ionicons name={icon} size={31} color={done||active?'white':'#AFAFAF'}/></MotionPressable>;
 }
 export default function LearningPath() {
   const router = useRouter();
@@ -35,7 +35,7 @@ export default function LearningPath() {
     <TouchableOpacity accessibilityRole="button" accessibilityLabel={`${xp} XP. Open progress`} onPress={() => router.push('/progress')} className="min-h-12 flex-row items-center gap-1.5"><Ionicons name="flash" size={24} color="#FFC800" /><Text className="font-poppins-bold text-[#735B00] text-base">{xp}</Text></TouchableOpacity>
   </View>}>
     {units.map((unit, unitIndex) => <View key={unit[0].id} className="mb-6">
-      <TouchableOpacity accessibilityRole="button" accessibilityLabel={`Unit ${unitIndex + 1}. ${section.title}. Open course list`} onPress={() => router.push('/practice/videos')} className="bg-[#7C3AED] rounded-2xl px-5 py-4 mb-6 flex-row items-center gap-3">
+      <TouchableOpacity accessibilityRole="button" accessibilityLabel={`Unit ${unitIndex + 1}. ${section.title}. Open course list`} onPress={() => router.push('/practice/videos')} className="bg-[#C2410C] rounded-2xl px-5 py-4 mb-6 flex-row items-center gap-3">
         <View className="flex-1"><Text className="font-poppins-bold text-white text-xs mb-1">{section.title.toUpperCase()} · UNIT {unitIndex + 1}</Text><Text accessibilityRole="header" className="font-poppins-bold text-white text-xl">{section.id===1?arithmeticUnits[unitIndex]:unit[0].title}</Text></View><Ionicons name="list" size={24} color="white" />
       </TouchableOpacity>
       {unit.map((lesson, index) => {
@@ -46,7 +46,7 @@ export default function LearningPath() {
           <View style={{ width: '100%', minHeight: active ? 112 : 90, alignItems: 'center', justifyContent: 'center' }}>
             {index === 2 && <View pointerEvents="none" style={{ position: 'absolute', left: unitIndex % 2 === 0 ? '66%' : '6%', top: 7 }}><ModeCharacter mode={level >= 9 ? 'graph' : level <= 2 ? 'count' : 'algebra'} size={86} /></View>}
             <View style={{ transform: [{ translateX: offset }], alignItems: 'center' }}>
-              {active && <View className="border-2 border-border bg-white rounded-xl px-3 py-1 mb-2"><Text className="font-poppins-bold text-[#6A3BCC] text-xs">START</Text></View>}
+              {active && <View className="border-2 border-border bg-white rounded-xl px-3 py-1 mb-2"><Text className="font-poppins-bold text-[#9A3412] text-xs">START</Text></View>}
               <View style={{ borderWidth: active ? 5 : 0, borderColor: '#E5E5E5', borderRadius: 50, padding: active ? 5 : 10 }}>
                 <PathNode label={`${lesson.title}. ${done ? 'Completed' : active ? 'Current lesson' : 'Upcoming lesson'}`} done={done} active={active} expanded={chosen} icon={done ? 'checkmark' : index === unit.length - 1 ? 'trophy' : 'star'} onPress={() => {feedback('tap');setSelected(chosen ? null : lesson.id);}} />
               </View>

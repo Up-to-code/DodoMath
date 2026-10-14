@@ -21,7 +21,7 @@ export function FunctionGraph({ question, value, onChange, disabled, result }: {
     const y = curveValue(family, coefficients, x);
     return `${i ? 'L' : 'M'}${px(x).toFixed(2)},${py(y).toFixed(2)}`;
   }).join(' ');
-  const color = result === 'success' ? '#58CC02' : result === 'retry' ? '#EA2B2B' : '#7C3AED';
+  const color = result === 'success' ? '#58CC02' : result === 'retry' ? '#EA2B2B' : '#C2410C';
   function update(index: number, n: number) {
     if (!Number.isFinite(n) || disabled) return;
     onChange(coefficients.map((v, i) => i === index ? Math.max(-6, Math.min(6, n)) : v).join(','));
@@ -49,7 +49,7 @@ export function FunctionGraph({ question, value, onChange, disabled, result }: {
       </Svg>
     </View>
     <View className="flex-row justify-center gap-3 mb-2">
-      {([{ icon: 'remove', label: 'Zoom out', action: () => setRange(r => Math.min(12, r + 2)) }, { icon: 'add', label: 'Zoom in', action: () => setRange(r => Math.max(2, r - 2)) }, { icon: 'move', label: 'Pan graph', action: () => setPan(p => !p) }, { icon: 'locate-outline', label: 'Center graph', action: () => { setCenter([0, 0]); setRange(6); setPan(false); } }] as const).map(b => <TouchableOpacity key={b.label} accessibilityRole="button" accessibilityLabel={b.label} accessibilityState={b.label === 'Pan graph' ? { selected: pan } : {}} onPress={b.action} className="w-11 h-11 items-center justify-center"><Ionicons name={b.icon} size={22} color={b.label === 'Pan graph' && pan ? '#7C3AED' : '#777'} /></TouchableOpacity>)}
+      {([{ icon: 'remove', label: 'Zoom out', action: () => setRange(r => Math.min(12, r + 2)) }, { icon: 'add', label: 'Zoom in', action: () => setRange(r => Math.max(2, r - 2)) }, { icon: 'move', label: 'Pan graph', action: () => setPan(p => !p) }, { icon: 'locate-outline', label: 'Center graph', action: () => { setCenter([0, 0]); setRange(6); setPan(false); } }] as const).map(b => <TouchableOpacity key={b.label} accessibilityRole="button" accessibilityLabel={b.label} accessibilityState={b.label === 'Pan graph' ? { selected: pan } : {}} onPress={b.action} className="w-11 h-11 items-center justify-center"><Ionicons name={b.icon} size={22} color={b.label === 'Pan graph' && pan ? '#C2410C' : '#777'} /></TouchableOpacity>)}
     </View>
     {(family === 'linear' ? ['Slope m', 'Intercept b'] : ['a', 'b', 'c']).map((label, i) => <View key={label} className="flex-row items-center gap-3">
       <Text className="font-poppins-bold text-text-primary w-20 text-sm">{label}</Text>
@@ -68,13 +68,13 @@ function CoefficientSlider({ label, value, disabled, onChange }: { label: string
     onResponderGrant={e => { if (!disabled) setFromX(e.nativeEvent.locationX); }} onResponderMove={e => { if (!disabled) setFromX(e.nativeEvent.locationX); }}
     style={{ flex: 1, height: 44, justifyContent: 'center', opacity: disabled ? .6 : 1 }}>
     <View pointerEvents="none" style={{ height: 4, marginHorizontal: 10, backgroundColor: '#E5E5E5', borderRadius: 2 }} />
-    <View pointerEvents="none" style={{ position: 'absolute', left: 10, right: width - 10 - (value + 6) / 12 * (width - 20), height: 4, borderRadius: 2, backgroundColor: '#A78BFA' }} />
-    <View pointerEvents="none" style={{ position: 'absolute', left: (value + 6) / 12 * (width - 20), width: 20, height: 20, borderRadius: 10, backgroundColor: '#7C3AED' }} />
+    <View pointerEvents="none" style={{ position: 'absolute', left: 10, right: width - 10 - (value + 6) / 12 * (width - 20), height: 4, borderRadius: 2, backgroundColor: '#FB923C' }} />
+    <View pointerEvents="none" style={{ position: 'absolute', left: (value + 6) / 12 * (width - 20), width: 20, height: 20, borderRadius: 10, backgroundColor: '#C2410C' }} />
   </View>;
 }
 
 function CoefficientInput({label,value,disabled,onChange}:{label:string;value:number;disabled:boolean;onChange:(n:number)=>void}) {
   const [draft,setDraft]=useState(String(value));
   useEffect(()=>setDraft(String(value)),[value]);
-  return <TextInput accessibilityLabel={`${label} value`} value={draft} editable={!disabled} onChangeText={t=>{if(!/^-?\d*(\.\d*)?$/.test(t))return;setDraft(t);if(t!==''&&t!=='-'&&t!=='.'&&t!=='-.'&&Number.isFinite(Number(t)))onChange(Number(t));}} onBlur={()=>setDraft(String(value))} keyboardType="numbers-and-punctuation" selectTextOnFocus maxLength={8} style={{width:42,minHeight:44,textAlign:'center'}} className="font-poppins-bold text-base text-[#7C3AED]"/>;
+  return <TextInput accessibilityLabel={`${label} value`} value={draft} editable={!disabled} onChangeText={t=>{if(!/^-?\d*(\.\d*)?$/.test(t))return;setDraft(t);if(t!==''&&t!=='-'&&t!=='.'&&t!=='-.'&&Number.isFinite(Number(t)))onChange(Number(t));}} onBlur={()=>setDraft(String(value))} keyboardType="numbers-and-punctuation" selectTextOnFocus maxLength={8} style={{width:42,minHeight:44,textAlign:'center'}} className="font-poppins-bold text-base text-[#C2410C]"/>;
 }

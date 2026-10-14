@@ -84,18 +84,18 @@ const styles = StyleSheet.create({
     elevation: 1,
   },
   cardInProgress: {
-    backgroundColor: "#EDE9FE",
-    borderColor: "#C4B5FD",
+    backgroundColor: "#FFEDD5",
+    borderColor: "#FDBA74",
   },
   badge: {
-    backgroundColor: "rgba(108, 78, 245, 0.12)",
+    backgroundColor: "rgba(194, 65, 12, 0.12)",
     borderRadius: 20,
     paddingHorizontal: 8,
     paddingVertical: 2,
   },
   badgeText: {
     fontSize: 10,
-    color: colors.primary.purple,
+    color: colors.primary.orange,
     fontFamily: "Poppins-Medium",
   },
   checkCircle: {
