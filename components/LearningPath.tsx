@@ -1,3 +1,4 @@
+import { lessonLabel } from '@/data/courseLabels';
 import { useEffect, useState } from 'react';
 import { Modal, Pressable, ScrollView, Text, TouchableOpacity, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -65,7 +66,7 @@ export default function LearningPath() {
             <Text accessibilityRole="header" className="flex-1 font-poppins-bold text-text-primary text-xl">{review ? 'Review lesson' : 'Start lesson'}</Text>
             <TouchableOpacity accessibilityRole="button" accessibilityLabel="Close lesson menu" onPress={() => setSelected(null)} className="w-12 h-12 items-center justify-center"><Ionicons name="close" size={24} color="#777777" /></TouchableOpacity>
           </View>
-          <ScrollView contentContainerStyle={{ paddingBottom: 20 }}><Text className="font-poppins text-base text-text-primary">{selectedLesson?.title}</Text></ScrollView>
+          <ScrollView contentContainerStyle={{ paddingBottom: 20 }}><Text className="font-poppins text-base text-text-primary">{selectedLesson?lessonLabel(selectedLesson):null}</Text></ScrollView>
           <Action label={review ? 'Review' : 'Start'} onPress={() => { if (!selectedLesson) return; const target = selectedLesson.id; setSelected(null); router.push(review ? `/exam/${target}` : `/lesson/${target}`); }} />
         </View></MotionEntry>
       </View>
