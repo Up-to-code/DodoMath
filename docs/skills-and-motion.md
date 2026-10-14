@@ -24,9 +24,9 @@ Runtime playback waits for the atlas to load, chooses the frame from elapsed tim
 
 Duolingo's sound designer documents its [sonic identity](https://ambroseyu.com/work/duolingo-sonic-identity) and [core in-app sounds](https://ambroseyu.com/work/duolingo-core-product-sounds). The latter describes the correct-answer family escalating to combo and perfect-lesson rewards, with different intensity for frequent and rare events. Those recordings are listening references; no commercial reuse permission was established and they are not bundled.
 
-The new original project effects share rounded pluck timbres, short pitch scoops, quiet room tails and mild stereo spread. Correct gives two rising notes; combo extends the same phrase; completion adds the largest tail. Retry is short and quieter. Tap has a soft percussive transient. Flight uses filtered air plus light chimes. They are not copied Duolingo recordings. [Kenney Interface Sounds](https://kenney.nl/assets/interface-sounds) is the verified CC0 stock alternative; prior attribution remains available.
+The active sound pack uses [Kenney Interface Sounds](https://kenney.nl/assets/interface-sounds), licensed CC0. Its seven cues cover tap, correct, retry, five-answer combo, ten-answer combo, completion and flight. The ten-answer cue combines two confirmation effects with a short fade. The rejected synthesized packs, generators and listening previews have been removed; their history remains in Git. Source mapping is in `assets/sounds/v4/provenance.json`, with the license in `assets/sounds/Kenney-CC0.txt`.
 
-The mixer rate-limits taps, suppresses taps immediately after a result, cancels earlier result cues, prevents stale asynchronous seeks from triggering old sounds, and pauses immediately when muted. Combo triggers every fifth consecutive correct step rather than on every answer after the third. The six-effect listening reel and per-file timings are in `../sound-design/`.
+The mixer rate-limits taps, suppresses taps immediately after a result, cancels earlier result cues, prevents stale asynchronous seeks from triggering old sounds, and pauses immediately when muted. Five-answer and ten-answer streaks trigger distinct combo cues.
 
 ## Current interface changes
 

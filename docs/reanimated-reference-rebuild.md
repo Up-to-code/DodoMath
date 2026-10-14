@@ -14,7 +14,7 @@ Motion is cosmetic: navigation, grading and progression never await animation ca
 
 ## Sound
 
-The rejected synthesized v3 pack is no longer active. The app uses the project's earlier Kenney Interface Sounds CC0 effects through the existing web/native audio adapters. Five-answer and ten-answer cues are distinct; the ten cue combines two authored confirmation effects with a short fade. Original Duolingo audio is confined to downloaded study videos. Attribution and mapping are in `assets/sounds/v4/provenance.json` and the retained Kenney license.
+The rejected synthesized packs, generators and listening previews have been removed. Only the active v4 pack remains. The app uses the project's earlier Kenney Interface Sounds CC0 effects through the existing web/native audio adapters. Five-answer and ten-answer cues are distinct; the ten cue combines two authored confirmation effects with a short fade. Original Duolingo audio is confined to downloaded study videos. Attribution and mapping are in `assets/sounds/v4/provenance.json` and the retained Kenney license.
 
 ## Verification and limits
 
