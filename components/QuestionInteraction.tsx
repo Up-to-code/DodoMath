@@ -1,4 +1,6 @@
 import { MotionPressable } from './Motion';
+import Animated, { interpolateColor, useAnimatedStyle } from 'react-native-reanimated';
+import { useFeedbackPhase } from '@/hooks/useFeedbackPhase';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Platform, Text, TextInput, TouchableOpacity, View } from 'react-native';
 import Svg, { Circle, Line, Path, Text as SvgText } from 'react-native-svg';
@@ -49,6 +51,13 @@ function AnswerBuilder({question,value,onChange,disabled,fallback}:{question:Que
 }
 
 function AnswerChoice({label,chosen,disabled,result,onPress}:{label:string;chosen:boolean;disabled:boolean;result?:'success'|'retry';onPress:()=>void}){
- const border=result==='success'?'#58A700':result==='retry'?'#FF4B4B':chosen?'#84D8FF':'#E5E5E5';const fill=result==='success'?'#D7FFB8':result==='retry'?'#FFDFE0':chosen?'#DDF4FF':'white';const text=result==='success'?'#3C7900':result==='retry'?'#EA2B2B':chosen?'#076C93':'#4B4B4B';
- return <MotionPressable accessibilityRole="radio" accessibilityLabel={label} accessibilityState={{checked:chosen,disabled}} disabled={disabled} onPress={onPress} style={{minHeight:52,borderWidth:2,borderBottomWidth:4,borderColor:border,backgroundColor:fill,borderRadius:14,paddingHorizontal:16,paddingVertical:10,justifyContent:'center'}}><Text style={{fontFamily:'Nunito-ExtraBold',fontSize:label.length<22?20:17,lineHeight:26,color:text}}>{label}</Text></MotionPressable>;
+ const phase=useFeedbackPhase(result??'idle');
+ const border=result==='success'?'#58A700':result==='retry'?'#FF4B4B':chosen?'#84D8FF':'#E5E5E5';
+ const fill=result==='success'?'#D7FFB8':result==='retry'?'#FFDFE0':chosen?'#DDF4FF':'white';
+ const text=result==='success'?'#3C7900':result==='retry'?'#B72525':chosen?'#076C93':'#4B4B4B';
+ const color=useAnimatedStyle(()=>({
+  backgroundColor:result?interpolateColor(Math.min(1,phase.value/.25),[0,1],['#DDF4FF',fill]):fill,
+  borderColor:result?interpolateColor(Math.min(1,phase.value/.25),[0,1],['#84D8FF',border]):border,
+ }));
+ return <Animated.View style={[{borderWidth:2,borderBottomWidth:3,borderRadius:14,overflow:'hidden'},color]}><MotionPressable accessibilityRole="radio" accessibilityLabel={label} accessibilityState={{checked:chosen,disabled}} disabled={disabled} onPress={onPress} className="min-h-12 px-4 py-2.5 justify-center"><Text style={{fontFamily:'Nunito-ExtraBold',fontSize:label.length<22?19:17,lineHeight:26,color:text}}>{label}</Text></MotionPressable></Animated.View>;
 }

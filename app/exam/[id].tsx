@@ -1,9 +1,11 @@
+import { FeedbackClock } from '@/components/FeedbackClock';
+import type { FeedbackMoment } from '@/lib/feedbackTiming';
 import { StreakMoment } from '@/components/StreakMoment';
 import { MotionEntry, MotionProgress } from '@/components/Motion';
-import { FeedbackPanel } from '@/components/FeedbackPanel';
+import { FeedbackFooter, FeedbackPanel } from '@/components/FeedbackPanel';
 import { CompletionMoment } from '@/components/CompletionMoment';
 import { useLocalSearchParams, useRouter } from 'expo-router';
-import { useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { Keyboard, KeyboardAvoidingView, Platform, ScrollView, Text, View, TouchableOpacity } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
@@ -38,32 +40,54 @@ function retryHint(question:Question) {
  }
 }
 export default function Exam() {
- const {id}=useLocalSearchParams<{id:string}>();const router=useRouter();const {watched,completed,complete,recordCorrect,rememberMistake,}=useMathStore();const skill=SKILL_PRACTICE[id];const questions=skill?.questions??examFor(id);const reviewed=!!REVIEWED_EXAMS[id]||!!skill;const feedback=useFeedback();const [index,setIndex]=useState(0);const [selected,setSelected]=useState('');const [checked,setChecked]=useState(false);const [finished,setFinished]=useState(false);const [mistakes,setMistakes]=useState(0);const [combo,setCombo]=useState(0);const [quit,setQuit]=useState(false);const [earned,setEarned]=useState(0);const [work,setWork]=useState<{prompt:string;answer:string}[]>([]);const [showWork,setShowWork]=useState(false);const scroll=useRef<ScrollView>(null);
- useEffect(()=>{setIndex(0);setSelected('');setChecked(false);setFinished(false);setMistakes(0);setCombo(0);setQuit(false);setEarned(0);setWork([]);setShowWork(false);},[id]);
+ const {id}=useLocalSearchParams<{id:string}>();const router=useRouter();const {watched,completed,complete,recordCorrect,rememberMistake,}=useMathStore();const skill=SKILL_PRACTICE[id];const questions=skill?.questions??examFor(id);const reviewed=!!REVIEWED_EXAMS[id]||!!skill;const feedback=useFeedback();const [index,setIndex]=useState(0);const [selected,setSelected]=useState('');const [checked,setChecked]=useState(false);const [finished,setFinished]=useState(false);const [mistakes,setMistakes]=useState(0);const [combo,setCombo]=useState(0);const [quit,setQuit]=useState(false);const [earned,setEarned]=useState(0);const [work,setWork]=useState<{prompt:string;answer:string}[]>([]);const [showWork,setShowWork]=useState(false);const scroll=useRef<ScrollView>(null);const [moment,setMoment]=useState<FeedbackMoment|null>(null);const [grading,setGrading]=useState(false);const answerLock=useRef(false);const attempt=useRef(0);const advancing=useRef(false);const cancelAttempt=useCallback(()=>{attempt.current++;},[]);
+ useEffect(()=>{setIndex(0);setSelected('');setChecked(false);setFinished(false);setMistakes(0);setCombo(0);setQuit(false);setEarned(0);setWork([]);setShowWork(false);setMoment(null);setGrading(false);answerLock.current=false;advancing.current=false;cancelAttempt();return cancelAttempt;},[id,cancelAttempt]);
+ useEffect(()=>{advancing.current=false;},[index]);
 
  const lesson=COURSE.lessons.find(l=>l.id===id);
  if((!lesson&&!skill)||!questions.length)return <MathScreen><Heading title="Practice is being prepared"/><Action label="Back to practice" onPress={()=>router.replace('/(tabs)/ai-teacher')}/></MathScreen>;
  if(!skill&&!watched.includes(id))return <MathScreen><View className="items-center my-6"><Fox size={170} mood="thinking"/></View><Heading title="Start with the teaching" subtitle="Study the video before practicing its method."/><Action label="Open lesson" onPress={()=>router.replace(`/lesson/${id}`)}/></MathScreen>;
- if(finished)return <ListPage title={skill?'Puzzle complete':'Lesson complete'} footer={<Action label="Continue" onPress={()=>router.replace(skill?'/(tabs)/ai-teacher':'/(tabs)')}/>}><CompletionMoment steps={questions.length} xp={earned} mode={skill?.questions[0]?.buddy??'algebra'} perfect={mistakes===0}/></ListPage>;
+ if(finished)return <FeedbackClock.Provider value={moment}><ListPage title={skill?'Puzzle complete':'Lesson complete'} footer={<Action label="Continue" onPress={()=>router.replace(skill?'/(tabs)/ai-teacher':'/(tabs)')}/>}><CompletionMoment steps={questions.length} xp={earned} mode={skill?.questions[0]?.buddy??'algebra'} perfect={mistakes===0}/></ListPage></FeedbackClock.Provider>;
 
  const question=questions[index];const correct=isCorrectAnswer(question,selected);const kind=question.kind??'choice';const ready=kind==='order'?(()=>{try{return JSON.parse(selected||'[]').length===question.options.length;}catch{return false;}})():!!selected.trim();
- function next(){if(index===questions.length-1){if(reviewed&&!skill){setEarned(completed.includes(id)?0:20);complete(id);}setFinished(true);feedback('complete');}else{setIndex(index+1);setSelected('');setChecked(false);scroll.current?.scrollTo({y:0,animated:false});}}
- function check(){Keyboard.dismiss();if(!checked){setChecked(true);if(correct){setWork(w=>[...w,{prompt:question.prompt,answer:selected}]);if(reviewed)recordCorrect();setCombo(c=>c+1);feedback((combo+1)%10===0?'combo10':(combo+1)%5===0?'combo':'correct');}else{setCombo(0);setMistakes(m=>m+1);rememberMistake(id,question.prompt);feedback('retry');}}else if(correct)next();else{setChecked(false);if(kind!=='function-graph')setSelected('');}}
- return <SafeAreaView edges={['top','bottom','left','right']} style={{flex:1,backgroundColor:'white'}}><KeyboardAvoidingView style={{flex:1}} behavior={Platform.OS==='ios'?'padding':Platform.OS==='android'?'height':undefined}>
+ const mode=question.buddy??(kind==='graph'||kind==='function-graph'||kind==='number-line'||(lesson?.level??0)>=9?'graph':(lesson?.level??0)<=2?'count':'algebra');
+ function next(){
+  if(advancing.current)return;advancing.current=true;feedback.stop();
+  if(index===questions.length-1){
+   setGrading(true);
+   const ticket=++attempt.current;
+   feedback('complete',start=>{if(ticket!==attempt.current)return;if(reviewed&&!skill){setEarned(completed.includes(id)?0:20);complete(id);}setMoment(start);setGrading(false);setFinished(true);});
+  }else{answerLock.current=false;setMoment(null);setIndex(index+1);setSelected('');setChecked(false);scroll.current?.scrollTo({y:0,animated:false});}
+ }
+ function check(){
+  Keyboard.dismiss();
+  if(checked){if(correct){next();}else{feedback.stop();answerLock.current=false;setMoment(null);setChecked(false);if(kind!=='function-graph')setSelected('');}return;}
+  if(answerLock.current||!ready)return;
+  answerLock.current=true;setGrading(true);
+  const ticket=++attempt.current;
+  const sound=correct?((combo+1)%10===0?'combo10':(combo+1)%5===0?'combo':'correct'):'retry';
+  feedback(sound,start=>{
+   if(ticket!==attempt.current)return;
+   setMoment(start);setChecked(true);setGrading(false);
+   if(correct){setWork(w=>[...w,{prompt:question.prompt,answer:selected}]);if(reviewed)recordCorrect();setCombo(c=>c+1);}
+   else{setCombo(0);setMistakes(m=>m+1);rememberMistake(id,question.prompt);}
+  });
+ }
+ return <FeedbackClock.Provider value={moment}><SafeAreaView edges={['top','bottom','left','right']} style={{flex:1,backgroundColor:'white'}}><KeyboardAvoidingView style={{flex:1}} behavior={Platform.OS==='ios'?'padding':Platform.OS==='android'?'height':undefined}>
  <View className="w-full max-w-[520px] self-center flex-row items-center gap-2 px-3 py-2"><TouchableOpacity accessibilityRole="button" accessibilityLabel="Close practice" onPress={()=>setQuit(true)} className="w-11 h-11 items-center justify-center"><Ionicons name="close" size={30} color="#AFAFAF"/></TouchableOpacity><View accessibilityRole="progressbar" accessibilityLabel="Lesson progress" accessibilityValue={{min:0,max:questions.length,now:index}} className="h-4 bg-border rounded-full flex-1 overflow-hidden"><MotionProgress value={questions.length?index/questions.length:0}/></View><TouchableOpacity accessibilityRole="button" accessibilityLabel="Sound and motion settings" onPress={()=>router.push('/settings')} className="w-11 h-11 items-center justify-center"><Ionicons name="volume-medium" size={25} color="#777777"/></TouchableOpacity></View>
  <ScrollView ref={scroll} keyboardShouldPersistTaps="handled" contentContainerStyle={{padding:20,paddingTop:10,width:'100%',maxWidth:520,alignSelf:'center',flexGrow:1}}><MotionEntry trigger={`${id}-${index}`} style={{flexGrow:1}}>
  
- <LessonPrompt kind={kind} prompt={question.prompt} mode={question.buddy??(kind==='graph'||kind==='function-graph'||kind==='number-line'||(lesson?.level??0)>=9?'graph':(lesson?.level??0)<=2?'count':'algebra')} reaction={checked?(correct?'success':'retry'):selected?'thinking':'idle'}/>
- <View style={{flexGrow:1,justifyContent:'center',paddingVertical:24,minHeight:question.equation||question.problem||question.visual||question.scene?120:24}}>
+ <LessonPrompt kind={kind} prompt={question.prompt} mode={mode} reaction={checked?(correct?'success':'retry'):selected?'thinking':'idle'}/>
+ <View style={{flexGrow:1,justifyContent:'center',paddingVertical:16,minHeight:question.equation||question.problem||question.visual||question.scene?120:24}}>
  {question.equation&&<Text selectable className="font-poppins-bold text-[32px] leading-10 text-text-primary text-center py-4">{question.equation}</Text>}
  {!question.equation&&question.problem&&<Text selectable className="font-poppins-bold text-2xl leading-8 text-text-primary text-center py-4">{question.problem}</Text>}
  <PuzzleScene question={question} success={checked&&correct}/>
  {question.visual&&question.visual!=='pizza'&&<MathExample type={question.visual}/>}
  </View>
- <QuestionInteraction key={`${id}-${index}`} question={question} value={selected} onChange={v=>{setSelected(v);feedback('tap');}} disabled={checked} result={checked?(correct?'success':'retry'):undefined}/> {work.length>0&&<View className="mt-5"><TouchableOpacity accessibilityRole="button" accessibilityLabel="Show or hide your previous steps" accessibilityState={{expanded:showWork}} onPress={()=>setShowWork(!showWork)} className="min-h-11 justify-center"><Text className="font-poppins-bold text-[#7C3AED]">Your steps</Text></TouchableOpacity>{showWork&&work.map((item,i)=><View key={i} className="border-l-2 border-[#C4B5FD] pl-3 py-2"><Text className="body-sm text-text-secondary">{i+1}. {item.prompt}</Text><Text selectable className="font-poppins-bold text-base text-[#5B21B6]">{item.answer}</Text></View>)}</View>}{!reviewed&&<Text className="body-sm text-text-secondary mt-5">Caption-based recall draft. Teaching review is pending.</Text>}
+ <QuestionInteraction key={`${id}-${index}`} question={question} value={selected} onChange={v=>{setSelected(v);feedback('tap');}} disabled={checked||grading} result={checked?(correct?'success':'retry'):undefined}/> {work.length>0&&<View className="mt-5"><TouchableOpacity accessibilityRole="button" accessibilityLabel="Show or hide your previous steps" accessibilityState={{expanded:showWork}} onPress={()=>setShowWork(!showWork)} className="min-h-11 justify-center"><Text className="font-poppins-bold text-[#7C3AED]">Your steps</Text></TouchableOpacity>{showWork&&work.map((item,i)=><View key={i} className="border-l-2 border-[#C4B5FD] pl-3 py-2"><Text className="body-sm text-text-secondary">{i+1}. {item.prompt}</Text><Text selectable className="font-poppins-bold text-base text-[#5B21B6]">{item.answer}</Text></View>)}</View>}{!reviewed&&<Text className="body-sm text-text-secondary mt-5">Caption-based recall draft. Teaching review is pending.</Text>}
  </MotionEntry></ScrollView>
- <View style={{backgroundColor:checked?(correct?'#D7FFB8':'#FFDFE0'):'white',paddingHorizontal:20,paddingTop:16,paddingBottom:16,borderTopWidth:checked?0:2,borderColor:'#F1F1F1'}}><View className="w-full max-w-[480px] self-center">{checked&&<FeedbackPanel correct={correct} message={correct?question.explanation.replace(' This is the current step; continue with the demonstrated method.',''):retryHint(question)}>{!correct&&!skill&&<TouchableOpacity accessibilityRole="button" accessibilityLabel="Review the source example" onPress={()=>router.push(`/lesson/${id}?t=${question.sourceStart}`)} className="min-h-11 justify-center"><Text className="font-poppins-bold text-[#B72525]">REVIEW THE EXAMPLE</Text></TouchableOpacity>}</FeedbackPanel>}<Action tone={checked&&!correct?'error':'success'} label={checked?(correct?'Continue':'Try again'):'Check'} disabled={!ready} onPress={check}/></View></View>
+ <FeedbackFooter result={checked?(correct?'success':'retry'):undefined}><View className="w-full max-w-[480px] self-center">{checked&&<FeedbackPanel mode={mode} correct={correct} message={correct?question.explanation.replace(' This is the current step; continue with the demonstrated method.',''):retryHint(question)}>{!correct&&!skill&&<TouchableOpacity accessibilityRole="button" accessibilityLabel="Review the source example" onPress={()=>router.push(`/lesson/${id}?t=${question.sourceStart}`)} className="min-h-11 justify-center"><Text className="font-poppins-bold text-[#B72525]">REVIEW THE EXAMPLE</Text></TouchableOpacity>}</FeedbackPanel>}<Action tone={checked&&!correct?'error':'success'} label={checked?(correct?'Continue':'Try again'):'Check'} disabled={!ready||grading} onPress={check}/></View></FeedbackFooter>
  {quit&&<View className="absolute inset-0 bg-black/40 justify-end"><View accessibilityViewIsModal className="bg-white rounded-t-3xl p-6"><View className="items-center mb-4"><Fox size={110} mood="encouraging"/></View><Text accessibilityRole="header" className="h2 text-center mb-5">You’re making progress!</Text><Action label="Keep learning" onPress={()=>setQuit(false)}/><View className="mt-3"><Action label="Leave practice" secondary onPress={()=>router.replace(skill?'/(tabs)/ai-teacher':`/lesson/${id}`)}/></View></View></View>}
  <StreakMoment count={checked&&correct&&combo>0&&combo%5===0?combo:0}/>
- </KeyboardAvoidingView></SafeAreaView>;
+ </KeyboardAvoidingView></SafeAreaView></FeedbackClock.Provider>;
 }

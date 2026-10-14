@@ -1,8 +1,9 @@
 import { useEffect } from 'react';
 import { Pressable, type PressableProps, type StyleProp, type ViewStyle } from 'react-native';
-import Animated, { cancelAnimation, Easing, useAnimatedStyle, useSharedValue, withSequence, withSpring, withTiming } from 'react-native-reanimated';
+import Animated, { cancelAnimation, Easing, useAnimatedStyle, useSharedValue, withSpring, withTiming } from 'react-native-reanimated';
 import { useMotion } from '@/hooks/useMotion';
 import type { ReactNode } from 'react';
+import { useFeedbackPhase } from '@/hooks/useFeedbackPhase';
 const spring={damping:22,stiffness:360,mass:.65};
 export function MotionPressable({children,containerStyle,onPressIn,onPressOut,disabled,...props}:PressableProps&{className?:string;containerStyle?:StyleProp<ViewStyle>}) {
  const enabled=useMotion(),press=useSharedValue(0);
@@ -17,9 +18,18 @@ export function MotionEntry({children,trigger,style}:{children:ReactNode;trigger
  return <Animated.View style={[style,entry]}>{children}</Animated.View>;
 }
 export function MotionReaction({children,reaction,style}:{children:ReactNode;reaction:string;style?:StyleProp<ViewStyle>}){
- const enabled=useMotion(),scale=useSharedValue(1);
- useEffect(()=>{cancelAnimation(scale);scale.value=1;if(enabled&&reaction==='success')scale.value=withSequence(withTiming(1.045,{duration:100}),withSpring(1,spring));if(enabled&&reaction==='retry')scale.value=withSequence(withTiming(.985,{duration:80}),withSpring(1,spring));return()=>cancelAnimation(scale);},[reaction,enabled,scale]);
- const motion=useAnimatedStyle(()=>({transform:[{scale:scale.value}]}));return <Animated.View style={[style,motion]}>{children}</Animated.View>;
+ const phase=useFeedbackPhase(reaction);
+ const motion=useAnimatedStyle(()=>{
+  const p=phase.value;
+  const times=reaction==='success'?[0,.14,.4,.7,1]:[0,.2,.55,1];
+  const values=reaction==='success'?[1,.987,1.035,1.008,1]:[1,.988,1.006,1];
+  let scale=1;
+  if(reaction==='success'||reaction==='retry')for(let i=1;i<times.length;i++){
+   if(p<=times[i]){const t=(p-times[i-1])/(times[i]-times[i-1]);const eased=t*t*(3-2*t);scale=values[i-1]+(values[i]-values[i-1])*eased;break;}
+  }
+  return {transform:[{scale}]};
+ });
+ return <Animated.View style={[{transformOrigin:'50% 85%'},style,motion]}>{children}</Animated.View>;
 }
 export function MotionProgress({value}:{value:number}){
  const enabled=useMotion(),progress=useSharedValue(Math.max(0,Math.min(1,value)));
