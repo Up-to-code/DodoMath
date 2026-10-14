@@ -75,7 +75,7 @@ The quiz uses compact choice rows and removable shuffled answer tiles, with keyb
 
 Dodo v3 is an original purple bird rendered from registered transparent body, head and wing sprites. The head nods independently, and flight uses wing flaps and a gentle lift. The three studio controls preview happy, thinking and flying poses; facial expression variants are not yet separate assets. In-app and system reduced-motion preferences are honored.
 
-Typography uses Nunito under SIL OFL (assets/fonts/Nunito-OFL.txt). Effects are Kenney Interface Sounds 1.0 under CC0; see assets/sounds/provenance.json and Kenney-CC0.txt. Character assets were generated for this project.
+Typography uses Nunito under SIL OFL (assets/fonts/Nunito-OFL.txt). Active effects are original recorded-marimba compositions using VSCO 2 Community Edition CC0 samples; see assets/sounds/v5/provenance.json and VSCO-CC0.txt. Character assets were generated for this project.
 
 The 15-second ad is ../dodo-demo/dodomath-ad-15s-voiceover.mp4. Its synthetic narrator uses Piper LJSpeech (model metadata MIT; public-domain training dataset), action-aligned CC0 effects and original instrumental backing. The ending records the new Dodo flight. Transcript, edit timings and audio provenance are beside the video.
 

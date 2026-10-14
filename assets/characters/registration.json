@@ -2498,8 +2498,8 @@
       "fox": {
         "idle": "animations/fox/idle.png",
         "thinking": "animations/fox/thinking.png",
-        "success": "animations/fox/success.png",
-        "retry": "animations/fox/retry.png"
+        "success": "animations/fox/feedback/success-hold.png",
+        "retry": "animations/fox/feedback/retry-hold.png"
       }
     },
     "rigManifest": "fox/rig/manifest.json",
@@ -2521,6 +2521,7 @@
       ],
       "rigSource": "QH-Motion-Studio/public/animations/fox/rig.json",
       "parts": 33
-    }
+    },
+    "feedbackMotion": "animations/fox/feedback/runtime.json"
   }
 }

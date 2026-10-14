@@ -21,11 +21,11 @@ export function MotionReaction({children,reaction,style}:{children:ReactNode;rea
  const phase=useFeedbackPhase(reaction);
  const motion=useAnimatedStyle(()=>{
   const p=phase.value;
-  const times=reaction==='success'?[0,.14,.4,.7,1]:[0,.2,.55,1];
-  const values=reaction==='success'?[1,.987,1.035,1.008,1]:[1,.988,1.006,1];
+  const times=reaction==='success'?[0,.18,.44,.76,1]:[0,.24,.62,1];
+  const values=reaction==='success'?[1,.992,1.022,1.004,1]:[1,.994,1.003,1];
   let scale=1;
   if(reaction==='success'||reaction==='retry')for(let i=1;i<times.length;i++){
-   if(p<=times[i]){const t=(p-times[i-1])/(times[i]-times[i-1]);const eased=t*t*(3-2*t);scale=values[i-1]+(values[i]-values[i-1])*eased;break;}
+   if(p<=times[i]){const t=(p-times[i-1])/(times[i]-times[i-1]);const eased=t*t*t*(t*(6*t-15)+10);scale=values[i-1]+(values[i]-values[i-1])*eased;break;}
   }
   return {transform:[{scale}]};
  });

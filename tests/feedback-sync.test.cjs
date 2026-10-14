@@ -43,11 +43,11 @@ test('sound and reaction share the audio presentation deadline; retries replace 
 });
 test('late visual commits catch up; future cues wait; reduced motion can use final state', () => {
   const delayed = timing.reactionPosition(1000, 1200);
-  assert.equal(delayed.delay, 0); assert.equal(delayed.remaining, 320);
-  assert.equal(delayed.progress, 200 / 520);
+  assert.equal(delayed.delay, 0); assert.equal(delayed.remaining, 660);
+  assert.equal(delayed.progress, 200 / 860);
   const future = timing.reactionPosition(1000, 960);
   assert.equal(future.delay, 40); assert.equal(future.progress, 0);
-  assert.equal(timing.reactionPosition(1000, 1700).progress, 1);
+  assert.equal(timing.reactionPosition(1000, 2000).progress, 1);
 });
 test('muted feedback still publishes a reaction without audio', async () => {
   const f = fixture(); let cue;
@@ -118,4 +118,16 @@ test('native muted feedback retains its visual event and never plays audio', asy
   await new Promise(resolve => setTimeout(resolve, 55));
   assert.ok(f.players.every(player => player.played === undefined));
   f.cleanup();
+});
+
+test('Fox reaction frames clamp to the first and settled poses on the shared timeline', () => {
+  for(const [count,duration] of [[30,960],[28,880]]){
+    const before=timing.reactionPosition(1000,960,duration);
+    assert.equal(timing.reactionFrame(before.progress,count),0);
+    const middle=timing.reactionPosition(1000,1000+duration/2,duration);
+    assert.equal(timing.reactionFrame(middle.progress,count),Math.floor((count-1)/2));
+    assert.equal(timing.reactionFrame(1,count),count-1);
+    assert.equal(timing.reactionFrame(2,count),count-1);
+    assert.equal(timing.reactionFrame(-1,count),0);
+  }
 });

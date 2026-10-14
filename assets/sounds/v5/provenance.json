@@ -1,0 +1,190 @@
+{
+  "version": 5,
+  "creator": "Original DodoMath compositions using recorded marimba samples",
+  "source": "https://versilian-studios.com/vsco-community/",
+  "sampleLibrary": "VSCO 2 Community Edition",
+  "credit": "Versilian Studios / Sam Gossner",
+  "sampleLicense": "CC0 1.0",
+  "samples": {
+    "C4": {
+      "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/master/Percussion/Marimba/Marimba_hit_Outrigger_C4_loud_01.wav",
+      "sha256": "4af539d47a452d7fad26e171b1c8adcca272cee97191f040d192680462c880b8",
+      "trimStartMs": 4.467
+    },
+    "G4": {
+      "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/master/Percussion/Marimba/Marimba_hit_Outrigger_G4_loud_01.wav",
+      "sha256": "36f39f9f24789001add2b4c440defb7641178b0e8449c5cb7f1960bccaf0aaaf",
+      "trimStartMs": 3.81
+    },
+    "B4": {
+      "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/master/Percussion/Marimba/Marimba_hit_Outrigger_B4_loud_01.wav",
+      "sha256": "d04aed26222822d14435fa61b88cdcce95606a5e94bb5e7167d266875343a39c",
+      "trimStartMs": 3.424
+    },
+    "F3": {
+      "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/master/Percussion/Marimba/Marimba_hit_Outrigger_F3_loud_01.wav",
+      "sha256": "379e749add43b12959fae06cc272f1871899cc05460faf41ead77b93e5d01843",
+      "trimStartMs": 4.785
+    }
+  },
+  "processing": "Attack alignment, original voicing and rhythm, interpolation for note transposition, short natural tails, stereo mixing, level and click-free fades",
+  "reference": "Ambrose Yu Duolingo sonic identity and core-product case studies informed palette and reward hierarchy. These are original cues; no Duolingo recording or WaBing voice is bundled.",
+  "qa": {
+    "tap": {
+      "durationMs": 85,
+      "peak": 0.24,
+      "rms": 0.0598,
+      "audibleOnsetMs": 0.59,
+      "notes": [
+        {
+          "source": "C4",
+          "semitones": 7,
+          "startMs": 0
+        }
+      ]
+    },
+    "correct": {
+      "durationMs": 580,
+      "peak": 0.55,
+      "rms": 0.079,
+      "audibleOnsetMs": 0.703,
+      "notes": [
+        {
+          "source": "C4",
+          "semitones": 4,
+          "startMs": 0
+        },
+        {
+          "source": "G4",
+          "semitones": 0,
+          "startMs": 170
+        }
+      ]
+    },
+    "retry": {
+      "durationMs": 330,
+      "peak": 0.31,
+      "rms": 0.0637,
+      "audibleOnsetMs": 0.59,
+      "notes": [
+        {
+          "source": "F3",
+          "semitones": 7,
+          "startMs": 0
+        },
+        {
+          "source": "F3",
+          "semitones": 4,
+          "startMs": 95
+        }
+      ]
+    },
+    "combo": {
+      "durationMs": 830,
+      "peak": 0.55,
+      "rms": 0.1064,
+      "audibleOnsetMs": 0.703,
+      "notes": [
+        {
+          "source": "C4",
+          "semitones": 4,
+          "startMs": 0
+        },
+        {
+          "source": "G4",
+          "semitones": 0,
+          "startMs": 170
+        },
+        {
+          "source": "B4",
+          "semitones": -2,
+          "startMs": 370
+        }
+      ]
+    },
+    "combo10": {
+      "durationMs": 1030,
+      "peak": 0.55,
+      "rms": 0.0928,
+      "audibleOnsetMs": 0.703,
+      "notes": [
+        {
+          "source": "C4",
+          "semitones": 4,
+          "startMs": 0
+        },
+        {
+          "source": "G4",
+          "semitones": 0,
+          "startMs": 150
+        },
+        {
+          "source": "B4",
+          "semitones": -2,
+          "startMs": 320
+        },
+        {
+          "source": "C4",
+          "semitones": 12,
+          "startMs": 540
+        }
+      ]
+    },
+    "complete": {
+      "durationMs": 1120,
+      "peak": 0.55,
+      "rms": 0.0749,
+      "audibleOnsetMs": 0.884,
+      "notes": [
+        {
+          "source": "C4",
+          "semitones": 0,
+          "startMs": 0
+        },
+        {
+          "source": "C4",
+          "semitones": 4,
+          "startMs": 130
+        },
+        {
+          "source": "G4",
+          "semitones": 0,
+          "startMs": 270
+        },
+        {
+          "source": "C4",
+          "semitones": 12,
+          "startMs": 470
+        },
+        {
+          "source": "G4",
+          "semitones": 0,
+          "startMs": 470
+        }
+      ]
+    },
+    "fly": {
+      "durationMs": 720,
+      "peak": 0.55,
+      "rms": 0.081,
+      "audibleOnsetMs": 0.703,
+      "notes": [
+        {
+          "source": "C4",
+          "semitones": 4,
+          "startMs": 0
+        },
+        {
+          "source": "G4",
+          "semitones": 0,
+          "startMs": 130
+        },
+        {
+          "source": "C4",
+          "semitones": 12,
+          "startMs": 290
+        }
+      ]
+    }
+  }
+}

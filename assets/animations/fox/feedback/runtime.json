@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "source": "Approved Fox raster rig; deterministic QH renderer",
+  "fps": 30,
+  "canvas": [
+    512,
+    512
+  ],
+  "origin": [
+    256,
+    256
+  ],
+  "clips": {
+    "success": {
+      "durationMs": 960,
+      "frameCount": 30,
+      "columns": 6,
+      "rows": 5,
+      "cell": 256,
+      "feetChangedChannels": 0,
+      "maxFootDriftPx": 0,
+      "minSourceMarginPx": 58
+    },
+    "retry": {
+      "durationMs": 880,
+      "frameCount": 28,
+      "columns": 6,
+      "rows": 5,
+      "cell": 256,
+      "feetChangedChannels": 0,
+      "maxFootDriftPx": 0,
+      "minSourceMarginPx": 58
+    }
+  }
+}

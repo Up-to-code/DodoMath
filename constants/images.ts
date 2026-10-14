@@ -8,12 +8,16 @@ import treasure from "@/assets/images/treasure.png";
 
 export const images = {
   foxHelloAtlas: require("@/assets/animations/fox/hello-atlas.png"),
+  foxFeedback: {
+    success: require("@/assets/animations/fox/feedback/success-atlas.png"),
+    retry: require("@/assets/animations/fox/feedback/retry-atlas.png"),
+  },
   companions: {
     fox: {
       idle: require("@/assets/animations/fox/idle.png"),
       thinking: require("@/assets/animations/fox/thinking.png"),
-      success: require("@/assets/animations/fox/success.png"),
-      retry: require("@/assets/animations/fox/retry.png"),
+      success: require("@/assets/animations/fox/feedback/success-hold.png"),
+      retry: require("@/assets/animations/fox/feedback/retry-hold.png"),
     },
     nia: {
       idle: require("@/assets/characters/nia/registered/idle.png"),

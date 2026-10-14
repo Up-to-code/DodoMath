@@ -1,0 +1,206 @@
+{
+  "id": "answer-success",
+  "name": "Answer success",
+  "duration": 0.96,
+  "fps": 30,
+  "loop": false,
+  "tracks": [
+    {
+      "part": "upper_arm_right",
+      "property": "rotation",
+      "keys": [
+        {
+          "time": 0,
+          "value": 0,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.144,
+          "value": 5,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.4416,
+          "value": -32,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.6432,
+          "value": -30,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.96,
+          "value": -24,
+          "ease": "smooth"
+        }
+      ]
+    },
+    {
+      "part": "forearm_right",
+      "property": "rotation",
+      "keys": [
+        {
+          "time": 0,
+          "value": 0,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.1632,
+          "value": 0,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.4608,
+          "value": -14,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.6719999999999999,
+          "value": -12,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.96,
+          "value": -12,
+          "ease": "smooth"
+        }
+      ]
+    },
+    {
+      "part": "hand_right",
+      "property": "rotation",
+      "keys": [
+        {
+          "time": 0,
+          "value": 0,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.3648,
+          "value": -4,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.6048,
+          "value": 3,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.96,
+          "value": 0,
+          "ease": "smooth"
+        }
+      ]
+    },
+    {
+      "part": "head",
+      "property": "rotation",
+      "keys": [
+        {
+          "time": 0,
+          "value": 0,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.1536,
+          "value": 1.2,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.40319999999999995,
+          "value": -2,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.6719999999999999,
+          "value": 0.6,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.96,
+          "value": 0,
+          "ease": "smooth"
+        }
+      ]
+    },
+    {
+      "part": "tail",
+      "property": "rotation",
+      "keys": [
+        {
+          "time": 0,
+          "value": 0,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.17279999999999998,
+          "value": 0,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.4608,
+          "value": -4,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.7008,
+          "value": 2,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.96,
+          "value": 0,
+          "ease": "smooth"
+        }
+      ]
+    },
+    {
+      "part": "ear_right",
+      "property": "rotation",
+      "keys": [
+        {
+          "time": 0,
+          "value": 0,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.24,
+          "value": 0,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.48,
+          "value": -2.5,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.7103999999999999,
+          "value": 1,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.96,
+          "value": 0,
+          "ease": "smooth"
+        }
+      ]
+    },
+    {
+      "part": "mouth",
+      "property": "asset",
+      "keys": [
+        {
+          "time": 0,
+          "value": "/animations/fox/parts/mouth_smile.png",
+          "ease": "smooth"
+        },
+        {
+          "time": 0.1536,
+          "value": "/animations/fox/parts/mouth_happy.png",
+          "ease": "smooth"
+        }
+      ]
+    }
+  ]
+}

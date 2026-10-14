@@ -5,9 +5,9 @@ import { createFeedbackAudio } from '@/lib/feedbackAudio';
 import { FEEDBACK_LEAD_MS, feedbackNow, type FeedbackSound, type FeedbackStart } from '@/lib/feedbackTiming';
 export type { FeedbackSound } from '@/lib/feedbackTiming';
 const sources = {
-  tap: require('@/assets/sounds/v4/tap.wav'), correct: require('@/assets/sounds/v4/correct.wav'),
-  retry: require('@/assets/sounds/v4/retry.wav'), complete: require('@/assets/sounds/v4/complete.wav'),
-  combo: require('@/assets/sounds/v4/combo.wav'), combo10: require('@/assets/sounds/v4/combo10.wav'), fly: require('@/assets/sounds/v4/fly.wav'),
+  tap: require('@/assets/sounds/v5/tap.wav'), correct: require('@/assets/sounds/v5/correct.wav'),
+  retry: require('@/assets/sounds/v5/retry.wav'), complete: require('@/assets/sounds/v5/complete.wav'),
+  combo: require('@/assets/sounds/v5/combo.wav'), combo10: require('@/assets/sounds/v5/combo10.wav'), fly: require('@/assets/sounds/v5/fly.wav'),
 };
 
 export function useFeedback() {

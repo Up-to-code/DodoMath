@@ -9,7 +9,7 @@ DodoMath adapts [Adrian Hajdin / JavaScript Mastery’s React Native Lingua star
 ## Fonts and sound
 
 - Nunito: SIL Open Font License, included in `assets/fonts/Nunito-OFL.txt`.
-- Kenney Interface Sounds 1.0: CC0. The license and source mapping are in `assets/sounds/Kenney-CC0.txt` and `assets/sounds/provenance.json`. Audio was decoded to PCM WAV for the app.
+- Active audio: original DodoMath compositions made from [VSCO 2 Community Edition](https://versilian-studios.com/vsco-community/) recorded marimba samples by Versilian Studios / Sam Gossner, licensed CC0. The license, source URLs, sample hashes and processing are in `assets/sounds/v5/VSCO-CC0.txt` and `assets/sounds/v5/provenance.json`. Earlier Kenney and synthesized packs remain in Git history.
 - Retained starter fonts and other assets: consult their upstream terms before reuse; no new license is asserted here.
 
 ## Characters and demo
@@ -20,8 +20,8 @@ The release’s journey videos use real continuous app interactions. The 30-seco
 
 Check the applicable upstream and asset terms before redistributing or commercializing a build.
 
-## 13 October 2026 character and sound refresh
+## 14 October 2026 character and sound refresh
 
-Fox is the primary mascot. Fox, Nia and Orbit use generated transparent four-pose PNG atlases, registered in `constants/images.ts`. Fixed quadrant extraction preserves generated pixels and alpha; runtime blends whole poses rather than claiming an independently joint-rigged character. Legacy Dodo component/route names redirect to Fox for compatibility. The application/repository name remains DodoMath.
+Fox is the primary mascot. Approved raster parts and the existing QH engine render its non-looping success/retry gestures into transparent PNG atlases. Fox's 33-part rig supplies numeric pivots and garment ownership; the app bundles rendered output and holds the settled pose. Nia and Orbit retain registered pose transitions. Legacy Dodo component/route names redirect to Fox for compatibility. The application/repository name remains DodoMath.
 
-The current app WAV effects are original additive synthesis, documented in `assets/sounds/provenance.json`. Kenney’s original pack notice remains for the prior asset history; it does not describe the newly generated WAV recordings. The reference sound designer’s Duolingo audio was not sampled.
+The v5 feedback family uses original note sequences mixed from recorded CC0 marimba samples. The creator's credit and license are preserved with the pack. Duolingo case studies informed palette, hierarchy and timing; no Duolingo sound recording, WaBing voice, character artwork or downloaded reference video is included in the app assets. See `docs/reanimated-reference-rebuild.md` for the research, checks and limitations.

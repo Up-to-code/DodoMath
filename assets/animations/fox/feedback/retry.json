@@ -1,0 +1,170 @@
+{
+  "id": "answer-retry",
+  "name": "Answer retry",
+  "duration": 0.88,
+  "fps": 30,
+  "loop": false,
+  "tracks": [
+    {
+      "part": "head",
+      "property": "rotation",
+      "keys": [
+        {
+          "time": 0,
+          "value": 0,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.24640000000000004,
+          "value": -2.4,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.5104,
+          "value": -1.6,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.88,
+          "value": -0.7,
+          "ease": "smooth"
+        }
+      ]
+    },
+    {
+      "part": "brow_left",
+      "property": "rotation",
+      "keys": [
+        {
+          "time": 0,
+          "value": 0,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.264,
+          "value": -5,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.5808,
+          "value": -3,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.88,
+          "value": -2,
+          "ease": "smooth"
+        }
+      ]
+    },
+    {
+      "part": "brow_right",
+      "property": "rotation",
+      "keys": [
+        {
+          "time": 0,
+          "value": 0,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.308,
+          "value": 3,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.616,
+          "value": 1.5,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.88,
+          "value": 1,
+          "ease": "smooth"
+        }
+      ]
+    },
+    {
+      "part": "upper_arm_right",
+      "property": "rotation",
+      "keys": [
+        {
+          "time": 0,
+          "value": 0,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.264,
+          "value": -13,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.5456,
+          "value": -18,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.88,
+          "value": -10,
+          "ease": "smooth"
+        }
+      ]
+    },
+    {
+      "part": "forearm_right",
+      "property": "rotation",
+      "keys": [
+        {
+          "time": 0,
+          "value": 0,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.35200000000000004,
+          "value": -9,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.6512,
+          "value": -5,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.88,
+          "value": -4,
+          "ease": "smooth"
+        }
+      ]
+    },
+    {
+      "part": "tail",
+      "property": "rotation",
+      "keys": [
+        {
+          "time": 0,
+          "value": 0,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.17600000000000002,
+          "value": 0,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.4752,
+          "value": -2,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.7040000000000001,
+          "value": 1,
+          "ease": "smooth"
+        },
+        {
+          "time": 0.88,
+          "value": 0,
+          "ease": "smooth"
+        }
+      ]
+    }
+  ]
+}

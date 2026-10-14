@@ -1,0 +1,130 @@
+{
+  "score": 100,
+  "accepted": true,
+  "metrics": {
+    "sourceCropRisks": 0,
+    "connectedBodyRatio": 1,
+    "flippedTriangles": 0,
+    "offCanvasSamples": 0,
+    "contactDriftPx": 0,
+    "contactViolationPx": 0,
+    "checkedAttachmentSamples": 0,
+    "clippingInconclusiveSamples": 0,
+    "outsideAlphaPixels": 0,
+    "loopMatrixError": 38.828328738433925,
+    "jointGapSamples": 0,
+    "edgePixels": 0,
+    "maxJointStepPx": 12.123224484835331,
+    "maxJointVelocityPxPerSecond": 366.2224063127337,
+    "maxAllowedVelocityPxPerSecond": 432,
+    "limitOverrunDeg": 0
+  },
+  "sourceFindings": [],
+  "penalties": {
+    "disconnection": 0,
+    "meshFlips": 0,
+    "offCanvas": 0,
+    "clipping": 0,
+    "contact": 0,
+    "limits": 0,
+    "jointGaps": 0,
+    "loop": 0,
+    "speed": 0,
+    "sourceCrop": 0
+  },
+  "sampled": [
+    {
+      "frame": 0,
+      "time": 0
+    },
+    {
+      "frame": 2,
+      "time": 0.06620689655172414
+    },
+    {
+      "frame": 4,
+      "time": 0.13241379310344828
+    },
+    {
+      "frame": 6,
+      "time": 0.1536
+    },
+    {
+      "frame": 8,
+      "time": 0.16551724137931034
+    },
+    {
+      "frame": 10,
+      "time": 0.1986206896551724
+    },
+    {
+      "frame": 12,
+      "time": 0.24
+    },
+    {
+      "frame": 14,
+      "time": 0.29793103448275865
+    },
+    {
+      "frame": 16,
+      "time": 0.3641379310344827
+    },
+    {
+      "frame": 18,
+      "time": 0.3972413793103448
+    },
+    {
+      "frame": 20,
+      "time": 0.4303448275862069
+    },
+    {
+      "frame": 22,
+      "time": 0.4608
+    },
+    {
+      "frame": 24,
+      "time": 0.48
+    },
+    {
+      "frame": 26,
+      "time": 0.5296551724137931
+    },
+    {
+      "frame": 28,
+      "time": 0.5958620689655173
+    },
+    {
+      "frame": 30,
+      "time": 0.6289655172413793
+    },
+    {
+      "frame": 32,
+      "time": 0.6620689655172414
+    },
+    {
+      "frame": 34,
+      "time": 0.6951724137931035
+    },
+    {
+      "frame": 36,
+      "time": 0.7103999999999999
+    },
+    {
+      "frame": 38,
+      "time": 0.7613793103448275
+    },
+    {
+      "frame": 40,
+      "time": 0.8275862068965517
+    },
+    {
+      "frame": 42,
+      "time": 0.8937931034482758
+    },
+    {
+      "frame": 44,
+      "time": 0.96
+    }
+  ],
+  "scope": "Actual alpha clipping on padded canvases, declared pair-overlap attachments and active contact intervals, mesh/limits/speed/loop. Global connected-body ratio is a heuristic unless connectivity.required=false; undeclared attachment intent, artistic naturalness and identity are not proven. Extreme padded extents fail closed as inconclusive."
+}

@@ -11,13 +11,13 @@ export function useFeedback() {
   const sounds = useMathStore(s => s.sounds), haptics = useMathStore(s => s.haptics);
   const audibleNow = useRef(sounds), hapticsNow = useRef(haptics);
   audibleNow.current = sounds; hapticsNow.current = haptics;
-  const tap = useAudioPlayer(require('@/assets/sounds/v4/tap.wav'));
-  const correct = useAudioPlayer(require('@/assets/sounds/v4/correct.wav'));
-  const retry = useAudioPlayer(require('@/assets/sounds/v4/retry.wav'));
-  const complete = useAudioPlayer(require('@/assets/sounds/v4/complete.wav'));
-  const combo = useAudioPlayer(require('@/assets/sounds/v4/combo.wav'));
-  const combo10 = useAudioPlayer(require('@/assets/sounds/v4/combo10.wav'));
-  const fly = useAudioPlayer(require('@/assets/sounds/v4/fly.wav'));
+  const tap = useAudioPlayer(require('@/assets/sounds/v5/tap.wav'));
+  const correct = useAudioPlayer(require('@/assets/sounds/v5/correct.wav'));
+  const retry = useAudioPlayer(require('@/assets/sounds/v5/retry.wav'));
+  const complete = useAudioPlayer(require('@/assets/sounds/v5/complete.wav'));
+  const combo = useAudioPlayer(require('@/assets/sounds/v5/combo.wav'));
+  const combo10 = useAudioPlayer(require('@/assets/sounds/v5/combo10.wav'));
+  const fly = useAudioPlayer(require('@/assets/sounds/v5/fly.wav'));
   useEffect(() => {
     if (!sounds) { for (const p of [tap, correct, retry, complete, combo, combo10, fly]) p.pause(); }
   }, [sounds, tap, correct, retry, complete, combo, combo10, fly]);
